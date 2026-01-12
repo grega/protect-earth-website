@@ -1,0 +1,88 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+---
+
+<Layout title="Landowners">
+	<!-- Hero Section -->
+	<section class="relative bg-gray-900 text-white">
+		<div class="absolute inset-0">
+			<img src="/hero-landowners.jpg" alt="Group of people on a hillside" class="w-full h-full object-cover opacity-60" />
+		</div>
+		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+			<h1 class="text-5xl font-bold mb-6">Landowners</h1>
+			<p class="text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto">
+				Take your land from idle to ideal with help from Protect Earth. We'll work with you to enhance the ecosystem health of your land.
+			</p>
+			<p class="text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto mt-4">
+				We work with landowners, land managers and farmers to increase tree cover, improve biodiversity, and restore ecosystems – without breaking the bank or burying you in paperwork.
+			</p>
+		</div>
+	</section>
+
+	<!-- Reforesting or Rewilding Section -->
+	<section class="py-20 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+				<div>
+					<img src="/landowners-rewilding.jpg" alt="Open grassy field with scattered patches" class="w-full rounded-lg shadow-lg" />
+				</div>
+				<div>
+					<h2 class="text-3xl md:text-4xl font-bold mb-6">Reforesting or Rewilding Your Land</h2>
+					<div class="prose prose-lg text-gray-700 space-y-4">
+						<p>
+							Enhancing your land for nature and wildlife has never been easier. We can plant shelterbelts and field trees to provide shade and protection for livestock. In unused areas, we can establish thriving woodlands or vibrant wildflower meadows that act as productive carbon stores. For those with existing woodlands, we offer expert management to restore or maintain healthy, biodiverse ecosystems.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Agroforestry Section -->
+	<section class="py-20 bg-gray-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+				<div class="order-2 lg:order-1">
+					<h2 class="text-3xl md:text-4xl font-bold mb-6">Agroforestry</h2>
+					<div class="prose prose-lg text-gray-700 space-y-4">
+						<p>
+							If navigating government funding feels like an uphill battle, Protect Earth can help. We'll guide you in your rewilding, agroforestry (i.e. shelterbelts, silvopasture), or other nature-focused efforts. If grants are available, we'll help you apply (and you keep the funding). If not, we can use charitable donations to cover the costs. Either way, we'll help you make meaningful improvements at little to no expense.
+						</p>
+					</div>
+				</div>
+				<div class="order-1 lg:order-2">
+					<img src="/landowners-agroforestry.jpg" alt="Muddy field with newly installed fencing" class="w-full rounded-lg shadow-lg" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Lease or Donate Land Section -->
+	<section class="py-20 bg-white">
+		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+			<h2 class="text-3xl md:text-4xl font-bold mb-6">Lease or Donate Land</h2>
+			<div class="prose prose-lg text-gray-700 space-y-4 mx-auto">
+				<p>
+					Want to see your land transformed but don't have the time or resources? Lease or donate it to Protect Earth.
+				</p>
+				<p>
+					We'll conduct surveys, carry out planting, and ensure the long-term care and protection of the space. Donating or leasing land is a straightforward, impactful way to contribute to nature restoration. <a href="/contact" class="text-green-700 font-semibold hover:underline">Get in touch</a> to discuss how we can work together.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Application Form Section -->
+	<section class="py-20 bg-gray-50">
+		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+			<h2 class="text-3xl md:text-4xl font-bold mb-6">Apply for Biodiversity Assistance & Funding</h2>
+			<p class="text-xl text-gray-700 mb-8">Fill out the application form below to tell us more about your land and your goals.</p>
+			<a href="https://noteforms.com/forms/form-landowner-applications-kifqm4" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded transition text-lg">
+				Application Form →
+			</a>
+		</div>
+	</section>
+
+	<CallToAction />
+</Layout>

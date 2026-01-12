@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="About">
+	<section class="bg-green-700 text-white py-20">
+		<div class="container mx-auto px-4 text-center">
+			<h1 class="text-5xl font-bold mb-6">About Protect Earth</h1>
+			<p class="text-xl max-w-3xl mx-auto">Our mission and values</p>
+		</div>
+	</section>
+
+	<section class="py-16">
+		<div class="container mx-auto px-4">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<a href="/about/our-purpose" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
+					<h3 class="text-2xl font-bold mb-4 text-green-800">Our Purpose</h3>
+					<p class="text-gray-600">Our mission and what drives us</p>
+				</a>
+				<a href="/about/meet-the-team" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
+					<h3 class="text-2xl font-bold mb-4 text-green-800">Meet the Team</h3>
+					<p class="text-gray-600">The people behind Protect Earth</p>
+				</a>
+				<a href="/about/in-the-press" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
+					<h3 class="text-2xl font-bold mb-4 text-green-800">In the Press</h3>
+					<p class="text-gray-600">Media coverage and press releases</p>
+				</a>
+			</div>
+		</div>
+	</section>
+</Layout>

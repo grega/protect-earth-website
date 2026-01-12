@@ -1,0 +1,63 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { load } from 'js-yaml';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+// Load press articles from YAML
+const yamlPath = join(process.cwd(), 'src/data/press-articles.yaml');
+const yamlContent = readFileSync(yamlPath, 'utf8');
+const data = load(yamlContent) as { articles: Array<{
+	title: string;
+	source: string;
+	url: string;
+	image: string;
+	description: string;
+	date: string;
+}> };
+
+const articles = data.articles;
+
+// Format date for display
+const formatDate = (dateStr: string) => {
+	const date = new Date(dateStr);
+	return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+};
+---
+
+<Layout title="In the Press">
+	<!-- Hero Section with Background Image -->
+	<section class="relative bg-gray-900 text-white">
+		<div class="absolute inset-0">
+			<img src="/hero-press.jpg" alt="Forest path through pine trees" class="w-full h-full object-cover opacity-50" />
+		</div>
+		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+			<h1 class="text-5xl font-bold mb-6">In the Press</h1>
+			<p class="text-xl text-gray-300">
+				Coverage of Protect Earth's mission to rewild Britain and protect our natural heritage
+			</p>
+		</div>
+	</section>
+
+	<!-- Press Articles Grid -->
+	<section class="py-16 bg-gray-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+				{articles.map((article) => (
+					<article class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+						<img src={article.image} alt={article.title} class="w-full h-48 object-cover" />
+						<div class="p-6">
+							<h3 class="text-xl font-bold mb-2">
+								<a href={article.url} target="_blank" rel="noopener" class="text-gray-900 hover:text-green-700">
+									{article.title} - {article.source}
+								</a>
+							</h3>
+							<p class="text-gray-600 text-sm mb-4">{article.description}</p>
+							<p class="text-sm text-gray-500">{formatDate(article.date)}</p>
+						</div>
+					</article>
+				))}
+			</div>
+		</div>
+	</section>
+</Layout>

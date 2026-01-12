@@ -1,0 +1,101 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CallToAction from '../components/CallToAction.astro';
+import fs from 'fs';
+import path from 'path';
+import yaml from 'js-yaml';
+
+// Load projects from YAML
+const projectsPath = path.join(process.cwd(), 'src/data/projects.yaml');
+const projectsFile = fs.readFileSync(projectsPath, 'utf8');
+const projects = yaml.load(projectsFile) as Array<{
+	name: string;
+	slug: string;
+	lat: number;
+	lng: number;
+	description: string;
+}>;
+---
+
+<Layout title="Projects">
+	<!-- Hero Section -->
+	<section class="bg-green-700 text-white py-20">
+		<div class="container mx-auto px-4 text-center">
+			<h1 class="text-5xl md:text-6xl font-bold mb-6">Projects</h1>
+			<p class="text-xl max-w-3xl mx-auto">Explore our reforestation and rewilding projects across the UK</p>
+		</div>
+	</section>
+
+	<!-- Map Section -->
+	<section class="py-12 bg-gray-50">
+		<div class="container mx-auto px-4">
+			<div id="map" class="w-full h-[500px] rounded-lg shadow-lg"></div>
+		</div>
+	</section>
+
+	<!-- Projects List -->
+	<section class="py-16 bg-white">
+		<div class="container mx-auto px-4">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				{projects.map(project => (
+					<a 
+						href={`/projects/${project.slug}`}
+						class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition group"
+					>
+						<h3 class="text-2xl font-bold mb-3 text-gray-900 group-hover:text-green-700 transition">
+							{project.name}
+						</h3>
+						<p class="text-gray-600">{project.description}</p>
+					</a>
+				))}
+			</div>
+		</div>
+	</section>
+
+	<CallToAction />
+</Layout>
+
+<!-- Mapbox GL JS -->
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+
+<script define:vars={{ projects }}>
+	// Initialize map after page load
+	document.addEventListener('DOMContentLoaded', () => {
+		// Mapbox access token from protect.earth
+		mapboxgl.accessToken = 'pk.eyJ1IjoicHJvdGVjdGVhcnRoIiwiYSI6ImNsNDJvNHQzNDBidzkzaXM1cm5ubXRia2EifQ.9jf7dmQmvHJSEGNc6LJdUQ';
+		
+		const map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/light-v10',
+			center: [-2.0, 53.0], // Center on UK
+			zoom: 5.5
+		});
+
+		// Add navigation controls
+		map.addControl(new mapboxgl.NavigationControl());
+
+		map.on('load', () => {
+			// Add project markers
+			projects.forEach(project => {
+				// Create popup
+				const popup = new mapboxgl.Popup({ offset: 25 })
+					.setHTML(`
+						<div class="p-2">
+							<h3 class="font-bold text-lg mb-1">${project.name}</h3>
+							<p class="text-sm text-gray-600">${project.description}</p>
+							<a href="/projects/${project.slug}" class="text-green-700 font-semibold hover:underline text-sm">
+								View Project →
+							</a>
+						</div>
+					`);
+
+				// Create marker
+				new mapboxgl.Marker({ color: '#15803d' })
+					.setLngLat([project.lng, project.lat])
+					.setPopup(popup)
+					.addTo(map);
+			});
+		});
+	});
+</script>

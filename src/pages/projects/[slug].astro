@@ -1,0 +1,108 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import fs from 'fs';
+import path from 'path';
+import yaml from 'js-yaml';
+
+// Load projects from YAML
+const projectsPath = path.join(process.cwd(), 'src/data/projects.yaml');
+const projectsFile = fs.readFileSync(projectsPath, 'utf8');
+const projects = yaml.load(projectsFile) as Array<{
+	name: string;
+	slug: string;
+	lat: number;
+	lng: number;
+	description: string;
+}>;
+
+export function getStaticPaths() {
+	const projectsPath = path.join(process.cwd(), 'src/data/projects.yaml');
+	const projectsFile = fs.readFileSync(projectsPath, 'utf8');
+	const projects = yaml.load(projectsFile) as Array<{
+		name: string;
+		slug: string;
+		lat: number;
+		lng: number;
+		description: string;
+	}>;
+
+	return projects.map(project => ({
+		params: { slug: project.slug },
+		props: { project }
+	}));
+}
+
+const { project } = Astro.props;
+---
+
+<Layout title={project.name}>
+	<!-- Hero Section -->
+	<section class="bg-green-700 text-white py-20">
+		<div class="container mx-auto px-4">
+			<h1 class="text-5xl md:text-6xl font-bold mb-6">{project.name}</h1>
+			<p class="text-xl max-w-3xl">{project.description}</p>
+		</div>
+	</section>
+
+	<!-- Project Details -->
+	<section class="py-16 bg-white">
+		<div class="container mx-auto px-4">
+			<div class="max-w-4xl mx-auto">
+				<div class="prose prose-lg max-w-none">
+					<h2 class="text-3xl font-bold mb-6">About This Project</h2>
+					<p class="text-gray-700 leading-relaxed mb-6">
+						This reforestation and rewilding project is helping to restore natural ecosystems and create lasting environmental benefits in the local area.
+					</p>
+					
+					<h3 class="text-2xl font-bold mb-4 mt-8">Project Goals</h3>
+					<ul class="list-disc pl-6 space-y-2 text-gray-700">
+						<li>Plant native tree species to restore woodland habitat</li>
+						<li>Enhance biodiversity and create wildlife corridors</li>
+						<li>Sequester carbon to combat climate change</li>
+						<li>Engage local community in environmental stewardship</li>
+					</ul>
+
+					<h3 class="text-2xl font-bold mb-4 mt-8">Get Involved</h3>
+					<p class="text-gray-700 leading-relaxed mb-6">
+						We welcome volunteers to help with planting, maintenance, and monitoring. Check our <a href="/events" class="text-green-700 font-semibold hover:underline">events page</a> for upcoming volunteer days at this site.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Map Section -->
+	<section class="py-12 bg-gray-50">
+		<div class="container mx-auto px-4">
+			<h2 class="text-3xl font-bold mb-8 text-center">Project Location</h2>
+			<div id="map" class="w-full h-[400px] rounded-lg shadow-lg"></div>
+		</div>
+	</section>
+
+	<CallToAction />
+</Layout>
+
+<!-- Mapbox GL JS -->
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+
+<script define:vars={{ project }}>
+	document.addEventListener('DOMContentLoaded', () => {
+		mapboxgl.accessToken = 'pk.eyJ1IjoicHJvdGVjdGVhcnRoIiwiYSI6ImNsNDJvNHQzNDBidzkzaXM1cm5ubXRia2EifQ.9jf7dmQmvHJSEGNc6LJdUQ';
+		
+		const map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/light-v10',
+			center: [project.lng, project.lat],
+			zoom: 13
+		});
+
+		map.addControl(new mapboxgl.NavigationControl());
+
+		// Add marker for this project
+		new mapboxgl.Marker({ color: '#15803d' })
+			.setLngLat([project.lng, project.lat])
+			.addTo(map);
+	});
+</script>

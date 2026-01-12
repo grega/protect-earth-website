@@ -1,0 +1,151 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { siteConfig } from '../config';
+---
+
+<Layout title="Home">
+	<!-- Hero Section with Background Video/Image -->
+	<section class="relative bg-gray-900 text-white overflow-hidden">
+		<div class="absolute inset-0">
+			<img src="/hero-home.jpg" alt="A dirt trail winds through a dense forest" class="w-full h-full object-cover opacity-60" />
+			<video 
+				id="hero-video"
+				autoplay 
+				loop 
+				muted 
+				playsinline 
+				preload="auto"
+				class="absolute inset-0 w-full h-full object-cover opacity-60"
+			>
+				<source src="/hero-video.mp4" type="video/mp4" />
+			</video>
+		</div>
+		<div class="relative container mx-auto px-4 py-32 text-center">
+			<h1 class="text-4xl md:text-6xl font-bold mb-8 max-w-5xl mx-auto leading-tight">The earth is in trouble. We're doing something about it.</h1>
+			<div class="text-lg md:text-xl max-w-4xl mx-auto space-y-6">
+				<p class="font-semibold">Protect Earth creates and restores woodlands, meadows, and hedgerows in the UK — helping to combat the escalating climate and biodiversity crises.</p>
+				<p class="font-semibold">The advantages of creating and restoring natural ecosystems are many: removing carbon from the atmosphere, reducing the risk of flooding, and enhancing air quality.</p>
+				<p class="font-semibold">We work with landowners, environmental organisations, businesses and the general public to achieve outcomes that benefit everyone.</p>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const video = document.getElementById('hero-video');
+			if (video) {
+				video.play().catch(err => console.error('Video play error:', err));
+				video.addEventListener('error', (e) => {
+					console.error('Video error:', e);
+					console.error('Video error details:', video.error);
+				});
+			}
+		});
+	</script>
+
+	<section class="py-20 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">Get started:</h2>
+			<div class="relative">
+				<img src="/get-started-image.png" alt="Three paths: People & Families, Businesses, Landowners" class="w-full max-w-5xl mx-auto" />
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-8">
+					<a href="/get-involved/people-families" class="text-center text-xl md:text-2xl font-bold text-gray-900 hover:text-green-700 transition">
+						People & Families →
+					</a>
+					<a href="/get-involved/businesses" class="text-center text-xl md:text-2xl font-bold text-gray-900 hover:text-green-700 transition">
+						Businesses →
+					</a>
+					<a href="/get-involved/landowners" class="text-center text-xl md:text-2xl font-bold text-gray-900 hover:text-green-700 transition">
+						Landowners →
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-20 bg-gray-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl md:text-5xl font-bold mb-16 text-center">Our Achievements:</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+				<div class="text-center">
+					<div class="text-7xl md:text-8xl font-bold text-gray-900 mb-4">{siteConfig.achievements.treesPlanted.toLocaleString()}</div>
+					<div class="text-xl md:text-2xl text-gray-700">trees planted</div>
+				</div>
+				<div class="text-center">
+					<div class="text-7xl md:text-8xl font-bold text-gray-900 mb-4">{siteConfig.achievements.acresRestored.toLocaleString()}</div>
+					<div class="text-xl md:text-2xl text-gray-700">acres restored</div>
+				</div>
+				<div class="text-center">
+					<div class="text-7xl md:text-8xl font-bold text-gray-900 mb-4">{siteConfig.achievements.acresUnderManagement.toLocaleString()}</div>
+					<div class="text-xl md:text-2xl text-gray-700">acres under direct management</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-20 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">News & Updates</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<!-- Article cards would go here - could be populated from CMS or static content -->
+				<div class="bg-white overflow-hidden hover:opacity-80 transition">
+					<div class="h-64 bg-gray-200"></div>
+					<div class="py-6">
+						<h3 class="text-2xl font-bold mb-3 hover:text-green-700">
+							<a href="/articles">Latest News Article</a>
+						</h3>
+						<p class="text-gray-600 mb-4 leading-relaxed">Check out our latest updates and news about reforestation efforts across the UK.</p>
+						<a href="/articles" class="text-green-700 font-bold hover:underline">Read More →</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-20 bg-gray-50">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl md:text-5xl font-bold mb-16 text-center">Our Funders & Partners:</h2>
+			<div class="flex flex-wrap justify-center items-center gap-16 grayscale opacity-50">
+				<img src="/partner-avon-needs-trees.png" alt="Avon Needs Trees" class="h-24 w-auto object-contain" />
+				<img src="/partner-ecologi.png" alt="Ecologi" class="h-24 w-auto object-contain" />
+				<img src="/partner-fwag.png" alt="Farming and Wildlife Advisory Group" class="h-24 w-auto object-contain" />
+				<img src="/partner-woodland-trust.png" alt="Woodland Trust" class="h-24 w-auto object-contain" />
+			</div>
+		</div>
+	</section>
+
+	<section class="py-20 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<h2 class="text-4xl md:text-5xl font-bold mb-16 text-center">HELP PROTECT EARTH - TAKE ACTION NOW ↓</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+				<div class="bg-white">
+					<h3 class="text-3xl font-bold mb-6">Volunteer</h3>
+					<p class="text-gray-700 text-lg mb-8 leading-relaxed">Help us create and maintain new woodlands, hedgerows and wildflower meadows! We need volunteers to sow seeds, plant saplings, clear invasive plant species and pick up litter. No qualifications necessary; jobs for all ages and abilities. Come and turn climate anxiety into climate action!</p>
+					<a href="/events" class="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded transition text-lg">
+						Upcoming Events →
+					</a>
+				</div>
+				<div class="bg-white">
+					<h3 class="text-3xl font-bold mb-6">Fund Our Work</h3>
+					<p class="text-gray-700 text-lg mb-8 leading-relaxed">With government funding for reforestation and rewilding tenuous, we increasingly rely on our amazing community to keep us growing regardless of political shifts. Help Protect Earth continue to restore ecosystems and improve biodiversity across the country:</p>
+					<div class="flex flex-col gap-4">
+						<a href="/act-now/sponsor-trees" class="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded transition text-center text-lg">
+							Sponsor Trees →
+						</a>
+						<a href="/act-now/general-donation" class="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded transition text-center text-lg">
+							Donate →
+						</a>
+					</div>
+				</div>
+				<div class="bg-white">
+					<h3 class="text-3xl font-bold mb-6">Support the Land Fund</h3>
+					<p class="text-gray-700 text-lg mb-8 leading-relaxed">Help us put down roots! Your donations to our Land Fund let us seize the moment when the perfect piece of land comes up for sale. Every penny helps us secure community woodlands, healthier ecosystems, and a greener future for generations to come.</p>
+					<a href="/act-now/land-fund" class="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded transition text-lg">
+						Land Fund →
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</Layout>

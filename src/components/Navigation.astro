@@ -1,0 +1,57 @@
+---
+// Navigation component for main site header
+---
+
+<header class="bg-white border-b border-gray-200">
+	<nav class="container mx-auto px-4 py-4">
+		<div class="flex items-center justify-between">
+			<a href="/" class="block">
+				<img src="/logo.png" alt="Protect Earth" class="h-16 md:h-20" />
+			</a>
+			<ul class="flex space-x-6 text-gray-800">
+				<li class="relative group">
+					<button class="hover:text-green-700 font-medium flex items-center gap-1">
+						Get Involved
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</button>
+					<div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+						<a href="/get-involved/people-families" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">People & Families</a>
+						<a href="/get-involved/landowners" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Landowners</a>
+						<a href="/get-involved/businesses" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Businesses</a>
+					</div>
+				</li>
+				<li><a href="/events" class="hover:text-green-700 font-medium">Events</a></li>
+				<li><a href="/projects" class="hover:text-green-700 font-medium">Projects</a></li>
+				<li class="relative group">
+					<button class="hover:text-green-700 font-medium flex items-center gap-1">
+						Act Now
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</button>
+					<div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+						<a href="/act-now/general-donation" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">General Donation</a>
+						<a href="/act-now/sponsor-trees" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Sponsor Trees</a>
+						<a href="/act-now/land-fund" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Land Fund</a>
+					</div>
+				</li>
+				<li class="relative group">
+					<button class="hover:text-green-700 font-medium flex items-center gap-1">
+						About
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</button>
+					<div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+						<a href="/about/our-purpose" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Our Purpose</a>
+						<a href="/about/meet-the-team" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Meet the Team</a>
+						<a href="/about/in-the-press" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">In the Press</a>
+					</div>
+				</li>
+				<li><a href="/contact" class="hover:text-green-700 font-medium">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
