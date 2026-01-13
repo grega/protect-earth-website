@@ -1,0 +1,114 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths, Page } from 'astro';
+import Layout from '../../layouts/Layout.astro';
+import CallToAction from '../../components/CallToAction.astro';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const articles = (await getCollection('articles')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  return paginate(articles, { pageSize: 20 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props as { page: Page };
+---
+
+<Layout title="Articles">
+	<!-- Hero Section -->
+	<section class="relative bg-gray-900 text-white">
+		<div class="absolute inset-0">
+			<img src="/hero-articles.jpg" alt="People planting trees in an open field" class="w-full h-full object-cover opacity-60" />
+		</div>
+		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+			<h1 class="text-5xl font-bold mb-6">Articles</h1>
+		</div>
+	</section>
+
+	<!-- Articles List -->
+	<section class="py-16 bg-white">
+		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="space-y-12">
+				{page.data.map((article) => (
+					<article class="border-b border-gray-200 pb-12 last:border-0">
+						<a href={`/articles/${article.slug}`} class="flex gap-6 group">
+							{article.data.thumbnail && (
+								<div class="flex-shrink-0 w-48 h-48 overflow-hidden rounded-lg bg-gray-200">
+									<img 
+										src={article.data.thumbnail} 
+										alt={article.data.title}
+										class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+									/>
+								</div>
+							)}
+							<div class="flex-1 min-w-0">
+								<h2 class="text-3xl md:text-4xl font-bold mt-2 text-gray-900 group-hover:text-green-700 transition">
+									{article.data.title}
+								</h2>
+                <time class="text-sm text-gray-500" datetime={article.data.pubDate.toISOString()}>
+									{article.data.pubDate.toLocaleDateString('en-GB', {
+										day: '2-digit',
+										month: '2-digit',
+										year: 'numeric'
+									})}
+								</time>
+								{article.data.description && (
+									<p class="mt-3 text-gray-600 leading-relaxed">
+										{article.data.description}
+									</p>
+								)}
+							</div>
+						</a>
+					</article>
+				))}
+			</div>
+
+			<!-- Pagination Controls -->
+			{(page.lastPage > 1) && (
+				<nav class="mt-16 flex items-center justify-center gap-2" aria-label="Pagination">
+					{page.url.prev && (
+						<a 
+							href={page.url.prev} 
+							class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition"
+						>
+							<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+							</svg>
+							Previous
+						</a>
+					)}
+
+					<div class="flex items-center gap-2">
+						{Array.from({ length: page.lastPage }, (_, i) => i + 1).map((pageNum) => (
+							<a
+								href={pageNum === 1 ? '/articles' : `/articles/${pageNum}`}
+								class={`inline-flex items-center justify-center w-10 h-10 text-sm font-medium rounded-lg transition ${
+									pageNum === page.currentPage
+										? 'bg-green-700 text-white'
+										: 'text-gray-700 bg-white border border-gray-300 hover:bg-gray-50'
+								}`}
+								aria-current={pageNum === page.currentPage ? 'page' : undefined}
+							>
+								{pageNum}
+							</a>
+						))}
+					</div>
+
+					{page.url.next && (
+						<a 
+							href={page.url.next} 
+							class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition"
+						>
+							Next
+							<svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+							</svg>
+						</a>
+					)}
+				</nav>
+			)}
+		</div>
+	</section>
+
+	<CallToAction />
+</Layout>

@@ -1,6 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { siteConfig } from '../config';
+import { getCollection } from 'astro:content';
+
+const latestPosts = (await getCollection('articles'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3);
 ---
 
 <Layout title="Home">
@@ -85,19 +90,37 @@ import { siteConfig } from '../config';
 
 	<section class="py-20 bg-white">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">News & Updates</h2>
+			<div class="flex items-center justify-between mb-12">
+				<h2 class="text-4xl md:text-5xl font-bold">Latest Articles</h2>
+				<a href="/articles" class="text-green-700 font-bold hover:text-green-800 text-lg">
+					View all articles →
+				</a>
+			</div>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-				<!-- Article cards would go here - could be populated from CMS or static content -->
-				<div class="bg-white overflow-hidden hover:opacity-80 transition">
-					<div class="h-64 bg-gray-200"></div>
-					<div class="py-6">
-						<h3 class="text-2xl font-bold mb-3 hover:text-green-700">
-							<a href="/articles">Latest News Article</a>
-						</h3>
-						<p class="text-gray-600 mb-4 leading-relaxed">Check out our latest updates and news about reforestation efforts across the UK.</p>
-						<a href="/articles" class="text-green-700 font-bold hover:underline">Read More →</a>
-					</div>
-				</div>
+				{latestPosts.map((post) => (
+					<article class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+						<a href={`/articles/${post.slug}`} class="block">
+							<div class="p-6">
+								<time class="text-sm text-gray-500" datetime={post.data.pubDate.toISOString()}>
+									{post.data.pubDate.toLocaleDateString('en-GB', {
+										day: 'numeric',
+										month: 'long',
+										year: 'numeric'
+									})}
+								</time>
+								<h3 class="text-2xl font-bold mt-2 mb-3 text-gray-900 hover:text-green-700">
+									{post.data.title}
+								</h3>
+								<p class="text-gray-700 mb-4 line-clamp-3">
+									{post.data.description}
+								</p>
+								<span class="text-green-700 font-medium hover:text-green-800">
+									Read more →
+								</span>
+							</div>
+						</a>
+					</article>
+				))}
 			</div>
 		</div>
 	</section>

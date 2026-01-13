@@ -20,4 +20,7 @@ export const siteConfig = {
     acresRestored: 400,
     acresUnderManagement: 180,
   },
+
+  // Sites to ignore from API data
+  ignoredSites: ["Burnsall", "Donkeywell Farm", "Wraxall"],
 } as const;

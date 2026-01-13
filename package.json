@@ -1,7 +1,7 @@
 {
   "name": "website",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -12,6 +12,7 @@
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.9",
     "js-yaml": "^4.1.1",
+    "marked": "^17.0.1",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
