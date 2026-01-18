@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/llangattock-forest-school.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

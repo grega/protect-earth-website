@@ -1,5 +1,5 @@
 ---
 thumbnail: "/thumbnails/sites/wadswick-green.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

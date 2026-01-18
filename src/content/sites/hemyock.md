@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/hemyock.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

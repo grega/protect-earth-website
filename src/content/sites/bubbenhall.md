@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/bubbenhall.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

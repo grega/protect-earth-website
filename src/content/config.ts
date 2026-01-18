@@ -23,8 +23,7 @@ const pressArticlesCollection = defineCollection({
 const sitesCollection = defineCollection({
   type: "content",
   schema: z.object({
-    thumbnail: z.string().optional(),
-    fundingPartner: z.string().optional(),
+    fundingPartners: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
   }),
 });

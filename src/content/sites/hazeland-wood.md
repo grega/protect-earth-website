@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/hazeland-wood.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

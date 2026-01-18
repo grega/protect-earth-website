@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/donkeywell-farm.png"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

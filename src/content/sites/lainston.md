@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/lainston.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

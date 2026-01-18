@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/pennyhill-park.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

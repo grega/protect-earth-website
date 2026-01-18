@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/dyrham-wood.png"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

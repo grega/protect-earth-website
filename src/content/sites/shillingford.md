@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/shillingford.jpeg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

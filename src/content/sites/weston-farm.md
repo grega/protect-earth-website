@@ -1,4 +1,4 @@
 ---
 fundingPartners: ["ecologi"]
-tags: ["woodland creation"]
+tags: []
 ---

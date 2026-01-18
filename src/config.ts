@@ -22,5 +22,5 @@ export const siteConfig = {
   },
 
   // Sites to ignore from API data
-  ignoredSites: ["Burnsall", "Donkeywell Farm", "Wraxall"],
+  ignoredSites: ["Burnsall", "Donkeywell Farm", "Newcastle Emlyn", "Wraxall"],
 } as const;

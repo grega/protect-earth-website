@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/south-molton.jpeg"
-tags: ["woodland creation"]
+fundingPartners: ["ecologi", "pinwheel"]
+tags: ["woodland creation", "hedgerow creation"]
 ---

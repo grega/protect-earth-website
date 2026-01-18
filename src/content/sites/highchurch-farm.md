@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/highchurch-farm.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

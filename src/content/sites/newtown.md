@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/newtown.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/hardknott-forest.jpeg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

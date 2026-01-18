@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/stawley.jpeg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

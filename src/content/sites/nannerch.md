@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/nannerch.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

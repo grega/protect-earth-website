@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/upper-pengethley-farm.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

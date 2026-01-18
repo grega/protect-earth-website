@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/mauchline.jpeg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

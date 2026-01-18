@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/thorncombe-street.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

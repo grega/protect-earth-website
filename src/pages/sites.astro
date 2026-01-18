@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import CallToAction from '../components/CallToAction.astro';
 import { siteConfig } from '../config';
@@ -14,11 +15,8 @@ const apiSites = allApiSites.filter((site: any) =>
   !siteConfig.ignoredSites.includes(site.name)
 );
 
-// Get collection data for thumbnails
+// Get collection for funding partner info
 const siteCollection = await getCollection('sites');
-const thumbnailMap = new Map(
-  siteCollection.map(site => [site.slug, site.data.thumbnail])
-);
 
 // Helper to convert to kebab-case
 function toKebabCase(str: string): string {
@@ -30,7 +28,7 @@ function toKebabCase(str: string): string {
     .trim();
 }
 
-// Merge API data with collection thumbnails
+// Map API data with first image
 const sites = apiSites
   .map((site: any) => {
     const slug = toKebabCase(site.name);
@@ -42,7 +40,7 @@ const sites = apiSites
       allocatedUnits: site.allocatedUnits,
       coordinates: site.coordinates,
       slug: slug,
-      thumbnail: slug ? thumbnailMap.get(slug) : undefined,
+      thumbnail: site.images?.[0] || null,
     };
   })
   .sort((a: any, b: any) => a.name.localeCompare(b.name));

@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/eastcourt-farm.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

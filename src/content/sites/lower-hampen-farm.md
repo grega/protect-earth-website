@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/lower-hampen-farm.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

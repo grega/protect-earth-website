@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/south-lodge.jpeg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

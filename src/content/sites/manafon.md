@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/manafon.jpeg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

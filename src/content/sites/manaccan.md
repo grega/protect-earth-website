@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/manaccan-roskruge-farm.jpeg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

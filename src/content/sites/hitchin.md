@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/hitchin.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/moat-farm.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

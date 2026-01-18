@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/hawling.jpg"
-fundingPartner: "reewild"
+fundingPartners: ["reewild", "ecologi"]
 tags: ["woodland creation"]
 ---

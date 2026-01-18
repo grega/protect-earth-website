@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/bourton-on-the-water.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

@@ -1,5 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/howard-court.JPG"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

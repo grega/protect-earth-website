@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/goytre-wood.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

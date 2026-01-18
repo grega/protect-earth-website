@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/coxbury-farm.jpeg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

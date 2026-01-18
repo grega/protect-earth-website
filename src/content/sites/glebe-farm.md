@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/glebe-farm.jpeg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/honiton.jpg"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---

@@ -1,4 +1,4 @@
 ---
-thumbnail: "/thumbnails/sites/bilsborrow.jpg"
+fundingPartners: ["woodland-trust"]
 tags: ["woodland creation"]
 ---

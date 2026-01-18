@@ -1,5 +1,5 @@
 ---
 thumbnail: "/thumbnails/sites/woodlea.jpg"
-fundingPartner: "ecologi"
+fundingPartners: ["ecologi"]
 tags: ["woodland creation"]
 ---
