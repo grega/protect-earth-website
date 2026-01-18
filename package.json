@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "scripts": {
     "sync-sites": "node scripts/sync-sites.js",
-    "scrape-partners": "node scripts/scrape-funding-partners.js",
     "dev": "astro dev",
     "build": "npm run sync-sites && astro build",
     "preview": "astro preview",

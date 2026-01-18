@@ -1,4 +1,4 @@
 ---
 fundingPartners: ["ecologi", "pinwheel"]
-tags: ["woodland creation", "hedgerow creation"]
+tags: ["woodland creation", "hedgerow"]
 ---

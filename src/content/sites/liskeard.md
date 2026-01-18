@@ -1,6 +1,6 @@
 ---
 fundingPartners: ["ecologi"]
-tags: ["woodland creation"]
+tags: ["woodland creation", "hedgerow", "ancient woodland restoration"]
 ---
 
 Protect Earth is now the proud owner of a historic 64-acre ancient woodland known as High Wood, in Liskeard, Cornwall. High Wood has a long history, with the old Caradon Mining Railway running through the middle of the land. Dog walkers love it, there are mountain bike trails, and there is huge potential here for restoring the woodland to its former glory as a temperate rainforest.
