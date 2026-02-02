@@ -23,6 +23,7 @@ const pressArticlesCollection = defineCollection({
 const sitesCollection = defineCollection({
   type: "content",
   schema: z.object({
+    notionIds: z.array(z.string()).optional(),
     fundingPartners: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
   }),
@@ -39,9 +40,25 @@ const articlesCollection = defineCollection({
   }),
 });
 
+const siteUpdatesCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    notionId: z.string(),
+    type: z.string().optional(),
+    date: z.coerce.date().optional(),
+    siteNotionId: z.string().optional(),
+    treesPlanted: z.number().optional(),
+    survivalRate: z.number().optional(),
+    treesRestocked: z.number().optional(),
+    photos: z.array(z.string()).optional(),
+  }),
+});
+
 export const collections = {
   team: teamCollection,
   "press-articles": pressArticlesCollection,
   sites: sitesCollection,
   articles: articlesCollection,
+  "site-updates": siteUpdatesCollection,
 };

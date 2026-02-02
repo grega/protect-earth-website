@@ -1,0 +1,18 @@
+---
+title: South Barrow Survey 2025
+notionId: 253e7dc6-657c-80b2-9f87-f250f1aa811c
+type: Beat-up Survey
+date: '2025-08-16T00:00:00.000Z'
+siteNotionId: 375e28cc-19ee-4f89-8ad1-a6afc614a3fe
+survivalRate: 0.5
+treesRestocked: 150
+photos:
+  - /site-updates/south-barrow-survey-2025-f1aa811c/1.jpg
+  - /site-updates/south-barrow-survey-2025-f1aa811c/2.jpg
+  - /site-updates/south-barrow-survey-2025-f1aa811c/3.jpg
+  - /site-updates/south-barrow-survey-2025-f1aa811c/4.jpg
+  - /site-updates/south-barrow-survey-2025-f1aa811c/5.jpg
+  - /site-updates/south-barrow-survey-2025-f1aa811c/6.jpg
+  - /site-updates/south-barrow-survey-2025-f1aa811c/7.jpg
+---
+
