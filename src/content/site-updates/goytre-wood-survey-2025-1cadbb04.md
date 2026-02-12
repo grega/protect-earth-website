@@ -1,29 +1,29 @@
 ---
-title: Goytre Wood Survey 2025
-notionId: 27ae7dc6-657c-806d-afc0-e0001cadbb04
-type: Beat-up Survey
-date: '2025-09-14T00:00:00.000Z'
-siteNotionId: 1788f8e5-f067-4de7-b5c9-0828205c513c
+title: "Goytre Wood Survey 2025"
+notionId: "27ae7dc6-657c-806d-afc0-e0001cadbb04"
+type: "Beat-up Survey"
+date: "2025-09-14T00:00:00.000Z"
+siteNotionId: "1788f8e5-f067-4de7-b5c9-0828205c513c"
 survivalRate: 0.54
 photos:
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/1.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/2.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/3.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/4.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/5.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/6.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/7.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/8.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/9.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/10.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/11.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/12.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/13.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/14.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/15.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/16.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/17.jpg
-  - /site-updates/goytre-wood-survey-2025-1cadbb04/18.jpg
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/1.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/2.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/3.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/4.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/5.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/6.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/7.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/8.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/9.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/10.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/11.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/12.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/13.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/14.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/15.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/16.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/17.jpg"
+  - "/site-updates/goytre-wood-survey-2025-1cadbb04/18.jpg"
 ---
 
 

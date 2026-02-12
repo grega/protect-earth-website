@@ -1,21 +1,21 @@
 ---
-title: Bethania (Trefaes Uchaf) Survey 2025
-notionId: 24ee7dc6-657c-801f-94c1-fddbc27ba392
-type: Beat-up Survey
-date: '2025-08-10T00:00:00.000Z'
-siteNotionId: 6cc1e8b0-24c5-478d-abc2-1a6f87621583
+title: "Bethania (Trefaes Uchaf) Survey 2025"
+notionId: "24ee7dc6-657c-801f-94c1-fddbc27ba392"
+type: "Beat-up Survey"
+date: "2025-08-10T00:00:00.000Z"
+siteNotionId: "6cc1e8b0-24c5-478d-abc2-1a6f87621583"
 survivalRate: 0.85
 photos:
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/1.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/2.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/3.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/4.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/5.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/6.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/7.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/8.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/9.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/10.jpg
-  - /site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/11.jpg
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/1.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/2.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/3.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/4.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/5.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/6.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/7.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/8.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/9.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/10.jpg"
+  - "/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/11.jpg"
 ---
 

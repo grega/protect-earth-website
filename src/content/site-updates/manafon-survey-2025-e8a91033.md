@@ -1,40 +1,40 @@
 ---
-title: Manafon Survey 2025
-notionId: 254e7dc6-657c-8064-81a0-da14e8a91033
-type: Beat-up Survey
-date: '2025-08-13T00:00:00.000Z'
-siteNotionId: 6a1e939f-858a-4ddb-ad0c-3dbe4a68a07d
+title: "Manafon Survey 2025"
+notionId: "254e7dc6-657c-8064-81a0-da14e8a91033"
+type: "Beat-up Survey"
+date: "2025-08-13T00:00:00.000Z"
+siteNotionId: "6a1e939f-858a-4ddb-ad0c-3dbe4a68a07d"
 survivalRate: 0.92
 photos:
-  - /site-updates/manafon-survey-2025-e8a91033/1.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/2.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/3.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/4.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/1.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/2.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/3.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/4.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/5.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/6.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/7.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/8.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/9.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/10.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/11.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/12.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/13.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/14.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/15.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/16.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/17.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/18.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/19.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/20.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/21.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/22.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/23.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/24.jpg
-  - /site-updates/manafon-survey-2025-e8a91033/25.jpg
+  - "/site-updates/manafon-survey-2025-e8a91033/1.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/2.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/3.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/4.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/1.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/2.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/3.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/4.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/5.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/6.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/7.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/8.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/9.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/10.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/11.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/12.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/13.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/14.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/15.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/16.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/17.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/18.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/19.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/20.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/21.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/22.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/23.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/24.jpg"
+  - "/site-updates/manafon-survey-2025-e8a91033/25.jpg"
 ---
 
 Overall impression - very good. Trees doing well, all shelters vertical - site looks well looked after. 92% survival rate.  The Landowner said We have seen hares, lots of mice and also a big deer possibly roe - certainly bigger than muntjac and we have found antlers! The newer trees are virtually 100% fine, so far.  The older ones have suffered though, with roughly 15% dead to date. There are lots of trees popping up naturally and doing very well without any assistance from humans.  Alder is doing very well in the wetter areas (some over a metre tall), and there are some small oak saplings dotted about.  Hawthorn is spreading like mad - no need to plant any more of those!I In May and June we have done a little maintenance, straightening posts that were leaning over, removing grass/weeds from tubes etc. 

@@ -2,6 +2,7 @@
 title: "South Lodge Restock 2025/26"
 notionId: "2d0e7dc6-657c-8030-8e11-d1a259f070d1"
 type: "Restocking"
+date: "2025-12-03T00:00:00.000Z"
 siteNotionId: "b8278615-8ac7-4a5c-9758-a7125a1465bc"
 ---
 

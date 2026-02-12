@@ -1,43 +1,43 @@
 ---
-title: Eastcourt Farm Survey 2025
-notionId: 24ee7dc6-657c-806a-a5c5-d1876786d14a
-type: Beat-up Survey
-date: '2025-09-19T00:00:00.000Z'
-siteNotionId: 4f94d3d6-970a-4fdc-bf8c-82da3bbf6a0f
+title: "Eastcourt Farm Survey 2025"
+notionId: "24ee7dc6-657c-806a-a5c5-d1876786d14a"
+type: "Beat-up Survey"
+date: "2025-09-19T00:00:00.000Z"
+siteNotionId: "4f94d3d6-970a-4fdc-bf8c-82da3bbf6a0f"
 survivalRate: 0.67
 treesRestocked: 305
 photos:
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/1.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/2.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/3.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/4.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/5.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/6.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/7.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/8.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/9.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/10.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/11.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/12.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/13.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/14.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/15.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/16.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/17.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/18.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/19.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/20.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/21.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/22.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/23.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/24.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/25.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/26.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/27.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/28.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/29.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/30.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/31.jpg
-  - /site-updates/eastcourt-farm-survey-2025-6786d14a/32.jpg
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/1.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/2.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/3.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/4.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/5.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/6.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/7.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/8.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/9.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/10.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/11.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/12.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/13.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/14.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/15.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/16.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/17.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/18.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/19.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/20.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/21.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/22.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/23.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/24.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/25.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/26.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/27.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/28.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/29.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/30.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/31.jpg"
+  - "/site-updates/eastcourt-farm-survey-2025-6786d14a/32.jpg"
 ---
 

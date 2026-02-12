@@ -1,18 +1,18 @@
 ---
-title: Nannerch Survey 2025
-notionId: 27ae7dc6-657c-80bc-bda0-d75c49ca3217
-type: Beat-up Survey
-date: '2025-09-22T00:00:00.000Z'
-siteNotionId: 434153c2-4272-48f7-9826-077adbf87b0f
+title: "Nannerch Survey 2025"
+notionId: "27ae7dc6-657c-80bc-bda0-d75c49ca3217"
+type: "Beat-up Survey"
+date: "2025-09-22T00:00:00.000Z"
+siteNotionId: "434153c2-4272-48f7-9826-077adbf87b0f"
 survivalRate: 0.73
 photos:
-  - /site-updates/nannerch-survey-2025-49ca3217/1.jpg
-  - /site-updates/nannerch-survey-2025-49ca3217/2.jpg
-  - /site-updates/nannerch-survey-2025-49ca3217/3.jpg
-  - /site-updates/nannerch-survey-2025-49ca3217/4.jpg
-  - /site-updates/nannerch-survey-2025-49ca3217/5.jpg
-  - /site-updates/nannerch-survey-2025-49ca3217/6.jpg
-  - /site-updates/nannerch-survey-2025-49ca3217/7.jpg
+  - "/site-updates/nannerch-survey-2025-49ca3217/1.jpg"
+  - "/site-updates/nannerch-survey-2025-49ca3217/2.jpg"
+  - "/site-updates/nannerch-survey-2025-49ca3217/3.jpg"
+  - "/site-updates/nannerch-survey-2025-49ca3217/4.jpg"
+  - "/site-updates/nannerch-survey-2025-49ca3217/5.jpg"
+  - "/site-updates/nannerch-survey-2025-49ca3217/6.jpg"
+  - "/site-updates/nannerch-survey-2025-49ca3217/7.jpg"
 ---
 
 Normally we wouldn’t be checking survivals the first summer after a late winter planting as there’s usually not much that’s going to have changed other than a bit of rabbit nibbling, but with an intense summer drought and a difficult group of contractors we wanted to see how things were going.

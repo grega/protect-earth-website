@@ -1,47 +1,47 @@
 ---
-title: Mauchline
-notionId: 27fe7dc6-657c-80f8-8761-ee4133d5d15f
-type: Beat-up Survey
-date: '2025-09-05T00:00:00.000Z'
-siteNotionId: 175598d2-68b0-4159-a8e0-df8bbcde4fe3
+title: "Mauchline"
+notionId: "27fe7dc6-657c-80f8-8761-ee4133d5d15f"
+type: "Beat-up Survey"
+date: "2025-09-05T00:00:00.000Z"
+siteNotionId: "175598d2-68b0-4159-a8e0-df8bbcde4fe3"
 survivalRate: 0.15
 photos:
-  - /site-updates/mauchline-33d5d15f/1.jpg
-  - /site-updates/mauchline-33d5d15f/2.jpg
-  - /site-updates/mauchline-33d5d15f/3.jpg
-  - /site-updates/mauchline-33d5d15f/4.jpg
-  - /site-updates/mauchline-33d5d15f/5.jpg
-  - /site-updates/mauchline-33d5d15f/6.jpg
-  - /site-updates/mauchline-33d5d15f/7.jpg
-  - /site-updates/mauchline-33d5d15f/8.jpg
-  - /site-updates/mauchline-33d5d15f/9.jpg
-  - /site-updates/mauchline-33d5d15f/10.jpg
-  - /site-updates/mauchline-33d5d15f/11.jpg
-  - /site-updates/mauchline-33d5d15f/12.jpg
-  - /site-updates/mauchline-33d5d15f/13.jpg
-  - /site-updates/mauchline-33d5d15f/14.jpg
-  - /site-updates/mauchline-33d5d15f/15.jpg
-  - /site-updates/mauchline-33d5d15f/16.jpg
-  - /site-updates/mauchline-33d5d15f/17.jpg
-  - /site-updates/mauchline-33d5d15f/18.jpg
-  - /site-updates/mauchline-33d5d15f/19.jpg
-  - /site-updates/mauchline-33d5d15f/20.jpg
-  - /site-updates/mauchline-33d5d15f/21.jpg
-  - /site-updates/mauchline-33d5d15f/22.jpg
-  - /site-updates/mauchline-33d5d15f/23.jpg
-  - /site-updates/mauchline-33d5d15f/24.jpg
-  - /site-updates/mauchline-33d5d15f/25.jpg
-  - /site-updates/mauchline-33d5d15f/26.jpg
-  - /site-updates/mauchline-33d5d15f/27.jpg
-  - /site-updates/mauchline-33d5d15f/28.jpg
-  - /site-updates/mauchline-33d5d15f/29.jpg
-  - /site-updates/mauchline-33d5d15f/30.jpg
-  - /site-updates/mauchline-33d5d15f/31.jpg
-  - /site-updates/mauchline-33d5d15f/32.jpg
-  - /site-updates/mauchline-33d5d15f/33.jpg
-  - /site-updates/mauchline-33d5d15f/34.jpg
-  - /site-updates/mauchline-33d5d15f/35.jpg
-  - /site-updates/mauchline-33d5d15f/36.jpg
-  - /site-updates/mauchline-33d5d15f/37.jpg
+  - "/site-updates/mauchline-33d5d15f/1.jpg"
+  - "/site-updates/mauchline-33d5d15f/2.jpg"
+  - "/site-updates/mauchline-33d5d15f/3.jpg"
+  - "/site-updates/mauchline-33d5d15f/4.jpg"
+  - "/site-updates/mauchline-33d5d15f/5.jpg"
+  - "/site-updates/mauchline-33d5d15f/6.jpg"
+  - "/site-updates/mauchline-33d5d15f/7.jpg"
+  - "/site-updates/mauchline-33d5d15f/8.jpg"
+  - "/site-updates/mauchline-33d5d15f/9.jpg"
+  - "/site-updates/mauchline-33d5d15f/10.jpg"
+  - "/site-updates/mauchline-33d5d15f/11.jpg"
+  - "/site-updates/mauchline-33d5d15f/12.jpg"
+  - "/site-updates/mauchline-33d5d15f/13.jpg"
+  - "/site-updates/mauchline-33d5d15f/14.jpg"
+  - "/site-updates/mauchline-33d5d15f/15.jpg"
+  - "/site-updates/mauchline-33d5d15f/16.jpg"
+  - "/site-updates/mauchline-33d5d15f/17.jpg"
+  - "/site-updates/mauchline-33d5d15f/18.jpg"
+  - "/site-updates/mauchline-33d5d15f/19.jpg"
+  - "/site-updates/mauchline-33d5d15f/20.jpg"
+  - "/site-updates/mauchline-33d5d15f/21.jpg"
+  - "/site-updates/mauchline-33d5d15f/22.jpg"
+  - "/site-updates/mauchline-33d5d15f/23.jpg"
+  - "/site-updates/mauchline-33d5d15f/24.jpg"
+  - "/site-updates/mauchline-33d5d15f/25.jpg"
+  - "/site-updates/mauchline-33d5d15f/26.jpg"
+  - "/site-updates/mauchline-33d5d15f/27.jpg"
+  - "/site-updates/mauchline-33d5d15f/28.jpg"
+  - "/site-updates/mauchline-33d5d15f/29.jpg"
+  - "/site-updates/mauchline-33d5d15f/30.jpg"
+  - "/site-updates/mauchline-33d5d15f/31.jpg"
+  - "/site-updates/mauchline-33d5d15f/32.jpg"
+  - "/site-updates/mauchline-33d5d15f/33.jpg"
+  - "/site-updates/mauchline-33d5d15f/34.jpg"
+  - "/site-updates/mauchline-33d5d15f/35.jpg"
+  - "/site-updates/mauchline-33d5d15f/36.jpg"
+  - "/site-updates/mauchline-33d5d15f/37.jpg"
 ---
 
