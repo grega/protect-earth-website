@@ -198,16 +198,12 @@ const fundingPartnerInfos = fundingPartners.map(partner => fundingPartnerLogos[p
 				{siteUpdates.map((update) => (
 					<article class="bg-gray-50 rounded-lg p-6 border border-gray-200 hover:border-green-500 transition-colors">
 						<div class="flex items-start justify-between mb-3">
-							<h3 class="text-xl font-semibold text-gray-900">{update.data.title}</h3>
-							{update.data.date && (
-								<time class="text-sm text-gray-500 whitespace-nowrap ml-4">
-									{update.data.date.toLocaleDateString('en-GB', { 
-										year: 'numeric', 
-										month: 'long', 
-										day: 'numeric' 
-									})}
-								</time>
-							)}
+							<h3 class="text-xl font-semibold text-gray-900">
+                {update.data.date.toLocaleDateString('en-GB', { 
+                  year: 'numeric', 
+                  month: 'long', 
+                })}
+              </h3>
 						</div>
 						
 						<div class="flex flex-wrap gap-2 mb-3">
