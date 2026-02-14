@@ -15,11 +15,8 @@ const apiSites = allApiSites.filter((site: any) =>
   !siteConfig.ignoredSites.includes(site.name)
 );
 
-// Get collection for tags
+// Get collection for tags and images
 const siteCollection = await getCollection('sites');
-const siteTagsMap = new Map(
-  siteCollection.map(site => [site.slug, site.data.tags || []])
-);
 
 // Helper to convert to kebab-case
 function toKebabCase(str: string): string {
@@ -35,6 +32,12 @@ function toKebabCase(str: string): string {
 const sites = apiSites
   .map((site: any) => {
     const slug = toKebabCase(site.name);
+    // Get data from the local collection not the API
+    const siteData = siteCollection.find(s => s.slug === slug);
+    
+    // Get first image for thumbnail from collection
+    const thumbnail = siteData?.data?.images?.[0] || null;
+
     return {
       id: site.id,
       name: site.name,
@@ -43,11 +46,11 @@ const sites = apiSites
       allocatedUnits: site.allocatedUnits,
       coordinates: site.coordinates,
       slug: slug,
-      thumbnail: site.images?.[0] || null,
-      tags: siteTagsMap.get(slug) || [],
+      thumbnail: thumbnail,
+      tags: siteData?.data?.tags || [],
     };
-  })
-  .sort((a: any, b: any) => a.name.localeCompare(b.name));
+  });
+sites.sort((a: any, b: any) => a.name.localeCompare(b.name));
 
 // Get all unique tags
 const allTags = [...new Set(sites.flatMap((site: any) => site.tags))].sort();
@@ -105,9 +108,11 @@ const allTags = [...new Set(sites.flatMap((site: any) => site.tags))].sort();
 						<article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
 							{site.thumbnail ? (
 								<div class="aspect-video overflow-hidden bg-gray-200">
-									<img 
+									<Image 
 										src={site.thumbnail} 
 										alt={site.name}
+										width={640}
+										height={360}
 										class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
 									/>
 								</div>

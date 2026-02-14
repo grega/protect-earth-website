@@ -85,12 +85,13 @@ const siteName = apiData?.name || site.slug;
 const siteLocation = apiData?.location || "";
 const treeCount = apiData?.allocatedUnits || 0;
 const coordinates = apiData?.coordinates;
-const heroImage = apiData?.images?.[0] || null;
+// Use images directly from content collection
+const images = site.data.images || [];
+const heroImage = images[0] || null;
 const fundingPartners = site.data.fundingPartners || [];
 const siteDescription = apiData?.description;
 const descriptionHtml = siteDescription ? await marked.parse(siteDescription) : "";
 const species = apiData?.species || [];
-const images = apiData?.images || [];
 
 // Funding partner logo mapping
 type FundingPartnerInfo = { src: string; alt: string; url: string };
@@ -125,7 +126,14 @@ const fundingPartnerInfos = fundingPartners.map(partner => fundingPartnerLogos[p
 	<section class="relative bg-gray-900 text-white">
 		{heroImage && (
 			<div class="absolute inset-0">
-				<img src={heroImage} alt={siteName} class="w-full h-full object-cover opacity-60" loading="eager" />
+				<Image 
+					src={heroImage}
+					alt={siteName}
+					width={1920}
+					height={1080}
+					class="w-full h-full object-cover opacity-60"
+					loading="eager"
+				/>
 			</div>
 		)}
 		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">

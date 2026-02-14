@@ -1,9 +1,27 @@
 ---
-fundingPartners: ["ecologi"]
-tags: ["woodland creation", "hedgerow", "ancient woodland restoration"]
+fundingPartners:
+  - ecologi
+tags:
+  - woodland creation
+  - hedgerow
+  - ancient woodland restoration
 notionIds:
-  - "dac1d6aa-8ec5-4021-81ee-c4fab70946b7"
-  - "4a1f03a4-3b0b-4957-be4d-638c87c8c64b"
+  - dac1d6aa-8ec5-4021-81ee-c4fab70946b7
+  - 4a1f03a4-3b0b-4957-be4d-638c87c8c64b
+images:
+  - ../../assets/sites/liskeard/1.jpg
+  - ../../assets/sites/liskeard/2.jpg
+  - ../../assets/sites/liskeard/3.jpg
+  - ../../assets/sites/liskeard/4.jpg
+  - ../../assets/sites/liskeard/5.jpg
+  - ../../assets/sites/liskeard/6.jpg
+  - ../../assets/sites/liskeard/7.jpg
+  - ../../assets/sites/liskeard/8.jpg
+  - ../../assets/sites/liskeard/9.jpg
+  - ../../assets/sites/liskeard/10.jpg
+  - ../../assets/sites/liskeard/11.jpg
+  - ../../assets/sites/liskeard/12.jpg
+  - ../../assets/sites/liskeard/13.jpg
 ---
 
 Protect Earth is now the proud owner of a historic 64-acre ancient woodland known as High Wood, in Liskeard, Cornwall. High Wood has a long history, with the old Caradon Mining Railway running through the middle of the land. Dog walkers love it, there are mountain bike trails, and there is huge potential here for restoring the woodland to its former glory as a temperate rainforest.

@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   images: string[];
   siteName: string;
@@ -17,9 +19,11 @@ if (!images || images.length === 0) {
     <div class="gallery-grid">
       {images.map((image, index) => (
         <div class="gallery-item" data-index={index}>
-          <img 
-            src={image} 
+          <Image 
+            src={image}
             alt={`${siteName} - Image ${index + 1}`}
+            width={800}
+            height={600}
             loading="lazy"
             class="gallery-image"
           />
