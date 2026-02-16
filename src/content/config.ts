@@ -22,10 +22,11 @@ const pressArticlesCollection = defineCollection({
 
 const sitesCollection = defineCollection({
   type: "content",
-  schema: z.object({
+  schema: ({ image }) => z.object({
     notionIds: z.array(z.string()).optional(),
     fundingPartners: z.array(z.string()).optional(),
     tags: z.array(z.string()).optional(),
+    images: z.array(image()).optional(),
   }),
 });
 
