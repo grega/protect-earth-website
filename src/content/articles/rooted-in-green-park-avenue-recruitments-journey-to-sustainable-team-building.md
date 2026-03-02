@@ -50,4 +50,4 @@ Park Avenue Recruitment's team really walked the talk, moving from donating to e
 
 Their initiative not only reflects their dedication to sustainability but also underscores the impact of nature on well-being.
 
-If you're inspired by Park Avenue Recruitment's journey and want your team to embark on your own environmental mission, [contact us today](https://noteforms.com/forms/corporate-volunteering-ivbmrp) and take the first step towards developing your own woodland.
+If you're inspired by Park Avenue Recruitment's journey and want your team to embark on your own environmental mission, [contact us today](https://protectearthcio.notion.site/2c1e7dc6657c80d3b21ff727acd31056) and take the first step towards developing your own woodland.

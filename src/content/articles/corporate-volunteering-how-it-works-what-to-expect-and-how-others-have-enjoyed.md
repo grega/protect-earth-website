@@ -40,4 +40,4 @@ Long story short, it's revitalising. It is rewarding for volunteers when they st
 
 "It was (despite the heat) a pleasant day out and really satisfying to peer down the top of a tree guard and see a little tenacious bit of baby tree carrying on." came feedback from another volunteer. "The farmers were great as well, very welcoming and they brought us out some cold drinks and homemade loaf in the afternoon which was very kind of them and much appreciated."
 
-We love bringing people out for the day. It's an experience that never gets old for us. So, if your team would benefit from a day with us, please [contact us](https://noteforms.com/forms/corporate-volunteering-ivbmrp).
+We love bringing people out for the day. It's an experience that never gets old for us. So, if your team would benefit from a day with us, please [contact us](https://protectearthcio.notion.site/2c1e7dc6657c80d3b21ff727acd31056).
