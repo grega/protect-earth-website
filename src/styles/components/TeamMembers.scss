@@ -1,0 +1,71 @@
+.TeamMembers {
+	> * + * {
+		margin-block-start: 2rem;
+	}
+}
+
+.TeamMember {
+	position: relative;
+	text-align: initial;
+
+	&__image {
+		aspect-ratio: 1;
+		object-fit: cover;
+	}
+
+	&__content {
+		margin-block-start: 2rem;
+	}
+
+	&__header {
+	}
+
+	&__name,
+	&__role {
+		display: inline;
+		font-size: 1.25rem;
+		font-weight: 700;
+	}
+
+	&__role {
+		&::before {
+			content: ' - ';
+			display: inline;
+		}
+	}
+
+	&__bio {
+		margin-block-start: 2rem;
+
+		p {
+			font-size: 1rem;
+
+			+ p {
+				margin-block-start: 1rem;
+			}
+		}
+	}
+
+	@media screen and (min-width: 37.5rem) {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: 1fr 2fr;
+
+		.TeamMember {
+			&__content {
+				margin-block-start: 0;
+			}
+		}
+	}
+
+	@media screen and (min-width: 48rem) {
+		gap: 2rem;
+
+		.TeamMember {
+			&__content {
+				margin-block-start: 1rem;
+				max-inline-size: 65ch;
+			}
+		}
+	}
+}
