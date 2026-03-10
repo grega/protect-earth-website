@@ -1,19 +1,100 @@
 ---
+import ContentHero from '../components/ContentHero.astro';
 import Layout from '../layouts/Layout.astro';
+import { siteConfig } from '../config';
+import TakeAction from '../components/TakeAction.astro';
 ---
 
 <Layout title="Privacy Policy">
-	<section class="bg-green-700 text-white py-20">
-		<div class="container mx-auto px-4 text-center">
-			<h1 class="text-5xl font-bold mb-6">Privacy Policy</h1>
+	<ContentHero title="Privacy Policy" />
+
+	<section class="PageSection">
+		<div class="PageSection__content prose">
+			<p>
+				Protect Earth is committed to protecting your privacy. This privacy policy explains how we
+				collect, use, and protect your personal information.
+			</p>
+
+			<h2>What data do we collect & why?</h2>
+			<ul>
+				<li>
+					We collect personally identifiable data, including name and email address, when you sign
+					up to our mailing list or register for an event. We use this information to contact you
+					with details of what we’re working on and how you can help.
+				</li>
+				<li>We collect anonymised website usage statistics to help us improve our website.</li>
+				<li>
+					When you register for an event we also collect details of an emergency contact, solely for
+					use in case of an emergency. This information will not be used for any marketing purposes.
+				</li>
+			</ul>
+
+			<h2>How long will we keep your data for?</h2>
+			<ul>
+				<li>Whilst you are registered on our mailing list.</li>
+				<li>For up to 30 days after you unsubscribe from our mailing list or attend an event.</li>
+			</ul>
+
+			<h2>How will we use your data?</h2>
+
+			<p>
+				We solely hold your data in order to allow us to complete the services we are engaged for in
+				the most effective way. In the unlikely event of any security breach we will inform you of
+				the data that may be vulnerable as soon as possible.
+			</p>
+
+			<h2>Who do we share your data with?</h2>
+
+			<p>
+				We have never and at no point will we ever sell or disclose personal details to anyone. We
+				do have some partners who help us process our data:
+			</p>
+			<ul>
+				<li>
+					We are supported by The Marketing Department Ltd, who help us with our marketing and
+					communications. Your details will be shared with The Marketing Department Ltd solely for
+					the purpose of executing our marketing campaigns.
+				</li>
+				<li>We use cloud services Mailchimp, Google Drive and Notion for processing your data.</li>
+			</ul>
+
+			<h2>Your rights</h2>
+
+			<p>You have the right to:</p>
+
+			<ul>
+				<li>opt out of our mailing list;</li>
+				<li>request us for copies of your personal data;</li>
+				<li>request that we correct any information you believe is not accurate;</li>
+				<li>request that we erase your personal data, under certain conditions;</li>
+				<li>request that we restrict the processing of your data, under certain conditions;</li>
+				<li>object to us processing your data, under certain conditions; and</li>
+				<li>request that we transfer the data that we hold to you, under certain conditions.</li>
+			</ul>
+
+			<h2>Privacy policies of other websites</h2>
+
+			<p>
+				Our website contains links to other websites, however our privacy policy applies only to our
+				website. If you navigate to another website, please be aware that they may have a privacy
+				policy that’s different to ours.
+			</p>
+
+			<h2>How to contact us</h2>
+
+			<p>
+				If you have any questions about our privacy policy or your data, please feel free to contact
+				us <a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a>.
+			</p>
+
+			<h2>How to contact the appropriate authorities</h2>
+
+			<p>
+				Should you wish to report a complaint or if you feel that we have not addressed your concern
+				in a satisfactory manner, you may contact the Information Commissioner’s Office.
+			</p>
 		</div>
 	</section>
 
-	<section class="py-16">
-		<div class="container mx-auto px-4">
-			<div class="prose prose-lg max-w-4xl mx-auto">
-				<p>Protect Earth is committed to protecting your privacy. This privacy policy explains how we collect, use, and protect your personal information.</p>
-			</div>
-		</div>
-	</section>
+	<TakeAction />
 </Layout>
