@@ -10,14 +10,12 @@
 
 	&__image {
 		aspect-ratio: 1;
+		inline-size: 100%;
 		object-fit: cover;
 	}
 
 	&__content {
 		margin-block-start: 2rem;
-	}
-
-	&__header {
 	}
 
 	&__name,
