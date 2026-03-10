@@ -1,0 +1,54 @@
+---
+import type { Page } from 'astro';
+
+type Props = Page;
+
+const { currentPage, lastPage, url } = Astro.props;
+---
+
+<nav class="Pagination" aria-label="Pagination">
+	{
+		url.prev && (
+			<a
+				class="Pagination__link Pagination__link--previous"
+				href={url.prev}
+				class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition"
+			>
+				<svg class="Pagination__icon icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M15 19l-7-7 7-7"
+					/>
+				</svg>
+				Previous
+			</a>
+		)
+	}
+
+	<div class="Pagination__pages">
+		{
+			Array.from({ length: lastPage }, (_, i) => i + 1).map((pageNum) => (
+				<a
+					class="Pagination__link Pagination__link--page"
+					href={pageNum === 1 ? '/articles' : `/articles/${pageNum}`}
+					aria-current={pageNum === currentPage ? 'page' : undefined}
+				>
+					{pageNum}
+				</a>
+			))
+		}
+	</div>
+
+	{
+		url.next && (
+			<a class="Pagination__link Pagination__link--next" href={url.next}>
+				Next
+				<svg class="Pagination__icon icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+				</svg>
+			</a>
+		)
+	}
+</nav>

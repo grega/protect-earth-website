@@ -17,12 +17,13 @@
 @import url('./components/GetStarted.scss');
 @import url('./components/LogoList.scss');
 @import url('./components/Navigation.scss');
+@import url('./components/Pagination.scss');
 @import url('./components/PressArticles.scss');
 @import url('./components/TeamMembers.scss');
 
 @layer reset {
 	:where(html) {
-		color: oklch(21% 0.034 264.665); /* #101828 */
+		color: variables.$color--body;
 		color-scheme: light;
 	}
 }
@@ -34,6 +35,10 @@
 
 	a {
 		color: variables.$color--link;
+	}
+
+	.icon {
+		max-inline-size: 1em;
 	}
 }
 
