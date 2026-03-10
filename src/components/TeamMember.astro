@@ -1,4 +1,7 @@
 ---
+import type { CollectionEntry } from 'astro:content';
+type Props = CollectionEntry<'members'>['data'][0];
+
 const { name, role, image, imageAlt, bio } = Astro.props;
 ---
 

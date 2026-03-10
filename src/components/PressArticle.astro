@@ -1,4 +1,7 @@
 ---
+import type { CollectionEntry } from 'astro:content';
+type Props = CollectionEntry<'press'>['data'][0];
+
 const { title, source, url, image, imageAlt, description, date } = Astro.props;
 ---
 

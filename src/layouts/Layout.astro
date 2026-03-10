@@ -11,9 +11,14 @@ const copyrightYear = new Date().getFullYear();
 interface Props {
 	title: string;
 	description?: string;
+	breadcrumb?: string;
 }
 
-const { title, description = 'Creating and restoring ecosystems in the UK' } = Astro.props;
+const {
+	title,
+	description = 'Creating and restoring ecosystems in the UK',
+	breadcrumb = '',
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -35,7 +40,7 @@ const { title, description = 'Creating and restoring ecosystems in the UK' } = A
 			<Navigation />
 		</PageHeader>
 
-		<Breadcrumbs />
+		<Breadcrumbs activeLabel={breadcrumb} />
 
 		<main id="content">
 			<slot />
