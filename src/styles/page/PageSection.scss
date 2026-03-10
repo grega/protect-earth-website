@@ -33,6 +33,11 @@
 			margin-block-start: 3rem;
 			margin-inline: auto;
 			max-inline-size: variables.$max--inline-size;
+
+			&.prose {
+				max-inline-size: 65ch;
+				text-align: initial;
+			}
 		}
 
 		&[data-layout='stacked'] {
