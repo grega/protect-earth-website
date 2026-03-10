@@ -1,66 +1,63 @@
-.TeamMembers {
-	> * + * {
-		margin-block-start: 2rem;
-	}
-}
-
-.TeamMember {
-	position: relative;
-	text-align: initial;
-
-	&__image {
-		aspect-ratio: 1;
-		inline-size: 100%;
-		object-fit: cover;
-	}
-
-	&__content {
-		margin-block-start: 2rem;
-	}
-
-	&__name,
-	&__role {
-		display: inline;
-		font-size: 1.25rem;
-		font-weight: 700;
-	}
-
-	&__role {
-		&::before {
-			content: ' - ';
-			display: inline;
+@layer components {
+	.TeamMembers {
+		> * + * {
+			margin-block-start: 2rem;
 		}
 	}
 
-	&__bio {
-		margin-block-start: 2rem;
+	.TeamMember {
+		text-align: initial;
 
-		p {
-			font-size: 1rem;
+		&__image {
+			aspect-ratio: 1;
+			inline-size: 100%;
+			object-fit: cover;
+		}
 
-			+ p {
-				margin-block-start: 1rem;
+		&__content {
+			margin-block-start: 2rem;
+		}
+
+		&__name,
+		&__role {
+			display: inline;
+			font-size: 1.25rem;
+			font-weight: 700;
+		}
+
+		&__role {
+			&::before {
+				content: ' - ';
+				display: inline;
 			}
 		}
-	}
 
-	@media screen and (min-width: 37.5rem) {
-		display: grid;
-		gap: 1rem;
-		grid-template-columns: 1fr 2fr;
+		&__bio {
+			margin-block-start: 2rem;
 
-		.TeamMember {
-			&__content {
+			p {
+				font-size: 1rem;
+
+				+ p {
+					margin-block-start: 1rem;
+				}
+			}
+		}
+
+		@media screen and (min-width: 37.5rem) {
+			display: grid;
+			gap: 1rem;
+			grid-template-columns: 1fr 2fr;
+
+			.TeamMember__content {
 				margin-block-start: 0;
 			}
 		}
-	}
 
-	@media screen and (min-width: 48rem) {
-		gap: 2rem;
+		@media screen and (min-width: 48rem) {
+			gap: 2rem;
 
-		.TeamMember {
-			&__content {
+			.TeamMember__content {
 				margin-block-start: 1rem;
 				max-inline-size: 65ch;
 			}

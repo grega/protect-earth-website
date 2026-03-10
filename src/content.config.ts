@@ -23,5 +23,22 @@ const members = defineCollection({
 	),
 });
 
+const press = defineCollection({
+	loader: file('./src/data/press-articles.yaml'),
+	schema: z.array(
+		z.object({
+			title: z.string(),
+			source: z.string(),
+			url: z.string(),
+			image: z.string(),
+			imageAlt: z.string().default(''),
+			description: z.string(),
+
+			// TODO Improve conversion or use full dates.
+			date: z.string().transform((value) => new Date(value)),
+		}),
+	),
+});
+
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { members };
+export const collections = { members, press };

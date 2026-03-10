@@ -1,0 +1,73 @@
+// TODO Basically a duplicate of TeamMembers.scss - find a common component
+@use '../variables';
+
+@layer components {
+	.PressArticles {
+		// TODO Add utility class.
+		> * + * {
+			margin-block-start: 2rem;
+		}
+	}
+
+	.PressArticle {
+		text-align: initial;
+
+		&__image {
+			aspect-ratio: 1;
+			inline-size: 100%;
+			object-fit: cover;
+		}
+
+		&__content {
+			margin-block-start: 2rem;
+		}
+
+		&__header {
+			padding-block-end: 2rem;
+		}
+
+		&__title {
+			font-size: 1.25rem;
+			font-weight: 700;
+		}
+
+		&__link {
+			background-color: variables.$color--primary;
+			// TODO !important
+			color: white !important;
+			display: block;
+			margin-block-start: 2rem;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			transition: background-color 250ms ease;
+
+			&:hover {
+				background-color: variables.$color--link;
+			}
+
+			@media screen and (min-width: 48rem) {
+				max-inline-size: max-content;
+			}
+		}
+
+		@media screen and (min-width: 37.5rem) {
+			display: grid;
+			gap: 1rem;
+			grid-template-columns: 1fr 2fr;
+
+			.PressArticle__content {
+				margin-block-start: 0;
+			}
+		}
+
+		@media screen and (min-width: 48rem) {
+			gap: 2rem;
+
+			.PressArticle__content {
+				margin-block-start: 1rem;
+				max-inline-size: 65ch;
+			}
+		}
+	}
+}
