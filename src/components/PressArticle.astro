@@ -23,6 +23,8 @@ const { title, source, url, image, imageAlt, description, date } = Astro.props;
 
 		<p class="PressArticle__description">{description}</p>
 
-		<a class="PressArticle__link" href={url} target="_blank" rel="noopener">Read article</a>
+		<a class="PressArticle__link block-link" href={url} target="_blank" rel="noopener">
+			Read article
+		</a>
 	</div>
 </article>
