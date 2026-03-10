@@ -8,112 +8,159 @@ const [topLevel, secondLevel] = paths;
 <nav class="Navigation">
 	<ul class="Navigation__items">
 		<li class="Navigation__item">
-			<a class="Navigation__link" href="/" aria-current={topLevel === '' || undefined}>Home</a>
+			<a class="Navigation__link" href="/" aria-current={topLevel === '' ? 'page' : undefined}>
+				Home
+			</a>
 		</li>
 		<li class="Navigation__item">
 			<a
 				class="Navigation__link"
 				href="/get-involved"
-				aria-current={topLevel === 'get-involved' || undefined}>Get Involved</a
+				aria-current={topLevel === 'get-involved' ? 'page' : undefined}
 			>
+				Get Involved
+			</a>
 			<ul class="Navigation__items">
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/get-involved/businesses"
-						aria-current={secondLevel === 'businesses' || undefined}>Businesses</a
+						aria-current={secondLevel === 'businesses' ? 'page' : undefined}
 					>
+						Businesses
+					</a>
 				</li>
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/get-involved/landowners"
-						aria-current={secondLevel === 'landowners' || undefined}>Landowners</a
+						aria-current={secondLevel === 'landowners' ? 'page' : undefined}
 					>
+						Landowners
+					</a>
 				</li>
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/get-involved/people-families"
-						aria-current={secondLevel === 'people-families' || undefined}>People & Families</a
+						aria-current={secondLevel === 'people-families' ? 'page' : undefined}
 					>
+						People & Families
+					</a>
 				</li>
 			</ul>
 		</li>
 		<li class="Navigation__item">
-			<a class="Navigation__link" href="/events" aria-current={topLevel === 'events' || undefined}
-				>Events</a
+			<a
+				class="Navigation__link"
+				href="/events"
+				aria-current={topLevel === 'events' ? 'page' : undefined}
 			>
+				Events
+			</a>
 		</li>
 		<li class="Navigation__item">
-			<a class="Navigation__link" href="/sites" aria-current={topLevel === 'sites' || undefined}
-				>Sites</a>
+			<a
+				class="Navigation__link"
+				href="/sites"
+				aria-current={topLevel === 'sites' ? 'page' : undefined}
+			>
+				Sites
+			</a>
 		</li>
 		<li class="Navigation__item">
 			<a
 				class="Navigation__link"
 				href="/articles"
-				aria-current={topLevel === 'articles' || undefined}>Articles</a>
+				aria-current={topLevel === 'articles' ? 'page' : undefined}
+			>
+				Articles
+			</a>
 		</li>
 		<li class="Navigation__item">
-			<a class="Navigation__link" href="/act-now" aria-current={topLevel === 'act-now' || undefined}
-				>Act Now</a
+			<a
+				class="Navigation__link"
+				href="/act-now"
+				aria-current={topLevel === 'act-now' ? 'page' : undefined}
 			>
+				Act Now
+			</a>
 			<ul class="Navigation__items">
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/act-now/general-donation"
-						aria-current={secondLevel === 'general-donation' || undefined}>General Donation</a
+						aria-current={secondLevel === 'general-donation' ? 'page' : undefined}
 					>
+						General Donation
+					</a>
 				</li>
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/act-now/sponsor-trees"
-						aria-current={secondLevel === 'sponsor-trees' || undefined}>Sponsor Trees</a
+						aria-current={secondLevel === 'sponsor-trees' ? 'page' : undefined}
 					>
+						Sponsor Trees
+					</a>
 				</li>
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/act-now/land-fund"
-						aria-current={secondLevel === 'land-fund' || undefined}>Land Fund</a
+						aria-current={secondLevel === 'land-fund' ? 'page' : undefined}
 					>
+						Land Fund
+					</a>
 				</li>
 			</ul>
 		</li>
 		<li class="Navigation__item">
-			<a class="Navigation__link" href="/about" aria-current={topLevel === 'about' || undefined}
-				>About</a
+			<a
+				class="Navigation__link"
+				href="/about"
+				aria-current={topLevel === 'about' ? 'page' : undefined}
 			>
+				About
+			</a>
 			<ul class="Navigation__items">
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/about/our-purpose"
-						aria-current={secondLevel === 'our-purpose' || undefined}>Our Purpose</a
+						aria-current={secondLevel === 'our-purpose' ? 'page' : undefined}
 					>
+						Our Purpose
+					</a>
 				</li>
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/about/meet-the-team"
-						aria-current={secondLevel === 'meet-the-team' || undefined}>Meet the Team</a
+						aria-current={secondLevel === 'meet-the-team' ? 'page' : undefined}
 					>
+						Meet the Team
+					</a>
 				</li>
 				<li class="Navigation__item">
 					<a
 						class="Navigation__link"
 						href="/about/in-the-press"
-						aria-current={secondLevel === 'in-the-press' || undefined}>In the Press</a
+						aria-current={secondLevel === 'in-the-press' ? 'page' : undefined}
 					>
+						In the Press
+					</a>
 				</li>
 			</ul>
 		</li>
 		<li class="Navigation__item">
-			<a class="Navigation__link" href="/contact" aria-current={topLevel === 'contact' || undefined}
-				>Contact</a>
+			<a
+				class="Navigation__link"
+				href="/contact"
+				aria-current={topLevel === 'contact' ? 'page' : undefined}
+			>
+				Contact
+			</a>
 		</li>
 	</ul>
 </nav>

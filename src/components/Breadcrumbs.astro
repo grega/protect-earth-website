@@ -2,6 +2,8 @@
 const { pathname } = Astro.url;
 const paths = pathname.split('/').filter(Boolean);
 
+const { activeLabel = '' } = Astro.props;
+
 // Create breadcrumb items
 const breadcrumbs = [{ label: 'Home', href: '/' }];
 
@@ -16,7 +18,7 @@ paths.forEach((segment, index) => {
 		.join(' ');
 
 	breadcrumbs.push({
-		label,
+		label: index === paths.length - 1 ? activeLabel || label : label,
 		href: currentPath,
 	});
 });
@@ -46,7 +48,7 @@ paths.forEach((segment, index) => {
 								</svg>
 							)}
 							<a
-								aria-current={index === breadcrumbs.length - 1}
+								aria-current={index === breadcrumbs.length - 1 ? 'page' : undefined}
 								href={crumb.href}
 								class="Breadcrumb__link"
 							>
