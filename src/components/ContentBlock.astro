@@ -1,0 +1,32 @@
+---
+const { imgAlt, imgSrc, isReversed, linkHref, linkTarget, linkText, title, variant } = Astro.props;
+---
+
+<section
+	class="ContentBlock"
+	data-direction={isReversed ? 'reversed' : undefined}
+	data-variant={variant}
+>
+	<img class="ContentBlock__image" src={imgSrc} alt={imgAlt} />
+
+	<div class="ContentBlock__canvas">
+		<h2 class="ContentBlock__title">{title}</h2>
+
+		<div class="ContentBlock__content">
+			<slot />
+		</div>
+
+		{
+			linkHref && (
+				<a
+					class="ContentBlock__link"
+					href={linkHref}
+					target={linkTarget}
+					rel={linkTarget === '_blank' ? 'noopener noreferrer' : undefined}
+				>
+					{linkText}
+				</a>
+			)
+		}
+	</div>
+</section>

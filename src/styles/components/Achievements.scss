@@ -1,0 +1,29 @@
+@use '../variables';
+
+.Achievement {
+	&s {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 32px;
+		margin-block-start: 2rem;
+		margin-inline: auto;
+		max-inline-size: variables.$max--inline-size;
+	}
+
+	text-align: center;
+
+	&__value,
+	&__label {
+		display: block;
+		line-height: 1;
+	}
+
+	&__value {
+		font-size: 6rem;
+	}
+
+	&__label {
+		font-size: 1.5rem;
+		margin-block-start: 0.5rem;
+	}
+}

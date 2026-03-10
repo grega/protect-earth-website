@@ -1,4 +1,5 @@
 ---
+import GetStarted from '../../components/GetStarted.astro';
 import Layout from '../../layouts/Layout.astro';
 ---
 
@@ -10,22 +11,5 @@ import Layout from '../../layouts/Layout.astro';
 		</div>
 	</section>
 
-	<section class="py-16">
-		<div class="container mx-auto px-4">
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-				<a href="/get-involved/people-families" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
-					<h3 class="text-2xl font-bold mb-4 text-green-800">People & Families</h3>
-					<p class="text-gray-600">Ways you can help protect the Earth</p>
-				</a>
-				<a href="/get-involved/businesses" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
-					<h3 class="text-2xl font-bold mb-4 text-green-800">Businesses</h3>
-					<p class="text-gray-600">Corporate partnerships for environmental impact</p>
-				</a>
-				<a href="/get-involved/landowners" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
-					<h3 class="text-2xl font-bold mb-4 text-green-800">Landowners</h3>
-					<p class="text-gray-600">Restore and rewild your land</p>
-				</a>
-			</div>
-		</div>
-	</section>
+	<GetStarted />
 </Layout>

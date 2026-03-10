@@ -1,0 +1,14 @@
+---
+const { imgAlt, imgSrc, title } = Astro.props;
+---
+
+<section class="ContentHero">
+	<div class="ContentHero__content">
+		<h1 class="ContentHero__title">{title}</h1>
+
+		<slot />
+	</div>
+	<div class="ContentHero__canvas">
+		<img class="ContentHero__image" src={imgSrc} alt={imgAlt} />
+	</div>
+</section>
