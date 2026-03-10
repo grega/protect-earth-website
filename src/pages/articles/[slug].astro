@@ -1,61 +1,76 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import CallToAction from '../../components/CallToAction.astro';
+import TakeAction from '../../components/TakeAction.astro';
+import { getEntry } from 'astro:content';
+import { render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const articles = await getCollection('articles');
-  return articles.map((article) => ({
-    params: { slug: article.slug },
-    props: { article },
-  }));
+	const articles = await getCollection('articles');
+
+	return articles.map((article) => ({
+		params: { slug: article.id },
+		data: { article },
+	}));
 }
 
-const { article } = Astro.props;
-const { Content } = await article.render();
+const { slug } = Astro.params;
+
+const article = await getEntry('articles', slug);
+
+if (!article) {
+	return Astro.rewrite('/404');
+}
+
+const {
+	data: { author, description, pubDate, title },
+} = article;
+const { Content } = await render(article);
 ---
 
-<Layout title={article.data.title} description={article.data.description}>
+<Layout {title} {description} breadcrumb={title}>
 	<!-- Hero Section -->
-	<section class="relative bg-gray-900 text-white">
-		<div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-800"></div>
-		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-			<a href="/articles" class="inline-flex items-center text-gray-300 hover:text-white mb-6">
-				<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-				</svg>
-				Back to Articles
-			</a>
-			<h1 class="text-4xl md:text-5xl font-bold mb-6">{article.data.title}</h1>
-			<div class="flex items-center text-gray-300 space-x-4">
-				<time datetime={article.data.pubDate.toISOString()}>
-					{article.data.pubDate.toLocaleDateString('en-GB', {
-						day: 'numeric',
-						month: 'long',
-						year: 'numeric'
-					})}
-				</time>
-				<span>•</span>
-				<span>By {article.data.author}</span>
-			</div>
-		</div>
-	</section>
+	<div class="Post">
+		<header class="Post__header">
+			<div class="Post__headerInner">
+				<h1 class="Post__title">{title}</h1>
 
-	<!-- Article Content -->
-	<article class="py-16 bg-white">
-		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="prose prose-lg max-w-none text-gray-700">
-				<Content />
-			</div>
-		</div>
-	</article>
+				<dl class="Post__meta">
+					<dt class="Post__metaTitle">Posted at</dt>
+					<dd class="Post__metaValue">
+						<time datetime={pubDate.toISOString()}>
+							{
+								pubDate.toLocaleDateString('en-GB', {
+									day: 'numeric',
+									month: 'long',
+									year: 'numeric',
+								})
+							}
+						</time>
+					</dd>
+					<dt class="Post__metaTitle"><span class="visually-hidden">Posted </span>By</dt>
+					<dd class="Post__metaValue">{author}</dd>
+				</dl>
 
-	<CallToAction />
+				<a href="/articles">
+					<svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M15 19l-7-7 7-7"
+						>
+						</path>
+					</svg>
+					Back to Articles
+				</a>
+			</div>
+		</header>
+
+		<div class="Post__content prose">
+			<Content />
+		</div>
+	</div>
+
+	<TakeAction />
 </Layout>
-
-<style>
-	.prose :global(img) {
-		margin-left: auto;
-		margin-right: auto;
-	}
-</style>
