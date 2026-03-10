@@ -4,10 +4,12 @@ import { siteConfig } from '../config';
 import { getCollection } from 'astro:content';
 import GetStarted from '../components/GetStarted.astro';
 import TakeAction from '../components/TakeAction.astro';
+import ArticleSummary from '../components/ArticleSummary.astro';
 
 const latestPosts = (await getCollection('articles'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.slice(0, 4);
+	.slice(0, 4)
+	.map((post) => ({ slug: post.id, data: post.data }));
 ---
 
 <Layout title="Home">
@@ -78,32 +80,8 @@ const latestPosts = (await getCollection('articles'))
 
 		<div class="PageSection__content article-list">
 			{
-				latestPosts.map(({ slug, data: { description, pubDate, thumbnail, title } }) => (
-					<article class="Article">
-						<header class="Article__header">
-							<h3 class="Article__title">{title}</h3>
-
-							<time class="Article__date" datetime={pubDate.toISOString()}>
-								{pubDate.toLocaleDateString('en-GB', {
-									day: 'numeric',
-									month: 'long',
-									year: 'numeric',
-								})}
-							</time>
-						</header>
-
-						{thumbnail && <img class="Article__thumbnail" src={thumbnail} alt="" />}
-
-						{description && (
-							<div class="Article__description">
-								<p>{description}</p>
-							</div>
-						)}
-
-						<a class="Article__link" href={`/articles/${slug}`}>
-							Read more
-						</a>
-					</article>
+				latestPosts.map(({ slug, data: article }) => (
+					<ArticleSummary {...{ ...article, slug, titleAs: 'h3' }} />
 				))
 			}
 		</div>

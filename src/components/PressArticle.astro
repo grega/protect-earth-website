@@ -15,7 +15,7 @@ const { title, source, url, image, imageAlt, description, date } = Astro.props;
 				<dt class="PressArticle__metaTitle visually-hidden">Posted</dt>
 				<dd class="PressArticle__metaValue">
 					<time datetime={date.toISOString()}>
-						{date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+						{date.toLocaleDateString('en-GB', { month: 'short', day: 'numeric', year: 'numeric' })}
 					</time>
 				</dd>
 			</dl>
