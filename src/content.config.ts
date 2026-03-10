@@ -10,6 +10,17 @@ import { glob, file } from 'astro/loaders';
 import { z } from 'astro/zod';
 
 // 4. Define a `loader` and `schema` for each collection
+const articles = defineCollection({
+	loader: glob({ base: './src/content/articles', pattern: '**/*.{md, mdx}' }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+		pubDate: z.date(),
+		author: z.string(),
+		thumbnail: z.string().optional(),
+	}),
+});
+
 const members = defineCollection({
 	loader: file('./src/data/team.yaml'),
 	schema: z.array(
@@ -41,4 +52,4 @@ const press = defineCollection({
 });
 
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { members, press };
+export const collections = { articles, members, press };

@@ -14,8 +14,13 @@
 
 		&__thumbnail {
 			aspect-ratio: 1.33333;
-			object-fit: cover;
 			order: -1;
+
+			img {
+				block-size: 100%;
+				inline-size: 100%;
+				object-fit: cover;
+			}
 		}
 
 		&__description {
@@ -24,6 +29,7 @@
 
 		&__link {
 			font-size: 0.875rem;
+			margin-block-start: auto;
 
 			&::before {
 				content: '';

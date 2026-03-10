@@ -45,6 +45,7 @@
 
 @layer utility {
 	.article-list {
+		align-items: stretch;
 		justify-content: center;
 		display: grid;
 		gap: 30px;
