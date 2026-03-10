@@ -1,0 +1,33 @@
+@use '../variables';
+
+@layer components {
+	.GetStarted {
+		&__methods {
+			@media screen and (min-width: 1024px) {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				width: 100%;
+			}
+		}
+
+		&__method {
+			@media screen and (min-width: 1024px) {
+				background-image: attr(data-background-image);
+				height: 10rem;
+			}
+
+			a {
+				max-width: 520px;
+				margin-inline: auto;
+			}
+		}
+
+		&__method + &__method {
+			margin-block-start: 1rem;
+
+			@media screen and (min-width: 1024px) {
+				margin-block-start: 0;
+			}
+		}
+	}
+}

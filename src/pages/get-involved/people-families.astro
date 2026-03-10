@@ -1,18 +1,22 @@
 ---
+import ContentBlock from '../../components/ContentBlock.astro';
+import ContentHero from '../../components/ContentHero.astro';
+import TakeAction from '../../components/TakeAction.astro';
 import Layout from '../../layouts/Layout.astro';
-import CallToAction from '../../components/CallToAction.astro';
 ---
 
 <Layout title="People & Families">
 	<!-- Hero Section -->
-	<section class="relative bg-gray-900 text-white">
-		<div class="absolute inset-0">
-			<img src="/hero-people-families.jpg" alt="Group of people outdoors planting trees on a hillside" class="w-full h-full object-cover opacity-60" />
-		</div>
-		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-			<h1 class="text-5xl font-bold mb-6">People & Families</h1>
-		</div>
-	</section>
+	<ContentHero
+		title="People & Families"
+		imgSrc="/hero-people-families.jpg"
+		imgAlt="Group of people outdoors planting trees on a hillside"
+	>
+		<p>
+			Get stuck in and fight the climate and biodiversity crises. Whether you can offer your time,
+			money, or expertise, there's a way for everyone to make a difference.
+		</p>
+	</ContentHero>
 
 	<!-- Introduction Section -->
 	<section class="py-16 bg-white">
@@ -20,115 +24,98 @@ import CallToAction from '../../components/CallToAction.astro';
 			<div class="grid md:grid-cols-2 gap-12 items-center">
 				<div>
 					<p class="text-xl text-gray-700 mb-6">
-						Get stuck in and fight the climate and biodiversity crises. Whether you can offer your time, money, or expertise, there's a way for everyone to make a difference.
+						Get stuck in and fight the climate and biodiversity crises. Whether you can offer your
+						time, money, or expertise, there's a way for everyone to make a difference.
 					</p>
 					<p class="text-xl text-gray-700">
-						Volunteers are the backbone of our charity, and with many hands, even the biggest tree planting jobs become manageable. We'll provide all the guidance you need to make the most of your volunteering with us, just bring a good attitude! These events are family-friendly and we welcome people of all ages and abilities.
+						Volunteers are the backbone of our charity, and with many hands, even the biggest tree
+						planting jobs become manageable. We'll provide all the guidance you need to make the
+						most of your volunteering with us, just bring a good attitude! These events are
+						family-friendly and we welcome people of all ages and abilities.
 					</p>
 				</div>
 				<div>
-					<img src="/people-families-intro.jpg" alt="People planting small trees on a hillside with protective covers" class="w-full rounded-lg shadow-lg" />
+					<img
+						src="/people-families-intro.jpg"
+						alt="People planting small trees on a hillside with protective covers"
+						class="w-full rounded-lg shadow-lg"
+					/>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Volunteering - Planting -->
-	<section class="py-16 bg-gray-50">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid md:grid-cols-2 gap-12 items-center">
-				<div class="order-2 md:order-1">
-					<img src="/people-families-planting.jpg" alt="Group of people planting trees in a field with mountains in the background" class="w-full rounded-lg shadow-lg" />
-				</div>
-				<div class="order-1 md:order-2">
-					<h2 class="text-4xl font-bold mb-6">Volunteering — Planting</h2>
-					<p class="text-lg text-gray-700 mb-6">
-						Join one of our tree planting and seed sowing events! Tree planting season runs from October to March, and during this time we host multiple planting days where everyone is welcome to get involved.
-					</p>
-					<p class="text-lg text-gray-700 mb-8">
-						These events are a fantastic way to connect with nature, meet like-minded people, and directly contribute to reforestation efforts.
-					</p>
-					<a href="/events" class="inline-block bg-green-700 text-white px-8 py-4 rounded-lg hover:bg-green-800 transition font-semibold">
-						Browse Events →
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
+	<ContentBlock
+		imgSrc="/people-families-planting.jpg"
+		imgAlt="Group of people planting trees in a field with mountains in the background"
+		linkHref="/events"
+		linkText="Browse Events →"
+		title="Volunteering — Planting"
+	>
+		<p>
+			Join one of our tree planting and seed sowing events! Tree planting season runs from October
+			to March, and during this time we host multiple planting days where everyone is welcome to get
+			involved.
+		</p>
+		<p>
+			These events are a fantastic way to connect with nature, meet like-minded people, and directly
+			contribute to reforestation efforts.
+		</p>
+	</ContentBlock>
 
 	<!-- Volunteering - Maintenance -->
-	<section class="py-16 bg-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid md:grid-cols-2 gap-12 items-center">
-				<div>
-					<h2 class="text-4xl font-bold mb-6">Volunteering — Maintenance</h2>
-					<p class="text-lg text-gray-700 mb-6">
-						Outside of planting season, we focus on maintaining the trees to ensure they thrive. Join us for sessions where we weed, mulch, and water during droughts.
-					</p>
-					<p class="text-lg text-gray-700 mb-8">
-						You can also help with vital tasks like removing invasive species to make room for native plants or participating in litter picks to protect wildlife from harmful plastics. Every action makes a huge impact.
-					</p>
-					<a href="/events" class="inline-block bg-green-700 text-white px-8 py-4 rounded-lg hover:bg-green-800 transition font-semibold">
-						Browse Events →
-					</a>
-				</div>
-				<div>
-					<img src="/people-families-maintenance.jpg" alt="A group of people planting trees in a grassy field surrounded by trees" class="w-full rounded-lg shadow-lg" />
-				</div>
-			</div>
-		</div>
-	</section>
+	<ContentBlock
+		imgSrc="/people-families-maintenance.jpg"
+		imgAlt="A group of people planting trees in a grassy field surrounded by trees."
+		linkHref="/events"
+		linkText="Browse Events →"
+		title="Volunteering — Maintenance"
+		isReversed
+	>
+		<p>
+			Outside of planting season, we focus on maintaining the trees to ensure they thrive. Join us
+			for sessions where we weed, mulch, and water during droughts.
+		</p>
+		<p>
+			You can also help with vital tasks like removing invasive species to make room for native
+			plants or participating in litter picks to protect wildlife from harmful plastics. Every
+			action makes a huge impact.
+		</p>
+	</ContentBlock>
 
 	<!-- Donations & Fundraising -->
-	<section class="py-16 bg-gray-50">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid md:grid-cols-2 gap-12 items-center">
-				<div class="order-2 md:order-1">
-					<img src="/people-families-fundraising.jpg" alt="Group of people planting trees in a grassy field" class="w-full rounded-lg shadow-lg" />
-				</div>
-				<div class="order-1 md:order-2">
-					<h2 class="text-4xl font-bold mb-6">Donations & Fundraising</h2>
-					<p class="text-lg text-gray-700 mb-8">
-						There are lots of ways you can help fund our charity. Please consider <a href="/act-now/general-donation" class="text-green-700 hover:underline">donating</a>, <a href="/act-now/sponsor-trees" class="text-green-700 hover:underline">sponsoring a tree</a>, or contributing to our <a href="/act-now/land-fund" class="text-green-700 hover:underline">Land Fund</a>. Want to take it a step further? Embark on a personal challenge, or encourage your company to pledge 1% for the planet. If you have any novel ideas you'd like to discuss, please get in touch.
-					</p>
-					<a href="/contact" class="inline-block bg-green-700 text-white px-8 py-4 rounded-lg hover:bg-green-800 transition font-semibold">
-						Contact Us →
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
+	<ContentBlock
+		imgAlt="Group of people planting trees in a grassy field."
+		imgSrc="/people-families-fundraising.jpg"
+		title="Donations & Fundraising"
+		linkHref="/contact"
+		linkText="Contact Us →"
+	>
+		<p>
+			There are lots of ways you can help fund our charity. Please consider
+			<a href="/act-now/general-donation">donating</a>,
+			<a href="/act-now/sponsor-trees">sponsoring a tree</a>, or contributing to our
+			<a href="/act-now/land-fund">Land Fund</a>. Want to take it a step further? Embark on a
+			personal challenge, or encourage your company to pledge 1% for the planet. If you have any
+			novel ideas you'd like to discuss, please get in touch.
+		</p>
+	</ContentBlock>
 
 	<!-- Buy More Land for Planting -->
-	<section class="py-16 bg-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid md:grid-cols-2 gap-12 items-center">
-				<div>
-					<h2 class="text-4xl font-bold mb-6">Buy More Land for Planting</h2>
-					<p class="text-lg text-gray-700 mb-8">
-						We are delighted to be able to offer our expert services to help you secure the correct land for reforesting, rewetting or rewilding.
-					</p>
-					<a href="/people-and-families/well-help-you-buy-land" class="inline-block bg-green-700 text-white px-8 py-4 rounded-lg hover:bg-green-800 transition font-semibold">
-						See More →
-					</a>
-				</div>
-				<div>
-					<img src="/people-families-land.jpg" alt="Rolling green hills with scattered trees and stone walls in a rural landscape" class="w-full rounded-lg shadow-lg" />
-				</div>
-			</div>
-		</div>
-	</section>
+	<ContentBlock
+		imgAlt="Rolling green hills with scattered trees and stone walls in a rural landscape"
+		imgSrc="/people-families-land.jpg"
+		linkHref="/people-and-families/well-help-you-buy-land"
+		linkText="See More →"
+		title="Buy More Land for Planting"
+		isReversed
+	>
+		<p>
+			We are delighted to be able to offer our expert services to help you secure the correct land
+			for reforesting, rewetting or rewilding.
+		</p>
+	</ContentBlock>
 
-	<CallToAction />
-</Layout>
-				<div class="bg-white rounded-lg p-8 shadow-md">
-					<h3 class="text-2xl font-bold mb-4">Sponsor Trees</h3>
-					<p class="text-gray-600 mb-6">Help us plant and maintain trees for future generations.</p>
-					<a href="/act-now/sponsor-trees" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded transition">
-						Sponsor Now
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
+	<TakeAction />
 </Layout>

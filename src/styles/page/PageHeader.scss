@@ -1,0 +1,21 @@
+@layer page {
+	.PageHeader {
+		background-color: white;
+		padding: 20px;
+
+		.container {
+			align-items: center;
+			display: flex;
+			gap: 2rem;
+			justify-content: space-between;
+		}
+
+		.Logo {
+			max-inline-size: 12rem;
+
+			@media screen and (min-width: 64rem) {
+				max-inline-size: 24rem;
+			}
+		}
+	}
+}

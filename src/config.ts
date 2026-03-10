@@ -1,26 +1,26 @@
 // Site configuration
 export const siteConfig = {
-  name: "Protect Earth",
-  tagline: "Creating and restoring ecosystems in the UK",
-  charityNumber: "1192453",
+	name: 'Protect Earth',
+	tagline: 'Creating and restoring ecosystems in the UK',
+	charityNumber: '1192453',
 
-  contact: {
-    email: "help@protect.earth",
-    phone: "+44 (0) 300 302 0065",
-  },
+	contact: {
+		email: 'help@protect.earth',
+		phone: { label: '+44 (0) 300 302 0065', link: 'tel:+443003020065' },
+	},
 
-  social: {
-    threads: "https://www.threads.net/@protectearthuk",
-    instagram: "https://instagram.com/ProtectEarthUK",
-    facebook: "https://facebook.com/ProtectEarthUK",
-  },
+	social: {
+		threads: 'https://www.threads.net/@protectearthuk',
+		instagram: 'https://instagram.com/ProtectEarthUK',
+		facebook: 'https://facebook.com/ProtectEarthUK',
+	},
 
-  achievements: {
-    treesPlanted: 157453,
-    acresRestored: 400,
-    acresUnderManagement: 180,
-  },
+	achievements: {
+		treesPlanted: 157453,
+		acresRestored: 400,
+		acresUnderManagement: 180,
+	},
 
-  // Sites to ignore from API data
-  ignoredSites: ["Burnsall", "Donkeywell Farm", "Newcastle Emlyn", "Wraxall"],
+	// Sites to ignore from API data
+	ignoredSites: ['Burnsall', 'Donkeywell Farm', 'Newcastle Emlyn', 'Wraxall'],
 } as const;
