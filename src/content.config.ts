@@ -59,5 +59,19 @@ const siteMeta = defineCollection({
 	}),
 });
 
+const siteUpdates = defineCollection({
+	loader: glob({ base: './src/content/site-updates', pattern: '**/*.md' }),
+	schema: z.object({
+		fundingPartners: z.array(z.string()).optional(),
+		tags: z.array(z.string()).optional(),
+		title: z.string(),
+		notionId: z.string(),
+		type: z.string(),
+		date: z.string(),
+		siteNotionId: z.string(),
+		treesPlanted: z.number().optional(),
+	}),
+});
+
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { articles, members, press, siteMeta };
+export const collections = { articles, members, press, siteMeta, siteUpdates };

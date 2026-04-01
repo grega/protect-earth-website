@@ -276,6 +276,89 @@
 			}
 		}
 
+		&Updates {
+			background-color: white;
+			// margin-block-start: 3rem;
+
+			&__feed > * + * {
+				margin-block-start: 1.5rem;
+			}
+		}
+
+		&Update {
+			padding: 1.5rem 24px;
+			border-radius: 0.5rem;
+			border: 1px solid #e5e7eb;
+			background-color: #f9fafb;
+			transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+			&:hover {
+				border-color: #10b981;
+			}
+
+			&__header {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+			}
+
+			&__title {
+				font-size: 1.25rem;
+				line-height: 1.75rem;
+				font-weight: 600;
+				color: #111827;
+			}
+
+			&__feed > * + * {
+				margin-block-start: 0.75rem;
+			}
+
+			&__meta {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem;
+			}
+
+			&__tag {
+				--SiteUpdateTag--color: inherit;
+				--SiteUpdateTag--color-background: transparent;
+
+				align-items: center;
+				background-color: var(--SiteUpdateTag--background-color);
+				border-radius: 10rem;
+				color: var(--SiteUpdateTag--color);
+				display: inline-flex;
+				font-size: 0.875rem;
+				font-weight: 500;
+				line-height: 1.25rem;
+				padding: 0.25rem 12px;
+
+				&[data-type='type'] {
+					--SiteUpdateTag--color: #065f46;
+					--SiteUpdateTag--color-background: #d1fae5;
+				}
+
+				&[data-type='planted'] {
+					--SiteUpdateTag--color: #1e40af;
+					--SiteUpdateTag--color-background: #dbeafe;
+				}
+
+				&[data-type='restocked'] {
+					--SiteUpdateTag--color: #5b21b6;
+					--SiteUpdateTag--color-background: #ede9fe;
+				}
+
+				&[data-type='survival-rate'] {
+					--SiteUpdateTag--color: #006045;
+					--SiteUpdateTag--color-background: #d0fae5;
+				}
+			}
+
+			&__body {
+				color: #374151;
+			}
+		}
+
 		&Partners {
 			&__list {
 				align-items: center;

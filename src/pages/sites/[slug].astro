@@ -17,6 +17,30 @@ export async function getStaticPaths() {
 	// Filter out ignored sites
 	const apiSites = allApiSites.filter((site: any) => !siteConfig.ignoredSites.includes(site.name));
 
+	// Fetch site updates for this site
+	const allSiteUpdates = await getCollection('siteUpdates');
+	const siteNotionIds = site.data.notionIds || [];
+	const siteUpdates = await Promise.all(
+		allSiteUpdates
+			.filter(
+				(update) => update.data.siteNotionId && siteNotionIds.includes(update.data.siteNotionId),
+			)
+			.map((siteUpdate) => ({
+				...siteUpdate,
+
+				data: { ...siteUpdate.data, date: new Date(siteUpdate.data.date) },
+			}))
+			.sort((a, b) => {
+				if (!a.data.date) return 1;
+				if (!b.data.date) return -1;
+				return b.data.date.getTime() - a.data.date.getTime();
+			})
+			.map(async (update) => ({
+				...update,
+				bodyHtml: update.body ? await marked.parse(update.body) : '',
+			})),
+	);
+
 	const siteCollection = await getCollection('siteMeta');
 
 	// Create a map of API data by kebab-case name
@@ -49,12 +73,13 @@ const siteName = apiData?.name || site.id;
 const siteLocation = apiData?.location || '';
 const treeCount = apiData?.allocatedUnits || 0;
 const coordinates = apiData?.coordinates;
-const heroImage = apiData?.images?.[0] || null;
+// Use images directly from content collection
+const images = site.data.images || [];
+const heroImage = images[0] || null;
 const fundingPartners = site.data.fundingPartners || [];
 const siteDescription = apiData?.description;
 const descriptionHtml = siteDescription ? await marked.parse(siteDescription) : '';
 const species = apiData?.species || [];
-const images = apiData?.images || [];
 
 // Funding partner logo mapping
 type FundingPartnerInfo = { src: string; alt: string; url: string };
@@ -90,12 +115,8 @@ const fundingPartnerInfos = fundingPartners
 	<!-- Hero Section -->
 	<ContentHero imageAlt="" imgSrc={heroImage} title={siteName}>
 		<div>
-			{siteLocation && <p class="text-xl text-gray-300 mb-4">📍 {siteLocation}</p>}
-			{
-				treeCount > 0 && (
-					<p class="text-xl text-gray-300">🌳 {treeCount.toLocaleString()} trees planted</p>
-				)
-			}
+			{siteLocation && <p>📍 {siteLocation}</p>}
+			{treeCount > 0 && <p>🌳 {treeCount.toLocaleString()} trees planted</p>}
 		</div>
 	</ContentHero>
 
@@ -147,6 +168,90 @@ const fundingPartnerInfos = fundingPartners
 							</li>
 						))}
 					</ul>
+				</div>
+			</section>
+		)
+	}
+
+	<!-- Site Updates Section -->
+	{
+		siteUpdates.length > 0 && (
+			<section class="PageSection SiteUpdates">
+				<header class="PageSection__header">
+					<h2 class="PageSection__title text-3xl font-bold mb-8 text-gray-900">
+						<span aria-hidden class="inline-block mr-2">📝</span>
+						Site Updates
+					</h2>
+				</header>
+				<div class="PageSection__content SiteUpdates__feed space-y-6">
+					{siteUpdates.map((update) => (
+						<article class="SiteUpdate ">
+							<header class="SiteUpdate__header">
+								<h3 class="SiteUpdate__title">
+									<time datetime={update.data.date.toISOString()}>
+										{update.data.date.toLocaleDateString('en-GB', {
+											year: 'numeric',
+											month: 'long',
+										})}
+									</time>
+								</h3>
+							</header>
+
+							<dl class="SiteUpdate__meta flex flex-wrap gap-2 mb-3">
+								{update.data.type && (
+									<dt class="visually-hidden">Type</dt>
+									<dd class="SiteUpdate__tag" data-type="type">
+										{update.data.type}
+									</dd>
+								)}
+								{update.data.treesPlanted && (
+									<dt class="visually-hidden">Trees planted</dt>
+									<dd class="SiteUpdate__tag" data-type="planted">
+										Trees planted
+										<span aria-hidden>🌳</span> {update.data.treesPlanted.toLocaleString()}<span aria-hidden> trees planted</span>
+									</dd>
+								)}
+								{update.data.treesRestocked && (
+									<dt class="visually-hidden">Trees restocked</dt>
+									<dd class="SiteUpdate__tag" data-type="restocked">
+										<span aria-hidden>🌱</span> {update.data.treesRestocked.toLocaleString()}<span aria-hidden> trees restocked</span>
+									</dd>
+								)}
+								{update.data.survivalRate != null && (
+									<dt class="visually-hidden">Survival rate</dt>
+									<dd class="SiteUpdate__tag" data-type="survival-rate">
+										<span aria-hidden>📊</span> {(update.data.survivalRate * 100).toFixed(0)}%<span aria-hidden> survival rate</span>
+									</dd>
+								)}
+							</dl>
+
+							{update.bodyHtml && (
+								<div
+									class="prose prose-sm max-w-none text-gray-700 mb-3"
+									set:html={update.bodyHtml}
+								/>
+							)}
+
+							{update.data.photos && update.data.photos.length > 0 && (
+								<div class="mt-4">
+									<div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+										{update.data.photos
+											.filter((photo) => photo.startsWith('/site-updates/'))
+											.map((photo) => (
+												<a href={photo} target="_blank" rel="noopener noreferrer" class="block">
+													<img
+														src={photo}
+														alt={`${update.data.title} photo`}
+														class="w-full h-40 object-cover rounded-lg hover:opacity-90 transition-opacity shadow-md"
+														loading="lazy"
+													/>
+												</a>
+											))}
+									</div>
+								</div>
+							)}
+						</article>
+					))}
 				</div>
 			</section>
 		)

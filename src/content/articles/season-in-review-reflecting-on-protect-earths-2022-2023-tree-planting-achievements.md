@@ -74,7 +74,7 @@ We also want to thank our dedicated volunteers, both corporate and individuals, 
 
 Finally, to those who have enjoyed the green spaces we created this season, your appreciation and use of these spaces is a big part of the reasons for doing this.
 
-As we look forward to the upcoming planting season, we [invite you to join us in volunteering](https://www.protect.earth/volunteering) to protect and restore natural habitats all over the UK. Whether you're an individual wanting to [contribute your time](https://www.protect.earth/events) at an event, a [corporate group](https://noteforms.com/forms/corporate-volunteering-ivbmrp) looking to organise a tree-planting initiative, or a landowner wishing to enhance biodiversity, we welcome and value your involvement.&nbsp;
+As we look forward to the upcoming planting season, we [invite you to join us in volunteering](https://www.protect.earth/volunteering) to protect and restore natural habitats all over the UK. Whether you're an individual wanting to [contribute your time](https://www.protect.earth/events) at an event, a [corporate group](https://protectearthcio.notion.site/2c1e7dc6657c80d3b21ff727acd31056) looking to organise a tree-planting initiative, or a landowner wishing to enhance biodiversity, we welcome and value your involvement.&nbsp;
 
 Landowners, if you're keen on transforming your land into a thriving natural habitat, please [reach out](https://www.protect.earth/contact) to us – we're always eager to discuss potential projects.&nbsp;
 
