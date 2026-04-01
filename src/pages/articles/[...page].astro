@@ -2,10 +2,10 @@
 import { getCollection } from 'astro:content';
 import type { GetStaticPaths, Page } from 'astro';
 import Layout from '../../layouts/Layout.astro';
-import CallToAction from '../../components/CallToAction.astro';
 import ContentHero from '../../components/ContentHero.astro';
 import ArticleSummary from '../../components/ArticleSummary.astro';
 import Pagination from '../../components/Pagination.astro';
+import TakeAction from '../../components/TakeAction.astro';
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const articles = (await getCollection('articles'))
@@ -38,5 +38,5 @@ const { page } = Astro.props as { page: Page };
 		</div>
 	</section>
 
-	<CallToAction />
+	<TakeAction />
 </Layout>

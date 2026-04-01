@@ -4,99 +4,83 @@ import { siteConfig } from '../config';
 import ContentHero from '../components/ContentHero.astro';
 ---
 
-<Layout title="Contact">
-	<ContentHero title="Get in touch">
+<Layout title="Contact" className="Contact">
+	<ContentHero title="Get in touch" variant="tertiary">
 		<p>
 			We'd love to hear from you. Whether you're interested in volunteering, have land to offer, or
 			want to support our work, please get in touch.
 		</p>
 	</ContentHero>
 
-	<section class="py-16">
-		<div class="container mx-auto px-4 max-w-4xl">
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+	<div class="PageSection">
+		<div class="container inline-centered readable-width" data-readable-width="larger">
+			<div class="Contact__layout">
 				<div>
-					<h2 class="text-3xl font-bold mb-6">Contact Information</h2>
+					<h2 class="Contact__subTitle">Contact Information</h2>
 
-					<div class="space-y-4">
-						<div>
-							<h3 class="text-xl font-semibold mb-2">Email</h3>
-							<p>
-								<a
-									href={`mailto:${siteConfig.contact.email}`}
-									class="text-green-700 hover:text-green-800">{siteConfig.contact.email}</a
-								>
-							</p>
-						</div>
+					<div class="Contact__list">
+						<address>
+							<div>
+								<strong>Email</strong>
 
-						<div>
-							<h3 class="text-xl font-semibold mb-2">Phone</h3>
-							<p>
-								<a href={siteConfig.contact.phone.link} class="text-green-700 hover:text-green-800"
-									>{siteConfig.contact.phone.label}</a
-								>
-							</p>
-						</div>
+								<a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a>
+							</div>
+
+							<div>
+								<strong>Phone</strong>
+
+								<a href={siteConfig.contact.phone.link}>{siteConfig.contact.phone.label}</a>
+							</div>
+						</address>
 
 						<div>
-							<h3 class="text-xl font-semibold mb-2">Charity Number</h3>
-							<p class="text-gray-600">{siteConfig.charityNumber}</p>
+							<strong>Charity Number</strong>
+							<span>{siteConfig.charityNumber}</span>
 						</div>
 					</div>
 				</div>
 
 				<div>
-					<h2 class="text-3xl font-bold mb-6">Follow Us</h2>
-					<div class="space-y-3">
-						<p>
+					<h2 class="Contact__subTitle">Follow Us</h2>
+					<div class="Contact__list">
+						<div>
 							<a href={siteConfig.social.threads} target="_blank" rel="noopener noreferrer">
 								Threads →
 							</a>
-						</p>
-						<p>
+						</div>
+						<div>
 							<a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer">
 								Instagram →
 							</a>
-						</p>
-						<p>
+						</div>
+						<div>
 							<a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer">
 								Facebook →
 							</a>
-						</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<section class="bg-gray-100 py-16">
-		<div class="container mx-auto px-4 max-w-4xl">
-			<h2 class="text-3xl font-bold mb-8">Ways to Get Involved</h2>
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-				<a
-					href="/about/volunteer-with-us"
-					class="bg-white p-6 rounded-lg hover:shadow-lg transition"
-				>
-					<h3 class="text-xl font-bold mb-2">Volunteer</h3>
-					<p class="text-gray-600">Join us at tree planting events and woodland maintenance days</p>
+	<section class="PageSection" data-variant="muted">
+		<h2 class="PageSection__title">Ways to Get Involved</h2>
+		<div class="PageSection__content">
+			<nav class="PanelLinks">
+				<a href="/get-involved/people-families" class="PanelLinks__link">
+					<strong class="text-xl font-bold mb-2">Volunteer</strong>
+					<span>Join us at tree planting events and woodland maintenance days</span>
 				</a>
-				<a
-					href="/act-now/general-donation"
-					class="bg-white p-6 rounded-lg hover:shadow-lg transition"
-				>
-					<h3 class="text-xl font-bold mb-2">Donate</h3>
-					<p class="text-gray-600">
-						Support our work creating and restoring woodlands across the UK
-					</p>
+				<a href="/act-now/general-donation" class="PanelLinks__link">
+					<strong class="text-xl font-bold mb-2">Donate</strong>
+					<span> Support our work creating and restoring woodlands across the UK </span>
 				</a>
-				<a
-					href="/get-involved/landowners"
-					class="bg-white p-6 rounded-lg hover:shadow-lg transition"
-				>
-					<h3 class="text-xl font-bold mb-2">Landowners</h3>
-					<p class="text-gray-600">Have land you'd like to see transformed into woodland?</p>
+				<a href="/get-involved/landowners" class="PanelLinks__link">
+					<strong class="text-xl font-bold mb-2">Landowners</strong>
+					<span>Have land you'd like to see transformed into woodland?</span>
 				</a>
-			</div>
+			</nav>
 		</div>
 	</section>
 </Layout>

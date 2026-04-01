@@ -2,9 +2,15 @@
 
 @layer page {
 	.ContentHero {
+		--ContentHero--color-background: #111827;
+
 		color: white;
-		background-color: rgb(17 24 39);
+		background-color: var(--ContentHero--color-background);
 		position: relative;
+
+		&[data-variant='tertiary'] {
+			--ContentHero--color-background: #{variables.$color--tertiary};
+		}
 
 		&__content {
 			margin-inline: auto;

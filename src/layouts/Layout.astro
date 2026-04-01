@@ -12,12 +12,14 @@ interface Props {
 	title: string;
 	description?: string;
 	breadcrumb?: string;
+	className?: string;
 }
 
 const {
 	title,
 	description = 'Creating and restoring ecosystems in the UK',
 	breadcrumb = '',
+	className = '',
 } = Astro.props;
 ---
 
@@ -42,7 +44,7 @@ const {
 
 		<Breadcrumbs activeLabel={breadcrumb} />
 
-		<main id="content">
+		<main id="content" class={className}>
 			<slot />
 		</main>
 

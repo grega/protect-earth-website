@@ -1,8 +1,8 @@
 ---
-const { imgAlt, imgSrc, title } = Astro.props;
+const { imgAlt, imgSrc, title, variant = '' } = Astro.props;
 ---
 
-<section class="ContentHero">
+<header class="ContentHero" data-variant={variant || undefined}>
 	<div class="ContentHero__content">
 		<h1 class="ContentHero__title">{title}</h1>
 
@@ -11,4 +11,4 @@ const { imgAlt, imgSrc, title } = Astro.props;
 	<div class="ContentHero__canvas">
 		{imgSrc && <img class="ContentHero__image" src={imgSrc} alt={imgAlt} loading="eager" />}
 	</div>
-</section>
+</header>

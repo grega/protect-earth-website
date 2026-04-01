@@ -78,5 +78,45 @@
 				color: white !important;
 			}
 		}
+
+		&[data-variant='muted'] {
+			--PageSection--color-background: #f3f4f6;
+		}
+
+		&[data-variant='call-to-action'] {
+			--PageSection--color-background: #f9fafb;
+
+			padding-bottom: 5rem;
+			padding-top: 5rem;
+
+			.PageSection__header {
+				margin-block-end: 32px;
+			}
+		}
+
+		&[data-layout^='sidebar'] {
+			.PageSection {
+				&__content {
+					display: grid;
+					grid-template-columns: repeat(1, minmax(0, 1fr));
+					gap: 3rem;
+					text-align: left;
+
+					@media screen and (min-width: 64rem) {
+						grid-template-columns: repeat(3, minmax(0, 1fr));
+					}
+				}
+			}
+		}
+
+		&[data-layout='sidebar-right'] {
+			.PageSection {
+				&__content {
+					div:first-of-type {
+						grid-column: span 2 / span 2;
+					}
+				}
+			}
+		}
 	}
 }

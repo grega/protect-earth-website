@@ -4,12 +4,14 @@ import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout title="Get Involved">
-	<section class="bg-green-700 text-white py-20">
-		<div class="container mx-auto px-4 text-center">
-			<h1 class="text-5xl font-bold mb-6">Get Involved</h1>
-			<p class="text-xl max-w-3xl mx-auto">Join us in protecting Earth</p>
+	<section class="PageSection">
+		<header class="PageSection">
+			<h1 class="PageSection__title">Get Involved</h1>
+			<p>Join us in protecting Earth</p>
+		</header>
+
+		<div class="PageSection__content">
+			<GetStarted noTitle />
 		</div>
 	</section>
-
-	<GetStarted />
 </Layout>

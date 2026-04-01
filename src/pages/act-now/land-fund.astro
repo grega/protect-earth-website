@@ -1,68 +1,81 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import CallToAction from '../../components/CallToAction.astro';
+import ContentHero from '../../components/ContentHero.astro';
+import TakeAction from '../../components/TakeAction.astro';
 ---
 
 <Layout title="Buy more land for restoration">
 	<!-- Hero Section -->
-	<section class="relative bg-gray-900 text-white">
-		<div class="absolute inset-0">
-			<img src="/hero-land-fund.jpg" alt="Green rolling hills with patches of trees and stone fences" class="w-full h-full object-cover opacity-60" />
-		</div>
-		<div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-			<h1 class="text-5xl font-bold mb-6">Buy more land for restoration</h1>
-		</div>
-	</section>
+	<ContentHero
+		title="Buy more land for restoration"
+		imgSrc="/hero-land-fund.jpg"
+		imgAlt="Green rolling hills with patches of trees and stone fences"
+	/>
 
 	<!-- Main Content with Donorbox Widget -->
-	<section class="py-16 bg-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-				<!-- Left: Main Content (67%) -->
-				<div class="lg:col-span-2">
-					<div class="prose prose-lg max-w-none">
-						<p class="text-xl text-gray-700 leading-relaxed mb-6">
-							Protect Earth does a lot more than just plant trees - we create lasting, thriving woodlands, wetlands, and ecosystems. Our Land Fund is dedicated solely to purchasing land for reforestation and rewilding, ensuring it is protected forever.
-						</p>
-						<p class="text-gray-700 leading-relaxed mb-6">
-							We love collaborating with landowners - so far, we've helped over 60 farms, hotels, local councils, schools, parks, and even wedding venues bring more trees to their land. But some of our most exciting work happens when we create new diverse nature reserves from scratch.
-						</p>
-						<p class="text-gray-700 leading-relaxed mb-4">Thanks to generous donations, we've already transformed places like:</p>
-						<ul class="list-disc pl-6 space-y-2 text-gray-700 mb-6">
-							<li><a href="/projects/high-wood-7xpjt" class="text-green-700 font-semibold hover:underline">High Wood</a> - A flourishing new woodland where wildlife is returning.</li>
-							<li><a href="/projects/goytrewood" class="text-green-700 font-semibold hover:underline">Goytre Wood</a> - A rewilded space where nature and people can thrive together.</li>
-							<li>Bath Woodland & Wetland - A diverse landscape that's helping restore natural ecosystems.</li>
-						</ul>
-						<p class="text-gray-700 leading-relaxed mb-6">
-							With your support, we can buy more land, create more forests, begin landscape-scale restoration with our new neighbours, and protect more nature - permanently.
-						</p>
-						<p class="text-xl font-semibold text-gray-900 mb-6">
-							Every pound donated to the Land Fund goes directly toward securing and restoring new woodlands and ecosystems.
-						</p>
-					</div>
+	<section class="PageSection" data-layout="sidebar-right">
+		<div class="PageSection__content">
+			<!-- Left: Main Content (67%) -->
+			<div>
+				<div class="prose">
+					<p>
+						Protect Earth does a lot more than just plant trees - we create lasting, thriving
+						woodlands, wetlands, and ecosystems. Our Land Fund is dedicated solely to purchasing
+						land for reforestation and rewilding, ensuring it is protected forever.
+					</p>
+					<p>
+						We love collaborating with landowners - so far, we've helped over 60 farms, hotels,
+						local councils, schools, parks, and even wedding venues bring more trees to their land.
+						But some of our most exciting work happens when we create new diverse nature reserves
+						from scratch.
+					</p>
+					<p>Thanks to generous donations, we've already transformed places like:</p>
+					<ul>
+						<li>
+							<a href="/sites/high-wood-7xpjt">High Wood</a> - A flourishing new woodland where wildlife
+							is returning.
+						</li>
+						<li>
+							<a href="/sites/goytrewood">Goytre Wood</a> - A rewilded space where nature and people can
+							thrive together.
+						</li>
+						<li>
+							Bath Woodland & Wetland - A diverse landscape that's helping restore natural
+							ecosystems.
+						</li>
+					</ul>
+					<p>
+						With your support, we can buy more land, create more forests, begin landscape-scale
+						restoration with our new neighbours, and protect more nature - permanently.
+					</p>
+					<p>
+						<strong>
+							Every pound donated to the Land Fund goes directly toward securing and restoring new
+							woodlands and ecosystems.
+						</strong>
+					</p>
 				</div>
+			</div>
 
-				<!-- Right: Donorbox Widget (33%) -->
-				<div class="lg:col-span-1">
-					<div class="lg:sticky lg:top-8">
-						<script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
-						<iframe 
-							src="https://donorbox.org/embed/protect-earth?language=en" 
-							name="donorbox" 
-							allowpaymentrequest="allowpaymentrequest" 
-							seamless="seamless" 
-							frameborder="0" 
-							scrolling="no" 
-							height="700px" 
-							class="w-full" 
-							style="min-width: 250px; max-height:none!important" 
-							allow="payment"
-						></iframe>
-					</div>
+			<!-- Right: Donorbox Widget (33%) -->
+			<div>
+				<div class="sticky">
+					<script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+					<iframe
+						src="https://donorbox.org/embed/protect-earth?language=en"
+						name="donorbox"
+						allowpaymentrequest="allowpaymentrequest"
+						seamless="seamless"
+						frameborder="0"
+						scrolling="no"
+						height="700px"
+						class="w-full"
+						style="min-width: 250px; max-height:none!important"
+						allow="payment"></iframe>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<CallToAction />
+	<TakeAction />
 </Layout>
