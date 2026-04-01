@@ -20,6 +20,7 @@
 @import url('./components/Navigation.scss');
 @import url('./components/Pagination.scss');
 @import url('./components/PressArticles.scss');
+@import url('./components/Site.scss');
 @import url('./components/TeamMembers.scss');
 
 @layer reset {
@@ -47,6 +48,14 @@
 }
 
 @layer components {
+	.MapCanvas {
+		block-size: 400px;
+		border-radius: 0.5rem;
+		box-shadow:
+			0 10px 15px -3px rgba(0, 0, 0, 0.1),
+			0 4px 6px -2px rgba(0, 0, 0, 0.05);
+		inline-size: 100%;
+	}
 }
 
 @layer utility {
@@ -106,6 +115,18 @@
 
 		@media screen and (min-width: 96rem) {
 			max-inline-size: 96rem;
+		}
+	}
+
+	.inline-centered {
+		margin-inline: auto;
+	}
+
+	.readable-width {
+		max-inline-size: 65ch;
+
+		&[data-readable-width='larger'] {
+			max-inline-size: 85ch;
 		}
 	}
 }
@@ -191,5 +212,16 @@
 		strong {
 			font-weight: 600;
 		}
+	}
+
+	.no-focus-visually-hidden {
+		clip-path: inset(50%) !important;
+		height: 1px !important;
+		width: 1px !important;
+		overflow: hidden !important;
+		position: absolute !important;
+		white-space: nowrap !important;
+		border: 0 !important;
+		user-select: none !important;
 	}
 }

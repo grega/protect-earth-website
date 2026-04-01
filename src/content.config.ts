@@ -51,5 +51,13 @@ const press = defineCollection({
 	),
 });
 
+const siteMeta = defineCollection({
+	loader: glob({ base: './src/content/siteMeta', pattern: '**/*.md' }),
+	schema: z.object({
+		fundingPartners: z.array(z.string()).optional(),
+		tags: z.array(z.string()),
+	}),
+});
+
 // 5. Export a single `collections` object to register your collection(s)
-export const collections = { articles, members, press };
+export const collections = { articles, members, press, siteMeta };

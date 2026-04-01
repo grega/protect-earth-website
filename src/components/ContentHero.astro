@@ -9,6 +9,6 @@ const { imgAlt, imgSrc, title } = Astro.props;
 		<slot />
 	</div>
 	<div class="ContentHero__canvas">
-		<img class="ContentHero__image" src={imgSrc} alt={imgAlt} />
+		{imgSrc && <img class="ContentHero__image" src={imgSrc} alt={imgAlt} loading="eager" />}
 	</div>
 </section>
