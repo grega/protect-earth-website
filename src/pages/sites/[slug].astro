@@ -179,13 +179,13 @@ const fundingPartnerInfos = fundingPartners
 			<section class="PageSection SiteUpdates">
 				<header class="PageSection__header">
 					<h2 class="PageSection__title text-3xl font-bold mb-8 text-gray-900">
-						<span aria-hidden class="inline-block mr-2">📝</span>
+						<span aria-hidden>📝</span>
 						Site Updates
 					</h2>
 				</header>
 				<div class="PageSection__content SiteUpdates__feed space-y-6">
 					{siteUpdates.map((update) => (
-						<article class="SiteUpdate ">
+						<article class="SiteUpdate">
 							<header class="SiteUpdate__header">
 								<h3 class="SiteUpdate__title">
 									<time datetime={update.data.date.toISOString()}>
@@ -197,12 +197,10 @@ const fundingPartnerInfos = fundingPartners
 								</h3>
 							</header>
 
-							<dl class="SiteUpdate__meta flex flex-wrap gap-2 mb-3">
+							<dl class="SiteUpdate__meta">
 								{update.data.type && (
 									<dt class="visually-hidden">Type</dt>
-									<dd class="SiteUpdate__tag" data-type="type">
-										{update.data.type}
-									</dd>
+									<dd class="SiteUpdate__tag" data-type="type">{update.data.type}</dd>
 								)}
 								{update.data.treesPlanted && (
 									<dt class="visually-hidden">Trees planted</dt>
@@ -226,28 +224,18 @@ const fundingPartnerInfos = fundingPartners
 							</dl>
 
 							{update.bodyHtml && (
-								<div
-									class="prose prose-sm max-w-none text-gray-700 mb-3"
-									set:html={update.bodyHtml}
-								/>
+								<div class="SiteUpdate__body prose" set:html={update.bodyHtml} />
 							)}
 
 							{update.data.photos && update.data.photos.length > 0 && (
-								<div class="mt-4">
-									<div class="grid grid-cols-2 md:grid-cols-3 gap-3">
-										{update.data.photos
-											.filter((photo) => photo.startsWith('/site-updates/'))
-											.map((photo) => (
-												<a href={photo} target="_blank" rel="noopener noreferrer" class="block">
-													<img
-														src={photo}
-														alt={`${update.data.title} photo`}
-														class="w-full h-40 object-cover rounded-lg hover:opacity-90 transition-opacity shadow-md"
-														loading="lazy"
-													/>
-												</a>
-											))}
-									</div>
+								<div class="SiteUpdate__photos">
+									{update.data.photos
+										.filter((photo: string) => photo.startsWith('/site-updates/'))
+										.map((photo: string) => (
+											<a href={photo} target="_blank" rel="noopener noreferrer" class="block">
+												<img src={photo} alt="" loading="lazy" />
+											</a>
+										))}
 								</div>
 							)}
 						</article>

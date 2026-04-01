@@ -307,6 +307,11 @@
 				line-height: 1.75rem;
 				font-weight: 600;
 				color: #111827;
+
+				span {
+					display: inline-block;
+					margin-inline-end: 0.5rem;
+				}
 			}
 
 			&__feed > * + * {
@@ -356,6 +361,35 @@
 
 			&__body {
 				color: #374151;
+			}
+
+			&__photos {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 0.75rem;
+
+				@media screen and (min-width: 768px) {
+					grid-template-columns: repeat(3, minmax(0, 1fr));
+				}
+
+				a {
+					display: block;
+
+					&:hover img {
+						opacity: 0.9;
+					}
+				}
+
+				img {
+					border-radius: 0.5rem;
+					box-shadow:
+						0 4px 6px -1px rgba(0, 0, 0, 0.1),
+						0 2px 4px -1px rgba(0, 0, 0, 0.06);
+					height: 10rem;
+					object-fit: cover;
+					transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+					width: 100%;
+				}
 			}
 		}
 
