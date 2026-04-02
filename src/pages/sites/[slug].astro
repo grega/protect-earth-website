@@ -184,12 +184,12 @@ const fundingPartnerInfos = fundingPartners
 					</h2>
 				</header>
 				<div class="PageSection__content SiteUpdates__feed space-y-6">
-					{siteUpdates.map((update) => (
+					{siteUpdates.map(({ data, bodyHtml }) => (
 						<article class="SiteUpdate">
 							<header class="SiteUpdate__header">
 								<h3 class="SiteUpdate__title">
-									<time datetime={update.data.date.toISOString()}>
-										{update.data.date.toLocaleDateString('en-GB', {
+									<time datetime={data.date.toISOString()}>
+										{data.date.toLocaleDateString('en-GB', {
 											year: 'numeric',
 											month: 'long',
 										})}
@@ -198,38 +198,38 @@ const fundingPartnerInfos = fundingPartners
 							</header>
 
 							<dl class="SiteUpdate__meta">
-								{update.data.type && (
+								{data.type && (
 									<dt class="visually-hidden">Type</dt>
-									<dd class="SiteUpdate__tag" data-type="type">{update.data.type}</dd>
+									<dd class="SiteUpdate__tag" data-type="type">{data.type}</dd>
 								)}
-								{update.data.treesPlanted && (
+								{data.treesPlanted && (
 									<dt class="visually-hidden">Trees planted</dt>
 									<dd class="SiteUpdate__tag" data-type="planted">
 										Trees planted
-										<span aria-hidden>🌳</span> {update.data.treesPlanted.toLocaleString()}<span aria-hidden> trees planted</span>
+										<span aria-hidden>🌳</span> {data.treesPlanted.toLocaleString()}<span aria-hidden> trees planted</span>
 									</dd>
 								)}
-								{update.data.treesRestocked && (
+								{data.treesRestocked && (
 									<dt class="visually-hidden">Trees restocked</dt>
 									<dd class="SiteUpdate__tag" data-type="restocked">
-										<span aria-hidden>🌱</span> {update.data.treesRestocked.toLocaleString()}<span aria-hidden> trees restocked</span>
+										<span aria-hidden>🌱</span> {data.treesRestocked.toLocaleString()}<span aria-hidden> trees restocked</span>
 									</dd>
 								)}
-								{update.data.survivalRate != null && (
+								{data.survivalRate != null && (
 									<dt class="visually-hidden">Survival rate</dt>
 									<dd class="SiteUpdate__tag" data-type="survival-rate">
-										<span aria-hidden>📊</span> {(update.data.survivalRate * 100).toFixed(0)}%<span aria-hidden> survival rate</span>
+										<span aria-hidden>📊</span> {(data.survivalRate * 100).toFixed(0)}%<span aria-hidden> survival rate</span>
 									</dd>
 								)}
 							</dl>
 
-							{update.bodyHtml && (
-								<div class="SiteUpdate__body prose" set:html={update.bodyHtml} />
+							{bodyHtml && (
+								<div class="SiteUpdate__body prose" set:html={bodyHtml} />
 							)}
 
-							{update.data.photos && update.data.photos.length > 0 && (
+							{data.photos && data.photos.length > 0 && (
 								<div class="SiteUpdate__photos">
-									{update.data.photos
+									{data.photos
 										.filter((photo: string) => photo.startsWith('/site-updates/'))
 										.map((photo: string) => (
 											<a href={photo} target="_blank" rel="noopener noreferrer" class="block">
