@@ -1,14 +1,16 @@
 {
 	"name": "website",
 	"type": "module",
-	"version": "0.1.0",
+	"version": "0.3.0",
 	"scripts": {
-		"astro": "astro",
-		"build": "astro build",
+		"sync-sites": "node scripts/sync-sites.js",
+		"sync-sites:replace-images": "node scripts/sync-sites.js --replace-images",
+		"sync-site-updates": "node scripts/sync-site-updates.js",
+		"sync-site-updates:replace-images": "node scripts/sync-site-updates.js --replace-images",
 		"dev": "astro dev",
-		"fetch-images": "node scripts/fetch-site-images.js",
+		"build": "astro build",
 		"preview": "astro preview",
-		"sync-sites": "node scripts/sync-sites.js"
+		"astro": "astro"
 	},
 	"dependencies": {
 		"@acab/reset.css": "^0.11.0",

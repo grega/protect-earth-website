@@ -6,9 +6,25 @@ date: "2025-08-14T00:00:00.000Z"
 siteNotionId: "daa5b909-c272-461a-a934-38dadd33afe2"
 survivalRate: 0.86
 photos:
-  - "/site-updates/hawling-survey-2025-e608b5aa/1.jpg"
-  - "/site-updates/hawling-survey-2025-e608b5aa/2.jpg"
-  - "/site-updates/hawling-survey-2025-e608b5aa/3.jpg"
-  - "/site-updates/hawling-survey-2025-e608b5aa/4.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-e608b5aa/1.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-e608b5aa/2.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-e608b5aa/3.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-e608b5aa/4.jpg"
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -6,12 +6,12 @@ date: "2025-07-01T00:00:00.000Z"
 siteNotionId: "bc400cb9-58d0-4ef8-8d78-04a38a6a28c0"
 survivalRate: 0.85
 photos:
-  - "/site-updates/pantpurlais-update-summer-25-7dd7e71b/1.jpg"
-  - "/site-updates/pantpurlais-update-summer-25-7dd7e71b/2.jpg"
-  - "/site-updates/pantpurlais-update-summer-25-7dd7e71b/3.jpg"
-  - "/site-updates/pantpurlais-update-summer-25-7dd7e71b/4.jpg"
-  - "/site-updates/pantpurlais-update-summer-25-7dd7e71b/5.jpg"
-  - "/site-updates/pantpurlais-update-summer-25-7dd7e71b/6.jpg"
+  - "../../assets/site-updates/pantpurlais-update-summer-25-7dd7e71b/1.jpg"
+  - "../../assets/site-updates/pantpurlais-update-summer-25-7dd7e71b/2.jpg"
+  - "../../assets/site-updates/pantpurlais-update-summer-25-7dd7e71b/3.jpg"
+  - "../../assets/site-updates/pantpurlais-update-summer-25-7dd7e71b/4.jpg"
+  - "../../assets/site-updates/pantpurlais-update-summer-25-7dd7e71b/5.jpg"
+  - "../../assets/site-updates/pantpurlais-update-summer-25-7dd7e71b/6.jpg"
 ---
 
 This site outside Llandrindod Wells in Mid Wales is doing amazingly well, with a 95% success rate. We used a mix of cell grown trees & ‘whips’ some of which have been suffocated by grasses (85% survival rate). The small leaved limes are doing well however the Silver Birch are not great the. The Oaks are doing extremely well with a 90% survival rate. Then Early pollinators crab apple etc  are 4yrs old now and up to 7ft. 

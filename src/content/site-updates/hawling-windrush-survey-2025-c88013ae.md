@@ -6,10 +6,26 @@ date: "2025-08-15T00:00:00.000Z"
 siteNotionId: "18a9ffed-8abf-4477-93c3-7288e18837e6"
 survivalRate: 0.5
 photos:
-  - "/site-updates/hawling-windrush-survey-2025-c88013ae/1.jpg"
-  - "/site-updates/hawling-windrush-survey-2025-c88013ae/2.jpg"
-  - "/site-updates/hawling-windrush-survey-2025-c88013ae/3.jpg"
-  - "/site-updates/hawling-windrush-survey-2025-c88013ae/4.jpg"
-  - "/site-updates/hawling-windrush-survey-2025-c88013ae/5.jpg"
+  - "../../assets/site-updates/hawling-windrush-survey-2025-c88013ae/1.jpg"
+  - "../../assets/site-updates/hawling-windrush-survey-2025-c88013ae/2.jpg"
+  - "../../assets/site-updates/hawling-windrush-survey-2025-c88013ae/3.jpg"
+  - "../../assets/site-updates/hawling-windrush-survey-2025-c88013ae/4.jpg"
+  - "../../assets/site-updates/hawling-windrush-survey-2025-c88013ae/5.jpg"
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -6,13 +6,29 @@ date: "2025-07-31T00:00:00.000Z"
 siteNotionId: "7d73488c-ca94-4b78-90fc-4459fda4cca9"
 survivalRate: 0.99
 photos:
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/1.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/2.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/3.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/4.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/5.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/6.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/7.jpg"
-  - "/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/8.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/1.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/2.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/3.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/4.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/5.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/6.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/7.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-recreation-ground-survey-2025-c0e5fbeb/8.jpg"
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

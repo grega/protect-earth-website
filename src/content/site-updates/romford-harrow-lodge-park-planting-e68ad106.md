@@ -7,6 +7,13 @@ siteNotionId: "49a3e7f1-f0b9-45b5-b92d-0257b277e512"
 treesPlanted: 950
 ---
 
-After an unfortunate mowing down of some planting by a local community group in Havering hit the headlines, Protect Earth decided to help out. Partnering with the local Havering Borough Council, Protect Earth were able to come in and assist in the planting of 950 new trees and shrubs on beautiful unused grassland between houses in an area that needed more trees. 
+Working in partnership with the local Havering Borough Council, Protect Earth were able to come in and assist in the planting of 950 new trees and shrubs. 
 
+
+
+tCO2 after 50 years: 323
 Species planted: Alder, Aspen, Blackthorn, Hawthorn, Hazel, Oak, Rowan, Wild Cherry, Goat Willow, Hornbeam, Silver Birch, Small Leaved Lime, Wild Service
+
+
+
+

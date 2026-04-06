@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import { marked } from 'marked';
 import ContentHero from '../../components/ContentHero.astro';
 import ImageGallery from '../../components/ImageGallery.astro';
@@ -50,7 +51,10 @@ const siteUpdates = await Promise.all(
 		.filter((update) => update.data.siteNotionId && siteNotionIds.includes(update.data.siteNotionId))
 		.map((siteUpdate) => ({
 			...siteUpdate,
-			data: { ...siteUpdate.data, date: new Date(siteUpdate.data.date) },
+			data: {
+				...siteUpdate.data,
+				date: siteUpdate.data.date ? new Date(siteUpdate.data.date) : undefined,
+			},
 		}))
 		.sort((a, b) => {
 			if (!a.data.date) return 1;
@@ -72,7 +76,7 @@ const treeCount = apiData?.allocatedUnits || 0;
 const coordinates = apiData?.coordinates;
 // Use images directly from content collection
 const images = site.data.images || [];
-const heroImage = images[0] || null;
+const heroImage = images[0]?.src || null;
 const fundingPartners = site.data.fundingPartners || [];
 const siteDescription = apiData?.description;
 const descriptionHtml = siteDescription ? await marked.parse(siteDescription) : '';
@@ -82,17 +86,17 @@ const species = apiData?.species || [];
 type FundingPartnerInfo = { src: string; alt: string; url: string };
 const fundingPartnerLogos = {
 	ecologi: {
-		src: '/logos/ecologi.png',
+		src: '/logos/funding/ecologi.png',
 		alt: 'Ecologi',
 		url: 'https://ecologi.com/',
 	},
 	'woodland-trust': {
-		src: '/logos/woodland-trust.png',
+		src: '/logos/funding/woodland-trust.png',
 		alt: 'Woodland Trust',
 		url: 'https://www.woodlandtrust.org.uk/',
 	},
 	reewild: {
-		src: '/logos/reewild.png',
+		src: '/logos/funding/reewild.png',
 		alt: 'Reewild',
 		url: 'https://www.reewild.co.uk/',
 	},
@@ -185,12 +189,14 @@ const fundingPartnerInfos = fundingPartners
 						<article class="SiteUpdate">
 							<header class="SiteUpdate__header">
 								<h3 class="SiteUpdate__title">
-									<time datetime={data.date.toISOString()}>
-										{data.date.toLocaleDateString('en-GB', {
-											year: 'numeric',
-											month: 'long',
-										})}
-									</time>
+									{data.date && (
+										<time datetime={data.date.toISOString()}>
+											{data.date.toLocaleDateString('en-GB', {
+												year: 'numeric',
+												month: 'long',
+											})}
+										</time>
+									)}
 								</h3>
 							</header>
 
@@ -202,20 +208,19 @@ const fundingPartnerInfos = fundingPartners
 								{data.treesPlanted && (
 									<dt class="visually-hidden">Trees planted</dt>
 									<dd class="SiteUpdate__tag" data-type="planted">
-										Trees planted
-										<span aria-hidden>🌳</span> {data.treesPlanted.toLocaleString()}<span aria-hidden> trees planted</span>
+										<span aria-hidden>🌳</span> {data.treesPlanted.toLocaleString()}&nbsp;<span aria-hidden>trees planted</span>
 									</dd>
 								)}
 								{data.treesRestocked && (
 									<dt class="visually-hidden">Trees restocked</dt>
 									<dd class="SiteUpdate__tag" data-type="restocked">
-										<span aria-hidden>🌱</span> {data.treesRestocked.toLocaleString()}<span aria-hidden> trees restocked</span>
+										<span aria-hidden>🌱</span> {data.treesRestocked.toLocaleString()}&nbsp;<span aria-hidden>trees restocked</span>
 									</dd>
 								)}
 								{data.survivalRate != null && (
 									<dt class="visually-hidden">Survival rate</dt>
 									<dd class="SiteUpdate__tag" data-type="survival-rate">
-										<span aria-hidden>📊</span> {(data.survivalRate * 100).toFixed(0)}%<span aria-hidden> survival rate</span>
+										<span aria-hidden>📊</span> {(data.survivalRate * 100).toFixed(0)}%&nbsp;<span aria-hidden>survival rate</span>
 									</dd>
 								)}
 							</dl>
@@ -226,13 +231,11 @@ const fundingPartnerInfos = fundingPartners
 
 							{data.photos && data.photos.length > 0 && (
 								<div class="SiteUpdate__photos">
-									{data.photos
-										.filter((photo: string) => photo.startsWith('/site-updates/'))
-										.map((photo: string) => (
-											<a href={photo} target="_blank" rel="noopener noreferrer" class="block">
-												<img src={photo} alt="" loading="lazy" />
-											</a>
-										))}
+									{data.photos.map((photo: any) => (
+										<a href={photo.src} target="_blank" rel="noopener noreferrer" class="block">
+											<Image src={photo} alt={`Site update photo for ${siteName}`} loading="lazy" />
+										</a>
+									))}
 								</div>
 							)}
 						</article>

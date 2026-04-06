@@ -7,14 +7,30 @@ siteNotionId: "05168f36-0b8a-4642-8b7a-e384c9992b41"
 survivalRate: 0.63
 treesRestocked: 330
 photos:
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/1.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/2.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/3.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/4.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/5.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/6.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/7.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/8.jpg"
-  - "/site-updates/st-donats-castle-survey-2025-678b3c2a/9.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/1.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/2.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/3.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/4.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/5.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/6.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/7.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/8.jpg"
+  - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/9.jpg"
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

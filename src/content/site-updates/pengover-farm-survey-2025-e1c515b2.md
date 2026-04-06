@@ -7,12 +7,28 @@ siteNotionId: "adc6f527-3a12-4b08-b1d3-fa90d8568443"
 survivalRate: 0.7
 treesRestocked: 120
 photos:
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/1.jpg"
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/2.jpg"
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/3.jpg"
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/4.jpg"
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/5.jpg"
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/6.jpg"
-  - "/site-updates/pengover-farm-survey-2025-e1c515b2/7.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/1.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/2.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/3.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/4.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/5.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/6.jpg"
+  - "../../assets/site-updates/pengover-farm-survey-2025-e1c515b2/7.jpg"
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
