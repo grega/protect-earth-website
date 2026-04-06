@@ -51,7 +51,10 @@ const siteUpdates = await Promise.all(
 		.filter((update) => update.data.siteNotionId && siteNotionIds.includes(update.data.siteNotionId))
 		.map((siteUpdate) => ({
 			...siteUpdate,
-			data: { ...siteUpdate.data, date: new Date(siteUpdate.data.date) },
+			data: {
+				...siteUpdate.data,
+				date: siteUpdate.data.date ? new Date(siteUpdate.data.date) : undefined,
+			},
 		}))
 		.sort((a, b) => {
 			if (!a.data.date) return 1;
@@ -73,7 +76,7 @@ const treeCount = apiData?.allocatedUnits || 0;
 const coordinates = apiData?.coordinates;
 // Use images directly from content collection
 const images = site.data.images || [];
-const heroImage = images[0] || null;
+const heroImage = images[0]?.src || null;
 const fundingPartners = site.data.fundingPartners || [];
 const siteDescription = apiData?.description;
 const descriptionHtml = siteDescription ? await marked.parse(siteDescription) : '';
@@ -186,12 +189,14 @@ const fundingPartnerInfos = fundingPartners
 						<article class="SiteUpdate">
 							<header class="SiteUpdate__header">
 								<h3 class="SiteUpdate__title">
-									<time datetime={data.date.toISOString()}>
-										{data.date.toLocaleDateString('en-GB', {
-											year: 'numeric',
-											month: 'long',
-										})}
-									</time>
+									{data.date && (
+										<time datetime={data.date.toISOString()}>
+											{data.date.toLocaleDateString('en-GB', {
+												year: 'numeric',
+												month: 'long',
+											})}
+										</time>
+									)}
 								</h3>
 							</header>
 
@@ -227,13 +232,11 @@ const fundingPartnerInfos = fundingPartners
 
 							{data.photos && data.photos.length > 0 && (
 								<div class="SiteUpdate__photos">
-									{data.photos.map((photo: any) => {
-										return (
-											<a href={photo.src} target="_blank" rel="noopener noreferrer" class="block">
-												<Image src={photo} alt= loading="lazy" />
-											</a>
-										);
-									})}
+									{data.photos.map((photo: any) => (
+										<a href={photo.src} target="_blank" rel="noopener noreferrer" class="block">
+											<Image src={photo} alt={`Site update photo for ${siteName}`} loading="lazy" />
+										</a>
+									))}
 								</div>
 							)}
 						</article>

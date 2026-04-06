@@ -53,12 +53,13 @@ const press = defineCollection({
 
 const siteMeta = defineCollection({
 	loader: glob({ base: './src/content/siteMeta', pattern: '**/*.md' }),
-	schema: z.object({
-		fundingPartners: z.array(z.string()).optional(),
-		tags: z.array(z.string()),
-		notionIds: z.array(z.string()).optional(),
-		images: z.array(z.string()).optional(),
-	}),
+	schema: ({ image }) =>
+		z.object({
+			fundingPartners: z.array(z.string()).optional(),
+			tags: z.array(z.string()),
+			notionIds: z.array(z.string()).optional(),
+			images: z.array(image()).optional(),
+		}),
 });
 
 const siteUpdates = defineCollection({

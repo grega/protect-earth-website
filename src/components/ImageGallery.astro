@@ -1,12 +1,14 @@
 ---
 import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
-	images: string[];
+	images: ImageMetadata[];
 	siteName: string;
 }
 
 const { images, siteName } = Astro.props;
+const imageUrls = images.map((image) => image.src);
 
 // Only show gallery if there are images
 if (!images || images.length === 0) {
@@ -20,7 +22,7 @@ if (!images || images.length === 0) {
 			{
 				images.map((image, index) => (
 					<div class="SiteImageGallery__item" data-index={index}>
-						<img
+						<Image
 							src={image}
 							alt={`${siteName} - Image ${index + 1}`}
 							loading="lazy"
@@ -29,7 +31,7 @@ if (!images || images.length === 0) {
 						<div class="gallery-overlay">
 							<button
 								class="view-button"
-								data-image={image}
+								data-image={imageUrls[index]}
 								data-index={index}
 								aria-label={`View image ${index + 1} in fullscreen`}
 							>
@@ -76,7 +78,7 @@ if (!images || images.length === 0) {
 	<div class="lightbox-content">
 		<img id="lightbox-image" src="" alt="" />
 		<div class="lightbox-counter">
-			<span id="current-image">1</span> / <span id="total-images">{images.length}</span>
+			<span id="current-image">1</span> / <span id="total-images">{imageUrls.length}</span>
 		</div>
 	</div>
 </div>
@@ -231,7 +233,7 @@ if (!images || images.length === 0) {
 	}
 </style>
 
-<script is:inline define:vars={{ images }}>
+<script is:inline define:vars={{ imageUrls }}>
 	let currentImageIndex = 0;
 
 	// Open lightbox
@@ -257,7 +259,7 @@ if (!images || images.length === 0) {
 		const lightboxImage = document.getElementById('lightbox-image');
 		const currentImageEl = document.getElementById('current-image');
 
-		lightboxImage.src = images[currentImageIndex];
+		lightboxImage.src = imageUrls[currentImageIndex];
 		lightboxImage.alt = `Gallery image ${currentImageIndex + 1}`;
 		currentImageEl.textContent = currentImageIndex + 1;
 
@@ -274,12 +276,12 @@ if (!images || images.length === 0) {
 	}
 
 	function showNextImage() {
-		currentImageIndex = (currentImageIndex + 1) % images.length;
+		currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
 		updateLightboxImage();
 	}
 
 	function showPrevImage() {
-		currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+		currentImageIndex = (currentImageIndex - 1 + imageUrls.length) % imageUrls.length;
 		updateLightboxImage();
 	}
 
@@ -287,7 +289,7 @@ if (!images || images.length === 0) {
 		const lightboxImage = document.getElementById('lightbox-image');
 		const currentImageEl = document.getElementById('current-image');
 
-		lightboxImage.src = images[currentImageIndex];
+		lightboxImage.src = imageUrls[currentImageIndex];
 		lightboxImage.alt = `Gallery image ${currentImageIndex + 1}`;
 		currentImageEl.textContent = currentImageIndex + 1;
 	}
