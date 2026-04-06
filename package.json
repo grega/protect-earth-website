@@ -3,11 +3,12 @@
 	"type": "module",
 	"version": "0.1.0",
 	"scripts": {
-		"fetch-images": "node scripts/fetch-site-images.js",
-		"dev": "astro dev",
+		"astro": "astro",
 		"build": "astro build",
+		"dev": "astro dev",
+		"fetch-images": "node scripts/fetch-site-images.js",
 		"preview": "astro preview",
-		"astro": "astro"
+		"sync-sites": "node scripts/sync-sites.js"
 	},
 	"dependencies": {
 		"@acab/reset.css": "^0.11.0",
