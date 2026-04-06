@@ -16,6 +16,8 @@ photos:
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/8.jpg"
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/9.jpg"
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/10.jpg"
+  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/11.jpg"
+  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/12.jpg"
 ---
 
 

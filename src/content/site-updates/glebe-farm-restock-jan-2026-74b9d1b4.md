@@ -16,7 +16,11 @@ photos:
   - "../../assets/site-updates/glebe-farm-restock-jan-2026-74b9d1b4/8.jpg"
   - "../../assets/site-updates/glebe-farm-restock-jan-2026-74b9d1b4/9.jpg"
   - "../../assets/site-updates/glebe-farm-restock-jan-2026-74b9d1b4/10.jpg"
+  - "../../assets/site-updates/glebe-farm-restock-jan-2026-74b9d1b4/11.jpg"
+  - "../../assets/site-updates/glebe-farm-restock-jan-2026-74b9d1b4/12.jpg"
 ---
+
+
 
 
 

@@ -15,7 +15,11 @@ photos:
   - "../../assets/site-updates/stawley-bullock-hill-ancient-woodland-restoration-2-38b18509/8.jpg"
   - "../../assets/site-updates/stawley-bullock-hill-ancient-woodland-restoration-2-38b18509/9.jpg"
   - "../../assets/site-updates/stawley-bullock-hill-ancient-woodland-restoration-2-38b18509/10.jpg"
+  - "../../assets/site-updates/stawley-bullock-hill-ancient-woodland-restoration-2-38b18509/11.jpg"
+  - "../../assets/site-updates/stawley-bullock-hill-ancient-woodland-restoration-2-38b18509/12.jpg"
 ---
+
+
 
 
 

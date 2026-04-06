@@ -16,6 +16,8 @@ photos:
   - "../../assets/site-updates/manafon-survey-2025-e8a91033/8.jpg"
   - "../../assets/site-updates/manafon-survey-2025-e8a91033/9.jpg"
   - "../../assets/site-updates/manafon-survey-2025-e8a91033/10.jpg"
+  - "../../assets/site-updates/manafon-survey-2025-e8a91033/11.jpg"
+  - "../../assets/site-updates/manafon-survey-2025-e8a91033/12.jpg"
 ---
 
 Overall impression - very good. Trees doing well, all shelters vertical - site looks well looked after. 92% survival rate.  The Landowner said We have seen hares, lots of mice and also a big deer possibly roe - certainly bigger than muntjac and we have found antlers! The newer trees are virtually 100% fine, so far.  The older ones have suffered though, with roughly 15% dead to date. There are lots of trees popping up naturally and doing very well without any assistance from humans.  Alder is doing very well in the wetter areas (some over a metre tall), and there are some small oak saplings dotted about.  Hawthorn is spreading like mad - no need to plant any more of those!I In May and June we have done a little maintenance, straightening posts that were leaning over, removing grass/weeds from tubes etc. 

@@ -16,7 +16,11 @@ photos:
   - "../../assets/site-updates/grove-farm-survey-2526-5914f020/8.jpg"
   - "../../assets/site-updates/grove-farm-survey-2526-5914f020/9.jpg"
   - "../../assets/site-updates/grove-farm-survey-2526-5914f020/10.jpg"
+  - "../../assets/site-updates/grove-farm-survey-2526-5914f020/11.jpg"
+  - "../../assets/site-updates/grove-farm-survey-2526-5914f020/12.jpg"
 ---
+
+
 
 
 

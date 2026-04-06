@@ -17,7 +17,11 @@ photos:
   - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/8.jpg"
   - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/9.jpg"
   - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/10.jpg"
+  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/11.jpg"
+  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/12.jpg"
 ---
+
+
 
 
 

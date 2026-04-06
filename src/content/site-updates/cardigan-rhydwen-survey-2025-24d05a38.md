@@ -16,7 +16,11 @@ photos:
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/8.jpg"
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/9.jpg"
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/10.jpg"
+  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/11.jpg"
+  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/12.jpg"
 ---
+
+
 
 
 

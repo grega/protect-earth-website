@@ -17,7 +17,11 @@ photos:
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/8.jpg"
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/9.jpg"
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/10.jpg"
+  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/11.jpg"
+  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/12.jpg"
 ---
+
+
 
 
 

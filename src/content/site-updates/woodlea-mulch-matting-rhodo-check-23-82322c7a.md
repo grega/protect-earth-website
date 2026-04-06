@@ -15,6 +15,8 @@ photos:
   - "../../assets/site-updates/woodlea-mulch-matting-rhodo-check-23-82322c7a/8.jpg"
   - "../../assets/site-updates/woodlea-mulch-matting-rhodo-check-23-82322c7a/9.jpg"
   - "../../assets/site-updates/woodlea-mulch-matting-rhodo-check-23-82322c7a/10.jpg"
+  - "../../assets/site-updates/woodlea-mulch-matting-rhodo-check-23-82322c7a/11.jpg"
+  - "../../assets/site-updates/woodlea-mulch-matting-rhodo-check-23-82322c7a/12.jpg"
 ---
 
 On our third visit to the site we brought along some mulch mats. We do this occasionally because sometimes the grass will have gotten super long and will actually be competing with the tree for the nutrients in the soil. The mulch mats smother the grass and weeds and actually keep in the moisture too, greatly increasing the tree’s survival chances during the hot, dry summers we seem to be getting more and more frequently.

@@ -16,7 +16,11 @@ photos:
   - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/8.jpg"
   - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/9.jpg"
   - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/10.jpg"
+  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/11.jpg"
+  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/12.jpg"
 ---
+
+
 
 
 

@@ -16,7 +16,11 @@ photos:
   - "../../assets/site-updates/south-molton-survey-2025-2e84af42/8.jpg"
   - "../../assets/site-updates/south-molton-survey-2025-2e84af42/9.jpg"
   - "../../assets/site-updates/south-molton-survey-2025-2e84af42/10.jpg"
+  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/11.jpg"
+  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/12.jpg"
 ---
+
+
 
 
 

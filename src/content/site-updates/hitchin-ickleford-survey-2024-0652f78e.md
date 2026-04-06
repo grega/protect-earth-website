@@ -15,6 +15,8 @@ photos:
   - "../../assets/site-updates/hitchin-ickleford-survey-2024-0652f78e/8.jpg"
   - "../../assets/site-updates/hitchin-ickleford-survey-2024-0652f78e/9.jpg"
   - "../../assets/site-updates/hitchin-ickleford-survey-2024-0652f78e/10.jpg"
+  - "../../assets/site-updates/hitchin-ickleford-survey-2024-0652f78e/11.jpg"
+  - "../../assets/site-updates/hitchin-ickleford-survey-2024-0652f78e/12.jpg"
 ---
 
 Once a miniforest gets going it’s an awe inspiring thing. In two years these trees were so dense it was impossibly to get in there and count exactly how many were alive or dead, but that’s not the point of a miniforest. The point is to create dense diverse habitat quickly, and that’s clearly happened here. Most of the trees were above head height, and there were no gaps. The miniforests are off to a solid start and no replanting is needed.

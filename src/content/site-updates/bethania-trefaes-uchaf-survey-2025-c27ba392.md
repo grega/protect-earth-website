@@ -16,7 +16,10 @@ photos:
   - "../../assets/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/8.jpg"
   - "../../assets/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/9.jpg"
   - "../../assets/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/10.jpg"
+  - "../../assets/site-updates/bethania-trefaes-uchaf-survey-2025-c27ba392/11.jpg"
 ---
+
+
 
 
 

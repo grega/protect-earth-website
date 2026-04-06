@@ -14,7 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const replaceImages = process.argv.includes('--replace-images');
 const PHOTO_MANIFEST_FILENAME = '.manifest.json';
-const MAX_SITE_UPDATE_PHOTOS = 10;
+const MAX_SITE_UPDATE_PHOTOS = 12;
 
 config();
 

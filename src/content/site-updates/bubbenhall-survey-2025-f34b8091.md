@@ -17,7 +17,11 @@ photos:
   - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/8.jpg"
   - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/9.jpg"
   - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/10.jpg"
+  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/11.jpg"
+  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/12.jpg"
 ---
+
+
 
 
 
