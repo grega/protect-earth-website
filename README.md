@@ -1,43 +1,66 @@
-# Astro Starter Kit: Minimal
+# Protect Earth Website
 
-```sh
-npm create astro@latest -- --template minimal
+This repository contains the public website for Protect Earth, built with Astro.
+
+It includes:
+- Editorial content (articles, team, press)
+- Site metadata and map-driven site pages
+- Site update content synced from Notion
+- Utility scripts for syncing content and images
+
+## Documentation
+
+Use these docs as your starting point:
+
+- Concepts: [docs/concepts.md](docs/concepts.md)
+- Scripts: [docs/scripts.md](docs/scripts.md)
+- Architecture: [docs/architecture.md](docs/architecture.md)
+- Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## Quick Start
+
+1. Install dependencies
+
+```
+pnpm install
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+2. Create your local environment file
 
-## 🚀 Project Structure
+	cp .env.example .env
 
-Inside of your Astro project, you'll see the following folders and files:
+3. Start development server
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+	pnpm dev
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+4. Build production output
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+	pnpm build
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Core Concepts
 
-## 🧞 Commands
+Start here if you are new to this repository:
+- Sites: [docs/concepts.md#sites](docs/concepts.md#sites)
+- Site Updates: [docs/concepts.md#site-updates](docs/concepts.md#site-updates)
+- Content Collections: [docs/concepts.md#content-collections](docs/concepts.md#content-collections)
 
-All commands are run from the root of the project, from a terminal:
+## Scripts
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Script workflows are documented in [docs/scripts.md](docs/scripts.md).
 
-## 👀 Want to learn more?
+Common commands:
+- pnpm sync-sites
+- pnpm sync-sites:replace-images
+- pnpm sync-site-updates
+- pnpm sync-site-updates:replace-images
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Project Structure
+
+High-level structure:
+
+- src/pages: Astro routes
+- src/layouts and src/components: page structure and reusable UI
+- src/content: source content collections
+- public: static assets
+- src/assets: optimized local image assets for content
+- scripts: content and media sync scripts
