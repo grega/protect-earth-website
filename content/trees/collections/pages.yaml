@@ -1,36 +1,20 @@
 tree:
-  -
-    entry: home
-  -
-    entry: get-involved
+  - entry: home
+  - entry: get-involved
     children:
-      -
-        entry: people-families
-      -
-        entry: businesses
-      -
-        entry: landowners
-  -
-    entry: events
-  -
-    entry: projects
-  -
-    entry: act-now
+      - entry: people-families
+      - entry: businesses
+      - entry: landowners
+  - entry: events
+  - entry: projects
+  - entry: act-now
     children:
-      -
-        entry: sponsor-trees
-      -
-        entry: general-donation
-      -
-        entry: land-fund
-  -
-    entry: about
+      - entry: sponsor-trees
+      - entry: general-donation
+      - entry: land-fund
+  - entry: about
     children:
-      -
-        entry: volunteer-with-us
-      -
-        entry: in-the-press
-  -
-    entry: privacy-policy
-  -
-    entry: join-our-mailing-list
+      - entry: volunteer-with-us
+      - entry: in-the-press
+  - entry: privacy-policy
+  - entry: join-our-mailing-list
