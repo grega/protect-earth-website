@@ -56,20 +56,23 @@ const siteMeta = defineCollection({
 	schema: z.object({
 		fundingPartners: z.array(z.string()).optional(),
 		tags: z.array(z.string()),
+		notionIds: z.array(z.string()).optional(),
+		images: z.array(z.string()).optional(),
 	}),
 });
 
 const siteUpdates = defineCollection({
 	loader: glob({ base: './src/content/site-updates', pattern: '**/*.md' }),
 	schema: z.object({
-		fundingPartners: z.array(z.string()).optional(),
-		tags: z.array(z.string()).optional(),
 		title: z.string(),
 		notionId: z.string(),
-		type: z.string(),
-		date: z.string(),
-		siteNotionId: z.string(),
+		type: z.string().optional(),
+		date: z.string().optional(),
+		siteNotionId: z.string().optional(),
 		treesPlanted: z.number().optional(),
+		treesRestocked: z.number().optional(),
+		survivalRate: z.number().optional(),
+		photos: z.array(z.string()).optional(),
 	}),
 });
 

@@ -17,30 +17,6 @@ export async function getStaticPaths() {
 	// Filter out ignored sites
 	const apiSites = allApiSites.filter((site: any) => !siteConfig.ignoredSites.includes(site.name));
 
-	// Fetch site updates for this site
-	const allSiteUpdates = await getCollection('siteUpdates');
-	const siteNotionIds = site.data.notionIds || [];
-	const siteUpdates = await Promise.all(
-		allSiteUpdates
-			.filter(
-				(update) => update.data.siteNotionId && siteNotionIds.includes(update.data.siteNotionId),
-			)
-			.map((siteUpdate) => ({
-				...siteUpdate,
-
-				data: { ...siteUpdate.data, date: new Date(siteUpdate.data.date) },
-			}))
-			.sort((a, b) => {
-				if (!a.data.date) return 1;
-				if (!b.data.date) return -1;
-				return b.data.date.getTime() - a.data.date.getTime();
-			})
-			.map(async (update) => ({
-				...update,
-				bodyHtml: update.body ? await marked.parse(update.body) : '',
-			})),
-	);
-
 	const siteCollection = await getCollection('siteMeta');
 
 	// Create a map of API data by kebab-case name
@@ -65,6 +41,27 @@ const { site, apiData } = Astro.props;
 if (!site) {
 	return Astro.redirect('/404');
 }
+
+// Fetch site updates for this site
+const allSiteUpdates = await getCollection('siteUpdates');
+const siteNotionIds = site.data.notionIds || [];
+const siteUpdates = await Promise.all(
+	allSiteUpdates
+		.filter((update) => update.data.siteNotionId && siteNotionIds.includes(update.data.siteNotionId))
+		.map((siteUpdate) => ({
+			...siteUpdate,
+			data: { ...siteUpdate.data, date: new Date(siteUpdate.data.date) },
+		}))
+		.sort((a, b) => {
+			if (!a.data.date) return 1;
+			if (!b.data.date) return -1;
+			return b.data.date.getTime() - a.data.date.getTime();
+		})
+		.map(async (update) => ({
+			...update,
+			bodyHtml: update.body ? await marked.parse(update.body) : '',
+		})),
+);
 
 const mapboxToken = import.meta.env.PUBLIC_MAPBOX_TOKEN;
 
