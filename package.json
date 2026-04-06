@@ -13,7 +13,6 @@
 	"dependencies": {
 		"@acab/reset.css": "^0.11.0",
 		"@notionhq/client": "^2.3.0",
-		"@tailwindcss/vite": "^4.1.18",
 		"astro": "^6.0.8",
 		"dotenv": "^17.2.3",
 		"googleapis": "^144.0.0",
