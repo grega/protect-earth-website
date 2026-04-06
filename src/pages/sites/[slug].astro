@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import { marked } from 'marked';
 import ContentHero from '../../components/ContentHero.astro';
 import ImageGallery from '../../components/ImageGallery.astro';
@@ -82,17 +83,17 @@ const species = apiData?.species || [];
 type FundingPartnerInfo = { src: string; alt: string; url: string };
 const fundingPartnerLogos = {
 	ecologi: {
-		src: '/logos/ecologi.png',
+		src: '/logos/funding/ecologi.png',
 		alt: 'Ecologi',
 		url: 'https://ecologi.com/',
 	},
 	'woodland-trust': {
-		src: '/logos/woodland-trust.png',
+		src: '/logos/funding/woodland-trust.png',
 		alt: 'Woodland Trust',
 		url: 'https://www.woodlandtrust.org.uk/',
 	},
 	reewild: {
-		src: '/logos/reewild.png',
+		src: '/logos/funding/reewild.png',
 		alt: 'Reewild',
 		url: 'https://www.reewild.co.uk/',
 	},
@@ -226,13 +227,20 @@ const fundingPartnerInfos = fundingPartners
 
 							{data.photos && data.photos.length > 0 && (
 								<div class="SiteUpdate__photos">
-									{data.photos
-										.filter((photo: string) => photo.startsWith('/site-updates/'))
-										.map((photo: string) => (
-											<a href={photo} target="_blank" rel="noopener noreferrer" class="block">
-												<img src={photo} alt="" loading="lazy" />
+									{data.photos.map((photo: any) => {
+										const isRemote = typeof photo === 'string';
+										const href = isRemote ? photo : photo.src;
+
+										return (
+											<a href={href} target="_blank" rel="noopener noreferrer" class="block">
+												{isRemote ? (
+													<img src={photo} alt="" loading="lazy" />
+												) : (
+													<Image src={photo} alt="" loading="lazy" />
+												)}
 											</a>
-										))}
+										);
+									})}
 								</div>
 							)}
 						</article>

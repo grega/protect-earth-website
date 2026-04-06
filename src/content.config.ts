@@ -63,17 +63,18 @@ const siteMeta = defineCollection({
 
 const siteUpdates = defineCollection({
 	loader: glob({ base: './src/content/site-updates', pattern: '**/*.md' }),
-	schema: z.object({
-		title: z.string(),
-		notionId: z.string(),
-		type: z.string().optional(),
-		date: z.string().optional(),
-		siteNotionId: z.string().optional(),
-		treesPlanted: z.number().optional(),
-		treesRestocked: z.number().optional(),
-		survivalRate: z.number().optional(),
-		photos: z.array(z.string()).optional(),
-	}),
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			notionId: z.string(),
+			type: z.string().optional(),
+			date: z.string().optional(),
+			siteNotionId: z.string().optional(),
+			treesPlanted: z.number().optional(),
+			treesRestocked: z.number().optional(),
+			survivalRate: z.number().optional(),
+			photos: z.array(image()).optional(),
+		}),
 });
 
 // 5. Export a single `collections` object to register your collection(s)
