@@ -228,16 +228,9 @@ const fundingPartnerInfos = fundingPartners
 							{data.photos && data.photos.length > 0 && (
 								<div class="SiteUpdate__photos">
 									{data.photos.map((photo: any) => {
-										const isRemote = typeof photo === 'string';
-										const href = isRemote ? photo : photo.src;
-
 										return (
-											<a href={href} target="_blank" rel="noopener noreferrer" class="block">
-												{isRemote ? (
-													<img src={photo} alt="" loading="lazy" />
-												) : (
-													<Image src={photo} alt="" loading="lazy" />
-												)}
+											<a href={photo.src} target="_blank" rel="noopener noreferrer" class="block">
+												<Image src={photo} alt= loading="lazy" />
 											</a>
 										);
 									})}
