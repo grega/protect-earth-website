@@ -1,0 +1,31 @@
+---
+const { noTitle = false } = Astro.props;
+---
+
+<nav class="PageSection GetStarted" data-has-title={noTitle ? undefined : 'true'}>
+	{!noTitle && <strong class="PageSection__title">Get Started</strong>}
+
+	<ul class="GetStarted__methods">
+		<li
+			class="GetStarted__method"
+			data-background-image="/get-started--people.jpg"
+			style="background-image: url(/get-started--people.jpg)"
+		>
+			<a class="block-link" href="/get-involved/people-families">People & Families</a>
+		</li>
+		<li
+			class="GetStarted__method"
+			data-background-image="/get-started--businesses.jpg"
+			style="background-image: url(/get-started--businesses.jpg)"
+		>
+			<a class="block-link" href="/get-involved/businesses">Businesses</a>
+		</li>
+		<li
+			class="GetStarted__method"
+			data-background-image="/get-started--landowners.jpg"
+			style="background-image: url(/get-started--landowners.jpg)"
+		>
+			<a class="block-link" href="/get-involved/landowners">Landowners</a>
+		</li>
+	</ul>
+</nav>

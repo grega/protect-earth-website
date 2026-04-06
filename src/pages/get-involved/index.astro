@@ -1,31 +1,17 @@
 ---
+import GetStarted from '../../components/GetStarted.astro';
 import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout title="Get Involved">
-	<section class="bg-green-700 text-white py-20">
-		<div class="container mx-auto px-4 text-center">
-			<h1 class="text-5xl font-bold mb-6">Get Involved</h1>
-			<p class="text-xl max-w-3xl mx-auto">Join us in protecting Earth</p>
-		</div>
-	</section>
+	<section class="PageSection">
+		<header class="PageSection">
+			<h1 class="PageSection__title">Get Involved</h1>
+			<p>Join us in protecting Earth</p>
+		</header>
 
-	<section class="py-16">
-		<div class="container mx-auto px-4">
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-				<a href="/get-involved/people-families" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
-					<h3 class="text-2xl font-bold mb-4 text-green-800">People & Families</h3>
-					<p class="text-gray-600">Ways you can help protect the Earth</p>
-				</a>
-				<a href="/get-involved/businesses" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
-					<h3 class="text-2xl font-bold mb-4 text-green-800">Businesses</h3>
-					<p class="text-gray-600">Corporate partnerships for environmental impact</p>
-				</a>
-				<a href="/get-involved/landowners" class="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition">
-					<h3 class="text-2xl font-bold mb-4 text-green-800">Landowners</h3>
-					<p class="text-gray-600">Restore and rewild your land</p>
-				</a>
-			</div>
+		<div class="PageSection__content">
+			<GetStarted noTitle />
 		</div>
 	</section>
 </Layout>

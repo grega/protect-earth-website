@@ -1,58 +1,174 @@
 ---
-// Navigation component for main site header
+const { pathname } = Astro.url;
+const paths = pathname.split('/').filter(Boolean);
+
+const [topLevel, secondLevel] = paths;
 ---
 
-<header class="bg-white border-b border-gray-200">
-	<nav class="container mx-auto px-4 py-4">
-		<div class="flex items-center justify-between">
-			<a href="/" class="block">
-				<img src="/logo.png" alt="Protect Earth" class="h-16 md:h-20" />
+<nav class="Navigation">
+	<label class="Navigation__trigger" for="navigation-toggle">
+		<span>Menu</span>
+		<input
+			class="Navigation__toggle no-focus-visually-hidden"
+			type="checkbox"
+			id="navigation-toggle"
+		/>
+	</label>
+	<ul class="Navigation__items">
+		<li class="Navigation__item">
+			<a class="Navigation__link" href="/" aria-current={topLevel === '' ? 'page' : undefined}>
+				Home
 			</a>
-			<ul class="flex space-x-6 text-gray-800">
-				<li class="relative group">
-					<button class="hover:text-green-700 font-medium flex items-center gap-1">
-						Get Involved
-						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-						</svg>
-					</button>
-					<div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-						<a href="/get-involved/people-families" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">People & Families</a>
-						<a href="/get-involved/landowners" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Landowners</a>
-						<a href="/get-involved/businesses" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Businesses</a>
-					</div>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/get-involved"
+				aria-current={topLevel === 'get-involved' ? 'page' : undefined}
+			>
+				Get Involved
+			</a>
+			<ul class="Navigation__items">
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/get-involved/businesses"
+						aria-current={secondLevel === 'businesses' ? 'page' : undefined}
+					>
+						Businesses
+					</a>
 				</li>
-				<li><a href="/events" class="hover:text-green-700 font-medium">Events</a></li>
-				<li><a href="/sites" class="hover:text-green-700 font-medium">Sites</a></li>
-				<li><a href="/articles" class="hover:text-green-700 font-medium">Articles</a></li>
-				<li class="relative group">
-					<button class="hover:text-green-700 font-medium flex items-center gap-1">
-						Act Now
-						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-						</svg>
-					</button>
-					<div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-						<a href="/act-now/general-donation" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">General Donation</a>
-						<a href="/act-now/sponsor-trees" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Sponsor Trees</a>
-						<a href="/act-now/land-fund" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Land Fund</a>
-					</div>
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/get-involved/landowners"
+						aria-current={secondLevel === 'landowners' ? 'page' : undefined}
+					>
+						Landowners
+					</a>
 				</li>
-				<li class="relative group">
-					<button class="hover:text-green-700 font-medium flex items-center gap-1">
-						About
-						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-						</svg>
-					</button>
-					<div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-						<a href="/about/our-purpose" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Our Purpose</a>
-						<a href="/about/meet-the-team" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">Meet the Team</a>
-						<a href="/about/in-the-press" class="block px-4 py-3 hover:bg-gray-50 text-gray-800 hover:text-green-700">In the Press</a>
-					</div>
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/get-involved/people-families"
+						aria-current={secondLevel === 'people-families' ? 'page' : undefined}
+					>
+						People & Families
+					</a>
 				</li>
-				<li><a href="/contact" class="hover:text-green-700 font-medium">Contact</a></li>
 			</ul>
-		</div>
-	</nav>
-</header>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/events"
+				aria-current={topLevel === 'events' ? 'page' : undefined}
+			>
+				Events
+			</a>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/sites"
+				aria-current={topLevel === 'sites' ? 'page' : undefined}
+			>
+				Sites
+			</a>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/articles"
+				aria-current={topLevel === 'articles' ? 'page' : undefined}
+			>
+				Articles
+			</a>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/act-now"
+				aria-current={topLevel === 'act-now' ? 'page' : undefined}
+			>
+				Act Now
+			</a>
+			<ul class="Navigation__items">
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/act-now/general-donation"
+						aria-current={secondLevel === 'general-donation' ? 'page' : undefined}
+					>
+						General Donation
+					</a>
+				</li>
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/act-now/sponsor-trees"
+						aria-current={secondLevel === 'sponsor-trees' ? 'page' : undefined}
+					>
+						Sponsor Trees
+					</a>
+				</li>
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/act-now/land-fund"
+						aria-current={secondLevel === 'land-fund' ? 'page' : undefined}
+					>
+						Land Fund
+					</a>
+				</li>
+			</ul>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/about"
+				aria-current={topLevel === 'about' ? 'page' : undefined}
+			>
+				About
+			</a>
+			<ul class="Navigation__items">
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/about/our-purpose"
+						aria-current={secondLevel === 'our-purpose' ? 'page' : undefined}
+					>
+						Our Purpose
+					</a>
+				</li>
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/about/meet-the-team"
+						aria-current={secondLevel === 'meet-the-team' ? 'page' : undefined}
+					>
+						Meet the Team
+					</a>
+				</li>
+				<li class="Navigation__item">
+					<a
+						class="Navigation__link"
+						href="/about/in-the-press"
+						aria-current={secondLevel === 'in-the-press' ? 'page' : undefined}
+					>
+						In the Press
+					</a>
+				</li>
+			</ul>
+		</li>
+		<li class="Navigation__item">
+			<a
+				class="Navigation__link"
+				href="/contact"
+				aria-current={topLevel === 'contact' ? 'page' : undefined}
+			>
+				Contact
+			</a>
+		</li>
+	</ul>
+</nav>

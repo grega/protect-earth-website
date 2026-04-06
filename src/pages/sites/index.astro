@@ -1,0 +1,226 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { siteConfig } from '../../config';
+import { toKebabCase } from '../../helpers';
+import ContentHero from '../../components/ContentHero.astro';
+import TakeAction from '../../components/TakeAction.astro';
+
+const mapboxToken = import.meta.env.PUBLIC_MAPBOX_TOKEN;
+
+// Fetch sites from API
+const apiResponse = await fetch('https://api.protect.earth/sites');
+const allApiSites = await apiResponse.json();
+
+// Filter out ignored sites
+const apiSites = allApiSites.filter((site: any) => !siteConfig.ignoredSites.includes(site.name));
+
+// Get collection for tags
+const siteMeta = await getCollection('siteMeta');
+const siteTagsMap = new Map(siteMeta.map((site) => [site.id, site.data.tags || []]));
+
+// Map API data with first image and tags
+const sites = apiSites
+	.map((site: any) => {
+		const slug = toKebabCase(site.name);
+
+		return {
+			slug,
+
+			id: site.id,
+			name: site.name,
+			location: site.location,
+			url: site.url,
+			allocatedUnits: site.allocatedUnits,
+			coordinates: site.coordinates,
+			thumbnail: site.images?.[0] || null,
+			tags: siteTagsMap.get(slug) || [],
+		};
+	})
+	.sort((a: any, b: any) => a.name.localeCompare(b.name));
+
+// Get all unique tags
+const allTags = [...new Set(sites.flatMap((site: any) => site.tags))].sort();
+---
+
+<Layout title="Sites">
+	<!-- Hero Section -->
+	<ContentHero title="Our Sites">
+		<p>Discover the woodlands, shelterbelts, and rewilding projects we've created across the UK.</p>
+	</ContentHero>
+
+	<!-- Map Section -->
+	<figure class="SiteLocations">
+		<div class="SiteLocations__inner">
+			<div id="map" class="MapCanvas"></div>
+		</div>
+	</figure>
+
+	<!-- Sites Grid -->
+	<div class="PageSection">
+		<div class="PageSection__content">
+			<!-- Filter Tags -->
+			{
+				allTags.length > 0 && (
+					<div class="SiteFilter">
+						<strong class="SiteFilter__title">Filter by type:</strong>
+						<menu class="SiteFilter__items">
+							<li class="SiteFilter__item">
+								<button type="button" class="SiteFilter__filter" data-tag="all" aria-pressed="true">
+									All Sites
+								</button>
+							</li>
+							{allTags.map((tag) => (
+								<li class="SiteFilter__item">
+									<button class="SiteFilter__filter" data-tag={tag}>
+										{tag}
+									</button>
+								</li>
+							))}
+						</menu>
+						<p class="SiteFilter__results">
+							Showing{' '}
+							<span id="site-count">
+								{sites.length} {`site${sites.length !== 1 ? 's' : ''}`}
+							</span>
+						</p>
+					</div>
+				)
+			}
+
+			<div id="sites-grid" class="SiteGrid">
+				{
+					sites.map((site: any) => (
+						<article class="Site" data-tags={JSON.stringify(site.tags)}>
+							<aside class="Site__thumbnail">
+								{site.thumbnail ? (
+									<img src={site.thumbnail} alt="" />
+								) : (
+									<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+										/>
+									</svg>
+								)}
+							</aside>
+							<div class="Site__content">
+								<h2 class="Site__title">{site.name}</h2>
+
+								<dl class="Site__meta">
+									{site.location && (
+										<div class="Site__metaGroup Site__metaGroup--location">
+											<dt class="Site__metaTitle visually-hidden">Location</dt>
+											<dd class="Site__metaItem">📍 {site.location}</dd>
+										</div>
+									)}
+									{site.tags && site.tags.length > 0 && (
+										<div class="Site__metaGroup Site__metaGroup--tags">
+											<dt class="Site__metaTitle visually-hidden">Tags</dt>
+											{site.tags.map((tag: string) => (
+												<dd class="Site__metaItem Site__tag">{tag}</dd>
+											))}
+										</div>
+									)}
+								</dl>
+
+								<a class="Site__link" href={`/sites/${site.slug}`}>
+									<span class="visually-hidden">Read more</span>
+								</a>
+							</div>
+						</article>
+					))
+				}
+			</div>
+		</div>
+	</div>
+
+	<TakeAction />
+</Layout>
+
+<!-- Mapbox GL JS -->
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+<script is:inline define:vars={{ sites, mapboxToken }}>
+	window.addEventListener('DOMContentLoaded', () => {
+		mapboxgl.accessToken = mapboxToken;
+
+		const map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/light-v10',
+			center: [-1.8373, 53.7454], // the middle of the UK roughly
+			zoom: 4.5,
+		});
+
+		map.addControl(new mapboxgl.NavigationControl());
+
+		sites.forEach((site) => {
+			if (!site.coordinates || !site.coordinates.latitude || !site.coordinates.longitude) return;
+
+			const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`
+				<div class="SiteMarkerInfo">
+					<h3 class="SiteMarkerInfo__title">${site.name}</h3>
+					${site.location ? `<p class="SiteMarkerInfo__location">${site.location}</p>` : ''}
+					${site.allocatedUnits > 0 ? `<p class="SiteMarkerInfo__units">${site.allocatedUnits.toLocaleString()} trees</p>` : ''}
+					<a href="/sites/${site.slug}" class="SiteMarkerInfo__link">
+						View Site →
+					</a>
+				</div>
+			`);
+
+			new mapboxgl.Marker({ color: '#15803d' })
+				.setLngLat([site.coordinates.longitude, site.coordinates.latitude])
+				.setPopup(popup)
+				.addTo(map);
+		});
+	});
+</script>
+<script>
+	// Tag filtering functionality
+	document.addEventListener('DOMContentLoaded', () => {
+		const filterButtons = document.querySelectorAll('.SiteFilter__filter');
+		const siteCards = document.querySelectorAll('.Site');
+		const siteCountEl = document.getElementById('site-count');
+
+		let activeTag = 'all';
+
+		filterButtons.forEach((button) => {
+			button.addEventListener('click', () => {
+				const tag = (button as HTMLElement).dataset.tag;
+
+				// Update active state
+				filterButtons.forEach((btn) => {
+					if ((btn as HTMLElement).dataset.tag === tag) {
+						btn.setAttribute('aria-pressed', 'true');
+					} else {
+						btn.removeAttribute('aria-pressed');
+					}
+				});
+
+				activeTag = tag || '';
+				filterSites();
+			});
+		});
+
+		function filterSites() {
+			let visibleCount = 0;
+
+			siteCards.forEach((card) => {
+				const tags = JSON.parse((card as HTMLElement).dataset.tags || '[]');
+
+				if (activeTag === 'all' || tags.includes(activeTag)) {
+					card.removeAttribute('hidden');
+					visibleCount++;
+				} else {
+					card.setAttribute('hidden', 'true');
+				}
+			});
+
+			if (siteCountEl) {
+				siteCountEl.textContent = `${visibleCount} site${visibleCount === 1 ? '' : 's'}`;
+			}
+		}
+	});
+</script>

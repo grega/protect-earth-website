@@ -1,0 +1,21 @@
+---
+import type { CollectionEntry } from 'astro:content';
+type Props = CollectionEntry<'members'>['data'][0];
+
+const { name, role, image, imageAlt, bio } = Astro.props;
+---
+
+<article class="TeamMember">
+	<img class="TeamMember__image" src={image} alt={imageAlt} />
+
+	<div class="TeamMember__content">
+		<header class="TeamMember__header">
+			<h2 class="TeamMember__name">{name}</h2>
+			<p class="TeamMember__role" aria-label="Role:">{role}</p>
+		</header>
+
+		<div class="TeamMember__bio">
+			{bio.split('\n\n').map((paragraph: string) => <p>{paragraph}</p>)}
+		</div>
+	</div>
+</article>

@@ -1,67 +1,113 @@
 ---
-import '../styles/global.css'
+import '../styles/global.scss';
 import Navigation from '../components/Navigation.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { siteConfig } from '../config';
+
+const { charityNumber, contact, social } = siteConfig;
+const copyrightYear = new Date().getFullYear();
 
 interface Props {
 	title: string;
 	description?: string;
+	breadcrumb?: string;
+	className?: string;
 }
 
-const { title, description = 'Creating and restoring ecosystems in the UK' } = Astro.props;
+const {
+	title,
+	description = 'Creating and restoring ecosystems in the UK',
+	breadcrumb = '',
+	className = '',
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content={description} />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>{title} | Protect Earth</title>
+
+		<link rel="canonical" href="https://protect.earth" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+
+		<meta name="description" content={description} />
+		<meta name="color-scheme" content="light only" />
+		<meta name="theme-color" content="#000000" />
 	</head>
-	<body class="bg-white text-gray-900">
-		<Navigation />
+	<body>
+		<PageHeader>
+			<Navigation />
+		</PageHeader>
 
-		<Breadcrumbs />
+		<Breadcrumbs activeLabel={breadcrumb} />
 
-		<main>
+		<main id="content" class={className}>
 			<slot />
 		</main>
 
-		<footer class="bg-gray-900 text-white mt-16">
-			<div class="container mx-auto px-4 py-12">
-				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-					<div>
-						<h3 class="text-xl font-bold mb-4">Protect Earth</h3>
-						<p class="text-gray-400">Creating and restoring ecosystems in the UK</p>
-						<p class="text-gray-400 mt-2">Charity: 1192453</p>
-					</div>
-					<div>
-						<h4 class="font-bold mb-4">Get in touch</h4>
-					<p class="text-gray-400"><a href="mailto:help@protect.earth" class="hover:text-white">help@protect.earth</a></p>
-					<p class="text-gray-400"><a href="tel:+443003020065" class="hover:text-white">+44 (0) 300 302 0065</a></p>
-					<p class="mt-2"><a href="/contact" class="text-gray-400 hover:text-white">Contact Page →</a></p>
-					<div class="flex space-x-4 mt-4">
-						<a href="https://www.threads.net/@protectearthuk" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">Threads</a>
-						<a href="https://instagram.com/ProtectEarthUK" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">Instagram</a>
-						<a href="https://facebook.com/ProtectEarthUK" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">Facebook</a>
-						</div>
-					</div>
-					<div>
-						<h4 class="font-bold mb-4">Useful Links</h4>
-						<ul class="space-y-2">
-							<li><a href="/events" class="text-gray-400 hover:text-white">Events</a></li>
-							<li><a href="/projects" class="text-gray-400 hover:text-white">Projects</a></li>
-							<li><a href="/about/volunteer-with-us" class="text-gray-400 hover:text-white">Volunteer</a></li>
-							<li><a href="/about/in-the-press" class="text-gray-400 hover:text-white">Press</a></li>
-							<li><a href="/join-our-mailing-list" class="text-gray-400 hover:text-white">Join our Mailing List</a></li>
+		<footer class="Footer">
+			<img class="Footer__logo" src="/logo-footer.png" alt="Protect Earth." />
+
+			<div class="Footer__groups">
+				<div class="Footer__group">
+					<h4 class="Footer__title">Get in touch</h4>
+
+					<address class="Footer__contact">
+						<ul class="Footer__links">
+							<li><a href={`mailto:${contact.email}`}>{contact.email}</a></li>
+							<li><a class="Footer__links" href={contact.phone.link}>{contact.phone.label}</a></li>
 						</ul>
+
+						<ul class="Footer__links" data-inline>
+							<li>
+								<a href={social.threads} target="_blank" rel="noopener noreferrer">Threads</a>
+							</li>
+							<li>
+								<a href={social.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+							</li>
+							<li>
+								<a href={social.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+
+				<nav class="Footer__group">
+					<h4 class="Footer__title">Useful Links</h4>
+
+					<ul class="Footer__links">
+						<li><a href="/get-involved">Volunteer</a></li>
+						<li><a href="/about/in-the-press">Press</a></li>
+						<li><a href="/events">Events</a></li>
+						<li><a href="/sites">Sites</a></li>
+						<li><a href="/join-our-mailing-list">Join our Mailing List</a></li>
+					</ul>
+				</nav>
+
+				<div class="Footer__group">
+					<h4 class="Footer__title">Supplemental</h4>
+
+					<div>
+						<nav class="Footer__links">
+							<strong>Read our:</strong>
+							<ul data-inline>
+								<li><a href="/privacy-policy">Privacy Policy</a></li>
+								<li>
+									<a href="/files/Protect-Earth-Constitution-Approved-171120.pdf">Constitution</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="Footer__baseline">
+						<small>Protect Earth is a registered charity: {charityNumber} in England & Wales.</small
+						>
+						<small>&copy; {copyrightYear} Protect Earth. All rights reserved.</small>
 					</div>
 				</div>
-				<div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-					<p>&copy; {new Date().getFullYear()} Protect Earth. All rights reserved.</p>				<p class="mt-2 text-sm">Protect Earth is a registered charity: 1192453 in England and Wales.</p>
-				<p class="mt-1 text-sm">Read our: <a href="/privacy-policy" class="hover:text-white">Privacy Policy</a></p>				</div>
 			</div>
 		</footer>
 	</body>

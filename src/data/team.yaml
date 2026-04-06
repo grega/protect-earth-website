@@ -2,6 +2,7 @@ members:
   - name: Phil Sturgeon
     role: Chair
     image: /team-phil.png
+    imageAlt: ''
     bio: |
       Phil is a software engineer by trade, and the only person on the team
       without a dog. This might need to change. Phil grew up between Bristol and
@@ -20,6 +21,7 @@ members:
   - name: Andy Herd
     role: Trustee
     image: /team-andy.jpg
+    imageAlt: ''
     bio: |
       Andy is a software engineer based in West Lothian, Scotland.
 
@@ -34,6 +36,7 @@ members:
   - name: Julian Cheal
     role: Trustee
     image: /team-julian.png
+    imageAlt: ''
     bio: |
       Julian is a software engineer based in Bath, England. Originally hailing from
       the Welsh Valleys. He enjoys making and playing music and if the weather is nice
@@ -47,6 +50,7 @@ members:
   - name: Steve Wiltshire
     role: Ecologist
     image: /team-steve.jpg
+    imageAlt: ''
     bio: |
       Steve has been fascinated with the natural world since childhood. He has
       worked in nature conservation for 15 years with organisations such as the
@@ -59,6 +63,7 @@ members:
   - name: Kathy Sturgeon
     role: Events Coordinator
     image: /team-kathy.jpg
+    imageAlt: ''
     bio: |
       Kathy is a retired primary school teacher who was her school's
       environmental education subject leader. As a Brownie Guider and pack
@@ -69,6 +74,7 @@ members:
   - name: Michael Cunningham
     role: Project Manager
     image: /team-michael.jpg
+    imageAlt: ''
     bio: |
       Michael brings hands-on expertise and a strong track record in
       conservation to Protect Earth. With a BSc (Hons) in Countryside and
