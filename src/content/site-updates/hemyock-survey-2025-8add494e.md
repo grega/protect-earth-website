@@ -6,8 +6,8 @@ date: "2025-08-14T00:00:00.000Z"
 siteNotionId: "c6b4c439-42e2-49cc-b88e-80c1d0a2dc1c"
 survivalRate: 0.87
 photos:
-  - "/site-updates/hemyock-survey-2025-8add494e/1.jpg"
-  - "/site-updates/hemyock-survey-2025-8add494e/2.jpg"
-  - "/site-updates/hemyock-survey-2025-8add494e/3.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/1.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/2.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/3.jpg"
 ---
 

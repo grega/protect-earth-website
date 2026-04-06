@@ -6,9 +6,9 @@ date: "2025-09-15T00:00:00.000Z"
 siteNotionId: "fd56944d-4321-4f73-88ba-69a8c421cf51"
 survivalRate: 0.9
 photos:
-  - "/site-updates/wadswick-green-survey-2526-a246c55a/1.jpg"
-  - "/site-updates/wadswick-green-survey-2526-a246c55a/2.jpg"
-  - "/site-updates/wadswick-green-survey-2526-a246c55a/3.jpg"
-  - "/site-updates/wadswick-green-survey-2526-a246c55a/4.jpg"
+  - "../../assets/site-updates/wadswick-green-survey-2526-a246c55a/1.jpg"
+  - "../../assets/site-updates/wadswick-green-survey-2526-a246c55a/2.jpg"
+  - "../../assets/site-updates/wadswick-green-survey-2526-a246c55a/3.jpg"
+  - "../../assets/site-updates/wadswick-green-survey-2526-a246c55a/4.jpg"
 ---
 

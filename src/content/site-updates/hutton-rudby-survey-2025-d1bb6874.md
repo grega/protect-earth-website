@@ -6,11 +6,11 @@ date: "2025-07-21T00:00:00.000Z"
 siteNotionId: "3f251583-a12f-4fe0-9aa9-31d9b20f9a00"
 survivalRate: 0.85
 photos:
-  - "/site-updates/hutton-rudby-survey-2025-d1bb6874/1.jpg"
-  - "/site-updates/hutton-rudby-survey-2025-d1bb6874/2.jpg"
-  - "/site-updates/hutton-rudby-survey-2025-d1bb6874/3.jpg"
-  - "/site-updates/hutton-rudby-survey-2025-d1bb6874/4.jpg"
-  - "/site-updates/hutton-rudby-survey-2025-d1bb6874/5.jpg"
-  - "/site-updates/hutton-rudby-survey-2025-d1bb6874/6.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/1.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/2.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/3.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/4.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/5.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/6.jpg"
 ---
 

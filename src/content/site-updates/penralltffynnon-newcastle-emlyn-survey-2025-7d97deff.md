@@ -7,10 +7,10 @@ siteNotionId: "7b8cda62-9ba3-45d2-80ac-b1a7a10efe11"
 survivalRate: 0.25
 treesRestocked: 338
 photos:
-  - "/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/1.jpg"
-  - "/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/2.jpg"
-  - "/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/3.jpg"
-  - "/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/4.jpg"
-  - "/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/5.jpg"
+  - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/1.jpg"
+  - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/2.jpg"
+  - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/3.jpg"
+  - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/4.jpg"
+  - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/5.jpg"
 ---
 

@@ -6,13 +6,13 @@ date: "2024-02-04T00:00:00.000Z"
 siteNotionId: "054d9ba2-00ac-4c17-a8e5-abebfd4835ba"
 treesPlanted: 900
 photos:
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/1.jpg"
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/2.jpg"
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/3.jpg"
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/4.jpg"
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/5.jpg"
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/6.jpg"
-  - "/site-updates/bethania-brynwichell-planting-ef4d5f62/7.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/1.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/2.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/3.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/4.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/5.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/6.jpg"
+  - "../../assets/site-updates/bethania-brynwichell-planting-ef4d5f62/7.jpg"
 ---
 
 Protect Earth was contacted by another landowner nearby and asked to help with their wilding plans. We were more than happy to assist, and so back to Ceredigion we went!

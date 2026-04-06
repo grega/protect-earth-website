@@ -5,9 +5,9 @@ type: "Beat-up Survey"
 date: "2025-04-06T00:00:00.000Z"
 siteNotionId: "daa5b909-c272-461a-a934-38dadd33afe2"
 photos:
-  - "/site-updates/hawling-survey-2025-07ac3037/1.jpg"
-  - "/site-updates/hawling-survey-2025-07ac3037/2.jpg"
-  - "/site-updates/hawling-survey-2025-07ac3037/3.jpg"
-  - "/site-updates/hawling-survey-2025-07ac3037/4.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-07ac3037/1.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-07ac3037/2.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-07ac3037/3.jpg"
+  - "../../assets/site-updates/hawling-survey-2025-07ac3037/4.jpg"
 ---
 
