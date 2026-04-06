@@ -16,22 +16,11 @@ photos:
   - "../../assets/site-updates/south-molton-survey-2025-2e84af42/8.jpg"
   - "../../assets/site-updates/south-molton-survey-2025-2e84af42/9.jpg"
   - "../../assets/site-updates/south-molton-survey-2025-2e84af42/10.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/11.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/12.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/13.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/14.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/15.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/16.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/17.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/18.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/19.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/20.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/21.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/22.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/23.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/24.jpg"
-  - "../../assets/site-updates/south-molton-survey-2025-2e84af42/25.jpg"
 ---
+
+
+
+
 
 
 

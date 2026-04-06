@@ -17,9 +17,11 @@ photos:
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/8.jpg"
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/9.jpg"
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/10.jpg"
-  - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/11.jpg"
-  - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/12.jpg"
 ---
+
+
+
+
 
 
 

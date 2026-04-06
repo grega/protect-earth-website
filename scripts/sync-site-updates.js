@@ -2,6 +2,7 @@
 import { config } from 'dotenv';
 import { Client } from '@notionhq/client';
 import { google } from 'googleapis';
+import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -12,6 +13,8 @@ import matter from 'gray-matter';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const replaceImages = process.argv.includes('--replace-images');
+const PHOTO_MANIFEST_FILENAME = '.manifest.json';
+const MAX_SITE_UPDATE_PHOTOS = 10;
 
 config();
 
@@ -118,6 +121,49 @@ function ensureParentDirectory(filePath) {
 	}
 }
 
+function loadPhotoManifest(outputDir) {
+	const manifestPath = path.join(outputDir, PHOTO_MANIFEST_FILENAME);
+	if (!fs.existsSync(manifestPath)) {
+		return {};
+	}
+
+	try {
+		return JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+	} catch (error) {
+		console.warn(`Warning: Could not parse photo manifest at ${manifestPath}: ${error.message}`);
+		return {};
+	}
+}
+
+function savePhotoManifest(outputDir, manifest) {
+	const manifestPath = path.join(outputDir, PHOTO_MANIFEST_FILENAME);
+	fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
+}
+
+function pruneUnusedLocalizedImages(outputDir, usedFileNames) {
+	const allowed = new Set([...usedFileNames, PHOTO_MANIFEST_FILENAME]);
+	for (const entry of fs.readdirSync(outputDir)) {
+		if (allowed.has(entry)) {
+			continue;
+		}
+
+		const entryPath = path.join(outputDir, entry);
+		if (fs.statSync(entryPath).isFile()) {
+			fs.unlinkSync(entryPath);
+		}
+	}
+}
+
+async function hashFile(filePath) {
+	return await new Promise((resolve, reject) => {
+		const hash = crypto.createHash('sha256');
+		const stream = fs.createReadStream(filePath);
+		stream.on('error', reject);
+		stream.on('data', (chunk) => hash.update(chunk));
+		stream.on('end', () => resolve(hash.digest('hex')));
+	});
+}
+
 function downloadImage(url, filePath) {
 	return new Promise((resolve, reject) => {
 		ensureParentDirectory(filePath);
@@ -213,7 +259,7 @@ async function fetchImagesFromDriveFolder(folderId, depth = 0) {
 
 		const response = await drive.files.list({
 			q: `'${folderId}' in parents and trashed=false`,
-			fields: 'files(id,name,mimeType)',
+			fields: 'files(id,name,mimeType,md5Checksum)',
 			pageSize: 100,
 			supportsAllDrives: true,
 			includeItemsFromAllDrives: true,
@@ -252,14 +298,25 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 	if (!fs.existsSync(outputDir)) {
 		fs.mkdirSync(outputDir, { recursive: true });
 	}
+	const previousManifest = loadPhotoManifest(outputDir);
+	const nextManifest = {};
+	const usedFileNames = new Set();
 
 	const localized = [];
 	let index = 1;
 
 	for (const photoUrl of photos) {
+		if (localized.length >= MAX_SITE_UPDATE_PHOTOS) {
+			console.log(
+				`  Reached max photo limit (${MAX_SITE_UPDATE_PHOTOS}) for ${slug}; skipping remaining photo sources`,
+			);
+			break;
+		}
+
 		if (!isRemoteUrl(photoUrl)) {
 			console.log(`  Keeping existing local photo path for ${slug}`);
 			localized.push(photoUrl);
+			usedFileNames.add(path.basename(photoUrl));
 			continue;
 		}
 
@@ -273,15 +330,45 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 
 			const driveImages = await fetchImagesFromDriveFolder(folderId);
 			for (const driveImage of driveImages) {
+				if (localized.length >= MAX_SITE_UPDATE_PHOTOS) {
+					console.log(
+						`    Reached max photo limit (${MAX_SITE_UPDATE_PHOTOS}) while processing Drive images`,
+					);
+					break;
+				}
+
+				const sourceKey = `drive:${driveImage.id}`;
 				const ext = getTempImageExtension(driveImage.mimeType, driveImage.name);
 				const tempPath = path.join(tempDir, `${slug}-${driveImage.id}.${ext}`);
 				const localName = `${index}.jpg`;
 				const localPath = path.join(outputDir, localName);
 				const contentPath = `../../assets/site-updates/${slug}/${localName}`;
+				const previousEntry = previousManifest[sourceKey];
+				const previousPath = previousEntry?.localName
+					? path.join(outputDir, previousEntry.localName)
+					: null;
 
-				if (fs.existsSync(localPath)) {
-					console.log(`    Reusing existing localized image ${localName}`);
+				if (
+					previousEntry?.checksum &&
+					driveImage.md5Checksum &&
+					previousEntry.checksum === driveImage.md5Checksum &&
+					previousPath &&
+					fs.existsSync(previousPath)
+				) {
+					if (previousPath !== localPath) {
+						if (fs.existsSync(localPath)) {
+							fs.unlinkSync(localPath);
+						}
+						fs.renameSync(previousPath, localPath);
+					}
+
+					console.log(`    Reusing localized image ${localName} via checksum match`);
 					localized.push(contentPath);
+					nextManifest[sourceKey] = {
+						localName,
+						checksum: driveImage.md5Checksum,
+					};
+					usedFileNames.add(localName);
 					index++;
 					continue;
 				}
@@ -303,6 +390,11 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 
 					await processImage(tempPath, localPath);
 					localized.push(contentPath);
+					nextManifest[sourceKey] = {
+						localName,
+						checksum: driveImage.md5Checksum || (await hashFile(localPath)),
+					};
+					usedFileNames.add(localName);
 					index++;
 					console.log(`    Wrote ${contentPath}`);
 
@@ -322,10 +414,28 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 		const localName = `${index}.jpg`;
 		const localPath = path.join(outputDir, localName);
 		const contentPath = `../../assets/site-updates/${slug}/${localName}`;
+		const sourceKey = `url:${photoUrl}`;
+		const previousEntry = previousManifest[sourceKey];
+		const previousPath = previousEntry?.localName
+			? path.join(outputDir, previousEntry.localName)
+			: null;
 
-		if (fs.existsSync(localPath)) {
-			console.log(`  Reusing existing localized image ${localName}`);
+		if (previousPath && fs.existsSync(previousPath) && previousEntry?.sourceUrl === photoUrl) {
+			if (previousPath !== localPath) {
+				if (fs.existsSync(localPath)) {
+					fs.unlinkSync(localPath);
+				}
+				fs.renameSync(previousPath, localPath);
+			}
+
+			console.log(`  Reusing existing localized image ${localName} for unchanged URL`);
 			localized.push(contentPath);
+			nextManifest[sourceKey] = {
+				localName,
+				checksum: previousEntry.checksum,
+				sourceUrl: photoUrl,
+			};
+			usedFileNames.add(localName);
 			index++;
 			continue;
 		}
@@ -335,6 +445,12 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 			await downloadImage(photoUrl, tempPath);
 			await processImage(tempPath, localPath);
 			localized.push(contentPath);
+			nextManifest[sourceKey] = {
+				localName,
+				checksum: await hashFile(localPath),
+				sourceUrl: photoUrl,
+			};
+			usedFileNames.add(localName);
 			index++;
 			console.log(`  Wrote ${contentPath}`);
 
@@ -345,6 +461,9 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 			console.warn(`Warning: Failed to localize image ${photoUrl}: ${error.message}`);
 		}
 	}
+
+	pruneUnusedLocalizedImages(outputDir, usedFileNames);
+	savePhotoManifest(outputDir, nextManifest);
 
 	return localized;
 }
@@ -552,6 +671,13 @@ async function syncSiteUpdates() {
 				if (notionPhotoUrls.length > 0 && existingLocalPhotos.length === 0) {
 					console.log('  Remote Notion photo URLs detected but omitted during plain sync');
 				}
+			}
+
+			if (photosToUse.length > MAX_SITE_UPDATE_PHOTOS) {
+				console.log(
+					`  Trimming photos from ${photosToUse.length} to ${MAX_SITE_UPDATE_PHOTOS} for ${slug}`,
+				);
+				photosToUse = photosToUse.slice(0, MAX_SITE_UPDATE_PHOTOS);
 			}
 
 			const frontmatter = {

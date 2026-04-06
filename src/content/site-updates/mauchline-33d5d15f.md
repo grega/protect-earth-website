@@ -16,34 +16,11 @@ photos:
   - "../../assets/site-updates/mauchline-33d5d15f/8.jpg"
   - "../../assets/site-updates/mauchline-33d5d15f/9.jpg"
   - "../../assets/site-updates/mauchline-33d5d15f/10.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/11.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/12.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/13.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/14.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/15.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/16.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/17.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/18.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/19.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/20.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/21.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/22.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/23.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/24.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/25.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/26.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/27.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/28.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/29.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/30.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/31.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/32.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/33.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/34.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/35.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/36.jpg"
-  - "../../assets/site-updates/mauchline-33d5d15f/37.jpg"
 ---
+
+
+
+
 
 
 

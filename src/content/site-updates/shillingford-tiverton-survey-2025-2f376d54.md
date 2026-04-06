@@ -16,18 +16,11 @@ photos:
   - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/8.jpg"
   - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/9.jpg"
   - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/10.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/11.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/12.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/13.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/14.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/15.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/16.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/17.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/18.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/19.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/20.jpg"
-  - "../../assets/site-updates/shillingford-tiverton-survey-2025-2f376d54/21.jpg"
 ---
+
+
+
+
 
 
 

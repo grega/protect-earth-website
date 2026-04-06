@@ -17,17 +17,11 @@ photos:
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/8.jpg"
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/9.jpg"
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/10.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/11.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/12.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/13.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/14.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/15.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/16.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/17.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/18.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/19.jpg"
-  - "../../assets/site-updates/south-lodge-survey-2025-891576a1/20.jpg"
 ---
+
+
+
+
 
 
 

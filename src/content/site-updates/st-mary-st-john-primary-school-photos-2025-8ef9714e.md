@@ -17,19 +17,11 @@ photos:
   - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/8.jpg"
   - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/9.jpg"
   - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/10.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/11.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/12.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/13.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/14.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/15.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/16.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/17.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/18.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/19.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/20.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/21.jpg"
-  - "../../assets/site-updates/st-mary-st-john-primary-school-photos-2025-8ef9714e/22.jpg"
 ---
+
+
+
+
 
 
 

@@ -17,12 +17,11 @@ photos:
   - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/8.jpg"
   - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/9.jpg"
   - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/10.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/11.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/12.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/13.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/14.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/15.jpg"
 ---
+
+
+
+
 
 
 

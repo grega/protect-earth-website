@@ -17,17 +17,11 @@ photos:
   - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/8.jpg"
   - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/9.jpg"
   - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/10.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/11.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/12.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/13.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/14.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/15.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/16.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/17.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/18.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/19.jpg"
-  - "../../assets/site-updates/bubbenhall-survey-2025-f34b8091/20.jpg"
 ---
+
+
+
+
 
 
 

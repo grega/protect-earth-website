@@ -16,22 +16,11 @@ photos:
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/8.jpg"
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/9.jpg"
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/10.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/11.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/12.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/13.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/14.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/15.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/16.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/17.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/18.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/19.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/20.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/21.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/22.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/23.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/24.jpg"
-  - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/25.jpg"
 ---
+
+
+
+
 
 
 

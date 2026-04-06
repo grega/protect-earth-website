@@ -16,14 +16,6 @@ photos:
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/8.jpg"
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/9.jpg"
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/10.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/11.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/12.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/13.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/14.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/15.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/16.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/17.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/18.jpg"
 ---
 
 

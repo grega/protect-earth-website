@@ -16,11 +16,11 @@ photos:
   - "../../assets/site-updates/howard-court-survey-2526-00179359/8.jpg"
   - "../../assets/site-updates/howard-court-survey-2526-00179359/9.jpg"
   - "../../assets/site-updates/howard-court-survey-2526-00179359/10.jpg"
-  - "../../assets/site-updates/howard-court-survey-2526-00179359/11.jpg"
-  - "../../assets/site-updates/howard-court-survey-2526-00179359/12.jpg"
-  - "../../assets/site-updates/howard-court-survey-2526-00179359/13.jpg"
-  - "../../assets/site-updates/howard-court-survey-2526-00179359/14.jpg"
 ---
+
+
+
+
 
 
 

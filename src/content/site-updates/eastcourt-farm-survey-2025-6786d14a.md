@@ -17,29 +17,11 @@ photos:
   - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/8.jpg"
   - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/9.jpg"
   - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/10.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/11.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/12.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/13.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/14.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/15.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/16.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/17.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/18.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/19.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/20.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/21.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/22.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/23.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/24.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/25.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/26.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/27.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/28.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/29.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/30.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/31.jpg"
-  - "../../assets/site-updates/eastcourt-farm-survey-2025-6786d14a/32.jpg"
 ---
+
+
+
+
 
 
 
