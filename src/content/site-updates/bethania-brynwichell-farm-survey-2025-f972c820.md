@@ -6,7 +6,15 @@ date: "2025-08-11T00:00:00.000Z"
 siteNotionId: "054d9ba2-00ac-4c17-a8e5-abebfd4835ba"
 survivalRate: 0.25
 treesRestocked: 750
-photos:
-  - "https://drive.google.com/open?id=1B4gmre8cmmblS0C_m7PIGdmsbws21vom&usp=drive_copy"
 ---
+
+
+
+
+
+
+
+
+
+
 

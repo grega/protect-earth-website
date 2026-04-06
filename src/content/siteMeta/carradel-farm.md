@@ -1,4 +1,7 @@
 ---
-fundingPartners: ["woodland-trust"]
-tags: ["woodland creation"]
+fundingPartners:
+  - woodland-trust
+tags:
+  - woodland creation
 ---
+

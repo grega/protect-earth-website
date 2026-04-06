@@ -7,6 +7,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import https from 'https';
 import sharp from 'sharp';
+import matter from 'gray-matter';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -74,17 +75,52 @@ function isRemoteUrl(value) {
 	return typeof value === 'string' && /^https?:\/\//.test(value);
 }
 
+function sanitizeLocalPhotoPaths(photos) {
+	if (!Array.isArray(photos)) {
+		return [];
+	}
+
+	return photos.filter((photo) => typeof photo === 'string' && !isRemoteUrl(photo));
+}
+
 function isGoogleDriveLink(url) {
 	return typeof url === 'string' && url.includes('drive.google.com');
 }
 
 function extractFolderId(url) {
-	const match = url.match(/folders\/([a-zA-Z0-9_-]+)/);
-	return match ? match[1] : null;
+	if (typeof url !== 'string') {
+		return null;
+	}
+
+	try {
+		const parsedUrl = new URL(url);
+		const idParam = parsedUrl.searchParams.get('id');
+		if (idParam) {
+			return idParam;
+		}
+	} catch {
+		// Fall through to regex parsing for malformed URLs.
+	}
+
+	const folderMatch = url.match(/folders\/([a-zA-Z0-9_-]+)/);
+	if (folderMatch) {
+		return folderMatch[1];
+	}
+
+	const genericIdMatch = url.match(/[-\w]{25,}/);
+	return genericIdMatch ? genericIdMatch[0] : null;
+}
+
+function ensureParentDirectory(filePath) {
+	const parentDir = path.dirname(filePath);
+	if (!fs.existsSync(parentDir)) {
+		fs.mkdirSync(parentDir, { recursive: true });
+	}
 }
 
 function downloadImage(url, filePath) {
 	return new Promise((resolve, reject) => {
+		ensureParentDirectory(filePath);
 		const file = fs.createWriteStream(filePath);
 
 		const handleResponse = (response) => {
@@ -118,20 +154,63 @@ function downloadImage(url, filePath) {
 }
 
 async function processImage(inputPath, outputPath, maxWidth = 1200) {
-	await sharp(inputPath)
-		.rotate()
-		.resize(maxWidth, null, {
-			withoutEnlargement: true,
-			fit: 'inside',
-		})
-		.jpeg({ quality: 85, progressive: true })
-		.toFile(outputPath);
+	try {
+		await sharp(inputPath)
+			.rotate()
+			.resize(maxWidth, null, {
+				withoutEnlargement: true,
+				fit: 'inside',
+			})
+			.jpeg({ quality: 85, progressive: true })
+			.toFile(outputPath);
+	} catch (error) {
+		const message = error instanceof Error ? error.message : String(error);
+		const lowerPath = inputPath.toLowerCase();
+		const looksLikeHeic = lowerPath.endsWith('.heic') || lowerPath.endsWith('.heif');
+		const mentionsHeic = /heic|heif|unsupported|no decode delegate/i.test(message);
+
+		if (looksLikeHeic && mentionsHeic) {
+			throw new Error(
+				`HEIC conversion failed for ${path.basename(inputPath)}. This sharp/libvips build may not include HEIC/HEIF support. Original error: ${message}`,
+			);
+		}
+
+		throw error;
+	}
+}
+
+function getTempImageExtension(mimeType, fileName = '') {
+	const normalizedMimeType = typeof mimeType === 'string' ? mimeType.toLowerCase() : '';
+	const normalizedFileName = typeof fileName === 'string' ? fileName.toLowerCase() : '';
+
+	if (normalizedMimeType === 'image/png' || normalizedFileName.endsWith('.png')) {
+		return 'png';
+	}
+
+	if (
+		normalizedMimeType === 'image/heic' ||
+		normalizedMimeType === 'image/heif' ||
+		normalizedFileName.endsWith('.heic') ||
+		normalizedFileName.endsWith('.heif')
+	) {
+		return 'heic';
+	}
+
+	if (normalizedMimeType === 'image/webp' || normalizedFileName.endsWith('.webp')) {
+		return 'webp';
+	}
+
+	return 'jpg';
 }
 
 async function fetchImagesFromDriveFolder(folderId, depth = 0) {
 	if (!drive) return [];
 
 	try {
+		if (depth === 0) {
+			console.log(`  Looking up Google Drive folder ${folderId}...`);
+		}
+
 		const response = await drive.files.list({
 			q: `'${folderId}' in parents and trashed=false`,
 			fields: 'files(id,name,mimeType)',
@@ -153,6 +232,10 @@ async function fetchImagesFromDriveFolder(folderId, depth = 0) {
 			}
 		}
 
+		if (depth === 0) {
+			console.log(`  Found ${images.length} image file(s) in Google Drive folder ${folderId}`);
+		}
+
 		return images;
 	} catch (error) {
 		console.warn(`Warning: Could not fetch Google Drive folder ${folderId}: ${error.message}`);
@@ -162,6 +245,8 @@ async function fetchImagesFromDriveFolder(folderId, depth = 0) {
 
 async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 	if (!photos || photos.length === 0) return [];
+
+	console.log(`  Localizing ${photos.length} photo reference(s) for ${slug}...`);
 
 	const outputDir = path.join(imagesDir, slug);
 	if (!fs.existsSync(outputDir)) {
@@ -173,11 +258,13 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 
 	for (const photoUrl of photos) {
 		if (!isRemoteUrl(photoUrl)) {
+			console.log(`  Keeping existing local photo path for ${slug}`);
 			localized.push(photoUrl);
 			continue;
 		}
 
 		if (isGoogleDriveLink(photoUrl)) {
+			console.log(`  Resolving Google Drive photo source for ${slug}: ${photoUrl}`);
 			const folderId = extractFolderId(photoUrl);
 			if (!folderId) {
 				console.warn(`Warning: Could not extract Google Drive folder ID from ${photoUrl}`);
@@ -186,24 +273,27 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 
 			const driveImages = await fetchImagesFromDriveFolder(folderId);
 			for (const driveImage of driveImages) {
-				const ext = driveImage.mimeType === 'image/png' ? 'png' : 'jpg';
+				const ext = getTempImageExtension(driveImage.mimeType, driveImage.name);
 				const tempPath = path.join(tempDir, `${slug}-${driveImage.id}.${ext}`);
 				const localName = `${index}.jpg`;
 				const localPath = path.join(outputDir, localName);
 				const contentPath = `../../assets/site-updates/${slug}/${localName}`;
 
 				if (fs.existsSync(localPath)) {
+					console.log(`    Reusing existing localized image ${localName}`);
 					localized.push(contentPath);
 					index++;
 					continue;
 				}
 
 				try {
+					console.log(`    Downloading ${driveImage.name} -> ${localName}`);
 					const response = await drive.files.get(
 						{ fileId: driveImage.id, alt: 'media' },
 						{ responseType: 'stream' },
 					);
 
+					ensureParentDirectory(tempPath);
 					const writer = fs.createWriteStream(tempPath);
 					response.data.pipe(writer);
 					await new Promise((resolve, reject) => {
@@ -214,6 +304,7 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 					await processImage(tempPath, localPath);
 					localized.push(contentPath);
 					index++;
+					console.log(`    Wrote ${contentPath}`);
 
 					if (fs.existsSync(tempPath)) {
 						fs.unlinkSync(tempPath);
@@ -233,16 +324,19 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 		const contentPath = `../../assets/site-updates/${slug}/${localName}`;
 
 		if (fs.existsSync(localPath)) {
+			console.log(`  Reusing existing localized image ${localName}`);
 			localized.push(contentPath);
 			index++;
 			continue;
 		}
 
 		try {
+			console.log(`  Downloading direct image ${photoUrl}`);
 			await downloadImage(photoUrl, tempPath);
 			await processImage(tempPath, localPath);
 			localized.push(contentPath);
 			index++;
+			console.log(`  Wrote ${contentPath}`);
 
 			if (fs.existsSync(tempPath)) {
 				fs.unlinkSync(tempPath);
@@ -315,10 +409,59 @@ function convertBlockToMarkdown(block) {
 	}
 }
 
+async function listAllBlocks(blockId) {
+	let allBlocks = [];
+	let hasMore = true;
+	let startCursor;
+
+	while (hasMore) {
+		const response = await notion.blocks.children.list({
+			block_id: blockId,
+			start_cursor: startCursor,
+		});
+
+		allBlocks = allBlocks.concat(response.results || []);
+		hasMore = response.has_more;
+		startCursor = response.next_cursor;
+	}
+
+	return allBlocks;
+}
+
+function getExistingBody(filePath) {
+	if (!fs.existsSync(filePath)) {
+		return '';
+	}
+
+	try {
+		const existingRaw = fs.readFileSync(filePath, 'utf8');
+		const parsed = matter(existingRaw);
+		return parsed.content || '';
+	} catch (error) {
+		console.warn(`Warning: Could not parse existing file body at ${filePath}: ${error.message}`);
+		return '';
+	}
+}
+
+function getExistingLocalPhotos(filePath) {
+	if (!fs.existsSync(filePath)) {
+		return [];
+	}
+
+	try {
+		const existingRaw = fs.readFileSync(filePath, 'utf8');
+		const parsed = matter(existingRaw);
+		return sanitizeLocalPhotoPaths(parsed.data.photos);
+	} catch (error) {
+		console.warn(`Warning: Could not parse existing file photos at ${filePath}: ${error.message}`);
+		return [];
+	}
+}
+
 async function getPageContent(pageId) {
 	try {
-		const blocks = await notion.blocks.children.list({ block_id: pageId });
-		return blocks.results.map((block) => convertBlockToMarkdown(block)).join('');
+		const blocks = await listAllBlocks(pageId);
+		return blocks.map((block) => convertBlockToMarkdown(block)).join('');
 	} catch (error) {
 		console.warn(`Warning: Could not fetch content for page ${pageId}: ${error.message}`);
 		return '';
@@ -355,12 +498,17 @@ async function syncSiteUpdates() {
 			allResults = allResults.concat(response.results);
 			hasMore = response.has_more;
 			startCursor = response.next_cursor;
+			console.log(
+				`Fetched ${response.results.length} update(s) from Notion (${allResults.length} total so far)`,
+			);
 		}
+
+		console.log(`Processing ${allResults.length} site update(s)...`);
 
 		let createdCount = 0;
 		let updatedCount = 0;
 
-		for (const page of allResults) {
+		for (const [index, page] of allResults.entries()) {
 			const properties = page.properties;
 
 			const title = await getPropertyValue(properties.Title || properties.Name);
@@ -382,12 +530,29 @@ async function syncSiteUpdates() {
 			const baseSlug = toKebabCase(title);
 			const shortId = page.id.replace(/-/g, '').slice(-8);
 			const slug = `${baseSlug}-${shortId}`;
+			console.log(`[${index + 1}/${allResults.length}] ${title} -> ${slug}`);
 			const filePath = path.join(siteUpdatesDir, `${slug}.md`);
+			const existingBody = getExistingBody(filePath);
+			const existingLocalPhotos = getExistingLocalPhotos(filePath);
 
 			const notionPhotoUrls = (photos || []).map((p) => p.url).filter(Boolean);
-			const photosToUse = replaceImages
-				? await localizeSiteUpdatePhotos(notionPhotoUrls, slug, imagesDir, tempDir)
-				: notionPhotoUrls;
+			let photosToUse = [];
+
+			if (replaceImages) {
+				photosToUse = await localizeSiteUpdatePhotos(notionPhotoUrls, slug, imagesDir, tempDir);
+				if (photosToUse.length === 0 && existingLocalPhotos.length > 0) {
+					console.log(
+						`  No new localized photos produced; keeping ${existingLocalPhotos.length} existing local photo(s)`,
+					);
+					photosToUse = existingLocalPhotos;
+				}
+			} else {
+				// Never write Notion remote URLs during normal sync.
+				photosToUse = existingLocalPhotos;
+				if (notionPhotoUrls.length > 0 && existingLocalPhotos.length === 0) {
+					console.log('  Remote Notion photo URLs detected but omitted during plain sync');
+				}
+			}
 
 			const frontmatter = {
 				title,
@@ -414,13 +579,26 @@ async function syncSiteUpdates() {
 				})
 				.join('\n');
 			content += '\n---\n\n';
-			if (description) content += `${description}\n`;
+
+			const hasDescription = description && description.trim().length > 0;
+			const bodyToWrite = hasDescription ? description : existingBody;
+			if (!hasDescription && existingBody.trim().length > 0) {
+				console.warn(
+					`Warning: Preserving existing body for ${slug}.md because Notion body was empty`,
+				);
+			}
+
+			if (bodyToWrite) {
+				content += `${bodyToWrite}\n`;
+			}
 
 			const existed = fs.existsSync(filePath);
 			fs.writeFileSync(filePath, content, 'utf8');
 			if (existed) {
+				console.log(`  Updated ${slug}.md`);
 				updatedCount++;
 			} else {
+				console.log(`  Created ${slug}.md`);
 				createdCount++;
 			}
 		}

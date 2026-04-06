@@ -48,11 +48,12 @@ Purpose:
 - Applies ignore list from script config
 - Creates/updates local site markdown files
 - Preserves existing local frontmatter values
-- Optionally localizes frontmatter image URLs to `src/assets/sites` with `--replace-images`
+- Always strips remote image URLs from frontmatter
+- With `--replace-images`, rebuilds each site's local image list from API sources and rewrites frontmatter to local paths only
 
 Primary output location:
 
-- src/content/sites
+- src/content/siteMeta
 
 ### sync-site-updates.js
 

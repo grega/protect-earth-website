@@ -14,6 +14,18 @@ const ignoredSites = ['Burnsall', 'Donkeywell Farm', 'Newcastle Emlyn', 'Wraxall
 
 const replaceImages = process.argv.includes('--replace-images');
 
+function isRemoteUrl(value) {
+	return typeof value === 'string' && /^https?:\/\//.test(value);
+}
+
+function sanitizeLocalImagePaths(images) {
+	if (!Array.isArray(images)) {
+		return [];
+	}
+
+	return images.filter((img) => typeof img === 'string' && !isRemoteUrl(img));
+}
+
 // Helper to convert to kebab-case
 function toKebabCase(str) {
 	return str
@@ -66,10 +78,15 @@ async function processImage(inputPath, outputPath, maxWidth = 1200) {
 
 async function localizeSiteImages(site, slug, imagesDir, tempDir) {
 	if (!site.images || !Array.isArray(site.images) || site.images.length === 0) {
-		return null;
+		return [];
 	}
 
 	const siteImagesDir = path.join(imagesDir, slug);
+	if (fs.existsSync(siteImagesDir)) {
+		// Replace mode should produce a fresh local image set.
+		fs.rmSync(siteImagesDir, { recursive: true, force: true });
+	}
+
 	if (!fs.existsSync(siteImagesDir)) {
 		fs.mkdirSync(siteImagesDir, { recursive: true });
 	}
@@ -84,11 +101,6 @@ async function localizeSiteImages(site, slug, imagesDir, tempDir) {
 		const localPath = path.join(siteImagesDir, localFileName);
 		const contentPath = `../../assets/sites/${slug}/${localFileName}`;
 
-		if (fs.existsSync(localPath)) {
-			localImages.push(contentPath);
-			continue;
-		}
-
 		try {
 			await downloadImage(imageUrl, tempPath);
 			await processImage(tempPath, localPath, 1200);
@@ -100,6 +112,7 @@ async function localizeSiteImages(site, slug, imagesDir, tempDir) {
 		} catch (error) {
 			console.warn(`⚠️  Failed to localize image for ${slug}: ${imageUrl}`);
 			console.warn(`   ${error.message}`);
+			// Never preserve remote URLs in frontmatter.
 		}
 	}
 
@@ -126,8 +139,8 @@ async function syncSites() {
 
 		console.log(`📊 Found ${sites.length} sites (${allSites.length - sites.length} ignored)`);
 
-		// Path to sites content directory
-		const sitesDir = path.join(__dirname, '../src/content/sites');
+		// Path to site metadata content directory
+		const sitesDir = path.join(__dirname, '../src/content/siteMeta');
 		const imagesDir = path.join(__dirname, '../src/assets/sites');
 		const tempDir = path.join(__dirname, '../.temp-images');
 
@@ -183,10 +196,19 @@ async function syncSites() {
 				}
 			}
 
+			const sanitizedExistingImages = sanitizeLocalImagePaths(frontmatter.images);
+			if (sanitizedExistingImages.length > 0) {
+				frontmatter.images = sanitizedExistingImages;
+			} else {
+				delete frontmatter.images;
+			}
+
 			if (replaceImages) {
 				const localImages = await localizeSiteImages(site, slug, imagesDir, tempDir);
-				if (localImages && localImages.length > 0) {
+				if (localImages.length > 0) {
 					frontmatter.images = localImages;
+				} else {
+					delete frontmatter.images;
 				}
 			}
 

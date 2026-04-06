@@ -22,14 +22,15 @@ photos:
   - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/13.jpg"
   - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/14.jpg"
   - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/15.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/1.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/2.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/3.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/4.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/5.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/6.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/7.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/8.jpg"
-  - "../../assets/site-updates/highchurch-restocking-3-2025--2451318b/9.jpg"
 ---
+
+
+
+
+
+
+
+
+
+
 
