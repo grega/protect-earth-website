@@ -1,12 +1,26 @@
 # Protect Earth Website
 
-This repository contains the public website for Protect Earth, built with Astro.
+Protect Earth is a charity working on ecosystem creation and restoration all over the UK, starting with woodland creation but expanding into ancient woodland restoration, grassland and wetland restoration. We're even working with beavers to fix up their land. 
 
-It includes:
+Our founders are techies, and we're using tech to improve transparency and show what we're doing. Currently our website is terrible so we're rewriting it in Astro and pulling data from our API (built with Laravel) to show exactly what we're up to and exactly where. 
+
+The website needs your help so we can launch it. Replacing [protect.earth](https://protect.earth/) with [protect-earth-website.netlify.app](https://protect-earth-website.netlify.app/) as soon as its ready to go, then onwards and upwards improving everything. 
+
+## Goals 
+
+- Show GIS areas on the maps instead of a pin. See exactly what we did on exactly what land.
+- Fundraising - particular sites have trees or square meters that need sponsorship, so why not sponsor a site you like the look of. 
+- Replace the shopify store, if we do the above, why give any money to the AI warlord running Shopify.
+
+## Introduction
+
+The website currently includes all the basic marketing type stuff you'd expect from a charity. 
+
 - Editorial content (articles, team, press)
-- Site metadata and map-driven site pages
-- Site update content synced from Notion
-- Utility scripts for syncing content and images
+- Map-driven "sites" pages to show our ecosystem restoration work, pulled from our "Tree Tracker API"
+- "Site update" content synced from Notion (for now) to show progress over 30 years
+
+We've built some utility scripts to pull data from the API and Notion into this Astro static site, but you cannot and should not bother with those. Just treat this like a static site and let us phase that awkward sync out.
 
 ## Documentation
 
@@ -27,15 +41,21 @@ pnpm install
 
 2. Create your local environment file
 
-	cp .env.example .env
+```
+cp .env.example .env
+```
 
 3. Start development server
 
-	pnpm dev
+```
+pnpm dev
+```
 
 4. Build production output
 
-	pnpm build
+```
+pnpm build
+```
 
 ## Core Concepts
 
@@ -46,21 +66,10 @@ Start here if you are new to this repository:
 
 ## Scripts
 
-Script workflows are documented in [docs/scripts.md](docs/scripts.md).
+Script workflows are documented in [docs/scripts.md](docs/scripts.md) but they are best avoided unless you're core team.
 
-Common commands:
-- pnpm sync-sites
-- pnpm sync-sites:replace-images
-- pnpm sync-site-updates
-- pnpm sync-site-updates:replace-images
+## Thanks 
 
-## Project Structure
+Huge work from the following legends got us this far, and have nearly freed us from Squarespace.
 
-High-level structure:
-
-- src/pages: Astro routes
-- src/layouts and src/components: page structure and reusable UI
-- src/content: source content collections
-- public: static assets
-- src/assets: optimized local image assets for content
-- scripts: content and media sync scripts
+- [Jon Park](https://github.com/jonspark) - Most of this rewrite was Jon. 🥰
