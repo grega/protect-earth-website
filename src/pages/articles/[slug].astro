@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import TakeAction from '../../components/TakeAction.astro';
+import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import { getEntry } from 'astro:content';
 import { render } from 'astro:content';
 
@@ -71,6 +72,8 @@ const { Content } = await render(article);
 			<Content />
 		</div>
 	</div>
+
+	<NewsletterSignup />
 
 	<TakeAction />
 </Layout>

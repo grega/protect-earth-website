@@ -4,6 +4,7 @@ import { siteConfig } from '../config';
 import { getCollection } from 'astro:content';
 import GetStarted from '../components/GetStarted.astro';
 import TakeAction from '../components/TakeAction.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 import ArticleSummary from '../components/ArticleSummary.astro';
 
 const latestPosts = (await getCollection('articles'))
@@ -115,6 +116,8 @@ const latestPosts = (await getCollection('articles'))
 			</ul>
 		</div>
 	</section>
+
+	<NewsletterSignup />
 
 	<TakeAction />
 

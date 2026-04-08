@@ -1,0 +1,120 @@
+<section class="PageSection VolunteerSignup" data-variant="call-to-action">
+	<header class="PageSection__header">
+		<h2 class="PageSection__title">Volunteer With Us</h2>
+	</header>
+	<div class="PageSection__content">
+		<form class="VolunteerSignup__form readable-width inline-centered">
+			<p>
+				Interested in volunteering at our planting events? Sign up and we'll keep you posted about
+				opportunities in your region.
+			</p>
+
+			<p style="display: none;">
+				<label>Do not fill this in: <input name="honeyTrap" /></label>
+			</p>
+
+			<fieldset>
+				<legend>Name <span class="field-required">*</span></legend>
+				<div class="inline-group">
+					<div>
+						<label for="volunteer-first-name" class="visually-hidden">First Name</label>
+						<input
+							type="text"
+							id="volunteer-first-name"
+							name="firstName"
+							placeholder="First Name"
+							required
+						/>
+					</div>
+					<div>
+						<label for="volunteer-last-name" class="visually-hidden">Last Name</label>
+						<input
+							type="text"
+							id="volunteer-last-name"
+							name="lastName"
+							placeholder="Last Name"
+						/>
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<label for="volunteer-email">Email <span class="field-required">*</span></label>
+				<input type="email" id="volunteer-email" name="email" required />
+			</fieldset>
+
+			<fieldset>
+				<label for="volunteer-region">Region <span class="field-required">*</span></label>
+				<select id="volunteer-region" name="region" required>
+					<option value="">Select your region...</option>
+					<option value="South West England">South West England</option>
+					<option value="South East England">South East England</option>
+					<option value="East of England">East of England</option>
+					<option value="West Midlands">West Midlands</option>
+					<option value="East Midlands">East Midlands</option>
+					<option value="Yorkshire & The Humber">Yorkshire & The Humber</option>
+					<option value="North West England">North West England</option>
+					<option value="North East">North East</option>
+					<option value="North Wales">North Wales</option>
+					<option value="South West Wales">South West Wales</option>
+					<option value="Mid Wales">Mid Wales</option>
+					<option value="South East Wales">South East Wales</option>
+					<option value="Scotland">Scotland</option>
+				</select>
+			</fieldset>
+
+			<button type="submit">Sign Up to Volunteer</button>
+
+			<div class="form-message" data-message-container aria-live="assertive"></div>
+
+			<footer>
+				<small>Your information will only be used for event and volunteer coordination.</small>
+			</footer>
+		</form>
+	</div>
+</section>
+
+<script>
+	document.querySelectorAll('.VolunteerSignup__form').forEach((form) => {
+		form.addEventListener('submit', async (e) => {
+			e.preventDefault();
+			const formEl = e.currentTarget as HTMLFormElement;
+			const button = formEl.querySelector('button[type="submit"]') as HTMLButtonElement;
+			const messageDiv = formEl.querySelector('[data-message-container]') as HTMLElement;
+
+			button.disabled = true;
+			button.textContent = 'Signing up...';
+			messageDiv.removeAttribute('data-status');
+
+			const formData = new FormData(formEl);
+
+			try {
+				const response = await fetch('/api/subscribe', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({
+						email: formData.get('email'),
+						firstName: formData.get('firstName'),
+						lastName: formData.get('lastName'),
+						region: formData.get('region'),
+						honeyTrap: formData.get('honeyTrap'),
+						list: 'volunteer',
+					}),
+				});
+
+				const result = await response.json();
+
+				messageDiv.textContent = result.message;
+				messageDiv.setAttribute('data-status', result.success ? 'success' : 'error');
+
+				if (result.success) formEl.reset();
+			} catch {
+				messageDiv.textContent = 'Something went wrong. Please try again.';
+				messageDiv.setAttribute('data-status', 'error');
+			} finally {
+				button.disabled = false;
+				button.textContent = 'Sign Up to Volunteer';
+			}
+		});
+	});
+</script>
