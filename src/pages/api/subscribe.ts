@@ -20,10 +20,13 @@ export const POST: APIRoute = async ({ request }) => {
 
 		// Spam protection
 		if (honeyTrap) {
-			return new Response(JSON.stringify({ success: true, message: 'Thank you for subscribing!' }), {
-				status: 200,
-				headers: { 'Content-Type': 'application/json' },
-			});
+			return new Response(
+				JSON.stringify({ success: true, message: 'Thank you for subscribing!' }),
+				{
+					status: 200,
+					headers: { 'Content-Type': 'application/json' },
+				},
+			);
 		}
 
 		// Validate required fields
@@ -43,10 +46,10 @@ export const POST: APIRoute = async ({ request }) => {
 
 		const audienceId = audienceIds[list];
 		if (!audienceId) {
-			return new Response(
-				JSON.stringify({ success: false, message: 'Invalid mailing list.' }),
-				{ status: 400, headers: { 'Content-Type': 'application/json' } },
-			);
+			return new Response(JSON.stringify({ success: false, message: 'Invalid mailing list.' }), {
+				status: 400,
+				headers: { 'Content-Type': 'application/json' },
+			});
 		}
 
 		const mergeFields: Record<string, string> = {
