@@ -14,13 +14,6 @@ photos:
   - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/6.jpg"
 ---
 
+Since the planting, we have endeavoured to visit after strong wings, armed with a hammer to adjust and make good stakes.
 
-
-
-
-
-
-
-
-
-
+The landowner tells us: “The number of butterflies is amazing. This year, the trees are surrounded by thistles and nettles. We did pay to have the entire area mown about a year ago, but decided to leave it this year.”

@@ -5,7 +5,6 @@ type: "Survival Survey"
 date: "2025-08-11T00:00:00.000Z"
 siteNotionId: "7b8cda62-9ba3-45d2-80ac-b1a7a10efe11"
 survivalRate: 0.25
-treesRestocked: 338
 photos:
   - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/1.jpg"
   - "../../assets/site-updates/penralltffynnon-newcastle-emlyn-survey-2025-7d97deff/2.jpg"

@@ -20,13 +20,4 @@ photos:
   - "../../assets/site-updates/cardigan-rhydwen-survey-2025-24d05a38/12.jpg"
 ---
 
-
-
-
-
-
-
-
-
-
-
+We surveyed the 3 separate fields and the hedgerow. On 2 of the fields, there was a slight bramble encroachment; however, 95% of trees are in great health, although some are showing signs of powdery mildew. The Hedgerow was a bit gappy - 70% survival rate, so we will arrange a restock for the hedgerow.

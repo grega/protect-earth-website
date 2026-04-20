@@ -5,7 +5,6 @@ type: "Survival Survey"
 date: "2025-07-22T00:00:00.000Z"
 siteNotionId: "e2826c45-2a35-41e9-83e1-e7b106541808"
 survivalRate: 0.7
-treesRestocked: 140
 photos:
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/1.jpg"
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/2.jpg"
@@ -20,6 +19,8 @@ photos:
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/11.jpg"
   - "../../assets/site-updates/haydon-bridge-team-survey-2025-83ca1bc7/12.jpg"
 ---
+
+
 
 
 

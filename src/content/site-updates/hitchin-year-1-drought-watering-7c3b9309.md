@@ -10,4 +10,4 @@ photos:
   - "../../assets/site-updates/hitchin-year-1-drought-watering-7c3b9309/3.jpg"
 ---
 
-The first year of planting is always the most difficult time and the summer 2022 drought was historically bad. Despite being right next to a river the soil was too dry and these saplings were struggling, so we got out there with the landowners pickup truck and a petrol generator to give this young miniforest a chance.
+The first year of planting is always the most difficult time, and the summer 2022 drought was historically bad. Despite being right next to a river, the soil was too dry, and these saplings were struggling, so we got out there with the landowner’s pickup truck and a petrol generator to give this young miniforest a chance.

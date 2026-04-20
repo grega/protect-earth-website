@@ -663,9 +663,7 @@ async function syncSiteUpdates() {
 			);
 			const date = await getPropertyValue(properties['Update Date']);
 			const treesPlanted = await getPropertyValue(properties['If new planting, how many trees?']);
-			const survivalRate = await getPropertyValue(
-				properties['If beatup survey, Alive % Survival rate?'],
-			);
+			const survivalRate = await getPropertyValue(properties['If survival survey, what % alive?']);
 			const treesRestocked = await getPropertyValue(properties['If restocking, how many trees?']);
 
 			const description = await getPageContent(page.id);

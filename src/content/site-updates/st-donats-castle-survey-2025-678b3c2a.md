@@ -5,7 +5,6 @@ type: "Survival Survey"
 date: "2025-08-19T00:00:00.000Z"
 siteNotionId: "05168f36-0b8a-4642-8b7a-e384c9992b41"
 survivalRate: 0.63
-treesRestocked: 330
 photos:
   - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/1.jpg"
   - "../../assets/site-updates/st-donats-castle-survey-2025-678b3c2a/2.jpg"

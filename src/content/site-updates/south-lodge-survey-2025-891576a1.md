@@ -5,7 +5,6 @@ type: "Survival Survey"
 date: "2025-08-24T00:00:00.000Z"
 siteNotionId: "b8278615-8ac7-4a5c-9758-a7125a1465bc"
 survivalRate: 0.56
-treesRestocked: 750
 photos:
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/1.jpg"
   - "../../assets/site-updates/south-lodge-survey-2025-891576a1/2.jpg"
@@ -23,7 +22,7 @@ photos:
 
 South Lodge had a rough start, with a survival rate of 56% by our first survey.
 
-The landowner reported that 1,075 trees were planted, with 488 losses, giving a calculated survival rate of 54.6%. Our own survey recorded a similar result at 56.4% live, based on sample plots ranging from 20 to 35 live trees per sample.
+The landowner reported that of the 1,075 trees initially planted, we suffered 488 losses, giving a survival rate of 54.6%. Angus popped back to double check their numbers and recorded a similar result at 56.4%.
 
 Early maintenance issues were identified, including cardboard guards that had completely fallen apart (and some even being eaten by deer). These guards were later replaced with the plastic recyclable guards, which we don’t like using but are forced to as the alternatives do not work at all.
 

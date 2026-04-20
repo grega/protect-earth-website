@@ -4,6 +4,7 @@ notionId: "23ae7dc6-657c-80aa-968c-d664cde42d4a"
 type: "Restocking"
 date: "2022-12-05T00:00:00.000Z"
 siteNotionId: "87927819-fff7-4f8f-88cd-6f7525aa434a"
+treesRestocked: 2200
 photos:
   - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/1.jpg"
   - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/2.jpg"
