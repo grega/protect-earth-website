@@ -22,5 +22,8 @@ pnpm-debug.log*
 
 .temp-images
 
+# Local Netlify folder
+.netlify
+
 # Editors
 .nova

@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { siteConfig } from '../config';
 import { getCollection } from 'astro:content';
 import TakeAction from '../components/TakeAction.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
 import ArticleSummary from '../components/ArticleSummary.astro';
 import { Image } from 'astro:assets';
 import ArrowRight from '../assets/icons/arrow-right.svg';
@@ -203,6 +204,8 @@ const latestPosts = (await getCollection('articles'))
 			</a>
 		</div>
 	</section>
+
+	<NewsletterSignup />
 
 	<TakeAction />
 </Layout>
