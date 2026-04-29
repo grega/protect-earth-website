@@ -12,10 +12,7 @@ const { description, pubDate, slug, thumbnail, title, titleAs: Tag = 'h2' } = As
 		<a href={`/articles/${slug}`}>
 			{
 				thumbnail ? (
-					<Image src={thumbnail} alt={title}
-						width={600}
-						height={400}
-						loading="lazy"} />
+					<Image src={thumbnail} alt={title} width={600} height={400} loading="lazy" />
 				) : (
 					<div class="no-image">
 						<NoImage height={36} width={36} />
