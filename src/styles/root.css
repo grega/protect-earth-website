@@ -84,8 +84,9 @@
 	--orange-light: hsl(16, 87%, 49%);
 
 	--purple-dark: hsl(264, 90%, 18%);
+	--purple-light: hsl(264, 90%, 58%);
 
-	--pink-dark: hsl(294, 60%, 30%);
+	--pink-dark: hsl(294, 82%, 30%);
 	--pink-light: hsl(294, 76%, 69%);
 
 	/* Shadows */
@@ -130,6 +131,8 @@
 
 	--tag: var(--grey-light);
 	--tag-text: var(--black);
+
+	--stat: var(--pink-dark);
 
 	/* Links */
 
