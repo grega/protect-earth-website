@@ -7,6 +7,8 @@
 @import url('./posts.css');
 @import url('./forms.css');
 
+@layer global, component;
+
 body {
 	margin: 0;
 	background-color: var(--body-background);
@@ -47,6 +49,24 @@ h2:has(svg) {
 	display: inline-flex;
 	gap: var(--space-2xs);
 	align-items: center;
+}
+
+.prose {
+	max-inline-size: var(--measure);
+	font-size: var(--font-s);
+	line-height: 1.6;
+}
+
+.prose a:not(.button) {
+	color: var(--prose-link);
+}
+
+.prose a:hover:not(.button) {
+	text-decoration: none;
+}
+
+.post .prose p:first-of-type {
+	font-size: var(--font-m);
 }
 
 /* Shapes */

@@ -141,6 +141,8 @@
 	--link: var(--green);
 	--link-hover: var(--green-light);
 
+	--prose-link: var(--red-dark);
+
 	/* Buttons */
 	--button-background: var(--orange-mid);
 	--button-text: var(--offwhite);
