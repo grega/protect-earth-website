@@ -10,7 +10,7 @@ thumbnail: '/articles/misconception-trees-are-planted-too-close-together.jpg'
 
 _This post is written by Phil Sturgeon, co-founder and Chair of Protect Earth. It’s a series of posts discussing the grey areas in tree planting and forestry. _
 
-Swirling within and around the community through the media are&nbsp;[misconceptions about the reforesting industry](https://www.protect.earth/blog/misconceptions-about-tree-planting).
+Swirling within and around the community through the media are&nbsp;[misconceptions about the reforesting industry](/articles/misconceptions-about-tree-planting).
 
 I feel it useful to look at these misconceptions to clear the air. In this piece, I'll discuss what overstocking land with trees means - whether it is truly a bad practice or what benefits may come.
 

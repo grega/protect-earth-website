@@ -64,6 +64,6 @@ We knew these new woodlands were in good care, but with the more extreme summer 
 
 Success comes down to preparedness and diligence, as this woodland exemplifies.
 
-This diligence is further codified in [our definition of success](https://www.protect.earth/blog/protect-earths-maturing-success-metrics).
+This diligence is further codified in [our definition of success](/articles/protect-earths-maturing-success-metrics).
 
 Please contribute to our [land pot](https://www.protect.earth/donate/land) to continue developing more natural habitats throughout the UK.

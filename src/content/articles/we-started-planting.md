@@ -18,7 +18,7 @@ Two of the nearby trustees and three volunteers joined came out to Dyrham on Sat
 
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351470294-VZNTPUWJ9WQLTDF1961X/image-asset.jpeg?format=original)
 
-Our old borrowed strimmers failed us, but we got old school with scythes and slackers, getting 30 done in the first day instead of the full 100. Next day things sped up a little, but Phil (who's camped out on the farm for now) got a bunch more done solo, and the team is back to finish the job tomorrow and Wednesday.
+Our old borrowed strimmers failed us, but we got old school with brush hooks and slashers, getting 30 done in the first day instead of the full 100. Next day things sped up a little, but Phil (who's camped out on the farm for now) got a bunch more done solo, and the team is back to finish the job tomorrow and Wednesday.
 
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351470301-Y0NZKM0P5VYI9YI3WQLP/1-3.jpg?format=original)
 

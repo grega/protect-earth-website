@@ -6,7 +6,7 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/pantpurlais-wildflower-meadow-update.jpg'
 ---
 
-Last year, we told you about a [wildflower meadow](https://www.protect.earth/blog/wildflower-planting-in-llandrindod-wells) we were supporting a landowner to plant in Llandrindod Wells, Mid-Wales.
+Last year, we told you about a [wildflower meadow](/articles/wildflower-planting-in-llandrindod-wells) we were supporting a landowner to plant in Llandrindod Wells, Mid-Wales.
 
 This year, we want to let you know how it's going! Spoiler alert - it's going very well! But read on to understand what we mean.
 

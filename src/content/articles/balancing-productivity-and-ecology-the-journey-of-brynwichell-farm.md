@@ -60,7 +60,7 @@ Yet, this tree-planting project is just the beginning.
 
 Looking ahead, Ollie envisions a tapestry of environmental initiatives taking place on Brynwichell. Plans include expanding hedgerows, enhancing conservation efforts in SSSI (Sites of Special Scientific Interest), and revitalising ponds to support aquatic ecosystems.
 
-In our catch-up with Ollie, we had to bring up how he first encountered Protect Earth - peering across the road at his neighbour's project and asking about collaborative plans. This could be the development of another [Pontbren](https://www.protect.earth/blog/lessons-from-pontbren-how-nature-and-food-production-can-coexist-in-farming)-style development. Collaborative efforts with neighbouring farms envision a mosaic of natural habitats. Despite challenges in grant eligibility, discussions are underway to weave together aspirations for ecological resilience, economic sustainability, and contributions to natural sciences. Protect Earth will be watching this space and encourage you to as well!
+In our catch-up with Ollie, we had to bring up how he first encountered Protect Earth - peering across the road at his neighbour's project and asking about collaborative plans. This could be the development of another [Pontbren](/articles/lessons-from-pontbren-how-nature-and-food-production-can-coexist-in-farming)-style development. Collaborative efforts with neighbouring farms envision a mosaic of natural habitats. Despite challenges in grant eligibility, discussions are underway to weave together aspirations for ecological resilience, economic sustainability, and contributions to natural sciences. Protect Earth will be watching this space and encourage you to as well!
 
 ## To sum up
 

@@ -23,7 +23,7 @@ The day blended educational activities, hands-on workshops, and opportunities to
 
 The Open Day offered a variety of activities that catered to all ages and interests.
 
-Steve the Ecologist led an enlightening Ecology Walk, during which participants learned about the efforts to restore High Wood and spotted signs of [ancient woodland](https://www.protect.earth/blog/ancient-woodlands-places-of-huge-ecological-diversity) and Cornwall's industrial heritage. Birdwatchers and nature enthusiasts were thrilled to encounter the diverse wildlife inhabiting the woodland during the mid-summer season.
+Steve the Ecologist led an enlightening Ecology Walk, during which participants learned about the efforts to restore High Wood and spotted signs of [ancient woodland](/articles/ancient-woodlands-places-of-huge-ecological-diversity) and Cornwall's industrial heritage. Birdwatchers and nature enthusiasts were thrilled to encounter the diverse wildlife inhabiting the woodland during the mid-summer season.
 
 Adding to the historical perspective, author and historian Iain Rowe from Caradon Archaeology captivated attendees with his guided walk, "History Beneath Your Feet." This popular session attracted over 40 participants, eager to uncover the rich history embedded in the landscape of High Wood.
 
@@ -42,7 +42,7 @@ Lastly, the Cornwall Wildlife Trust talked informally about their conservation e
 
 ## Community Feedback
 
-The event garnered positive feedback from attendees, reflecting the feedback we get on social media when posting about regular activities to local Facebook groups. It's fantastic that in the short period of time Protect Earth has [taken on High Wood](https://www.protect.earth/blog/high-wood), our goal of restoring the space into its natural state as a native broadleaf woodland with greater access for all has been so readily embraced by private citizens who regularly use High Wood, [local colleges](https://www.protect.earth/blog/from-classroom-to-countryside-oakwood-specialist-college-students-and-protect-earth-unite-for-hedgerow-planting), and the town council.
+The event garnered positive feedback from attendees, reflecting the feedback we get on social media when posting about regular activities to local Facebook groups. It's fantastic that in the short period of time Protect Earth has [taken on High Wood](/articles/high-wood), our goal of restoring the space into its natural state as a native broadleaf woodland with greater access for all has been so readily embraced by private citizens who regularly use High Wood, [local colleges](/articles/from-classroom-to-countryside-oakwood-specialist-college-students-and-protect-earth-unite-for-hedgerow-planting), and the town council.
 
 Kathy, who coordinates the [monthly work parties at High Wood](http://www.protect.earth/high-wood), spoke directly and in person with some of the regular work party volunteers who also attended the day (to point out their hard work and contributions to family and friends). Kev, a qualified forestry professional, has taken a leadership role in guiding larger projects, such as creating ponds and dams at the work parties in the coming months.
 

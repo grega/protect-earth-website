@@ -38,7 +38,7 @@ Planting with a square grid or in rows can be an explicit requirement of [govern
 
 Despite the straight lines, the trees eventually form a canopy for wildlife and provide much-needed habitat.
 
-The main concern when planting in straight lines should be if the required number of trees will fit within the available space rather than worrying about perfect randomness. Our ecologist, [Steve Wiltshire](https://www.protect.earth/blog/introducing-steve-wiltshire), noted that birds or squirrels would not be asked about their preference for patterned versus randomly planted trees; it is primarily an aesthetic issue.
+The main concern when planting in straight lines should be if the required number of trees will fit within the available space rather than worrying about perfect randomness. Our ecologist, [Steve Wiltshire](/articles/introducing-steve-wiltshire), noted that birds or squirrels would not be asked about their preference for patterned versus randomly planted trees; it is primarily an aesthetic issue.
 
 There are precautions to take, such as creating a woodland edge to buffer from wind and selecting species carefully, which can lessen any potential issues from temperature regulation. With time, nature will randomise the forest enough to look less uniform and square.
 
@@ -60,7 +60,7 @@ Our woodland, [High Wood](https://www.protect.earth/projects/high-wood), combine
 
 Natural colonisation and tree planting are two separate tools that work very well together. By understanding what these two methods offer, they can be combined to develop an ecosystem's biodiversity.
 
-Rewilding is an effective tool when combined with other techniques, such as tree planting, to create a healthy, biodiverse ecosystem [capable of addressing our current environmental crises](https://www.protect.earth/blog/right-tree-right-place-right-now) more quickly.
+Rewilding is an effective tool when combined with other techniques, such as tree planting, to create a healthy, biodiverse ecosystem [capable of addressing our current environmental crises](/articles/right-tree-right-place-right-now) more quickly.
 
 ### **Misconception #4: Planting a tree for every t-shirt (insert any product) is greenwashing**
 
@@ -80,7 +80,7 @@ As an industry, we should be working together to standardise our reporting. Comp
 
 **Reality: Good options hit the market in 2021/ 22 but are still experimental, expensive, or both.**
 
-The use of [plastic tree guards](https://www.protect.earth/blog/protecting-saplings) in the woodland creation and forestry industry has been widespread despite the availability of other, more sustainable options.
+The use of [plastic tree guards](/articles/protecting-saplings) in the woodland creation and forestry industry has been widespread despite the availability of other, more sustainable options.
 
 Photodegradable guards can leave behind microplastics in the soil. Compostable guards must be collected and sent to an industrial composting facility to reach the necessary temperature and pressure for decomposition.
 

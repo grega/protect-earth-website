@@ -47,7 +47,7 @@ Roskruge Farm, spanning 44.47 acres of diverse habitats, including grassland, sc
 
 In January 2024, this ambitious project took root in England's South West on a farm set on the Lizard Peninsula. Over just two days, 3.4 acres of land were transformed, with 1,400 trees planted, promising to sequester 468 tonnes of carbon after 50 years.
 
-What's remarkable is that while Protect Earth facilitated this endeavour, none of the acres are under the direct management of the [organisation](https://www.protect.earth/blog/protect-earths-maturing-success-metrics). This highlights the empowerment of landowners like those at Roskruge Farm to take charge of conservation efforts on their own land, which we are happy to support planning, sourcing funding, and planting.
+What's remarkable is that while Protect Earth facilitated this endeavour, none of the acres are under the direct management of the [organisation](/articles/protect-earths-maturing-success-metrics). This highlights the empowerment of landowners like those at Roskruge Farm to take charge of conservation efforts on their own land, which we are happy to support planning, sourcing funding, and planting.
 
 Though new to land ownership, the landowners bring a wealth of outdoor experience and a profound respect for the environment. From working as a riding instructor to tending sheep in the Welsh hills, their journey led them to steward Roskruge Farm for future generations, which is the long-termism equating to vibrant and diverse lands contributing to the local ecology. Viewing themselves as mere caretakers of the land, they recognise the urgency of preserving habitats in the face of widespread ecological decline.
 

@@ -36,7 +36,7 @@ Hedges have been used for centuries as a means of marking property boundaries. T
 
 ## The Role of Hedgerows
 
-As barriers standing tall around fields, hedges [bolster an ecosystem's vitality](https://www.protect.earth/blog/from-classroom-to-countryside-oakwood-specialist-college-students-and-protect-earth-unite-for-hedgerow-planting), safeguarding crops against wind damage.
+As barriers standing tall around fields, hedges [bolster an ecosystem's vitality](/articles/from-classroom-to-countryside-oakwood-specialist-college-students-and-protect-earth-unite-for-hedgerow-planting), safeguarding crops against wind damage.
 
 Hedges serve as natural shelterbelts for livestock, shielding them from harsh weather conditions and offering a haven for foraging. They also provide sanctuary to insects and small animals, boosting biodiversity. Additionally, sanctuary seekers return the favour by helping spread pollen as they feed, while other hedge inhabitants feed off of crop-destroying pests.
 
@@ -54,7 +54,7 @@ Hedgerows help more bugs and birds that eat crop-harming pests to live near farm
 
 Hedgerows are important because they help different kinds of pollinators, like bees and butterflies, which are a natural component for ensuring crops grow well. Hedgerows help by providing food year-round (extremely important when crops aren't blooming) and places for them to make their homes.
 
-Hedgerows help [stop soil from washing or blowing away](https://www.protect.earth/blog/soil-erosion-is-a-problem-in-the-uk-there-are-simple-ways-to-combat-it) by slowing down wind and water. Their roots hold the soil in place, which prevents erosion. Also, trees and shrubs in hedgerows grow deep roots. This brings nutrients to the soil's surface.
+Hedgerows help [stop soil from washing or blowing away](/articles/soil-erosion-is-a-problem-in-the-uk-there-are-simple-ways-to-combat-it) by slowing down wind and water. Their roots hold the soil in place, which prevents erosion. Also, trees and shrubs in hedgerows grow deep roots. This brings nutrients to the soil's surface.
 
 The shelter hedges provide makes the ground warmer, so crops can grow for longer.
 
@@ -76,7 +76,7 @@ In all ways, hedgerows and shelterbelts help livestock be more comfortable, whic
 
 ## Hedgerows' Role in Water Management
 
-Hedge roots soak up water, preventing water from [running off and causing floods](https://www.protect.earth/blog/how-trees-reduce-the-risks-caused-by-flooding). They also stop soil from washing away into rivers, which can make flooding worse. Of course, there is a tipping point when soils with or without hedges become over-saturated. However, hedges slow down the flow of water, giving us more time to prepare for floods and protect our land.
+Hedge roots soak up water, preventing water from [running off and causing floods](/articles/how-trees-reduce-the-risks-caused-by-flooding). They also stop soil from washing away into rivers, which can make flooding worse. Of course, there is a tipping point when soils with or without hedges become over-saturated. However, hedges slow down the flow of water, giving us more time to prepare for floods and protect our land.
 
 ## The Environmental Impact of Hedgerows
 
@@ -86,7 +86,7 @@ Hedgerows also work as shields, stopping soil erosion and letting rainwater seep
 
 Where chemicals are used on farms, hedgerows can bear the brunt when rainwater carries chemical-drenched soils. Hedges help prevent chemicals from entering into waterways. By doing so, they keep our water clean and healthy for aquatic life.
 
-&nbsp;As the UK's largest wildlife habitat, hedgerows are crucial in halting [biodiversity decline](https://www.protect.earth/blog/the-disappearance-of-biodiversity-in-the-uk) and tackling climate change. They facilitate movement through the landscape for a wide range of organisms and are particularly important for flying insects like butterflies, which need warm, sheltered conditions to gain and retain the heat necessary to fly.
+&nbsp;As the UK's largest wildlife habitat, hedgerows are crucial in halting [biodiversity decline](/articles/the-disappearance-of-biodiversity-in-the-uk) and tackling climate change. They facilitate movement through the landscape for a wide range of organisms and are particularly important for flying insects like butterflies, which need warm, sheltered conditions to gain and retain the heat necessary to fly.
 
 130 priority [Biodiversity Action Plan](https://jncc.gov.uk/our-work/uk-bap/) species are closely associated with hedgerows, 11% of all such species. Although very few are wholly dependent on hedgerows, the loss of hedgerows or a decline in their quality will significantly impact their populations.
 

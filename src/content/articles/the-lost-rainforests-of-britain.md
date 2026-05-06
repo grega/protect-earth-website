@@ -28,7 +28,7 @@ Guy's knowledge has been growing and shaping. But, he admits in the book to not 
 
 Temperate rainforests are unusual beasts - requiring lots of moisture, wet, and temperatures that are neither too hot nor too cold. And, as it turns out - the west coast of Blighty and the British Isles are some of the best conditions for these rainforests to proliferate. If only we'd let them.
 
-These beautiful, silvery, gnarled, ancient spaces are home to [oak, birch, ash, pine, and hazel](https://www.protect.earth/blog/which-species-of-trees-have-we-planted). Living on these species are carpets of mosses and lichens.
+These beautiful, silvery, gnarled, ancient spaces are home to [oak, birch, ash, pine, and hazel](/articles/which-species-of-trees-have-we-planted). Living on these species are carpets of mosses and lichens.
 
 There is deep reverence throughout the book. Documents centuries old and the stalwarts of British ecology and rainforests are regularly referenced - the Oliver Rackham's, Dominick DellaSala's, Dr Christopher Ellis', and Jon Moses- guiding our compass and ensuring we don't wander off.
 

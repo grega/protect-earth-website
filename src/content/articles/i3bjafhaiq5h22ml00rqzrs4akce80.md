@@ -6,7 +6,7 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/i3bjafhaiq5h22ml00rqzrs4akce80.jpg'
 ---
 
-Mae Gwarchod y Ddaear y tu hwnt i falchder a chyffro am ein coetir [cymunedol newydd](https://www.protect.earth/blog/coed-goetre) ym Mhowys. Fe'i lleolir mewn ardal fforest law dymherus ar ochr Gymreig y ffin rhwng Cymru a Lloegr, yn edrych dros Fryniau Sir Amwythig.
+Mae Gwarchod y Ddaear y tu hwnt i falchder a chyffro am ein coetir [cymunedol newydd](/articles/coed-goetre) ym Mhowys. Fe'i lleolir mewn ardal fforest law dymherus ar ochr Gymreig y ffin rhwng Cymru a Lloegr, yn edrych dros Fryniau Sir Amwythig.
 
 Yn gyfan gwbl, mae Goetre Wood yn cynnwys 70 erw o dir cyffiniol. Mae ugain erw yn goetir presennol, a 50 erw yn dir pori uchel.
 

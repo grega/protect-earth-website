@@ -39,7 +39,7 @@ In areas where gorse and bramble are already taken hold, the last thing you want
 
 Some locations will have seeds in the soil or seeds nearby, but the woodland creation will be limited to what seeds are available, and this might not be the diverse mix of species we want for the new woodland.&nbsp;
 
-Bolstering biodiversity through introducing species that used to be in the area, or [should be in the area](https://www.protect.earth/blog/right-tree-right-place-right-now), can just mean dotting some of these trees around, or it could mean planting 25-50% of the land with a mixture of species that aren’t there and leaving large spacing and clearings between the planted saplings for nature to fill in the gaps.
+Bolstering biodiversity through introducing species that used to be in the area, or [should be in the area](/articles/right-tree-right-place-right-now), can just mean dotting some of these trees around, or it could mean planting 25-50% of the land with a mixture of species that aren’t there and leaving large spacing and clearings between the planted saplings for nature to fill in the gaps.
 
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351468439-Y2RLL227Y5CQGBNGN9P1/image6.jpg?format=original)
 
@@ -106,7 +106,7 @@ Many of these pests and diseases are actually brought in on imported timber, ano
 
 Sourcing saplings from quality nurseries around the country is simple, and not only avoids bringing new diseases onto our shores, but has other benefits. All over the UK there are subregions where the genetics within a certain species are slightly different, with minor specialisations helping that species to thrive in the particular conditions of that area. After all, Ceredigion and Yorkshire are not the same, and using the same saplings in both just doesn’t make sense. By getting the right “seed provenance” we can increase survival rates, and reduce how far our saplings are moving around, reducing the chances of moving any diseases around within the country.
 
-_Learn more about _[_how Protect Earth source our saplings_](https://www.protect.earth/blog/where-do-our-saplings-come-from)_.&nbsp;_
+_Learn more about _[_how Protect Earth source our saplings_](/articles/where-do-our-saplings-come-from)_.&nbsp;_
 
 ## Support community nurseries that collect local seed
 
@@ -128,7 +128,7 @@ _If you are starting a community nursery, or would be interested in running one 
 
 ## Keep Experimenting with Sustainable Guards
 
-Back in May 2021 I wrote that [plastic tree guards were still a sad necessity](https://www.protect.earth/blog/protecting-saplings) for so many tree planting projects, but hoped that the 2021/22 planting season would be the end of that as so many sustainable tree guards were starting to pop up. We experimented with all of them, getting free samples from some companies, buying thousands of each of the others. Sadly most of them are the unfortunate combination of expensive and bad.&nbsp;
+Back in May 2021 I wrote that [plastic tree guards were still a sad necessity](/articles/protecting-saplings) for so many tree planting projects, but hoped that the 2021/22 planting season would be the end of that as so many sustainable tree guards were starting to pop up. We experimented with all of them, getting free samples from some companies, buying thousands of each of the others. Sadly most of them are the unfortunate combination of expensive and bad.&nbsp;
 
 Cardboard guards seemed like the most interesting, because most bioplastic is still plastic, and still problematic. Sadly on the three sites where cardboard guards were trialled, the deer ate ~50% of the trees, right through the guards, all within a few months of planting them. Replacing thousands of saplings and buying thousands of new guards stretched our budgets pretty thin, and delayed the success of the woodlands, delaying the carbon sequestration and much needed habitat from establishing.
 

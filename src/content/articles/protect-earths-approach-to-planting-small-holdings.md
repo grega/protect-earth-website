@@ -43,7 +43,7 @@ After that, our areas of support breakdown across three significant areas:
 
 ### Consultation
 
-We plant native trees with an appropriate [mixture of species](https://www.protect.earth/blog/which-species-of-trees-have-we-planted). To make sure we nail the mixture right, an ecologist from Protect Earth can come and visit your smallholding, take some photos of the proposed planting areas, and whip up a site report making a tailored plan for you. We’ll recommend a mixture of tree species, taking your suggestions on board. If you don’t like a certain species or prefer another, we’ll find a compromise, because it’s your land.
+We plant native trees with an appropriate [mixture of species](/articles/which-species-of-trees-have-we-planted). To make sure we nail the mixture right, an ecologist from Protect Earth can come and visit your smallholding, take some photos of the proposed planting areas, and whip up a site report making a tailored plan for you. We’ll recommend a mixture of tree species, taking your suggestions on board. If you don’t like a certain species or prefer another, we’ll find a compromise, because it’s your land.
 
 ### Funding
 
@@ -55,7 +55,7 @@ Several different funding sources are available depending on the size of your pl
 
 ### Volunteers
 
-Believe it or not, [tree planting is as wintertime an activity](https://www.protect.earth/blog/why-protect-earth-plant-trees-in-winter) as Christmas markets and staying by fire!
+Believe it or not, [tree planting is as wintertime an activity](/articles/why-protect-earth-plant-trees-in-winter) as Christmas markets and staying by fire!
 
 That’s right. When it’s cold and wet outside, and the sun doesn’t show itself at all, it is the best time to plant trees. It’s not a pleasant time. We know - we’re out there every winter.
 
@@ -78,7 +78,7 @@ But there are other benefits to planting trees. If you’ve landed on this page 
 
 ### Financial benefits to tree planting
 
-Trees planted around buildings can reduce heating costs by slowing down cold winds. In the summer, trees can reduce cooling costs by providing shade. Planting shelterbelts along the edge of a field, and clusters of trees within a field, can add a cooling effect for livestock. One way or another, the [earth is getting hotter and hotter](https://www.protect.earth/blog/climate-crisis-heatwaves-vs-tree-planting) year after year, so having respite from its sometimes punishing heat is something to look forward to.
+Trees planted around buildings can reduce heating costs by slowing down cold winds. In the summer, trees can reduce cooling costs by providing shade. Planting shelterbelts along the edge of a field, and clusters of trees within a field, can add a cooling effect for livestock. One way or another, the [earth is getting hotter and hotter](/articles/climate-crisis-heatwaves-vs-tree-planting) year after year, so having respite from its sometimes punishing heat is something to look forward to.
 
 Woodlands can provide extra fuel for biomass boilers.
 

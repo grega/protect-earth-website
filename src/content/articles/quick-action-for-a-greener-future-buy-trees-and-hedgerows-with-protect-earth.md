@@ -12,7 +12,7 @@ Until now!
 
 You can now [purchase trees and hedgerows](https://www.protect.earth/donate) that will be planted in upcoming projects. If you're far from our planting sites or can't participate physically, this is your chance to make a direct impact. By buying a tree or hedgerow, you're contributing to the growth and preservation of the UK's natural landscapes.
 
-Since our founding in 2020, Protect Earth has flourished into a vibrant charity and community. In just four years, we've planted [100,000 trees across the UK](https://www.protect.earth/blog/a-forest-of-accomplishments-reflecting-on-100000-trees-planted). As we continue to expand, we're embarking on diverse projects with unique goals. Your purchase will support these vital initiatives, bringing us closer to a greener, more biodiverse future.
+Since our founding in 2020, Protect Earth has flourished into a vibrant charity and community. In just four years, we've planted [100,000 trees across the UK](/articles/a-forest-of-accomplishments-reflecting-on-100000-trees-planted). As we continue to expand, we're embarking on diverse projects with unique goals. Your purchase will support these vital initiatives, bringing us closer to a greener, more biodiverse future.
 
        [caption id="" align="alignnone" width="4032"]
 

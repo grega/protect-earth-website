@@ -40,7 +40,7 @@ Despite these ambitious pledges, it is important to note that methane levels in 
 
 Led by Professor Vincent Gauci from the University of Birmingham, a research team conducted an in-depth investigation into methane absorption levels across the three primary forest types. The study examined upland tropical forests in the Amazon and Panama, temperate broadleaf trees in Wytham Woods in Oxfordshire, UK, and boreal coniferous forest trees in Sweden.
 
-The team discovered that microbes residing within tree bark can absorb atmospheric methane. The findings suggest that[ upland trees](https://www.protect.earth/blog/goytre-wood) can be a net sink for atmospheric methane.
+The team discovered that microbes residing within tree bark can absorb atmospheric methane. The findings suggest that[ upland trees](/articles/goytre-wood) can be a net sink for atmospheric methane.
 
 ## To sum up
 

@@ -14,11 +14,11 @@ These are themes Protect Earth has reflected on elsewhere.
 
 ## Lack of Accountability: Is the Government Serious About Reforestation?
 
-It's true. The government has set a target to reforest 30,000 hectares in the UK annually by 2025. In the 2023/24 year, the government reported 16,000 hectares planted in the UK—a figure substantially below the target. This gives no one confidence that the government can ramp up planting to achieve goals.[ Here’s](https://www.protect.earth/blog/the-uk-governments-downsized-forest-goals) our more in-depth piece on this topic.
+It's true. The government has set a target to reforest 30,000 hectares in the UK annually by 2025. In the 2023/24 year, the government reported 16,000 hectares planted in the UK—a figure substantially below the target. This gives no one confidence that the government can ramp up planting to achieve goals.[ Here’s](/articles/the-uk-governments-downsized-forest-goals) our more in-depth piece on this topic.
 
 For each year that the government doesn't hit the targets they set, making sure we're on course to reduce carbon by 68% by 2030 and 100% by 2050, they say to each other, "Don't beat yourself up. We'll get to it," rather than incentivising or penalising anyone. Government commitment to reforestation is similar to a New Year's Resolution—forgotten once it's said.
 
-Over the last decade, frequent government changes have caused inconsistent goals, leading to high churn and energy wasted on constant readjustment. It should be noted that the UK has amongst the[ lowest forestry coverage in Europe](https://www.protect.earth/blog/in-the-shadow-of-europes-trees-looking-at-the-uks-struggling-forests).
+Over the last decade, frequent government changes have caused inconsistent goals, leading to high churn and energy wasted on constant readjustment. It should be noted that the UK has amongst the[ lowest forestry coverage in Europe](/articles/in-the-shadow-of-europes-trees-looking-at-the-uks-struggling-forests).
 
        [caption id="" align="alignnone" width="724"]
 
@@ -31,7 +31,7 @@ Another point in "What is holding back woodland creation in the UK?" is the need
 
 The section title says it all.
 
-Within Protect Earth, we were stumped when we first started applying for grants. We know lateral organisations have also been bamboozled by application processes. We[ regularly receive pleas](https://www.protect.earth/blog/the-woodland-creation-conundrum-do-they-really-want-us-to-succeed) from landowners and others who want to plant trees but struggle with the government's grant applications.
+Within Protect Earth, we were stumped when we first started applying for grants. We know lateral organisations have also been bamboozled by application processes. We[ regularly receive pleas](/articles/the-woodland-creation-conundrum-do-they-really-want-us-to-succeed) from landowners and others who want to plant trees but struggle with the government's grant applications.
 
 After all is said and done—when the 'i's are dotted and the 't's crossed—it takes an absolute age for a response. Applicants are left in the dark on where their application is in the process and when they might expect a reply, hopeful to soon get on with their habitat restoration projects.
 
@@ -45,7 +45,7 @@ The reliance on promoting green space development shouldn't be placed on the gov
 
 We— environmental charities, groups, and companies—should decide what the message is and blast it collectively. It's not a particularly difficult message; there is a lot of disused land in the UK that would benefit the environment and society if it could be transformed into a space where the right mix of native plants could thrive, promoting sustainable land management and expanding UK tree planting efforts.
 
-What’s at risk is[ biodiversity](https://www.protect.earth/blog/the-disappearance-of-biodiversity-in-the-uk).
+What’s at risk is[ biodiversity](/articles/the-disappearance-of-biodiversity-in-the-uk).
 
 ## To sum up
 

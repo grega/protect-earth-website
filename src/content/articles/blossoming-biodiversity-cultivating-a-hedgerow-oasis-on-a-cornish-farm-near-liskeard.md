@@ -6,7 +6,7 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/blossoming-biodiversity-cultivating-a-hedgerow-oasis-on-a-cornish-farm-near-liskeard.jpg'
 ---
 
-You must have heard about the ancient woodland, [High Wood](https://www.protect.earth/blog/high-wood-liskeard-woodland-restoration-update-winter-2023), that Protect Earth is restoring near Liskeard, Cornwall. Well, our neighbours in that area certainly have and were amenable to the idea of us planting hedges on their farm, which is close to High Wood.
+You must have heard about the ancient woodland, [High Wood](/articles/high-wood-liskeard-woodland-restoration-update-winter-2023), that Protect Earth is restoring near Liskeard, Cornwall. Well, our neighbours in that area certainly have and were amenable to the idea of us planting hedges on their farm, which is close to High Wood.
 
 The landowners themselves have endeavoured to boost biodiversity on their farm. When they heard about the restorative work at High Wood, it made sense to them to link up with Protect Earth and continue developing natural habitats benefitting their farm, the soil, and biodiversity.
 

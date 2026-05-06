@@ -6,7 +6,7 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/which-species-of-trees-have-we-planted.jpg'
 ---
 
-As a young charity we have been growing fast, planting 4,000 trees in our first planting season, then 35,000 trees in the second season. Planting season runs [October to March](https://www.protect.earth/blog/why-protect-earth-plant-trees-in-winter), and we were looking forward to some calm time to focus on writing about what had been done. Nope! We had to protect against wildfire at [High Wood](https://www.protect.earth/projects/high-wood) by clearing forestry waste that people were setting fires in… then there were [thousands of saplings to water](https://www.protect.earth/blog/climate-crisis-heatwaves-vs-tree-planting), and now we’re out planting again. Ahhh!
+As a young charity we have been growing fast, planting 4,000 trees in our first planting season, then 35,000 trees in the second season. Planting season runs [October to March](/articles/why-protect-earth-plant-trees-in-winter), and we were looking forward to some calm time to focus on writing about what had been done. Nope! We had to protect against wildfire at [High Wood](https://www.protect.earth/projects/high-wood) by clearing forestry waste that people were setting fires in… then there were [thousands of saplings to water](/articles/climate-crisis-heatwaves-vs-tree-planting), and now we’re out planting again. Ahhh!
 
 Let’s take a quick break to look at what has been planted already, as a common question we get is “What species do you plant? Is it a fast growing type, or something slower but better for long term sequestration?”
 
@@ -14,7 +14,7 @@ Which one species? Oh no no! All projects have at least 8 species, and some proj
 
 ## Top 10 Species
 
-Our ecologists have several reasons for picking different species depending on the soil, water, exposure, history, climate projections, and you can read about that over in [_Right Tree in the Right Place... Right Now_](https://www.protect.earth/blog/right-tree-right-place-right-now), but some species are a staple that will show up at most sites.
+Our ecologists have several reasons for picking different species depending on the soil, water, exposure, history, climate projections, and you can read about that over in [_Right Tree in the Right Place... Right Now_](/articles/right-tree-right-place-right-now), but some species are a staple that will show up at most sites.
 
 **1.) Hawthorn**
 

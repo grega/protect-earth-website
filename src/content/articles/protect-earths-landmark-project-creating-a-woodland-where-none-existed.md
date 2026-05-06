@@ -8,7 +8,7 @@ thumbnail: '/articles/protect-earths-landmark-project-creating-a-woodland-where-
 
 Two years ago, Protect Earth bought 70 acres of overgrazed hillside on Goytre Hill, near Knighton in Mid-Wales.
 
-Today, and with the help and support of the community and volunteers, that landscape has been transformed into a nascent woodland home to 12,000 native saplings. It also marks a significant milestone for the charity: it is the first woodland we have created on land we own. This significant milestone joins another that we hit in 2024: planting more than[ 100,000 trees](https://www.protect.earth/blog/a-forest-of-accomplishments-reflecting-on-100000-trees-planted) since we started in 2020.
+Today, and with the help and support of the community and volunteers, that landscape has been transformed into a nascent woodland home to 12,000 native saplings. It also marks a significant milestone for the charity: it is the first woodland we have created on land we own. This significant milestone joins another that we hit in 2024: planting more than[ 100,000 trees](/articles/a-forest-of-accomplishments-reflecting-on-100000-trees-planted) since we started in 2020.
 
 ## Discover Goytre Hill: Where History and Nature Meet
 
@@ -26,7 +26,7 @@ If you know what you’re looking for, you may be able to spot Offa’s Dyke - a
 
 Goytre Hill and the land around has long been used for Wales’ most famous agricultural activity - sheep farming. In 2022, Protect Earth bought 70 acres of Goytre Hill.
 
-We covered the entire plan for Goytre[ here](https://www.protect.earth/blog/goytre-wood-update-summer-2023). In a nutshell, we planned to create and maintain several habitats, developing spaces for insects, mammals, and birds to thrive.
+We covered the entire plan for Goytre[ here](/articles/goytre-wood-update-summer-2023). In a nutshell, we planned to create and maintain several habitats, developing spaces for insects, mammals, and birds to thrive.
 
 This includes planting around 20 acres of Goytre Hill with native broadleaf trees, including Oak, Birch, Alder, Rowan, Wild Cherry, Hazel, and Hawthorn. This mix will benefit bird species like the Pied Flycatcher and Wood Warbler, both seeing population declines.
 

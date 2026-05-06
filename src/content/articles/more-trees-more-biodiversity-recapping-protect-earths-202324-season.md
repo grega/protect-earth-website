@@ -6,7 +6,7 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/more-trees-more-biodiversity-recapping-protect-earths-202324-season.jpg'
 ---
 
-Close to the beginning of the 2023/24 planting season, we shared with you what we expected to achieve over the season. [Remember](https://www.protect.earth/blog/protect-earth-in-202324-planting-restoring-and-invasive-species-removal)?
+Close to the beginning of the 2023/24 planting season, we shared with you what we expected to achieve over the season. [Remember](/articles/protect-earth-in-202324-planting-restoring-and-invasive-species-removal)?
 
 The planting season has now ended, giving us a chance to tally the figures and reflect on another year in which the community has come together to create more native broadleaf woodlands to encourage and increase biodiversity.
 
@@ -14,7 +14,7 @@ Let's quickly recap our intentions at the beginning of the season before we talk
 
 ## **What Protect Earth thought we'd achieve during the 2023/24 season**
 
-Before the season began, we[ estimated](https://www.protect.earth/blog/season-in-review-reflecting-on-protect-earths-2022-2023-tree-planting-achievements) that the UK would have 31,800 more saplings. That target represented a 24% increase from the previous season's achievements.
+Before the season began, we[ estimated](/articles/season-in-review-reflecting-on-protect-earths-2022-2023-tree-planting-achievements) that the UK would have 31,800 more saplings. That target represented a 24% increase from the previous season's achievements.
 
 Not only does this show growth in the right direction, but our time was going to be consumed with other woodland maintenance work like conifer clearing, which we had not done in previous seasons.
 
@@ -37,7 +37,7 @@ From when we first shared our season's plans to April, when our planting season 
 
 Our 2023/24 planting footprint witnessed most of our planting activities in England's South West, which absorbed 45% of everything we did (equivalent to around 14.3k new plants). The South East had 15% of our projects - or around 4,793 new saplings. We planted 3,195 in the Midlands, in Mid Wales, and South East Wales, for a total of 9,585 saplings being planted in these areas. The North West of England and the East Midlands took the remaining 10% or 3,195. See the table below.
 
-During the past season, Protect Earth[ revised our metrics](https://www.protect.earth/blog/protect-earths-maturing-success-metrics), broadening what we're measuring. Again, only planting trees isn't the only thing we can do, so we have broadened our horizons to achieve a higher rate of biodiversity on our projects and with everyone we work with.
+During the past season, Protect Earth[ revised our metrics](/articles/protect-earths-maturing-success-metrics), broadening what we're measuring. Again, only planting trees isn't the only thing we can do, so we have broadened our horizons to achieve a higher rate of biodiversity on our projects and with everyone we work with.
 
        [caption id="" align="alignnone" width="961"]
 
@@ -76,7 +76,7 @@ Hedgerows can fit in just about anywhere there's a fence or unused space, so we'
 
 ## To sum up
 
-Now that the planting season is over, we're switching gears and focusing on maintenance to get as many of those 32,754 plants to maturity as possible. As we said a few months back, we take pride in the work we do and see ongoing maintenance as equally important, which is how we achieved[ a 95% survival rate](https://www.protect.earth/blog/a-small-woodland-boasts-impressive-95-survival-rate-after-two-years) at a project we recently revisited. We are our visiting all of our sites and compiling survival rates, and seeing which if any will require any replanting to replace those failures. Another article on that soon.
+Now that the planting season is over, we're switching gears and focusing on maintenance to get as many of those 32,754 plants to maturity as possible. As we said a few months back, we take pride in the work we do and see ongoing maintenance as equally important, which is how we achieved[ a 95% survival rate](/articles/a-small-woodland-boasts-impressive-95-survival-rate-after-two-years) at a project we recently revisited. We are our visiting all of our sites and compiling survival rates, and seeing which if any will require any replanting to replace those failures. Another article on that soon.
 
 There are many variables to account for in this business—weather, tree availability, authorities, and permissions. Considering these and many other factors, we thought that by the end of the 2023/24 season, our community could boast of having increased the UK's planted footprint by 31,000.
 

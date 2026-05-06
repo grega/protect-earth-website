@@ -26,7 +26,7 @@ Lastly, inside the tree guard, a microclimate forms, which is beneficial for vul
 
 ## Evaluating tree guard materials: strengths and weaknesses
 
-Over all the projects we’ve planted (resulting in [100,000 trees planted](https://www.protect.earth/blog/a-forest-of-accomplishments-reflecting-on-100000-trees-planted) not long ago), we’ve tried many tree guards - from different brands, made of various materials, each with their own strengths and weaknesses.
+Over all the projects we’ve planted (resulting in [100,000 trees planted](/articles/a-forest-of-accomplishments-reflecting-on-100000-trees-planted) not long ago), we’ve tried many tree guards - from different brands, made of various materials, each with their own strengths and weaknesses.
 
 Unfortunately, the non-plastic guards tend to have more weaknesses than strengths. Their offerings are not strong enough to know we can rely on them during that five—to ten-year period, bringing saplings to a reasonable level of maturity and growth so that they can shed their training wheels.
 

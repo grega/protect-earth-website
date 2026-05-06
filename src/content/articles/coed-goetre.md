@@ -20,7 +20,7 @@ Mae’n debyg y caiff rhai o’r tir ei ddefnyddio am blannu coed a llwyni cynhe
 
 Rydym yn ymroddedig i sicrhau mewnbwn cymunedol ar unrhyw benderfyniad strategaethol ynglŷn â sut caiff y safle ei defnyddio. Am y tro, fe fyddwn yn gosod rhagor o lwybrau i bobl archwilio’r natur sydd ar eu stepen drws, ynghyd â meinciau newydd er mwyn mwynhau’r golygfeydd godidog. Na phoener; erys mynediadau i’r cyhoedd ar flaen ein cynlluniau.
 
-Mae’n ecolegydd, Steve Wiltshire, yn gwybod yr ardal yn dda gan gafodd ei fagu yn Swydd Amwythig. Beth bynnag bydd ein penderfyniad am y safle, fe fydd Steve yn ein cynorthwyo i sicrhau ein bod yn gweithio gyda phartneriaid, contractwyr, a chyflenwyr lleol. Yn ddiweddar, fe ysgrifennom am ein hymrwymiad i [blannu glasbrennau “lleol a chynhenid”](https://www.protect.earth/blog/where-do-our-saplings-come-from), sydd ond yn gallu awgrymu ein bod ni’n cyflogi a phrynu’n lleol.
+Mae’n ecolegydd, Steve Wiltshire, yn gwybod yr ardal yn dda gan gafodd ei fagu yn Swydd Amwythig. Beth bynnag bydd ein penderfyniad am y safle, fe fydd Steve yn ein cynorthwyo i sicrhau ein bod yn gweithio gyda phartneriaid, contractwyr, a chyflenwyr lleol. Yn ddiweddar, fe ysgrifennom am ein hymrwymiad i [blannu glasbrennau “lleol a chynhenid”](/articles/where-do-our-saplings-come-from), sydd ond yn gallu awgrymu ein bod ni’n cyflogi a phrynu’n lleol.
 
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469646-EN9BU2F7E5D9TNLPM9HY/IMG_1459.jpg?format=original)
 

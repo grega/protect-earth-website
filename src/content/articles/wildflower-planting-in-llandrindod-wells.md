@@ -8,7 +8,7 @@ thumbnail: '/articles/wildflower-planting-in-llandrindod-wells.jpeg'
 
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351470015-XC3107D4JJ2TBIYEYC3V/FSPvIz-XoAIKKcX-3.jpeg?format=original)
 
-Another spring day spent planting wildflowers. This time the wind blew us back to the rolling hills of Llandrindod Wells, Wales. The site is right beside one spot where [we’d planted 1300 trees](https://www.protect.earth/blog/2000-trees-planted) back in 2020. We’re pleased to say they’re doing [spectacularly](https://twitter.com/ProtectEarthUK/status/1523671669952626689). Additionally, we’ve planted [another acre meadow in Coventry](https://www.protect.earth/projects/bubbenhall).
+Another spring day spent planting wildflowers. This time the wind blew us back to the rolling hills of Llandrindod Wells, Wales. The site is right beside one spot where [we’d planted 1300 trees](/articles/2000-trees-planted) back in 2020. We’re pleased to say they’re doing [spectacularly](https://twitter.com/ProtectEarthUK/status/1523671669952626689). Additionally, we’ve planted [another acre meadow in Coventry](https://www.protect.earth/projects/bubbenhall).
 
 Onto this new patch, then. With shallow soil and rocks beneath it, it’s been deemed unsuitable for planting woodland. Still, that doesn’t mean we weren’t going to make the most of it! Leaving it bare would’ve been a travesty, especially since there are several bee hives sitting at the bottom of the field, all hankering for a good, local meal. So, we got stuck into planting some flowers for them, so they’ll one day benefit from the scrummy pollen and nectar.
 

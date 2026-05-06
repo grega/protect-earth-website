@@ -10,7 +10,7 @@ We're all told of the benefits that green spaces bring.
 
 Protect Earth recently started thinking that maybe we're too close to the trees to see the forest. We're outside all the time, breathing fresh air, seeing the results of our work grow in front of us, and doing all of this arm-in-arm with enthusiastic volunteers and partners. Being our every day, it's easy to forget that not everyone has those opportunities or understands the benefits of being outdoors surrounded by greenery.
 
-[Daisy White](https://www.protect.earth/blog/a-mental-health-first-aiders-perspective-on-environmental-care), a recent volunteer and Mental Health first aider with[ Park Avenue Recruitment](https://www.protect.earth/blog/rooted-in-green-park-avenue-recruitments-journey-to-sustainable-team-building), reminded us that being outdoors is linked to better mental health, which inspired this series.
+[Daisy White](/articles/a-mental-health-first-aiders-perspective-on-environmental-care), a recent volunteer and Mental Health first aider with[ Park Avenue Recruitment](/articles/rooted-in-green-park-avenue-recruitments-journey-to-sustainable-team-building), reminded us that being outdoors is linked to better mental health, which inspired this series.
 
 In this final piece in this series, we examined the research on green space's impact on health - mental, physical, social, and social equity.
 
@@ -64,7 +64,7 @@ At Protect Earth, we are deeply involved in creating and maintaining these green
 
 Our key activities are tree and hedge planting and establishing wildflower meadows. These activities are perfect for anyone who wants to contribute to biodiversity development in the UK. Throughout the day spent developing these natural habitats, there are always opportunities to chat, learn about each other, and share opinions, creating rapport and relationships.
 
-To ensure the ongoing care of these green spaces, we organise monthly[ Work Parties](https://www.protect.earth/blog/join-us-for-high-wood-work-party-days-make-a-difference-in-our-ancient-woodland). Maintaining a piece of land the size of High Wood is no small feat, and these gatherings provide a wonderful chance for community members to strengthen their connections with our projects and other community members.&nbsp;
+To ensure the ongoing care of these green spaces, we organise monthly[ Work Parties](/articles/join-us-for-high-wood-work-party-days-make-a-difference-in-our-ancient-woodland). Maintaining a piece of land the size of High Wood is no small feat, and these gatherings provide a wonderful chance for community members to strengthen their connections with our projects and other community members.&nbsp;
 
 Additionally, we host an annual Open Day at High Wood, a free event where everyone is welcome to explore and learn more about our work. Like all our activities, this event encourages intergenerational connections, creating spaces where Protect Earth community members of all ages can interact and share their experiences.
 

@@ -6,9 +6,9 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/goytre-wood-update-summer-2023.jpg'
 ---
 
-_This piece was written and contributed by our very own _[_Steve Wiltshire_](https://www.protect.earth/blog/introducing-steve-wiltshire)_ (fondly known as Steve the Ecologist)_
+_This piece was written and contributed by our very own _[_Steve Wiltshire_](/articles/introducing-steve-wiltshire)_ (fondly known as Steve the Ecologist)_
 
-Goytre Hill (pronounced Goy-tree) is almost 70 acres of rough pasture, hillside scrub and woodland in Mid-Wales that Protect Earth has recently [taken ownership of](https://www.protect.earth/blog/goytre-wood).
+Goytre Hill (pronounced Goy-tree) is almost 70 acres of rough pasture, hillside scrub and woodland in Mid-Wales that Protect Earth has recently [taken ownership of](/articles/goytre-wood).
 
 The views from the hilltop are spectacular with panoramic vistas of the surrounding Radnorshire hills and along the valley of the upper River Teme.
 

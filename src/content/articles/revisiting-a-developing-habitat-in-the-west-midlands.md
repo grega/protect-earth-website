@@ -14,11 +14,11 @@ Bubbenhall is just one such example. It was a project very early on in Protect E
 
 Bubbenhall is a beautiful little village with a population of only 655. It's in Warwickshire in the West Midlands.
 
-It was December 2021, A few miles outside of the village, and the Protect Earth team found ourselves where we often find ourselves - in a field soon to be filled with trees! We planted around 2,500 trees with some hedgerows. Hedgerows [benefit](https://www.protect.earth/blog/increase-farm-productivity-and-profitability-with-agroforestry-amp-rewilding) landowners (a farmer in this case) and wildlife. In addition to the trees and hedgerows, we also planted a 1 acre wildflower meadow.&nbsp;
+It was December 2021, A few miles outside of the village, and the Protect Earth team found ourselves where we often find ourselves - in a field soon to be filled with trees! We planted around 2,500 trees with some hedgerows. Hedgerows [benefit](/articles/increase-farm-productivity-and-profitability-with-agroforestry-amp-rewilding) landowners (a farmer in this case) and wildlife. In addition to the trees and hedgerows, we also planted a 1 acre wildflower meadow.&nbsp;
 
 In the diversified environment in which plants and animals live, replacing only one thing isn't enough. Only planting trees means that some vital small animals and insects will never appear where one might hope, and the woodland will not develop the biodiversity we all benefit from. The additional hedgerows and wildflower meadows, in combination with the trees, are a biodiversity bomb with immediate effect!
 
-What was planted is equivalent to approximately three acres, enough growth to boost the farm's biodiversity, directly [increasing the farm's turnover](https://www.protect.earth/blog/increase-farm-productivity-and-profitability-with-agroforestry-amp-rewilding).
+What was planted is equivalent to approximately three acres, enough growth to boost the farm's biodiversity, directly [increasing the farm's turnover](/articles/increase-farm-productivity-and-profitability-with-agroforestry-amp-rewilding).
 
        [caption id="" align="alignnone" width="3024"]
 

@@ -14,7 +14,7 @@ Let’s quickly look at the range of activities our community has undertaken to 
 
 ## Activities undertaken to fundraise for Protect Earth
 
-The Protect Earth community is an active group of many people across genders, ages, and ethnicities. We have formed a community over our shared environmental values and concern for [diversity in nature](https://www.protect.earth/blog/the-disappearance-of-biodiversity-in-the-uk). With so much diversity in our community, it’s no surprise that people have used different motivations to fundraise for Protect Earth.
+The Protect Earth community is an active group of many people across genders, ages, and ethnicities. We have formed a community over our shared environmental values and concern for [diversity in nature](/articles/the-disappearance-of-biodiversity-in-the-uk). With so much diversity in our community, it’s no surprise that people have used different motivations to fundraise for Protect Earth.
 
 We’ve had a young community member choose their 28th birthday as a reason to raise money for Protect Earth. Instead of gifts, she asked those close to her to donate something she believes in, and the greater activity we’re all involved in could be seen as an investment. If she invests money fundraising, it will pay off dividends in the future by reducing water and soil scarcity and changing climate patterns.
 

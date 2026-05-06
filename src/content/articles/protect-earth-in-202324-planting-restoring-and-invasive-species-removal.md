@@ -12,11 +12,11 @@ Now that it has happened and is happening let's look at what Protect Earth plans
 
 ## Planting by numbers
 
-Projects are coming in fast and thick! The plan where we stand today is that Protect Earth will be planting 31,800 saplings over the winter months! This is a 24% increase from what was achieved [last year](https://www.protect.earth/blog/season-in-review-reflecting-on-protect-earths-2022-2023-tree-planting-achievements).
+Projects are coming in fast and thick! The plan where we stand today is that Protect Earth will be planting 31,800 saplings over the winter months! This is a 24% increase from what was achieved [last year](/articles/season-in-review-reflecting-on-protect-earths-2022-2023-tree-planting-achievements).
 
 All this woodland creation will see us active in England and Wales. A third of the planned projects are within or reasonably close to the capital. Twenty-two per cent of this year's project locations are in the south-west.
 
-We have projects in the West Midlands, West Wales, Mid-Wales, and North Wales too! The final two locations, Mid-Wales and North Wales, are larger projects, with the number of trees being planted stretching into the tens of thousands this season alone! Aside from the number of trees being planted, these two projects are particularly close to our hearts as they are owned and managed by Protect Earth to be kept as woodlands in perpetuity. In later blogs, we will discuss these projects - their size, our plans for planting, and long-term plans/ hopes. Here are the working plans today - in [Welsh](https://www.protect.earth/blog/diweddariad-goetre-wood-haf-2023) and [English](https://www.protect.earth/blog/goytre-wood-update-summer-2023).
+We have projects in the West Midlands, West Wales, Mid-Wales, and North Wales too! The final two locations, Mid-Wales and North Wales, are larger projects, with the number of trees being planted stretching into the tens of thousands this season alone! Aside from the number of trees being planted, these two projects are particularly close to our hearts as they are owned and managed by Protect Earth to be kept as woodlands in perpetuity. In later blogs, we will discuss these projects - their size, our plans for planting, and long-term plans/ hopes. Here are the working plans today - in [Welsh](/articles/diweddariad-goetre-wood-haf-2023) and [English](/articles/goytre-wood-update-summer-2023).
 
 ## Other activities
 
@@ -24,7 +24,7 @@ When the charity was founded, our single goal was to plant oodles of trees. We k
 
 Beyond planting woodlands, we've been creating wildlife corridors (hedgerows and shelterbelts) on farms, sowing wildflower meadows, and increasingly, Protect Earth is restoring woodlands where poor management or disease has been knackering things beyond a level the woodland can recover by itself. Each of these ecosystems positively affects the environment differently, attracts unique life, and works together to feed off each other, achieving the biodiversity sorely lacking in the UK.
 
-Some plants and animals have [unnaturally migrated to the UK](https://www.protect.earth/blog/dan-eatherley-invasive-aliens-the-plants-and-animals-from-over-there-that-are-over-here-book-review) and can run amok without competition or predators, causing biodiversity to collapse and threatening species. Starting last year and in the future, Protect Earth is committed to removing invasive species and reducing the harm invasive species have.
+Some plants and animals have [unnaturally migrated to the UK](/articles/dan-eatherley-invasive-aliens-the-plants-and-animals-from-over-there-that-are-over-here-book-review) and can run amok without competition or predators, causing biodiversity to collapse and threatening species. Starting last year and in the future, Protect Earth is committed to removing invasive species and reducing the harm invasive species have.
 
 Your donations directly support these activities. We are introducing new metrics to complement our tree-planting numbers each year. These numbers include what we have done this season and what we expect to complete.
 

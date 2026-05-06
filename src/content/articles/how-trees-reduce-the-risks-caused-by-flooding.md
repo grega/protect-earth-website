@@ -48,7 +48,7 @@ Silt comprises soil and small stones that are washed into waterways.
 
 Silting in rivers causes shallower waters and blockages. With shallower water and blockages, excess water looks for another way to flow, resulting in burst banks.
 
-[Tree roots hold soil firm](https://www.protect.earth/blog/soil-erosion-is-a-problem-in-the-uk-there-are-simple-ways-to-combat-it) and in place. The more soil held in place:
+[Tree roots hold soil firm](/articles/soil-erosion-is-a-problem-in-the-uk-there-are-simple-ways-to-combat-it) and in place. The more soil held in place:
 
 - The healthier the ground is
 

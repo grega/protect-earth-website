@@ -23,7 +23,7 @@ The process of surveying Pete's land and ensuring it was suitable for planting a
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469328-EY6GB3KEFB8BMZSML63S/IMG_4152.jpg?format=original)
 Bracken and steep valley hills define this part of Wales! It’s not the type of land, you want to leave something at the top of the hill and have to traipse back up! But, in years to come, the view will be decidedly transformed! [/caption]
 
-Steve looked at a few maps to understand the topography and water sources. He looked at Google Maps and Earth to better understand the site. And he researched the type of soil around Pete's land. Using all that information, he put together a list of species [best suited](https://www.protect.earth/blog/right-tree-right-place-right-now) to the land and how densely they should be planted.
+Steve looked at a few maps to understand the topography and water sources. He looked at Google Maps and Earth to better understand the site. And he researched the type of soil around Pete's land. Using all that information, he put together a list of species [best suited](/articles/right-tree-right-place-right-now) to the land and how densely they should be planted.
 
 Steve's suggestions, after his survey was to plant:
 

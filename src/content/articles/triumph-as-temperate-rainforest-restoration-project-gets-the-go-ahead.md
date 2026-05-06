@@ -8,7 +8,7 @@ thumbnail: '/articles/triumph-as-temperate-rainforest-restoration-project-gets-t
 
 Protect Earth has landed a veto on decades-long commercial clear-felling at High Wood, Liskeard.
 
-We are happy to announce that our rainforest restoration project has finally begun at High Wood - Protect Earth's [first community woodland](https://www.protect.earth/blog/high-wood). Since acquiring the ancient woodland in March 2021, one of our first goals was to reverse years of policy mandating the replenishment of non-native coniferous species.
+We are happy to announce that our rainforest restoration project has finally begun at High Wood - Protect Earth's [first community woodland](/articles/high-wood). Since acquiring the ancient woodland in March 2021, one of our first goals was to reverse years of policy mandating the replenishment of non-native coniferous species.
 
 We aim to restore High Wood as the beautiful Cornish temperate rainforest it once was. Thanks to some internal heroes, we've secured permission from the Forestry Commission to return native species to this beautiful stretch of land.
 
@@ -28,7 +28,7 @@ But this land has too much potential, and the climate in Cornwall is perfect for
 
 That's what we fought for here at High Wood - changing minds on the land's use to rebuild the land into a temperate rainforest.
 
-And thanks to [Steve the Ecologist's](https://www.protect.earth/blog/introducing-steve-wiltshire) quick thinking and clever persuasion and other heroes at the Forestry Commission fighting our corner, we've finally triumphed over the restocking Agreement's non-native species clause!
+And thanks to [Steve the Ecologist's](/articles/introducing-steve-wiltshire) quick thinking and clever persuasion and other heroes at the Forestry Commission fighting our corner, we've finally triumphed over the restocking Agreement's non-native species clause!
 
 ## The future of High Wood as a temperate rainforest
 

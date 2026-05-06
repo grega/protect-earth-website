@@ -12,7 +12,7 @@ The heatwave to hit the U.K. and all of Europe through-out July and a good chunk
 
 A little bit of context for those of us not thinking about reforestation all day every day: a standard practice for woodland creation is "overstocking", where trees are planted more closely together than you need, expecting some to be lost to critters, or unexpected circumstances like prolonged drought. It is simple to thin out the surviving trees after a few years, but the inverse is not true: you cannot magic a mature tree out of nowhere. If you only plant the number of trees you want for the woodland at the end, you need a 100% survival rate to establish a canopy. Instead of a successful woodland ecosystem, you just have a field with some trees, which would have some value as a woodland pasture for grazing cattle but that’s not the goal.
 
-As we expect to lose some trees, we aim for 80% survival rate by the time we need to do the first thinning - around year five. If the deer, rabbits, or rogue escapist sheep manage to [get past our defenses](https://www.protect.earth/blog/protecting-saplings), or a vicious heatwave strikes, we are fine if they only take out 5%, but if they get to 40% we need to replant our losses.
+As we expect to lose some trees, we aim for 80% survival rate by the time we need to do the first thinning - around year five. If the deer, rabbits, or rogue escapist sheep manage to [get past our defenses](/articles/protecting-saplings), or a vicious heatwave strikes, we are fine if they only take out 5%, but if they get to 40% we need to replant our losses.
 
 ## Watering Saplings
 

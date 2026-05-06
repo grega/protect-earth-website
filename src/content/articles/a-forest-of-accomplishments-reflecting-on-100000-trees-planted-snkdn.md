@@ -8,7 +8,7 @@ thumbnail: '/articles/a-forest-of-accomplishments-reflecting-on-100000-trees-pla
 
 Have you patted yourself on the back recently for a job well done? Regardless of the answer, we're giving you a reason to congratulate yourself now.
 
-As a member of the Protect Earth community, you have contributed to the planting of 100,000 native, [broad-leaf trees that are right for the environment](https://www.protect.earth/blog/right-tree-right-place-right-now)!
+As a member of the Protect Earth community, you have contributed to the planting of 100,000 native, [broad-leaf trees that are right for the environment](/articles/right-tree-right-place-right-now)!
 
 Together, we have collectively shattered this threshold - this ceiling, whatever you'd like to call it, in just three short years!
 

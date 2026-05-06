@@ -16,7 +16,7 @@ Let's dive into the national park scene as seen in the UK.
 
 ## The history of national parks in the UK
 
-1950s post-war UK was arguably not a great time. But those of us with green in our hearts and eyes would look at the 1950s as a watershed decade. Following the National Parks and Access to the Countryside Act 1949, several areas across the UK were designated as national parks to conserve and enhance their natural beauty and provide recreational opportunities for the public. Lewis Silkin, Minister for Town and Country Planning, describes it as "… the most exciting Act of the post-war Parliament". The parks were mostly formed in poor-quality agricultural upland. But that is OK. Protect Earth is very fond of low-quality [farmland](https://www.protect.earth/blog/misconceptions-reforestation-is-taking-valuable-land-from-farming).
+1950s post-war UK was arguably not a great time. But those of us with green in our hearts and eyes would look at the 1950s as a watershed decade. Following the National Parks and Access to the Countryside Act 1949, several areas across the UK were designated as national parks to conserve and enhance their natural beauty and provide recreational opportunities for the public. Lewis Silkin, Minister for Town and Country Planning, describes it as "… the most exciting Act of the post-war Parliament". The parks were mostly formed in poor-quality agricultural upland. But that is OK. Protect Earth is very fond of low-quality [farmland](/articles/misconceptions-reforestation-is-taking-valuable-land-from-farming).
 
 ## National parks in the UK today
 
@@ -50,7 +50,7 @@ Similarly, human activities, including tourism, pollution, and encroachment pres
 
 While tourism keeps parks alive - it tells the government that people value the spaces and boosts employment, tourism to these spots also has downsides:
 
-- [Erosion](https://www.protect.earth/blog/soil-erosion-is-a-problem-in-the-uk-there-are-simple-ways-to-combat-it) - holding large events (charity walks, etc.) or having large recreational vehicles like quads can cause soil compaction or erosion&nbsp;
+- [Erosion](/articles/soil-erosion-is-a-problem-in-the-uk-there-are-simple-ways-to-combat-it) - holding large events (charity walks, etc.) or having large recreational vehicles like quads can cause soil compaction or erosion&nbsp;
 
 - Damage and disturbance to wildlife - allowing dogs off leads, for instance
 

@@ -10,7 +10,7 @@ There are all kinds of companies and teams. Some companies sign their employees 
 
 Protect Earth has had more than a few companies choose to join us on-site in the sun and rain, doing a load of green good, from planting trees to laying mulch mats protecting saplings from the hot sun. Aside from doing the plants good, it's also done those who've joined us good - "highly rewarding and [the] team came away feeling they had made a positive impact" was one follow-up comment we received. This is just the type of feedback we love hearing!
 
-In the [2022/23 planting season](https://www.protect.earth/blog/season-in-review-reflecting-on-protect-earths-2022-2023-tree-planting-achievements), Protect Earth planted a massive 25,671 plants all over the UK, laid 3,000 mulch mats, and cleared 900 tonnes of invasive species! Some of this extraordinary effort was done by volunteers.
+In the [2022/23 planting season](/articles/season-in-review-reflecting-on-protect-earths-2022-2023-tree-planting-achievements), Protect Earth planted a massive 25,671 plants all over the UK, laid 3,000 mulch mats, and cleared 900 tonnes of invasive species! Some of this extraordinary effort was done by volunteers.
 
 ## How corporate volunteering with Protect Earth works
 

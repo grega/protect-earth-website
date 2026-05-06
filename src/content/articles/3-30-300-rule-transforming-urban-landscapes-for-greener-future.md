@@ -38,7 +38,7 @@ The simple act of peering out of your window and catching sight of at least thre
 
 A tree canopy is the layer of leaves, branches, and tree stems that cover the ground. And with that in mind, the recommended amount of canopy coverage every neighbourhood and built area should have is 30%.
 
-This is because the presence of trees has been linked to many benefits, including cooling effects, improved microclimates, better mental and physical health, and the potential to reduce air pollution and noise. Denser green areas act as natural defence systems [protecting against flooding](https://www.protect.earth/blog/how-trees-reduce-the-risks-caused-by-flooding) and soil subsidence.
+This is because the presence of trees has been linked to many benefits, including cooling effects, improved microclimates, better mental and physical health, and the potential to reduce air pollution and noise. Denser green areas act as natural defence systems [protecting against flooding](/articles/how-trees-reduce-the-risks-caused-by-flooding) and soil subsidence.
 
 ### The benefits of high-quality green spaces no more than 300 metres away rule
 

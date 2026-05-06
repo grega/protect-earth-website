@@ -12,7 +12,7 @@ This article explores the blight of uncollected plastic tree guards, which leads
 
 ## From Protection to Pollution: How Negligence Contributes to Plastic Pollution
 
-Despite the best efforts and intentions, the environmental sector still struggles to move away from plastic, particularly in the use of [plastic tree guards](https://www.protect.earth/blog/protect-earths-experience-with-tree-guards-plastics-plastic-alternatives-amp-beyond). These plastic guards are widely utilised to protect young trees during the crucial first 5-10 years of their lives. After this period, the guards should be collected for reuse or disposed of responsibly. Unfortunately, this does not always happen.
+Despite the best efforts and intentions, the environmental sector still struggles to move away from plastic, particularly in the use of [plastic tree guards](/articles/protect-earths-experience-with-tree-guards-plastics-plastic-alternatives-amp-beyond). These plastic guards are widely utilised to protect young trees during the crucial first 5-10 years of their lives. After this period, the guards should be collected for reuse or disposed of responsibly. Unfortunately, this does not always happen.
 
 Some sites fail to retrieve these guards due to negligence, the project has run out of money and steam, or simply because they are forgotten over time—after all, a decade is a long period. Regardless of the reason, whether accidental or deliberate, the outcome is the same: discarded plastics mar the landscape, degrade into the soil, and contribute to the growing issue of microplastics, thereby undermining the very environmental work we are all passionate about.
 

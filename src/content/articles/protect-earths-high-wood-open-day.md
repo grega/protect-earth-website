@@ -16,11 +16,11 @@ Keep reading for a play-by-play account to feel like you were there.
 
 Our Family Fun Day was on June 24th.
 
-Thankfully, the weather was on our side and under the sun's beautiful rays, we welcomed a handful of families, local councillors, a few pooches, and friends to our beautiful woodland. Even [Guy Shrubsole's](https://www.protect.earth/blog/the-lost-rainforests-of-britain) mum managed an appearance!
+Thankfully, the weather was on our side and under the sun's beautiful rays, we welcomed a handful of families, local councillors, a few pooches, and friends to our beautiful woodland. Even [Guy Shrubsole's](/articles/the-lost-rainforests-of-britain) mum managed an appearance!
 
 We intended to let locals know of the work we'd achieved, why it's important to do so, and let them know that High Wood will continue to be open to them to come and enjoy.
 
-[Steve the Ecologist](https://www.protect.earth/blog/introducing-steve-wiltshire) started by taking everyone on an Ecology Walk. He spoke to the group about the birds, insects, plant life and what we're doing with the trees (taking down conifers to allow for natural regeneration - we'll come back to this in more detail in another post).
+[Steve the Ecologist](/articles/introducing-steve-wiltshire) started by taking everyone on an Ecology Walk. He spoke to the group about the birds, insects, plant life and what we're doing with the trees (taking down conifers to allow for natural regeneration - we'll come back to this in more detail in another post).
 
 After Steve's insightful walk, we had a BBQ hosted by the wonderful Meike from Forest of Cornwall. While the event was free, we sold food and drinks to raise money, enabling us to plant apple trees. The thick shade provided by the conifer that once covered this area vanished after we thinned conifers. The apple trees (UK native species) will reshade the gap and refreshment in the future. It was great to see families enjoying one of the permanent picnic benches paid for with past donations.
 

@@ -20,7 +20,7 @@ Whether it’s a house, an up-cycled piece of furniture, or a woodland, to get t
 
 When we inherited High Wood, the woodland was used principally to grow and produce timber for selling. And the best way to do that is to plant easy and fast-to-grow conifer trees.
 
-While timber production is incredibly important, we feel that ancient woodlands deserve better, so we’ve been looking at gradually removing these non-native trees to allow for native restoration with the goal of returning High Wood to a [temperate rainforest](https://www.protect.earth/blog/the-lost-rainforests-of-britain).
+While timber production is incredibly important, we feel that ancient woodlands deserve better, so we’ve been looking at gradually removing these non-native trees to allow for native restoration with the goal of returning High Wood to a [temperate rainforest](/articles/the-lost-rainforests-of-britain).
 
 We removed some of the young conifers that were 6-7 years old last winter. In the 2023/24 winter season, we’ll remove more.
 

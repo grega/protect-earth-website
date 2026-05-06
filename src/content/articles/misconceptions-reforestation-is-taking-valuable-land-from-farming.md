@@ -42,7 +42,7 @@ We've even had the harrowing experience of planting trees along the side of the 
 
 It's also incorrect to assume that tree cover and food production cannot be combined.
 
-[Agroforestry](https://www.protect.earth/blog/increase-farm-productivity-and-profitability-with-agroforestry-amp-rewilding) has a long history across the UK but was scaled back by various government initiatives to a point where, recently, if a hedgerow grew too tall, someone was going to get a huge fine. Thankfully, things are moving in the right direction.
+[Agroforestry](/articles/increase-farm-productivity-and-profitability-with-agroforestry-amp-rewilding) has a long history across the UK but was scaled back by various government initiatives to a point where, recently, if a hedgerow grew too tall, someone was going to get a huge fine. Thankfully, things are moving in the right direction.
 
 Working with groups like[ Farming & Wildlife Advisory Group South West](https://www.fwagsw.org.uk/),[ FarmEd](https://www.farm-ed.co.uk/), various agricultural consultants, and farmers directly, helping them increase tree cover through woodlands, hedgerows, shelterbelts, and field trees. These methods can provide shelter for livestock, reduce soil erosion, and provide farmers with diversified income.
 

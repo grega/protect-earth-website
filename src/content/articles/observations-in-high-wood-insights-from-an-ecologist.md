@@ -6,7 +6,7 @@ author: 'Phil Sturgeon'
 thumbnail: '/articles/observations-in-high-wood-insights-from-an-ecologist.jpg'
 ---
 
-Over the past few years [Steve](https://www.protect.earth/blog/introducing-steve-wiltshire), a keen birder, along with the help of other local naturalists, has been documenting the wildlife found at High Wood. His approach is unassuming yet deeply insightful.
+Over the past few years [Steve](/articles/introducing-steve-wiltshire), a keen birder, along with the help of other local naturalists, has been documenting the wildlife found at High Wood. His approach is unassuming yet deeply insightful.
 
 Steve's visits to High Wood are work-related, focusing on the habitat creation tasks that bring him to the woodlands. However, he always takes the time to observe his surroundings, noting the birds and butterflies he encounters. While there’s no formal monitoring programme at High Wood, Steve has been recording the species he sees during his visits, providing valuable information about the area’s wildlife.
 

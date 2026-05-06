@@ -39,7 +39,7 @@ The English Oak takes pride of place in our lineup, with 1,845 of these majestic
 
 And, drumroll, please… the star of the show was the Hawthorn. This versatile, wildlife-supporting species stole the limelight with us planting a whopping 3,229 Hawthorn trees, which equated to a significant 12.58% of all trees we planted this season.
 
-Hawthorn is a natural leader because of its versatility as both a tree and a hedge. We planted Hawthorn to be a part of woodland projects and in hedgerows. Planting different green spaces, from woodlands to [wildflower meadows](https://www.protect.earth/blog/the-difficulties-and-benefits-of-wildflower-meadow-creation) and hedgerows, [achieves strong biodiversity](https://www.protect.earth/blog/biodiversity-what-it-is-and-why-its-so-important-to-achieve).
+Hawthorn is a natural leader because of its versatility as both a tree and a hedge. We planted Hawthorn to be a part of woodland projects and in hedgerows. Planting different green spaces, from woodlands to [wildflower meadows](/articles/the-difficulties-and-benefits-of-wildflower-meadow-creation) and hedgerows, [achieves strong biodiversity](/articles/biodiversity-what-it-is-and-why-its-so-important-to-achieve).
 
 ## Distribution of planting projects by region
 

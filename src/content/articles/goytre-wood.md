@@ -20,7 +20,7 @@ It’s likely that some of the land will be planted with native tree and shrub s
 
 We are committed to ensuring community input for any strategic decision regarding how the site is used. For the moment, we’ll be putting in more paths for people to explore the nature on their doorstep, as well as some new benches from which to enjoy the exquisite views. Rest assured; public access will remain paramount.
 
-Our ecologist Steve Wiltshire knows this area well, having himself grown up in Shropshire. Whatever we decide for the site, he’ll be helping us to ensure we work with the best local partners, contractors and suppliers. We recently wrote about our commitment to [planting “local native” saplings](https://www.protect.earth/blog/where-do-our-saplings-come-from), which can only mean hiring and buying locally.
+Our ecologist Steve Wiltshire knows this area well, having himself grown up in Shropshire. Whatever we decide for the site, he’ll be helping us to ensure we work with the best local partners, contractors and suppliers. We recently wrote about our commitment to [planting “local native” saplings](/articles/where-do-our-saplings-come-from), which can only mean hiring and buying locally.
 
 ![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469681-BCI4CDPVFZM28QQHAS1Q/IMG_1459.jpg?format=original)
 

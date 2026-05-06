@@ -50,7 +50,7 @@ Looking ahead, these challenges persist, and additional threats are emerging. In
 
 The case presented is not pleasant. As a result of human activity over centuries, the UK has around half of its biodiversity remaining.
 
-However, with awareness and action, change can always be made. Protect Earth has been thinking on these lessons on biodiversity importance and its distribution in the UK to consider what we can do. You may have noticed more activities on [wildflower meadow development](https://www.protect.earth/blog/pantpurlais-wildflower-meadow-update) and [hedgerow development](https://www.protect.earth/blog/blossoming-biodiversity-cultivating-a-hedgerow-oasis-on-a-cornish-farm-near-liskeard) as we look at restoring more diverse habitats to create spaces fostering greater biodiversity. Please join us by making a donation to our [biodiversity fund](https://www.protect.earth/donate/biodiversity).
+However, with awareness and action, change can always be made. Protect Earth has been thinking on these lessons on biodiversity importance and its distribution in the UK to consider what we can do. You may have noticed more activities on [wildflower meadow development](/articles/pantpurlais-wildflower-meadow-update) and [hedgerow development](/articles/blossoming-biodiversity-cultivating-a-hedgerow-oasis-on-a-cornish-farm-near-liskeard) as we look at restoring more diverse habitats to create spaces fostering greater biodiversity. Please join us by making a donation to our [biodiversity fund](https://www.protect.earth/donate/biodiversity).
 
 ## Sources
 

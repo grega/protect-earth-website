@@ -22,7 +22,7 @@ Either scenario could be ecologically problematic, potentially going against the
 
 When I say explicitly, an example springs to mind: planting with a Welsh farmer near Cardigan using the[ Glastir Woodland Creation Grant](https://www.gov.wales/glastir-woodland-creation), they were told to use a square grid, and all trees had to be spaced exactly 2m apart from all other trees. Not 2.1, not 1.9, but 2m. Can you imaging trying to make sure 25,000 trees planted completely randomly are spaced perfectly, under threat of losing the ~£100,000 laid out up-front?
 
-The main question we should be asking is: does it matter to the wildlife if the trees are planted in straight lines? I asked[ Steve the Ecologist](https://www.protect.earth/blog/introducing-steve-wiltshire) and he said "The birds don't care, neither will the squirrels. The branches will all grow all over the place and make a canopy anyway, so it's purely aesthetic."
+The main question we should be asking is: does it matter to the wildlife if the trees are planted in straight lines? I asked[ Steve the Ecologist](/articles/introducing-steve-wiltshire) and he said "The birds don't care, neither will the squirrels. The branches will all grow all over the place and make a canopy anyway, so it's purely aesthetic."
 
 Some argue that the rows create temperature regulation issues and wind can whip through the woods, but at every project we create a "woodland edge", using thick shrubby species around the outside to buffer the wind, and take other considerations with species selections, so this is not a concern.
 

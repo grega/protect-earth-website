@@ -10,7 +10,7 @@ Back in December our tree counter was on 92 trees and two months later we’re u
 
 ### Pantpurlais, Llandrindod Wells
 
-We mentioned last week the plan to [plant 500 trees](https://www.protect.earth/blog/500-trees-in-wales) on a farm called [Pantpurlais](https://www.protect.earth/projects/pantpurlais) near Llandrindod Wells, Wales, and we’re happy to let you know it went swimmingly!
+We mentioned last week the plan to [plant 500 trees](/articles/500-trees-in-wales) on a farm called [Pantpurlais](https://www.protect.earth/projects/pantpurlais) near Llandrindod Wells, Wales, and we’re happy to let you know it went swimmingly!
 
        [caption id="" align="alignnone" width="2500"]
 
@@ -19,7 +19,7 @@ Here you can see a bunch of Field Maple, Alder, Silver Birch, and in the backgro
 
 It was incredibly impressive how quickly the first 400 trees were planted: one day! Another 75 trees and shrubs were planted on the second day (25 short of the 500 but that’s what was delivered!)
 
-[Our first 100 trees](https://www.protect.earth/blog/we-started-planting) took us a week, even with a bunch of volunteers, but that was mostly due to us placing oaks strategically around the farm in places the cows wouldn’t smash them. When you’ve got one big field to plant, and the stakes/canes have been placed already, it’s really easy for 5-6 volunteers to smash out a few hundred trees in a day.
+[Our first 100 trees](/articles/we-started-planting) took us a week, even with a bunch of volunteers, but that was mostly due to us placing oaks strategically around the farm in places the cows wouldn’t smash them. When you’ve got one big field to plant, and the stakes/canes have been placed already, it’s really easy for 5-6 volunteers to smash out a few hundred trees in a day.
 
 Here’s a look at the same field before the trees went in. Much better now I think.
 
