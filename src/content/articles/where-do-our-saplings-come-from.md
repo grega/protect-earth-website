@@ -3,20 +3,20 @@ title: 'Where do our saplings come from?'
 description: 'We plant saplings because they’re small but mighty. They’ve gone through the tough process of germination, and unlike trees you’ll find at garden centres they’re not huge and expensive. If we had to...'
 pubDate: 2023-02-03T21:58:11.000Z
 author: 'Phil Sturgeon'
-thumbnail: '/articles/where-do-our-saplings-come-from.jpg'
+thumbnail: ../../articles/where-do-our-saplings-come-from.jpg
 ---
 
 We plant saplings because they’re small but mighty. They’ve gone through the tough process of germination, and unlike trees you’ll find at garden centres they’re not huge and expensive. If we had to buy them all for £50 each and use a digger to get them in then we wouldn’t get much done.
 
 Thankfully sapling suppliers exist all over the country, known as tree nurseries. These nurseries are essentially Tree Farmers, growing trees from seedlings, or propagating from cuttings, in poly tunnels, barns, sheds, providing every native British species you can imagine.
 
-![](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469718-73TL5EN9XAOE7EJ03RRV/FnKDeNvWQAA4zXy.jpeg?format=original)
+![](/articles/squarespace/fnkdenvwqaa4zxy-4f6552abb4.jpeg)
 
-![](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469727-VU8HR2QJKIB0WKUEPLLH/FnKDeqzXoAMi-Ni.jpeg?format=original)
+![](/articles/squarespace/fnkdeqzxoami-ni-55d64e840c.jpeg)
 
-![](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469735-DLLISQKRTOEIWRCQPOO4/FnKDfK9XoAAn64z.jpeg?format=original)
+![](/articles/squarespace/fnkdfk9xoaan64z-e5f109a93f.jpeg)
 
-![](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469743-3JF5N7GYHA27DPGAA3EC/FnKDfs0XEAEoyCw.jpeg?format=original)
+![](/articles/squarespace/fnkdfs0xeaeoycw-d6b52a8230.jpeg)
 
 _Source: _[_https://twitter.com/maelorforest/status/1617499803205701632_](https://twitter.com/maelorforest/status/1617499803205701632)
 
@@ -24,7 +24,7 @@ At first we would just try to buy decent priced saplings from close to the place
 
 This year we have extended the requirements, to focus on getting the right “seed provenance”. It’s no longer good enough for us to get “native” saplings, they should be “local native”, meaning if we are planting in West Wales the saplings seedlings and genetics should be from West Wales.
 
-![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469758-OFUD48MWBMQERD2J06MN/Untitled.gif?format=original)
+![](/articles/squarespace/untitled-67660d9be2.gif)
 
 By making sure we’ve got the right saplings for the region we are increasing the odds for those saplings which may have evolved minor specialised advantages over time. An English Oak from Sussex and an English Oak from Powys might look pretty similar, but they are not identical, and getting it easy enough that making it a requirement isn’t hurting us.
 

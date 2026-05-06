@@ -3,7 +3,7 @@ title: 'A Forest of Accomplishments: Reflecting on 100,000 Trees Planted'
 description: "As a member of the Protect Earth community, you've contributed to planting 100,000 native, broad-leaf trees in just three short years!"
 pubDate: 2024-05-06T11:15:13.000Z
 author: 'Phil Sturgeon'
-thumbnail: '/articles/a-forest-of-accomplishments-reflecting-on-100000-trees-planted-snkdn.jpg'
+thumbnail: ../../articles/a-forest-of-accomplishments-reflecting-on-100000-trees-planted-snkdn.jpg
 ---
 
 Have you patted yourself on the back recently for a job well done? Regardless of the answer, we're giving you a reason to congratulate yourself now.
@@ -18,6 +18,6 @@ So, what's next? Well, we are on the hunt for poor-quality land to purchase and 
 
 How long will it take for us to reach 500,000? 1,000,000 trees? The answer is uncertain, but with your continued support - through donations or attending events - we can celebrate this milestone of 100,000 trees planted and the environmentally friendly achievements we'll make in the future.
 
-![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351468657-E70S5ICHYNOEAONSKRZI/IMG_1846.jpeg?format=original)
+![](/articles/squarespace/img_1846-ad7cca6cee.jpeg)
 
-![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351468662-1WW5NM0VBIP5PLOU1AW8/IMG_8223.jpg?format=original)
+![](/articles/squarespace/img_8223-9139ef7e67.jpg)

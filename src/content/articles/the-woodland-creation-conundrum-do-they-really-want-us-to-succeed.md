@@ -3,7 +3,7 @@ title: 'The Woodland Creation Conundrum: Do They Really Want Us to Succeed?'
 description: 'Many people, concerned citizens with good intentions to plant trees and tackle the climate crisis, often encounter problems when attempting to access available government funding to help them fund...'
 pubDate: 2024-09-04T09:05:45.000Z
 author: 'Phil Sturgeon'
-thumbnail: '/articles/the-woodland-creation-conundrum-do-they-really-want-us-to-succeed.jpeg'
+thumbnail: ../../articles/the-woodland-creation-conundrum-do-they-really-want-us-to-succeed.jpeg
 ---
 
 Many people, concerned citizens with good intentions to plant trees and tackle the climate crisis, often encounter problems when attempting to access available government funding to help them fund their green goals. These problems vary from significant, seemingly insurmountable bureaucracy to frustrating, overly complicated application processes. Both can lead people with very good intentions to forget the whole thing or to look for other ways to make a difference in significantly smaller ways as they haven’t managed to secure funding.
@@ -32,7 +32,7 @@ Government grant applications require attending classes that haven’t been crea
 
 Ready to plant trees but stuck in the red tape? Don’t let bureaucracy stop your green goals! Protect Earth is here to guide you through the maze of government grants like EWCO and others. Whether you need a nudge in the right direction or full support, we’ll help you unlock the funding and get those trees in the ground. Let’s boost biodiversity together—get in touch with us today!
 
-       [caption id="" align="alignnone" width="4032"]
-
-![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351468234-B5NIQ2SOSM0GG4CI0ZVX/IMG_7225.jpeg?format=original)
-It's views like this that should be awaiting you - not nights spent descending into hopelessness as you drudge through a grant application form. [/caption]
+<figure>
+  <img src="/articles/squarespace/img_7225-6889312c84.jpeg" alt="" />
+  <figcaption>It's views like this that should be awaiting you - not nights spent descending into hopelessness as you drudge through a grant application form.</figcaption>
+</figure>

@@ -3,7 +3,7 @@ title: 'In the Spotlight: Duncan Porter - Deputy Protector &amp;amp; Supervolunt
 description: 'Duncan Porter is a Protect Earth super volunteer, a volunteer extraordinaire, or as Phil refers to him, a Deputy to Protect Earth.'
 pubDate: 2024-03-25T07:20:00.000Z
 author: 'Phil Sturgeon'
-thumbnail: '/articles/in-the-spotlight-duncan-porter-deputy-protector-amp-supervolunteer-at-planet-earth.png'
+thumbnail: ../../articles/in-the-spotlight-duncan-porter-deputy-protector-amp-supervolunteer-at-planet-earth.png
 ---
 
 Duncan Porter is a Protect Earth super volunteer, a volunteer extraordinaire, or, as Phil refers to him, a Deputy to Protect Earth.
@@ -22,10 +22,10 @@ About a decade ago I realised that the cavalry weren’t coming. In fact the cav
 
 At that point I decided that if my time, energy and influence could make even the smallest difference, it would be worth it.
 
-       [caption id="" align="alignnone" width="1484"]
-
-![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351468726-0W10IA8A7WWI7BDPY16E/image.png?format=original)
-Never far from being stuck in and never without a smile! [/caption]
+<figure>
+  <img src="/articles/squarespace/image-103c8acc31.png" alt="" />
+  <figcaption>Never far from being stuck in and never without a smile!</figcaption>
+</figure>
 
 _2. Before becoming involved with Protect Earth, what would you do to do your bit for the environment?_
 

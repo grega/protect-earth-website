@@ -3,12 +3,13 @@ title: 'Ancient woodlands - places of huge ecological diversity'
 description: 'Ancient woodlands are irreplaceable ecosystems that have existed for centuries, supporting unique biodiversity and ecological complexity.'
 pubDate: 2023-02-20T09:44:23.000Z
 author: 'Phil Sturgeon'
-thumbnail: '/articles/ancient-woodlands-places-of-huge-ecological-diversity.jpg'
+thumbnail: ../../articles/ancient-woodlands-places-of-huge-ecological-diversity.jpg
 ---
 
-[caption id="" align="alignnone" width="1500"]
-![$2](https://images.squarespace-cdn.com/content/v1/66f54aab97a2451c86736b2d/1727351469697-QLPQGO0NTTY7W6K1TVLR/highwood.jpg?format=original)
-This is High Wood, an ”ancient replanted woodland”. This means the woodland has been here since at least the year 1600 but the trees have all been replaced with non-native conifers. Protect Earth are restoring this woodland to its former glory. [/caption]
+<figure>
+  <img src="/articles/squarespace/highwood-920caf0751.jpg" alt="" />
+  <figcaption>This is High Wood, an ”ancient replanted woodland”. This means the woodland has been here since at least the year 1600 but the trees have all been replaced with non-native conifers. Protect Earth are restoring this woodland to its former glory.</figcaption>
+</figure>
 
 Trees are pretty cool. We at Protect Earth think so and are willing to bet that as you’re reading this, you think so, too.
 
