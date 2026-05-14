@@ -172,7 +172,7 @@ Ray Tabor says in his fabulous book, Traditional Woodland Crafts;
 > fabric of English rural life, that it has probably had a greater effect on the development of our
 > civilization than any other tree.
 
-Tradition and culture are important, but how coppicing it help nature?
+Tradition and culture are important, but how does coppicing help nature?
 
 ### Boosting Biodiversity
 
