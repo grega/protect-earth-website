@@ -17,7 +17,7 @@ body {
 }
 
 ::selection {
-	background: var(--orange);
+	background: var(--link);
 	color: var(--offwhite);
 }
 
@@ -42,6 +42,7 @@ h3,
 h4,
 h5,
 h6 {
+	margin-block-start: 0;
 	font-weight: 900;
 }
 
@@ -65,8 +66,16 @@ h2:has(svg) {
 	text-decoration: none;
 }
 
-.post .prose p:first-of-type {
+.post .prose p:first-of-type:not(blockquote p) {
 	font-size: var(--font-m);
+}
+
+.post .prose p > em {
+	font-size: var(--font-s);
+}
+
+time {
+	font-size: var(--font-xs);
 }
 
 /* Shapes */
@@ -102,7 +111,8 @@ h2:has(svg) {
 	display: flex;
 	gap: var(--space-2xs);
 	font-size: var(--font-xs);
-	padding-block: var(--space-xs);
+	padding-block-end: var(--space-xs);
+	margin: 0;
 }
 
 .breadcrumbs li {
@@ -122,4 +132,38 @@ h2:has(svg) {
 
 .breadcrumbs a[aria-current='page'] {
 	color: var(--current);
+}
+
+.section-card {
+	background: var(--card);
+	border-radius: var(--radius-l);
+	border: 1px solid var(--border-color);
+	text-align: center;
+	transition: box-shadow var(--transition);
+}
+
+.section-card:hover {
+	box-shadow: var(--shadow-lite);
+}
+
+.section-card:hover h2,
+.section-card:hover h3 {
+	color: var(--link-hover);
+}
+
+.section-card h2,
+.section-card h3 {
+	font-size: var(--font-l);
+	margin-block: 0 var(--space-s);
+	color: var(--link);
+}
+
+.section-card p {
+	font-size: var(--font-s);
+}
+
+.section-card a {
+	text-decoration: none;
+	display: block;
+	padding: var(--space-l) var(--space-s);
 }

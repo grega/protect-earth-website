@@ -48,7 +48,7 @@
 
 	/* Base Colors */
 	--white: #fff;
-	--offwhite: hsl(17, 17%, 94%);
+	--offwhite: hsl(17, 22%, 94%);
 	--black: hsl(17, 5%, 7%);
 	--grey: hsl(17, 5%, 29%);
 	--grey-mid: hsl(17, 5%, 47%);
@@ -125,6 +125,8 @@
 
 	--placeholder: var(--grey);
 
+	--accent: var(--green-dark);
+
 	/* Component Colours */
 	--take-action-background: var(--red-dark);
 	--content-hero: var(--black);
@@ -135,6 +137,8 @@
 	--stat: var(--pink-dark);
 
 	--input: var(--white);
+
+	--card: var(--white);
 
 	/* Links */
 
