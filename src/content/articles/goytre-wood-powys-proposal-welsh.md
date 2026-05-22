@@ -2,7 +2,8 @@
 title: 'Cynnig Goetre Wood'
 description: "Mae Goetre Wood yn goetir 70 erw y mae Protect Earth wedi'i gaffael ym Mhowys, Cymru. Mae hyn yn hynod gyffrous i ni allu gosod cynllun sy'n dod â newid gwirioneddol, buddiol i'r coetir hwn. Yn y darn"
 pubDate: 2023-05-08T07:30:00.000Z
-author: 'Phil Sturgeon'
+categories: ['policy-funding']
+author: 'Eoghan McHugh'
 thumbnail: ../../articles/goytre-wood-powys-proposal.jpg
 ---
 
