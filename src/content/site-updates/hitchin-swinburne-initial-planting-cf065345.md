@@ -5,6 +5,9 @@ type: "Tree Planting"
 date: "2023-01-01T00:00:00.000Z"
 siteNotionId: "7d73488c-ca94-4b78-90fc-4459fda4cca9"
 treesPlanted: 1500
+photos:
+  - "../../assets/site-updates/hitchin-swinburne-initial-planting-cf065345/a98ca54a29c195f6395f5e2ac245c48eb5483038289c79e72a70061dc6093314.jpg"
+  - "../../assets/site-updates/hitchin-swinburne-initial-planting-cf065345/feaf2c75dda1326a1c7712598c62fe87c868237b8bb8d8a1bb5299e53df7a9b5.jpg"
 ---
 
 Over in sunny Hertfordshire, Protect Earth had the enjoyable task of revitalising the local recreational field. Alongside the football pitch and large green spaces for locals to use, we were able to get 1500 new trees into the ground, creating brand new wilderness, creating hunting grounds for the birds, and shaded areas for the little beasties on the forest floor.

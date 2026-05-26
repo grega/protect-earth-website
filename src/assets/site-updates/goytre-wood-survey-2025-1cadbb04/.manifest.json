@@ -47,28 +47,10 @@
     "sourceChecksum": null,
     "fileName": "IMG_5664.jpeg"
   },
-  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/e89d3578-eb82-4b64-b8ce-77843b7746b5/IMG_5671.jpeg": {
-    "localName": "cbce63f3a7c9b156f8f0cfecd2e6682912182aa857791264f238a4958b66d742.jpg",
-    "checksum": "cbce63f3a7c9b156f8f0cfecd2e6682912182aa857791264f238a4958b66d742",
+  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/ec311b2d-38d7-4928-b655-35223e36b9e9/PXL_20250913_130503655.jpg": {
+    "localName": "92317dec62d1b255b4dc18722175cda69ad270faa341c24583877c9aa288db8f.jpg",
+    "checksum": "92317dec62d1b255b4dc18722175cda69ad270faa341c24583877c9aa288db8f",
     "sourceChecksum": null,
-    "fileName": "IMG_5671.jpeg"
-  },
-  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/6bdb6f3d-a06d-4eda-81ae-b824172b3e85/IMG_5673.jpeg": {
-    "localName": "a3ad0a2084f4359efe66e69dd442e17b135c8351fc79a92d6fd80eed707317d1.jpg",
-    "checksum": "a3ad0a2084f4359efe66e69dd442e17b135c8351fc79a92d6fd80eed707317d1",
-    "sourceChecksum": null,
-    "fileName": "IMG_5673.jpeg"
-  },
-  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/2cf1b23b-55ec-4aef-9ccd-b449e461926d/IMG_5674.jpeg": {
-    "localName": "7e1c9b919e4bd97d3511b6a165526669cced677e20a6fa34a1fecf4c457b5ed1.jpg",
-    "checksum": "7e1c9b919e4bd97d3511b6a165526669cced677e20a6fa34a1fecf4c457b5ed1",
-    "sourceChecksum": null,
-    "fileName": "IMG_5674.jpeg"
-  },
-  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/81396f0d-1614-4fc3-b488-7d9c57728b74/IMG_5677.jpeg": {
-    "localName": "ff659481946b3fad1bf2fca266f313279cdcdc2a4eb9b38854f5da6186393bad.jpg",
-    "checksum": "ff659481946b3fad1bf2fca266f313279cdcdc2a4eb9b38854f5da6186393bad",
-    "sourceChecksum": null,
-    "fileName": "IMG_5677.jpeg"
+    "fileName": "PXL_20250913_130503655.jpg"
   }
 }

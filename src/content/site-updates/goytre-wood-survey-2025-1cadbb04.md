@@ -14,10 +14,7 @@ photos:
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/54df94d2d0cf4653ba8e092e10799ff346ee3ca028b2d76e46f6c9fdaa728ffc.jpg"
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/559433f3092267ea42f2db60fd75cd7e6984a43920c78db3c5206fc9915a7d1d.jpg"
   - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/331c0060c0e4417c04ea80ccde1242656787d00fb6a96dba1dd152466bbb5c1e.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/cbce63f3a7c9b156f8f0cfecd2e6682912182aa857791264f238a4958b66d742.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/a3ad0a2084f4359efe66e69dd442e17b135c8351fc79a92d6fd80eed707317d1.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/7e1c9b919e4bd97d3511b6a165526669cced677e20a6fa34a1fecf4c457b5ed1.jpg"
-  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/ff659481946b3fad1bf2fca266f313279cdcdc2a4eb9b38854f5da6186393bad.jpg"
+  - "../../assets/site-updates/goytre-wood-survey-2025-1cadbb04/92317dec62d1b255b4dc18722175cda69ad270faa341c24583877c9aa288db8f.jpg"
 ---
 
 This was the largest site we’ve ever had to go and count, and after the weather scared off most of the volunteers, we were lucky to have a trusty team of deputies. Angus, Leenton and Katie joined Phil in scaling Goytre Hill to see how the ~12,000 trees were doing.

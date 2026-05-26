@@ -6,8 +6,10 @@ date: "2025-08-14T00:00:00.000Z"
 siteNotionId: "c6b4c439-42e2-49cc-b88e-80c1d0a2dc1c"
 survivalRate: 0.87
 photos:
-  - "../../assets/site-updates/hemyock-survey-2025-8add494e/120dbebba64538758b812bed1693d0a8bc854cad265118528a2d60d67b6aded5.jpg"
-  - "../../assets/site-updates/hemyock-survey-2025-8add494e/1e2f99a29111cf68afb5b396314f66a62ea5f4359b68fe319b507766c06b0be2.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/ba360f3896aa73843f8c30d873de36e8196baf3782ac20fc1bf1183920b18c2c.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/e8d093ebdeaa233752eb97a38030fbc2be1fd899af3542b6f053bc74074a55ab.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/1e4cfc87e20bd919497977c6f1c0934631b90e466340597d61991fb2c4d0d795.jpg"
+  - "../../assets/site-updates/hemyock-survey-2025-8add494e/0ab86e8f7b462c1707ad7877183dc9b495809fa7f4c64e014d4cb0a1376cd90d.jpg"
 ---
 
 A survey carried out at Hemyock shows very strong overall establishment across the site, with an estimated survival rate of around 87%.

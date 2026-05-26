@@ -19,6 +19,6 @@ Andy popped over to survey this site and see how we were doing, and unfortunatel
 - Shelterbelt 1 - 141 out of 994 remaining
 - Shelterbelt 2 - 65 saplings surviving out of 710
 - Copse - We planted 100 trees here and they’re relatively sheltered. Only one or two cow pats in this compartment. 70 remaining out of 100.
-Total 276 out of 1874 = 15% (i.e. 85% losses)
+Total 276 out of 1874 = 15% survival rate (i.e. 85% losses)
 
 Things don’t always go well the first time. It’s sad to have setbacks like this, but we do not hide from a challenge. We are going to work with the landowner to ensure sufficient fencing is in place before heading back with more trees. It’s also clear we will need wind-proof guards, like the ones used on Goytre Hill, another extremely windy exposed area.
