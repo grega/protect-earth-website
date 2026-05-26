@@ -43,7 +43,7 @@ Current conceptual collections:
 
 1. sync-site-updates.js reads Notion database records.
 2. Markdown files are written to src/content/site-updates.
-3. sync-site-updates.js with --replace-images localizes photo URLs into src/assets/site-updates.
+3. Localizes photo URLs into src/assets/site-updates.
 
 ### Site Images
 

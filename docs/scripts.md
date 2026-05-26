@@ -48,8 +48,7 @@ Purpose:
 - Applies ignore list from script config
 - Creates/updates local site markdown files
 - Preserves existing local frontmatter values
-- Always strips remote image URLs from frontmatter
-- With `--replace-images`, rebuilds each site's local image list from API sources and rewrites frontmatter to local paths only
+- Rebuilds each site's local image list from API sources and rewrites frontmatter to local paths only
 
 Primary output location:
 
@@ -79,7 +78,7 @@ Purpose:
 - Reads Site Updates from Notion database
 - Converts fields + page blocks to markdown
 - Writes one markdown file per update
-- With `--replace-images`, localizes image files from the Notion Photos field to `src/assets/site-updates`
+- Localizes image files from the Notion Photos field to `src/assets/site-updates`
 - Ignores Google Drive/external links and only downloads image files
 - Uses manifest checksums to reuse unchanged images and removes local images no longer present in Notion
 

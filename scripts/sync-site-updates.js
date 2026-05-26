@@ -11,7 +11,6 @@ import matter from 'gray-matter';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const replaceImages = process.argv.includes('--replace-images');
 const PHOTO_MANIFEST_FILENAME = '.manifest.json';
 const MAX_SITE_UPDATE_PHOTOS = 12;
 
@@ -365,7 +364,7 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 				fs.renameSync(processedPath, downloadedLocalPath);
 			}
 
-			localized.push(contentPath);
+			localized.push(downloadedContentPath);
 			nextManifest[sourceKey] = {
 				localName: downloadedLocalName,
 				checksum,
@@ -573,21 +572,6 @@ function getExistingBody(filePath) {
 	}
 }
 
-function getExistingLocalPhotos(filePath) {
-	if (!fs.existsSync(filePath)) {
-		return [];
-	}
-
-	try {
-		const existingRaw = fs.readFileSync(filePath, 'utf8');
-		const parsed = matter(existingRaw);
-		return sanitizeLocalPhotoPaths(parsed.data.photos);
-	} catch (error) {
-		console.warn(`Warning: Could not parse existing file photos at ${filePath}: ${error.message}`);
-		return [];
-	}
-}
-
 async function getPageContent(pageId) {
 	try {
 		const blocks = await listAllBlocks(pageId);
@@ -601,9 +585,6 @@ async function getPageContent(pageId) {
 
 async function syncSiteUpdates() {
 	console.log('Syncing Site Updates from Notion...');
-	if (replaceImages) {
-		console.log('Image replacement enabled (--replace-images)');
-	}
 
 	try {
 		const siteUpdatesDir = path.join(__dirname, '../src/content/site-updates');
@@ -611,10 +592,8 @@ async function syncSiteUpdates() {
 		const tempDir = path.join(__dirname, '../.temp-images');
 
 		if (!fs.existsSync(siteUpdatesDir)) fs.mkdirSync(siteUpdatesDir, { recursive: true });
-		if (replaceImages) {
-			if (!fs.existsSync(imagesDir)) fs.mkdirSync(imagesDir, { recursive: true });
-			if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
-		}
+		if (!fs.existsSync(imagesDir)) fs.mkdirSync(imagesDir, { recursive: true });
+		if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
 
 		let allResults = [];
 		let hasMore = true;
@@ -662,20 +641,15 @@ async function syncSiteUpdates() {
 			console.log(`[${index + 1}/${allResults.length}] ${title} -> ${slug}`);
 			const filePath = path.join(siteUpdatesDir, `${slug}.md`);
 			const existingBody = getExistingBody(filePath);
-			const existingLocalPhotos = getExistingLocalPhotos(filePath);
 
 			const notionPhotoFiles = Array.isArray(photos) ? photos : [];
 			let photosToUse = [];
 
-			if (replaceImages) {
-				photosToUse = await localizeSiteUpdatePhotos(notionPhotoFiles, slug, imagesDir, tempDir);
-			} else {
-				// Never write Notion remote URLs during normal sync.
-				photosToUse = existingLocalPhotos;
-				if (notionPhotoFiles.length > 0 && existingLocalPhotos.length === 0) {
-					console.log('  Remote Notion photo URLs detected but omitted during plain sync');
-				}
-			}
+			photosToUse = await localizeSiteUpdatePhotos(notionPhotoFiles, slug, imagesDir, tempDir);
+
+			photosToUse = photosToUse.filter(
+				(photo) => typeof photo === 'string' && photo.length > 0 && photo !== 'null',
+			);
 
 			if (photosToUse.length > MAX_SITE_UPDATE_PHOTOS) {
 				console.log(
@@ -711,7 +685,9 @@ async function syncSiteUpdates() {
 			content += '\n---\n\n';
 
 			const hasDescription = description && description.trim().length > 0;
-			const bodyToWrite = hasDescription ? description : existingBody;
+			const bodyToWrite = hasDescription
+				? description
+				: normalizePageContent(existingBody);
 			if (!hasDescription && existingBody.trim().length > 0) {
 				console.warn(
 					`Warning: Preserving existing body for ${slug}.md because Notion body was empty`,

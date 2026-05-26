@@ -6,7 +6,6 @@
 		"sync-sites": "node scripts/sync-sites.js",
 		"sync-sites:replace-images": "node scripts/sync-sites.js --replace-images",
 		"sync-site-updates": "node scripts/sync-site-updates.js",
-		"sync-site-updates:replace-images": "node scripts/sync-site-updates.js --replace-images",
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
