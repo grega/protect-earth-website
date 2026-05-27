@@ -25,17 +25,20 @@ const {
 	pubDate,
 } = Astro.props;
 
+// OpenGraph recommended dimensions
+const OG_IMAGE_WIDTH = 1200;
+const OG_IMAGE_HEIGHT = 630;
+
 // Optimize image for OpenGraph (1200x630px recommended)
 const optimizedImage = await getImage({
 	src: image,
-	width: 1200,
-	height: 630,
+	width: OG_IMAGE_WIDTH,
+	height: OG_IMAGE_HEIGHT,
+	fit: 'cover',
 	format: 'webp',
 	quality: 85,
 });
 const imageUrl = new URL(optimizedImage.src, Astro.url).toString();
-const imageWidth = 1200;
-const imageHeight = 630;
 
 // Optimize title and description for SEO
 const ogTitle = title.length < 50 ? `${title} | ${name}` : title;
@@ -67,8 +70,8 @@ const ogDescription = description.length > 160
 <meta property="og:title" content={ogTitle} />
 <meta property="og:description" content={ogDescription} />
 <meta property="og:image" content={imageUrl} />
-<meta property="og:image:width" content={imageWidth.toString()} />
-<meta property="og:image:height" content={imageHeight.toString()} />
+<meta property="og:image:width" content={OG_IMAGE_WIDTH.toString()} />
+<meta property="og:image:height" content={OG_IMAGE_HEIGHT.toString()} />
 <meta property="og:image:alt" content={title} />
 {type === 'article' && author && <meta property="article:author" content={author} />}
 {type === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
