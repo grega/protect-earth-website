@@ -9,10 +9,35 @@ const { name, tagline } = siteConfig;
 interface Props {
 	title: string;
 	description?: string;
-	image?: ImageMetadata;
+	image?: ImageMetadata | string;
+	type?: 'website' | 'article';
+	author?: string;
+	pubDate?: Date;
 }
 
-const { title, description = tagline, image = OpenGraphImage } = Astro.props;
+const { 
+	title, 
+	description = tagline, 
+	image = OpenGraphImage,
+	type = 'website',
+	author,
+	pubDate,
+} = Astro.props;
+
+// Handle image URL - support both ImageMetadata and string paths
+const imageUrl = typeof image === 'string' 
+	? new URL(image, Astro.url)
+	: new URL(image.src, Astro.url);
+
+// Get image dimensions if available
+const imageWidth = typeof image === 'object' && 'width' in image ? image.width : 1200;
+const imageHeight = typeof image === 'object' && 'height' in image ? image.height : 630;
+
+// Optimize title and description for SEO
+const ogTitle = title.length < 50 ? `${title} | ${name}` : title;
+const ogDescription = description.length > 160 
+	? description.substring(0, 157) + '...'
+	: description;
 ---
 
 <title>{title} | {name}</title>
@@ -28,19 +53,26 @@ const { title, description = tagline, image = OpenGraphImage } = Astro.props;
 <link rel="apple-touch-icon" type="image/png" href="/touch-icon.png" />
 <link rel="canonical" href={canonicalUrl} />
 
-<meta name="title" content={title} />
-<meta name="description" content={description} />
+<meta name="title" content={ogTitle} />
+<meta name="description" content={ogDescription} />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content={name} />
 <meta property="og:url" content={Astro.url} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image.src, Astro.url)} />
+<meta property="og:title" content={ogTitle} />
+<meta property="og:description" content={ogDescription} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:width" content={imageWidth.toString()} />
+<meta property="og:image:height" content={imageHeight.toString()} />
+<meta property="og:image:alt" content={title} />
+{type === 'article' && author && <meta property="article:author" content={author} />}
+{type === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={Astro.url} />
+<meta name="twitter:title" content={ogTitle} />
+<meta name="twitter:description" content={ogDescription} />
+<meta name="twitter:image" content={imageUrl} />
+<meta name="twitter:image:alt" content={title} />

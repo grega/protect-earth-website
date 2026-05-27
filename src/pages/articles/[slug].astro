@@ -30,7 +30,15 @@ const {
 const { Content } = await render(article);
 ---
 
-<Layout {title} {description} breadcrumb={title}>
+<Layout 
+	{title} 
+	{description} 
+	breadcrumb={title}
+	image={thumbnail}
+	type="article"
+	{author}
+	{pubDate}
+>
 	<!-- Hero Section -->
 	<article class="post">
 		<header>
