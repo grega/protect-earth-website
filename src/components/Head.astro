@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from '../config';
 import type { ImageMetadata } from 'astro';
+import { getImage } from 'astro:assets';
 import OpenGraphImage from '../assets/opengraph-image.png';
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 
@@ -9,7 +10,7 @@ const { name, tagline } = siteConfig;
 interface Props {
 	title: string;
 	description?: string;
-	image?: ImageMetadata | string;
+	image?: ImageMetadata;
 	type?: 'website' | 'article';
 	author?: string;
 	pubDate?: Date;
@@ -24,14 +25,17 @@ const {
 	pubDate,
 } = Astro.props;
 
-// Handle image URL - support both ImageMetadata and string paths
-const imageUrl = typeof image === 'string'
-	? new URL(image, Astro.url)
-	: new URL(image.src, Astro.url);
-
-// Get image dimensions if available
-const imageWidth = typeof image === 'object' && 'width' in image ? image.width : 1200;
-const imageHeight = typeof image === 'object' && 'height' in image ? image.height : 630;
+// Optimize image for OpenGraph (1200x630px recommended)
+const optimizedImage = await getImage({
+	src: image,
+	width: 1200,
+	height: 630,
+	format: 'webp',
+	quality: 85,
+});
+const imageUrl = new URL(optimizedImage.src, Astro.url).toString();
+const imageWidth = 1200;
+const imageHeight = 630;
 
 // Optimize title and description for SEO
 const ogTitle = title.length < 50 ? `${title} | ${name}` : title;
