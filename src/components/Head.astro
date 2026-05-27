@@ -15,9 +15,9 @@ interface Props {
 	pubDate?: Date;
 }
 
-const { 
-	title, 
-	description = tagline, 
+const {
+	title,
+	description = tagline,
 	image = OpenGraphImage,
 	type = 'website',
 	author,
@@ -25,7 +25,7 @@ const {
 } = Astro.props;
 
 // Handle image URL - support both ImageMetadata and string paths
-const imageUrl = typeof image === 'string' 
+const imageUrl = typeof image === 'string'
 	? new URL(image, Astro.url)
 	: new URL(image.src, Astro.url);
 
@@ -35,7 +35,7 @@ const imageHeight = typeof image === 'object' && 'height' in image ? image.heigh
 
 // Optimize title and description for SEO
 const ogTitle = title.length < 50 ? `${title} | ${name}` : title;
-const ogDescription = description.length > 160 
+const ogDescription = description.length > 160
 	? description.substring(0, 157) + '...'
 	: description;
 ---
