@@ -23,13 +23,12 @@ const {
 	type = 'website',
 	author,
 	pubDate,
-} = Astro.props;
+} = Astro.props as Props;
 
 // OpenGraph recommended dimensions
 const OG_IMAGE_WIDTH = 1200;
 const OG_IMAGE_HEIGHT = 630;
 
-// Optimize image for OpenGraph (1200x630px recommended)
 const optimizedImage = await getImage({
 	src: image,
 	width: OG_IMAGE_WIDTH,
@@ -42,9 +41,8 @@ const imageUrl = new URL(optimizedImage.src, Astro.url).toString();
 
 // Optimize title and description for SEO
 const ogTitle = title.length < 50 ? `${title} | ${name}` : title;
-const ogDescription = description.length > 160
-	? description.substring(0, 157) + '...'
-	: description;
+const ogDescription =
+	description.length > 160 ? description.substring(0, 157) + '...' : description;
 ---
 
 <title>{title} | {name}</title>
@@ -74,7 +72,11 @@ const ogDescription = description.length > 160
 <meta property="og:image:height" content={OG_IMAGE_HEIGHT.toString()} />
 <meta property="og:image:alt" content={title} />
 {type === 'article' && author && <meta property="article:author" content={author} />}
-{type === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+{
+	type === 'article' && pubDate && (
+		<meta property="article:published_time" content={pubDate.toISOString()} />
+	)
+}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />

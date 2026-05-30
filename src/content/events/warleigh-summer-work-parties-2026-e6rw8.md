@@ -4,23 +4,19 @@ description: Drop-in volunteer work parties every Saturday
 pubDate: 2026-04-02T10:00:00.000Z
 startDate: 2026-04-04T10:00:00.000Z
 endDate: 2026-10-31T16:00:00.000Z
-address: Warleigh Nature Reserve, Warleigh Lane, Bathford, England United Kingdom
+address: Warleigh Nature Reserve, Warleigh Lane, Bathford
 map: https://maps.google.com/?q=Warleigh%20Lane%20Bathford,%20%20England%20United%20Kingdom
-ics: https://www.protect.earth/events/warleigh-summer-work-parties-2026-e6rw8?format=ical
-googleCal: https://www.google.com/calendar/event?action=TEMPLATE&text=Warleigh%20Nature%20Reserve%2C%20Bath%20Volunteer%20Days%20Every%20Saturday&dates=20260404T090000Z/20261031T160000Z&location=Warleigh%20Lane%2C%20Bathford%2C%20%20England%2C%20United%20Kingdom
-thumbnail: /events/warleigh-cover.jpg
+thumbnail: ../../assets/events/warleigh-summer-work-parties-2026-e6rw8/warleigh-cover.jpg
+images:
+  - ../../assets/events/warleigh-summer-work-parties-2026-e6rw8/warleigh-1.jpg
+  - ../../assets/events/warleigh-summer-work-parties-2026-e6rw8/warleigh-2.jpg
+  - ../../assets/events/warleigh-summer-work-parties-2026-e6rw8/warleigh-3.jpg
+  - ../../assets/events/warleigh-summer-work-parties-2026-e6rw8/warleigh-4.jpg
 ---
 
 # Warleigh Nature Reserve
 
 ## Drop-in volunteer work parties every Saturday
-
-<div class="event-imagegroup">
-	<img src="/events/warleigh-1.jpg" alt="Warleigh Image 1">
-	<img src="/events/warleigh-2.jpg" alt="Warleigh Image 2">
-	<img src="/events/warleigh-3.jpg" alt="Warleigh Image 3">
-	<img src="/events/warleigh-4.jpg" alt="Warleigh Image 4">
-</div>
 
 *Cover photo and first photo here taken by Daisy Brasington*
 
