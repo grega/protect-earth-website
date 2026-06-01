@@ -11,7 +11,7 @@ thumbnail: ../../assets/events/volunteers-wanted-to-give-our-trees-some-tlc-near
 images:
   - ../../assets/events/volunteers-wanted-to-give-our-trees-some-tlc-near-liskeard-cornwall-1990483691303/63ed5d712b97.jpg
   - ../../assets/events/volunteers-wanted-to-give-our-trees-some-tlc-near-liskeard-cornwall-1990483691303/c77c05af86f3.jpg
-  - ../../assets/events/volunteers-wanted-to-give-our-trees-some-tlc-near-liskeard-cornwall-1990483691303/1c580058ff0d.jpg
+  - ../../assets/events/volunteers-wanted-to-give-our-trees-some-tlc-near-liskeard-cornwall-1990483691303/dd872183ba11.jpg
   - ../../assets/events/volunteers-wanted-to-give-our-trees-some-tlc-near-liskeard-cornwall-1990483691303/243a39ea7fd7.jpg
 ---
 Intro
@@ -40,7 +40,7 @@ What do I need to bring/ know?
 
 No previous experience is necessary as we’ll train you up and provide all the necessary equipment.
 
-The lanowner will provide lunc and plenty of drinks. Please bring a refillable water bottle as there will be water available to top up. Please come dressed for the weather.
+The landowner will provide lunch and plenty of drinks as a thank you for your help. Please bring a refillable water bottle as there will be water available to top up. Please come dressed for the weather.
 
 Full details will be sent out a week before the event, including the address and meeting place.
 

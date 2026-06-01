@@ -29,7 +29,7 @@ Oscar will then lead the group along a route that will pass through each of the 
 
 At the far end of the reserve we will stop for tea, coffee and a comfort break, where you will have the opportunity to ask questions before eventually returning to the start by a different route. Please wear long trousers and suitable footwear for uneven paths, which may be wet in places.
 
-Protect Earth subscribers should book a free subscribers place. The general admission price is £60 which will be used to help develop this new nature reserve.
+If you donated more that £60 to our recent crowdfunder you are entitled to a free ticket, so click the crowdfunder ticket button to book. Otherwise, the general admission price is £60 which will be used to help develop this new nature reserve, plus Eventbite admin fee.
 
 PLEASE NOTE:
 

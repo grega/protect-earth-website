@@ -1,23 +1,23 @@
 ---
-title: 'Ecology Tour of Warleigh Nature Reserve, Bath, Somerset'
-description: 'Join our Ecologist for a guided tour of our exciting new nature reserve, learning about local habitats and species, and our future plans.'
-pubDate: 2026-06-13T09:00:00.000Z
-startDate: 2026-06-13T09:00:00.000Z
-endDate: 2026-06-13T12:00:00.000Z
+title: 'Ecology tour of Warleigh Nature Reserve, Bath'
+description: 'Join our ecologist for a guided tour of our exciting new nature reserve. learning about local habitats and species, and our future plans.'
+pubDate: 2026-07-08T09:00:00.000Z
+startDate: 2026-07-08T09:00:00.000Z
+endDate: 2026-07-08T12:00:00.000Z
 address: 'Bath, BA1 8EE'
 map: 'https://maps.google.com/?q=51.3845283%2C-2.3866048'
-eventbriteLink: 'https://www.eventbrite.co.uk/e/ecology-tour-of-warleigh-nature-reserve-bath-somerset-tickets-1989662147042'
-thumbnail: ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-somerset-1989662147042/46b267eb74a0.jpg
+eventbriteLink: 'https://www.eventbrite.co.uk/e/ecology-tour-of-warleigh-nature-reserve-bath-tickets-1990794724612'
+thumbnail: ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/af051a55d369.jpg
 images:
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-somerset-1989662147042/46b267eb74a0.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-somerset-1989662147042/161500ece5c3.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-somerset-1989662147042/28c0c9e1a791.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-somerset-1989662147042/4fc75a7d8fb3.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-somerset-1989662147042/b422ecf3f625.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/af051a55d369.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/bf5e33c41f48.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/e3f1d3a3b441.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/a9a873608ad6.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/0f381c2e144f.jpg
 ---
 Protect Earth purchased this site at Warleigh at the end of January this year with the intention of creating a new nature reserve.
 
-The two and a half to three hour tour begins at the far end of The Angelfish Cafe car park at the bottom of Brassknocker Hill, Bath where Oscar, our ecologist, will meet you and take you on a walking tour of the new Warleigh Nature Reserve and Dundas Aqueduct, stopping at intervals to point out specific habitats, and species, discuss our projects and learn about the site's history.
+The three hour tour begins at the far end of The Angelfish Cafe car park at the bottom of Brassknocker Hill, Bath where Oscar, our ecologist, will meet you and take you on a walking tour of the new Warleigh Nature Reserve and Dundas Aqueduct, stopping at intervals to point out specific habitats, and species, discuss our projects and learn about the site's history.
 
 The introductory talk will aim to:
 
