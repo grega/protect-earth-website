@@ -5,6 +5,8 @@ type: "Tree Planting"
 date: "2023-12-10T00:00:00.000Z"
 siteNotionId: "332d699e-85cb-4d5f-816b-7d08d4180544"
 treesPlanted: 700
+photos:
+  - "../../assets/site-updates/south-molton-planting-0f4fea44/5bdd6243b725f32d8288ca28358c040e295d1e481e3ce78f467aab93ff3e4d7e.jpg"
 ---
 
 Nestled within the picturesque landscapes of North Devon, where the rolling hills offer a breathtaking view of Exmoor, lies a smallholding and riding stables committed to harmonising equine care with environmental stewardship.
