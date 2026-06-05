@@ -11,6 +11,18 @@ import { siteConfig } from '../config';
 			</h3>
 			<span>Trees planted</span>
 		</div>
+		<div class="stat stat-hedgerows squircle">
+			<h3>
+				{siteConfig.achievements.hedgerowsPlanted}
+			</h3>
+			<span>Trees planted</span>
+		</div>
+		<div class="stat stat-survival squircle">
+			<h3>
+				{siteConfig.achievements.survivalRate}
+			</h3>
+			<span>Survival rate (%) as of summer 2025</span>
+		</div>
 		<div class="stat stat-restored squircle">
 			<h3>
 				{siteConfig.achievements.acresRestored}
@@ -61,9 +73,11 @@ import { siteConfig } from '../config';
 	gsap.registerPlugin(ScrollTrigger, SplitText, TextPlugin);
 
 	document.addEventListener('DOMContentLoaded', () => {
-		const trees = document.querySelector('.stat-trees h3') as HTMLElement;
-		const restored = document.querySelector('.stat-restored h3') as HTMLElement;
+		const hedgerows = document.querySelector('.stat-hedgerows h3') as HTMLElement;
 		const management = document.querySelector('.stat-management h3') as HTMLElement;
+		const restored = document.querySelector('.stat-restored h3') as HTMLElement;
+		const survival = document.querySelector('.stat-survival h3') as HTMLElement;
+		const trees = document.querySelector('.stat-trees h3') as HTMLElement;
 
 		let tl = gsap.timeline({
 			paused: true,
@@ -85,6 +99,23 @@ import { siteConfig } from '../config';
 				},
 			},
 			0,
+		);
+
+		tl.from(
+			survival,
+			{
+				snap: { textContent: 1 },
+			},
+			0,
+		);
+
+		tl.from(
+			hedgerows,
+			{
+				snap: { textContent: 1 },
+			},
+			0,
+		);
 		);
 
 		tl.from(

@@ -16,9 +16,11 @@ export const siteConfig = {
 	},
 
 	achievements: {
-		treesPlanted: 158178,
+		treesPlanted: 161028,
+		hedgerowsMeters: 5180,
 		acresRestored: 400,
 		acresUnderManagement: 248,
+		survivalRate: 79.9,
 	},
 
 	analytics: {
