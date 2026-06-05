@@ -92,8 +92,10 @@ const siteMeta = defineCollection({
 		z.object({
 			fundingPartners: z.array(z.string()).optional(),
 			tags: z.array(z.string()),
+			siteId: z.string().optional(),
 			notionIds: z.array(z.string()).optional(),
 			images: z.array(image()).optional(),
+			flagShowArea: z.boolean().optional(),
 		}),
 });
 
