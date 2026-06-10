@@ -11,7 +11,7 @@ thumbnail: ../../assets/events/high-wood-summer-fair-liskeard-cornwall-198612094
 images:
   - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/b1dd0fe82650.jpg
   - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/687836d18671.jpg
-  - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/8b56d5b5f8d4.jpg
+  - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/e00c12cc41af.jpg
   - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/14d8183047c4.jpg
   - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/1a0f9b2912e2.jpg
   - ../../assets/events/high-wood-summer-fair-liskeard-cornwall-1986120946215/7f6c329f162b.jpg
@@ -62,6 +62,16 @@ Site of the Summer Fair is here: [https://w3w.co/dignify.udder.capillary](https:
 
 #### Chat to members of the Protect Earth team to find out what our future plans are for High Wood, make your own suggestions, and maybe volunteer for our monthly work parties.
 
-Parking is limited at Looe Mills so please walk, cycle or take the bus if at all possible. Entrance to the woods is here [https://w3w.co/louder.reactions.unites](https://w3w.co/louder.reactions.unites "https://w3w.co/louder.reactions.unites") 50.456595, -4.491764 [https://maps.app.goo.gl/1WSBUGtmkRR3Dv959](https://maps.app.goo.gl/1WSBUGtmkRR3Dv959 "https://maps.app.goo.gl/1WSBUGtmkRR3Dv959")
+Parking is limited at Looe Mills so please walk, cycle or take the bus if at all possible. Entrance to the woods is here
 
-Blue badge holders may park onsite via the Venslooe Hill entrance. Wheelchair users may experience some difficulty as the track is uneven in places. Enter the woods here [https://w3w.co/product.ditching.stick](https://w3w.co/product.ditching.stick "https://w3w.co/product.ditching.stick") 50.46681, -4.47920 [https://maps.app.goo.gl/hRB9SVC2dNr7j8FZ7](https://maps.app.goo.gl/hRB9SVC2dNr7j8FZ7 "https://maps.app.goo.gl/hRB9SVC2dNr7j8FZ7")
+[https://w3w.co/louder.reactions.unites](https://w3w.co/louder.reactions.unites "https://w3w.co/louder.reactions.unites")
+
+50.456595, -4.491764
+
+[https://maps.app.goo.gl/1WSBUGtmkRR3Dv959](https://maps.app.goo.gl/1WSBUGtmkRR3Dv959 "https://maps.app.goo.gl/1WSBUGtmkRR3Dv959")
+
+Blue badge holders may park onsite via the Venslooe Hill entrance. Wheelchair users may experience some difficulty as the track is uneven in places. Enter the woods here [https://w3w.co/product.ditching.stick](https://w3w.co/product.ditching.stick "https://w3w.co/product.ditching.stick")
+
+50.46681, -4.47920
+
+[https://maps.app.goo.gl/hRB9SVC2dNr7j8FZ7](https://maps.app.goo.gl/hRB9SVC2dNr7j8FZ7 "https://maps.app.goo.gl/hRB9SVC2dNr7j8FZ7")

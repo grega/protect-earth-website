@@ -10,9 +10,9 @@ customCta: Grab a ticket from Eventbrite
 thumbnail: ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/7d11eb9db6d6.jpg
 images:
   - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/7d11eb9db6d6.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/bf5e33c41f48.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/0f381c2e144f.jpg
-  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/1d57e6a00329.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/241eca2915b0.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/161500ece5c3.jpg
+  - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/9152b446f870.jpg
   - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/5b5c341aeb6d.jpg
   - ../../assets/events/ecology-tour-of-warleigh-nature-reserve-bath-1990794724612/3ca071ea0bf8.jpg
 ---
@@ -30,7 +30,7 @@ Oscar will then lead the group along a route that will pass through each of the 
 
 At the far end of the reserve we will stop for tea, coffee and a comfort break, where you will have the opportunity to ask questions before eventually returning to the start by a different route. Please wear long trousers and suitable footwear for uneven paths, which may be wet in places.
 
-If you donated more that £60 to our recent crowdfunder you are entitled to a free ticket, so click the crowdfunder ticket button to book. Otherwise, the general admission price is £60 which will be used to help develop this new nature reserve, plus Eventbite admin fee.
+If you donated more that £60 to our recent crowdfunder you are entitled to a free ticket, so click the crowdfunder ticket button to book. Otherwise, the general admission price is £60 (students £35) which will be used to help develop this new nature reserve, plus Eventbite admin fee.
 
 PLEASE NOTE:
 
