@@ -17,6 +17,4 @@ photos:
   - "../../assets/site-updates/thorncombe-street-survey-2025-ec72d30f/3cca37fd3529aed74f6eb5412403f8d0aae47e76a00e526a168fda2457ab6805.jpg"
 ---
 
-Across the site, the 3 areas are doing really well considering the dry weather. With just 12.5% failure by the New Barn.
-
 The main wood has a 70% survival rate, and the linear patch of wood on the hilltop is also doing well. We will go back and have a woodland maintenance day and plant a few additional trees to keep the overall survival rate to a maximum.

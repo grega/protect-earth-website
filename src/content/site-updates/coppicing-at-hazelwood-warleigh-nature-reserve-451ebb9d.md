@@ -11,3 +11,7 @@ photos:
   - "../../assets/site-updates/coppicing-at-hazelwood-warleigh-nature-reserve-451ebb9d/07cafd1ad5dc945bf361cd2fa6f2d337af013e8934601b0f1535829c800fd6ea.jpg"
 ---
 
+Adjacent to the fields of Warleigh Nature Reserve, Protect Earth has taken in 11 acres of ancient woodland to restore and manage. Named Hazel Wood, containing amongst other very exciting things an area of hazel coppice which has become up to 30 years overgrown, which makes this section dark and less biodiverse. To encourage a more diverse growth of species and canopy levels. Fun fact: we’re told it's named Hazel Wood not for the species within, but for a previous owner named Hazel.
+
+
+Phil and the team spent the day diligently training with a coppicing expert, then, as you can see, the result was a beautiful, bright clearing which will allow more biodiversity to emerge. So far, the harvest of hazel has been put to good use to create posts for the deer fencing around the clearing and steps for the compost toilet.

@@ -9,4 +9,4 @@ photos:
   - "../../assets/site-updates/manacan-survey-2025-e98823db/bbf056070379b7bb191017223ce21c87188e48cbb53e8a1c10953d6f03ea36a8.jpg"
 ---
 
-The landowner carried out a survival rate survey. Finding an 81% survival rate, which is excellent news!
+Julia the landowner got in touch to report in an amazing 81% survival rate. We’re eager to get down there and take a look ourselves, but with such positive results we’ll be focusing our energy on other sites for now.

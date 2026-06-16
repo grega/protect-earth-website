@@ -11,6 +11,6 @@ photos:
   - "../../assets/site-updates/bourton-on-the-water-restock-2526-867cb17d/7d762da408d396f7b1a7e6c04aa8c1c41ff88297db081662f94bf3d2b0399220.jpg"
   - "../../assets/site-updates/bourton-on-the-water-restock-2526-867cb17d/2d383c8550cf39df37ca9837443e59e5624b9ddbb9b0f4dbd4b5388ac2bf3dd4.jpg"
   - "../../assets/site-updates/bourton-on-the-water-restock-2526-867cb17d/7764b0be58720ae9db9292620409575894078d1656f7d89bbaa46511a9f4eec6.jpg"
-  - "../../assets/site-updates/bourton-on-the-water-restock-2526-867cb17d/cf081503b073e80835574230f14da94ce13aabcf0e7c1a2e36fcd0eb4a4304ff.jpg"
 ---
 
+Seven delightful corporate volunteers got involved with the restock, which meant we could get most of the trees in the ground to replace tree losses here. During a restock, when short on guards or stakes, we focused on what we could re-use from the trees which had not survived. Great teamwork and a convivial atmosphere helped us along; some were first-time tree planters, some had joined us before, some needed a refresher - there’s no shame if you need a little coaching! Everyone dug holes, planted trees, hammered stakes and placed guards - naturally, we were provided with tea and biscuits – a must – (thanks Peter). By the end, everyone left with a spring in their step!
