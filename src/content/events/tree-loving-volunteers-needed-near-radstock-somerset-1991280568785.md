@@ -9,7 +9,7 @@ eventbriteLink: 'https://www.eventbrite.co.uk/e/tree-loving-volunteers-needed-ne
 thumbnail: ../../assets/events/tree-loving-volunteers-needed-near-radstock-somerset-1991280568785/1c580058ff0d.jpg
 images:
   - ../../assets/events/tree-loving-volunteers-needed-near-radstock-somerset-1991280568785/1c580058ff0d.jpg
-  - ../../assets/events/tree-loving-volunteers-needed-near-radstock-somerset-1991280568785/236e9e6b771d.jpg
+  - ../../assets/events/tree-loving-volunteers-needed-near-radstock-somerset-1991280568785/ffe53b705587.jpg
   - ../../assets/events/tree-loving-volunteers-needed-near-radstock-somerset-1991280568785/ceeb605243c4.jpg
 ---
 Come and have a fun time with Protect Earth!
