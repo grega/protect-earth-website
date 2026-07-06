@@ -6,10 +6,10 @@ startDate: 2026-07-18T09:00:00.000Z
 endDate: 2026-07-18T15:00:00.000Z
 address: 'Cheltenham, GL54'
 eventbriteLink: 'https://www.eventbrite.co.uk/e/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-tickets-1992834859711'
-thumbnail: ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/3d94f4bccbf9.jpg
+thumbnail: ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/56f2a586e5e2.jpg
 images:
-  - ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/3d94f4bccbf9.jpg
-  - ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/5695115559da.jpg
+  - ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/56f2a586e5e2.jpg
+  - ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/5a23b10ebff5.jpg
   - ../../assets/events/volunteers-needed-to-help-saplings-flourish-at-hawling-near-cheltenham-1992834859711/85792f0caeed.jpg
 ---
 Intro

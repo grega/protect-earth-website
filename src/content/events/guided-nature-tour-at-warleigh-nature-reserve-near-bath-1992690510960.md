@@ -1,15 +1,15 @@
 ---
 title: Guided Nature Tour at Warleigh Nature Reserve near Bath
 description: 'Join our ecologist for a guided tour of our exciting new nature reserve. learning about local habitats and species, and our future plans.'
-pubDate: 2026-07-11T09:00:00.000Z
-startDate: 2026-07-11T09:00:00.000Z
-endDate: 2026-07-11T12:00:00.000Z
+pubDate: 2026-08-15T09:00:00.000Z
+startDate: 2026-08-15T09:00:00.000Z
+endDate: 2026-08-15T12:00:00.000Z
 address: 'Bath, BA1 8EE'
 eventbriteLink: 'https://www.eventbrite.co.uk/e/guided-nature-tour-at-warleigh-nature-reserve-near-bath-tickets-1992690510960'
 thumbnail: ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/9152b446f870.jpg
 images:
   - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/9152b446f870.jpg
-  - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/3ca071ea0bf8.jpg
+  - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/cf1b802c7fca.jpg
   - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/af051a55d369.jpg
 ---
 Protect Earth bought this disused farmland at Warleigh on the outskirts of Bath at the end of January this year with the intention of creating a new nature reserve, complete with new wetlands, woodlands and rare grasslands. A lot has been happening here since then.
