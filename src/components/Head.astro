@@ -11,6 +11,7 @@ interface Props {
 	title: string;
 	description?: string;
 	image?: ImageMetadata;
+	ogImagePath?: string;
 	type?: 'website' | 'article';
 	author?: string;
 	pubDate?: Date;
@@ -20,6 +21,7 @@ const {
 	title,
 	description = tagline,
 	image = OpenGraphImage,
+	ogImagePath,
 	type = 'website',
 	author,
 	pubDate,
