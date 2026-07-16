@@ -35,6 +35,7 @@ const { Content } = await render(article);
 	{description}
 	breadcrumb={title}
 	image={thumbnail}
+	ogImagePath={`/og/articles/${slug}.webp`}
 	type="article"
 	{author}
 	{pubDate}
@@ -82,7 +83,7 @@ const { Content } = await render(article);
 							) : (
 								thumbnailAttribution.text
 							)}
-							{thumbnailAttribution.license && <>{' '}· {thumbnailAttribution.license}</>}
+							{thumbnailAttribution.license && <> · {thumbnailAttribution.license}</>}
 						</p>
 					)
 				}
