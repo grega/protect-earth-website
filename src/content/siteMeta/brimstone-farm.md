@@ -1,7 +1,7 @@
 ---
 siteId: ab5eb10b-74a8-45c8-b9c4-7202f80494f8
 notionIds:
-	- "af1cab8b-8b83-41fc-ad8c-4698f0643a15"
+  - "af1cab8b-8b83-41fc-ad8c-4698f0643a15"
 fundingPartners:
   - ecologi
 tags:
