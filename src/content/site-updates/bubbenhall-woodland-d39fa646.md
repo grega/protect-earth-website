@@ -14,7 +14,7 @@ photos:
   - "../../assets/site-updates/bubbenhall-woodland-d39fa646/2303d72399860a923163ad5593bc570670305bd0953450288935ab0a40b26063.jpg"
 ---
 
-Protect Earth were delighted to contribute to the natural environment at this wonderful site, Warwickshire Lavender Farm near Bubbenhall, not far from Coventry.
+Protect Earth were delighted to contribute to the natural environment at this wonderful site, Warwickshire Lavender Farm, near Bubbenhall, not far from Coventry.
 
 Firstly, work began by planting a species-rich native broadleaf woodland on 1.87 acres, consisting of oak, chestnut, hornbeam, small-leaved lime, wild cherry, whitebeam, wild service tree, holly, hazel, and field maple. before going on to plant a 300m hedgerow and  a wildflower meadow on one acre of land.
 

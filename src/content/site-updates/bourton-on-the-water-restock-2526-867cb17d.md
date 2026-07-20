@@ -13,8 +13,8 @@ photos:
   - "../../assets/site-updates/bourton-on-the-water-restock-2526-867cb17d/7764b0be58720ae9db9292620409575894078d1656f7d89bbaa46511a9f4eec6.jpg"
 ---
 
-On our visit in March 2026 we teamed up with seven corporate volunteers from Sozo Design, a company from Cheltenham who had volunteered with us before, to restock, planting 150 trees across the site. We recycled the stakes and guards from trees that had to be replaced, and everyone showed great teamwork throughout.
+On our visit in March 2026 we teamed up with seven corporate volunteers from Sozo Design, a company from Cheltenham who had volunteered with us before, to restock with 150 new trees across the site. We recycled the stakes and guards from trees that had to be replaced, and everyone showed great teamwork throughout.
 
-Work included digging holes for new trees, planting, and putting up stakes and guards, with all the volunteers getting trained up and refreshed on tree-planting techniques. A big thank you to everyone who came out, and to Peter for the very appreciated tea and biscuits!
+Work included planting new trees, planting, and putting up stakes and guards, with all the volunteers getting trained up and refreshed on tree-planting techniques. A big thank you to everyone who came out, and to Peter for the very appreciated tea and biscuits!
 
 When we return for our next survey, we’ll check how these new saplings are getting on, as well as looking at how the site is progressing as a whole.

@@ -19,11 +19,11 @@ photos:
   - "../../assets/site-updates/bethania-brynwichell-farm-survey-2025-f972c820/f9959bdd5b56d5cd7a57b295eed5c955d89207e9865c3def21a09f523eae3b45.jpg"
 ---
 
-This site has many separate planting areas and the survival rates in each area vary considerably.
+This farm has many separate planting areas and the survival rates in each area vary considerably, unlike the neighbouring farm which has experienced a much better survival rate.
 
 The first section surveyed was very poor, with approximately 95% dead. Most of the growth coming over the top of guards was grasses or brambles, with areas trampled by cows. Strong groups of Himalayan balsam were regularly present.
 
-However, some areas had a 100% survival rate.
+However, Eoghan was pleased to see that some areas had a 100% survival rate.
 
 The horse enclosure had a 75% survival rate, as it had been fenced off from cattle. The pheasant enclosure had a 50% survival rate, with many tall grasses present. Other areas had around 70% losses due to cattle getting in.
 
