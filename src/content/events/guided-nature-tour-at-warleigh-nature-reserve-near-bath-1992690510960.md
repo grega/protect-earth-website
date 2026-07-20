@@ -9,7 +9,7 @@ eventbriteLink: 'https://www.eventbrite.co.uk/e/guided-nature-tour-at-warleigh-n
 thumbnail: ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/9152b446f870.jpg
 images:
   - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/9152b446f870.jpg
-  - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/cf1b802c7fca.jpg
+  - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/3ca071ea0bf8.jpg
   - ../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/af051a55d369.jpg
 ---
 Protect Earth bought this disused farmland at Warleigh on the outskirts of Bath at the end of January this year with the intention of creating a new nature reserve, complete with new wetlands, woodlands and rare grasslands. A lot has been happening here since then.
