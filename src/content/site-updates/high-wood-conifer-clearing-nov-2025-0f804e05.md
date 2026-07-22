@@ -12,6 +12,6 @@ photos:
   - "../../assets/site-updates/high-wood-conifer-clearing-nov-2025-0f804e05/a0428b34fd63024208bdc738cf4caf0339effc5bfba30a7a09b6a83e9f4f90d9.jpg"
 ---
 
-November was a good time to remove most of the remaining smaller conifers. This was a day job for the stalwart members of our hardworking work party. Phil went down to lend a hand and take some photos, before delivering a large Christmas tree to Liskerrett Community Centre in his van. We were also able to donate trees to other local charities. High Wood is now largely clear of small conifers, giving both trees and other plants a chance to flourish.
+November was a good time to remove most of the remaining smaller conifers. This was a day job for the stalwart members of our hardworking work party, clearing one of the trickier slopes. Phil went down to lend a hand and take some photos, before delivering a large Christmas tree to Liskerrett Community Centre in his van. We were also able to donate trees to other local charities. High Wood is now largely clear of small conifers, giving both trees and other plants a chance to flourish.
 
-Photo - The tree we donated to Tap House Community Centre
+Photo - The tree we donated to Tap House Community Centre.
