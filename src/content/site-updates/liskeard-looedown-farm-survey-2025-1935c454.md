@@ -1,5 +1,5 @@
 ---
-title: "(Liskeard) Looedown Farm Survey 2025"
+title: "Liskeard (Looedown Farm) Survey 2025"
 notionId: "254e7dc6-657c-80fb-a6d3-fedc1935c454"
 type: "Survival Survey"
 date: "2025-06-22T00:00:00.000Z"

@@ -25,7 +25,7 @@ Others took part in scavenger hunts with different difficulty levels, from very 
 
 ![Visitors joining activities in High Wood during the Summer Fair.](../../assets/articles/high-wood-summer-fair-2026/image2.jpeg)
 
-_Visitors taking part in guided and family activities in High Woo_
+_Visitors taking part in guided and family activities in High Wood_
 
 ## Crafts, Wildlife, and Community Stalls
 

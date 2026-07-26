@@ -7,8 +7,8 @@ siteNotionId: "fc225708-1d7e-4528-b9ed-4ae378b49e4a"
 treesPlanted: 12
 photos:
   - "../../assets/site-updates/upper-pengethley-farm-2024-13369b7f/b286005b511abaac8e6ee759f7ea1165dd2cefb08b428366e166e6bafb582113.jpg"
-  - "../../assets/site-updates/upper-pengethley-farm-2024-13369b7f/f34fae31e84fc03e374ae14c54807646b9cf7b25fa31185e7914051e123e9bfe.jpg"
-  - "../../assets/site-updates/upper-pengethley-farm-2024-13369b7f/913f5dcffbd5f959ab874f5871be1de8aba7aa5df4aac2cb487eac312e4933ea.jpg"
+  - "../../assets/site-updates/upper-pengethley-farm-2024-13369b7f/8d062a318bf8ba11db0cbaadf7df4dc12cc294609d7560f547b3e8535ed42e2b.jpg"
+  - "../../assets/site-updates/upper-pengethley-farm-2024-13369b7f/d07f6abfaf13fb93117b70a7df58c33781da08ceeb5156235c51383d2e15ffa9.jpg"
 ---
 
 In February 2024 we helped the Farming and Wildlife Advisory Group (FWAG) plant new shelterbelts on this site, using equal numbers of 12 species of native trees.

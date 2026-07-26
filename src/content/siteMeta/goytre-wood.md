@@ -24,4 +24,3 @@ images:
     ../../assets/sites/goytre-wood/93b88e451e82eaef50cfbbfccb46663ba1d82ef5e69ae365b577372fb6afd2e1.jpg
 siteId: 9f1710ea-85b7-40f6-a75f-bc56ac246ef5
 ---
-

@@ -1,5 +1,6 @@
 ---
-tags: [miniforest]
+tags:
+  - miniforest
 siteId: 019bd169-8c5d-7116-aede-55e04b232510
 notionIds:
   - e5103731-0c73-464d-9808-44406eaada7a
@@ -17,3 +18,4 @@ images:
   - >-
     ../../assets/sites/st-mary-st-john-primary-school/69af4ddc98c9bfc920832ada9794aab09582ea4733f6048509ab09e15dcc0e58.jpg
 ---
+
