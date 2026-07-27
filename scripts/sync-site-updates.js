@@ -293,7 +293,7 @@ async function localizeSiteUpdatePhotos(photos, slug, imagesDir, tempDir) {
 	if (isVerbose) {
 		console.log(`  Localizing ${notionPhotos.length} Notion photo file(s) for ${slug}...`);
 	}
-	if (ignoredPhotos > 0) {
+	if (isVerbose && ignoredPhotos > 0) {
 		console.log(`  Ignoring ${ignoredPhotos} non-image or external photo reference(s)`);
 	}
 

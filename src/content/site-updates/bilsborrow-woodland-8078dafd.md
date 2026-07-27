@@ -11,4 +11,8 @@ photos:
   - "../../assets/site-updates/bilsborrow-woodland-8078dafd/50d8863640493f9359649897f1ca1e5fffa77da4f3e2e9ef94436285c48e16c8.jpg"
 ---
 
-This was a rather noisy, smelly assignment as we were planting a shelterbelt on the side of the M6. Led by Phil, an everchanging army of volunteers spent four days planting 2000 trees to create a shelterbelt to screen this land from the motorway. It was January so the weather, too, was very variable, often with a heavy frost in the mornings, later melting to cold but bright days.
+The Woodland Trust delivered forty 60cm whips in advance of the planting along with tree shelters: 1925 trees and shrubs were planted in PVC spiral shelters secured with canes, with 50 Scots Pine in staked 0.75m mesh guards, and 25 Holly in staked 0.75m tubex shrub shelters.
+
+Led by Phil, an everchanging army of volunteers spent four rather noisy days planting 2000 trees to create a shelterbelt to screen this farm from the M6. Shelterbelt planting design incorporates planting in rows, with shrub species planted on the outside, planting the larger species in weaving rows towards the centre of the belt, providing shelter and shade to wildlife using it as a corridor.
+
+The trees are spaced at random with tight groups thinning to scattered shrub towards the edge of the woodland, with the intention being to give the woodland a 'natural' look.
