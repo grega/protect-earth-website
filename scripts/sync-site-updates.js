@@ -617,9 +617,7 @@ function getSiteNotionIdLookup(siteMetaDir) {
 				notionIdLookup.get(normalizedNotionId).add(siteMetaFile);
 			}
 		} catch (error) {
-			console.warn(
-				`Warning: Could not parse site metadata file ${siteMetaPath}: ${error.message}`,
-			);
+			console.warn(`Warning: Could not parse site metadata file ${siteMetaPath}: ${error.message}`);
 		}
 	}
 
