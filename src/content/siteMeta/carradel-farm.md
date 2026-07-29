@@ -10,4 +10,3 @@ images:
   - >-
     ../../assets/sites/carradel-farm/71b4605ad264a5dcd7e84383bb4ba230ca38c111f57ebffb77982b40c70cd16a.jpg
 ---
-

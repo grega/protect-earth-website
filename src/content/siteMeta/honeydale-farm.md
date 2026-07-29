@@ -10,4 +10,3 @@ images:
   - >-
     ../../assets/sites/honeydale-farm/7aa02718926ca6583e55bb171de7420dbb4869f80047091bec1d5dd89fc1c77b.jpg
 ---
-

@@ -12,4 +12,3 @@ images:
   - >-
     ../../assets/sites/dyrham-wood/5f34669155ed90a0df7b02305a5d636ad90b407f9b24dcd8c266fff8d6e69b90.jpg
 ---
-
