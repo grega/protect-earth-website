@@ -12,8 +12,8 @@ photos:
   - "../../assets/site-updates/bubbenhall-maintenancerestock-2023-571fb247/a38b03330187563baf6ccb17defb65108b015990c109b93de8639ecf4348f1dd.jpg"
 ---
 
-A vitally important part of what Protect Earth does once we’ve put the trees in the ground is maintenance and restocking. There is a lot to be done during this most vulnerable time in the tree’s life.
+A vitally important part of what Protect Earth does once we’ve put the trees in the ground is to carry out maintenance and restocking as needed. There is a lot to be done during this most vulnerable time in the tree’s life.
 
-Based on the survival rate of the initial planting we calculated that we needed to restock 375 trees and 25 shrubs. On this occasion, we placed down mulch mats to suppress the grass growing around the new trees, along with pulling out grass and weeds growing inside the tree guards of the older saplings, whilst making sure the stakes were straight and firm into the ground.
+Based on the survival rate of the initial planting we calculated that we needed to restock 375 trees and 25 shrubs. On this occasion, we placed down mulch mats to suppress the grass growing around the new trees. We also pulled out grass and weeds growing inside the tree guards of the older saplings as these can rot the bark and kill the tree. Finally, we made sure the stakes were straight and firm into the ground.
 
-Two teams of corporate volunteers from Revolution Bars and Reuseabox came for a day each to help us get the job done.
+Two teams of corporate volunteers from Revolution Bars and Reuseabox came for a day each to help us get the job done. Despite the wet weather both groups seemed to enjoy their day.
