@@ -11,8 +11,6 @@ photos:
   - "../../assets/site-updates/greater-brimley-initial-planting-jan-2026-cb3711ea/82d5fc4db0604530c9aa42fec41be76e9c3a064c427d119468f5c687df051779.jpg"
 ---
 
-We planted here on January 24th 2026, with locally respected rewilding landowners incredibly excited to not only have the trees planted with a team of volunteers, but they also got stuck in themselves.
-
-The weather was harsh and wet, but this helped the saplings get watered from the get-go, and there are no concerns with how they will do throughout the summer, as the site has constantly running water. Unfortunately, the weather did dissuade some of the volunteers from turning up, and with fewer numbers we had to give up as it got dark, with just a few trees remaining to be planted. The landowners were happy to plant the remainder on the next dry day.
+We planted here on January 24th 2026 with the help of local volunteers, the landowners, and some of their friends and family.  It was a very wet and depressing day but at least this helped the saplings get watered from the beginning, and there are no concerns with how they will do throughout the summer, as the site has constantly running water. Unfortunately, the weather did dissuade some of the volunteers from turning up, and with fewer numbers we had to give up as it got dark, with just a few trees remaining to be planted. The landowners were happy to plant the remainder on the next dry day.
 
 The landowners said, “Thank you so much for Phil and Duncan, who gently but clearly led the day and kept us progressing. Protect Earth, well done. This important work wouldn’t happen without you. What you do will have a permanent positive impact on us and the environment. What could be more worthwhile?”

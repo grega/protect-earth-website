@@ -15,6 +15,6 @@ photos:
   - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/a611826fce36d0dd8673707223493193f332e0142452ebd5ee74b4a3a1ef8bf1.jpg"
 ---
 
-We returned to Hawling in July 2026 to carry out a survival survey, and found around 89% of trees had thrived. We noted an additional amazing natural regeneration of blackthorn. All were very healthy looking trees., with no sign of livestock entering the field.
+We returned to Hawling in July 2026 to carry out a survival survey, and found around 89% of trees had survived.  All were very healthy looking trees, with no sign of livestock entering the field. We noted an additional amazing natural regeneration of blackthorn.
 
-No livestock in the field helps immensely, as it reduces the loss from damage to the trees. Hawling is a flat site, a big help in The Cotswolds because of the soil type, and is relatively sheltered from the regeneration of blackthorn.
+ Hawling is very flat so rainwater doesn’t run off the land, a big help in the Cotswolds because of the soil type. Most of the region sits on a "brashy" soil. This is a thin, alkaline soil full of limestone fragments. It drains very quickly and can be difficult to dig. Because it is shallow, it warms up fast in the Spring but can dry out rapidly during a hot Summer. Their survival rate after this excessively hot, dry Summer would suggest that these four-year-old saplings have managed to develop a good root system already.

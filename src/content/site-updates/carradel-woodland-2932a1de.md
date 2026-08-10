@@ -10,9 +10,10 @@ photos:
   - "../../assets/site-updates/carradel-woodland-2932a1de/501d661675941f7eb2d3934660c0e5c5b753968f974897dfd848a2e4c8fb6e87.jpg"
   - "../../assets/site-updates/carradel-woodland-2932a1de/27f581574ff94c2c2c9ae39b5dcc469c370d7e6077465a3076f09c2f0df04f06.jpg"
   - "../../assets/site-updates/carradel-woodland-2932a1de/eb55cbd3b4bfd817a5c4024a3c736d3e5a4e3425b68c33bf650dc962f9b45ca7.jpg"
+  - "../../assets/site-updates/carradel-woodland-2932a1de/53b2368055226335415b067f8ba9e2aa30fa22a58c2c96681a54a21cc9e4621d.jpg"
 ---
 
-Initially, 1300 trees were planned for this 2.47 acres area, to create a woodland to increase biodiversity on this farm but in the end it was decided that an extra 300 were needed, bringing the total to 1600. The landowners were very keen, but lacked the manpower to plant so many trees.
+Initially, 1300 trees were planned for this 2.47 acres area,  both to provide protection from the cold winds and to create a woodland to increase biodiversity on this farm. Once we had visited the site it was decided that an extra 300 were needed for extra protection, bringing the total to 1600. The landowners were very keen, but lacked the manpower to plant so many trees.
 
 Finding volunteers is something Protect Earth does well and we managed to find plenty for the job, some of them hairdressers from the local area. The landowners marked out a few open areas in advance, then the trees were spaced at random with tight groups thinning to scattered shrub towards the edge of the woodland to give the woodland a ‘natural’ look.
 

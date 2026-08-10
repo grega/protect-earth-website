@@ -2,7 +2,7 @@
 title: "Hawling (Windrush) Initial Planting"
 notionId: "2e8e7dc6-657c-806c-ad2c-d7a7898717fa"
 type: "Tree Planting"
-date: "2022-01-01T00:00:00.000Z"
+date: "2022-01-27T00:00:00.000Z"
 siteNotionId: "18a9ffed-8abf-4477-93c3-7288e18837e6"
 treesPlanted: 500
 photos:
@@ -15,6 +15,6 @@ photos:
   - "../../assets/site-updates/hawling-windrush-initial-planting-898717fa/e6c4b761205f32e2ef07628e6b9b1383b34c42486b06aac3a18e15c676a3f490.jpg"
 ---
 
-On a slightly cloudy Winter’s in January, we were invited by the new owners of a  sheep farm, to help plant a further 500 trees on their land. They had lost a lot of trees to Ash dieback so they were very keen to replace the lost trees as soon as possible. We planted a mix of native broadleaved trees including some Hornbeam which serve the same wildlife.
+On a cold, rather overcast January day, we arrived at this sheep farm near Hawling to plant 500 trees on their land, in part to replace the Ash trees they had lost to Ash dieback disease.  Carefully avoiding some historic quarry sites, we planted a mix of native broadleaved trees including some Hornbeam which serve the same wildlife as the Ash had done previously.
 
 The planting here was great fun. Half of the village came out to help, including neighbouring farmers. They cut back a huge patch of blackthorn to provide wood chip mulch, which we’ve spread around the saplings to keep back competition from the fast growing grass and weeds.

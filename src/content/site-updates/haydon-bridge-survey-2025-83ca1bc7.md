@@ -22,8 +22,8 @@ photos:
 
 To keep mileage down, we sent local friend of the charity Oli Wood over to check out the state of things. Despite the long hot summer, we only lost 10% of the saplings this year. That’s 45 out of 470 in the top field and 25 from 250 in lower field.
 
-Both areas have been fenced off from the sheep with a wide margin to let natural regeneration take place and the landowners have also replaced dead trees with small saplings e.g. oaks, more hawthorn, holly that they find growing in other parts of the field and replant before the sheep get them.
+Both areas have been fenced off from the sheep with a wide margin to let natural regeneration take place and the landowners have also replaced dead trees with small saplings e.g. oaks, hawthorn and holly that they find growing in other parts of the field, and replant before the sheep get them.
 
-The alder like the damper area of the top field and they have replanted a few willow in that section in the autumn to fill any gaps.
+The alder like the damper area of the top field and the the landowners  replanted a few willow in that section last Autumn to fill any gaps.
 
-The landowners told us they have named the surprisingly tall and healthy oak sapling “Phil” in his honour, and he is now nearly 8ft tall!
+The landowners told us they have named the surprisingly tall and healthy oak sapling “Phil” in his honour, and it is now nearly 8ft tall!

@@ -9,4 +9,4 @@ treesPlanted: 880
 
 We came back to Hawling again, this time to plant another 880 trees. Adding these trees means our Hawling woodland has grown nicely, and the saplings are doing well, merging into planting on a third neighbour’s land to create a network effect for wildlife. The planting here was intended to increase the size and improve the quality of the hedge-line that runs through this farmland and meadow area.
 
-Volunteers came from landowner’s son’s company, Capsule Cover, based in Cheltenham, who were keen to be involved in this event. We planted lots of species with berries which are eaten by winter thrushes, while in summer, bullfinches and linnets will use them as nesting habitat.
+Volunteers came from landowner’s son’s company, Capsule Cover, based in Cheltenham, who were keen to be involved in this event. We planted lots of species with berries which are eaten by Winter thrushes, while in Summer, bullfinches and linnets will use them as nesting habitat.
