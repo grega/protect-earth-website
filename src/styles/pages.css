@@ -5,6 +5,10 @@
 	padding-block: var(--space-xl);
 }
 
+.page-sections > .prose {
+	align-self: center;
+}
+
 .page-sections > header:has(h2, h3) {
 	text-align: center;
 	font-size: var(--font-l);

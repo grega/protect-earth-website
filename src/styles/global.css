@@ -58,6 +58,19 @@ h2:has(svg) {
 	line-height: 1.6;
 }
 
+.prose ul,
+.prose ol {
+	padding-inline-start: var(--space-m);
+}
+
+.prose ul {
+	list-style: disc;
+}
+
+.prose ol {
+	list-style: decimal;
+}
+
 .prose a:not(.button) {
 	color: var(--prose-link);
 }
