@@ -2,7 +2,7 @@
 title: 'Wetland Restoration'
 description: 'Wetlands are one of the UK’s most overlooked ecological superpowers, vital for biodiversity, flood resilience, water quality, carbon storage, and long-term public wellbeing.'
 pubDate: 2026-03-12T00:00:00.000Z
-categories: ['climate-environment']
+categories: ['climate-environment', 'invasive-species', 'wildlife-habitats']
 author: 'Elena Tornberg-Lennox'
 thumbnail: ../../assets/articles/wetland-restoration.webp
 ---
@@ -61,6 +61,6 @@ Rewiggling rivers, reconnecting them with their floodplains, has also been shown
 
 ## What Can I Do?
 
-Protect Earth works with landowners and on our own land to restore wetlands. You can help support this work by sponsoring wetland restoration, which will shortly be available in our shop.
+Protect Earth works with landowners and on our own land to restore wetlands. You can help support this work by [sponsoring wetland restoration](https://shop.protect.earth/products/wetland-regeneration).
 
 Please also support campaigns for wetland restoration, whether focused on marsh, peatland, river systems, or reedbeds. Speak to your MP, join local groups, and get involved in restoring wetland near you.

@@ -20,7 +20,7 @@ const {
 	<form class="NewsletterSignup__form squircle stack">
 		<p>{intro}</p>
 
-		<p>
+		<p class="form-helper-text">
 			{privacyPrefix}<a href="/privacy-policy">privacy is important to us</a>{privacySuffix}
 		</p>
 
@@ -119,5 +119,9 @@ const {
 
 	section {
 		padding-block-end: var(--space-xl);
+	}
+
+	.form-helper-text {
+		font-size: var(--font-xs);
 	}
 </style>

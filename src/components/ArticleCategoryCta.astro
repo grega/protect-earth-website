@@ -1,4 +1,5 @@
 ---
+import NewsletterSignup from './NewsletterSignup.astro';
 import type { CategorySlug } from '../helpers';
 
 type Props = {
@@ -37,6 +38,16 @@ const ARTICLE_CTA_BY_TAG: Partial<
 		label: 'Find upcoming events',
 		text: 'Join volunteer days, courses, and local events to get involved in person.',
 	},
+	'invasive-species': {
+		href: 'https://shop.protect.earth/products/wetland-regeneration',
+		label: 'Support wetland regeneration',
+		text: 'Help restore wetlands that support biodiversity, flood resilience, and cleaner water.',
+	},
+	'wildlife-habitats': {
+		href: 'https://shop.protect.earth/products/wetland-regeneration',
+		label: 'Support wetland regeneration',
+		text: 'Help restore wetlands that support biodiversity, flood resilience, and cleaner water.',
+	},
 };
 
 const ctaPriority: CategorySlug[] = [
@@ -44,6 +55,8 @@ const ctaPriority: CategorySlug[] = [
 	'woodland-management',
 	'conservation-biodiversity',
 	'community-volunteering',
+	'invasive-species',
+	'wildlife-habitats',
 ];
 
 const matchedCtaTag = ctaPriority.find((tag) => categories.includes(tag));
@@ -52,9 +65,9 @@ const isExternalCtaLink = articleCta ? /^https?:\/\//.test(articleCta.href) : fa
 ---
 
 {
-	articleCta && (
+	articleCta ? (
 		<section class="wrap article-cta-wrap" aria-label="Article call to action">
-			<h2>Take action</h2>
+			<h2>How can you help</h2>
 			<div class="article-cta-card stack">
 				<p>{articleCta.text}</p>
 				<a
@@ -67,6 +80,8 @@ const isExternalCtaLink = articleCta ? /^https?:\/\//.test(articleCta.href) : fa
 				</a>
 			</div>
 		</section>
+	) : (
+		<NewsletterSignup />
 	)
 }
 

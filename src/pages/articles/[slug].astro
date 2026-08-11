@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import TakeAction from '../../components/TakeAction.astro';
-import NewsletterSignup from '../../components/NewsletterSignup.astro';
 import ArticleCategoryCta from '../../components/ArticleCategoryCta.astro';
 import { Image } from 'astro:assets';
 import { render } from 'astro:content';
@@ -29,15 +28,6 @@ const {
 	data: { author, description, pubDate, title, thumbnail, thumbnailAttribution, categories },
 } = article;
 const { Content } = await render(article);
-
-const categoryCtaTags: CategorySlug[] = [
-	'woodland-creation',
-	'woodland-management',
-	'conservation-biodiversity',
-	'community-volunteering',
-];
-
-const hasCategoryCta = (categories ?? []).some((category) => categoryCtaTags.includes(category));
 ---
 
 <Layout
@@ -115,7 +105,7 @@ const hasCategoryCta = (categories ?? []).some((category) => categoryCtaTags.inc
 		</div>
 	</article>
 
-	{hasCategoryCta ? <ArticleCategoryCta categories={categories} /> : <NewsletterSignup />}
+	<ArticleCategoryCta categories={categories} />
 
 	<TakeAction />
 </Layout>

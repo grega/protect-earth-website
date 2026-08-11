@@ -1,5 +1,5 @@
 ---
-tags: [shelterbelts]
+tags: [shelterbelt]
 images:
   - >-
     ../../assets/sites/kilkenny-farm/7dddd9ca5f590ca1e87a37364e0f05d09762239bf518a234d83766f84b2d53b3.jpg

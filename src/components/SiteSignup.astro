@@ -26,7 +26,7 @@ const {
 	<form class="SiteSignup__form squircle stack">
 		<p>{intro}</p>
 
-		<p>
+		<p class="form-helper-text">
 			{privacyPrefix}<a href="/privacy-policy">privacy is important to us</a>{privacySuffix}
 		</p>
 
@@ -142,6 +142,10 @@ const {
 
 	p {
 		font-size: var(--font-s);
+	}
+
+	.form-helper-text {
+		font-size: var(--font-xs);
 	}
 
 	form {
