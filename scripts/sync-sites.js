@@ -156,6 +156,63 @@ function toKebabCase(str) {
 		.trim();
 }
 
+function normalizeSiteTag(value) {
+	if (typeof value !== 'string') {
+		return null;
+	}
+
+	const normalized = value
+		.trim()
+		.toLowerCase()
+		.replace(/[\s_-]+/g, ' ')
+		.replace(/\s{2,}/g, ' ');
+
+	return normalized || null;
+}
+
+function getSiteTagsFromWork(work) {
+	if (!Array.isArray(work)) {
+		return [];
+	}
+
+	const mappedTags = [];
+	for (const item of work) {
+		const tag = normalizeSiteTag(item?.productType);
+		if (tag && !mappedTags.includes(tag)) {
+			mappedTags.push(tag);
+		}
+	}
+
+	return mappedTags;
+}
+
+async function fetchSitesFromApi() {
+	const endpoints = [
+		'https://api.protect.earth/sites?include=work',
+		'https://api.protect.earth/sites',
+	];
+
+	let lastError = null;
+
+	for (const endpoint of endpoints) {
+		const response = await fetch(endpoint);
+		if (response.ok) {
+			if (endpoint.includes('include=work')) {
+				console.log('🔎 Requested sites with work data');
+			}
+			return await response.json();
+		}
+
+		lastError = new Error(`API returned ${response.status}: ${response.statusText}`);
+
+		if (endpoint.includes('include=work')) {
+			console.warn('⚠️  /sites?include=work failed; retrying without include parameter');
+		}
+	}
+
+	throw lastError || new Error('Failed to fetch sites from API');
+}
+
 function downloadImage(url, filepath) {
 	return new Promise((resolve, reject) => {
 		ensureParentDirectory(filepath);
@@ -302,12 +359,7 @@ async function syncSites() {
 
 	try {
 		// Fetch sites from API
-		const response = await fetch('https://api.protect.earth/sites');
-		if (!response.ok) {
-			throw new Error(`API returned ${response.status}: ${response.statusText}`);
-		}
-
-		const allSites = await response.json();
+		const allSites = await fetchSitesFromApi();
 
 		// Filter out ignored sites
 		const sites = allSites.filter((site) => !ignoredSites.includes(site.name));
@@ -388,6 +440,14 @@ async function syncSites() {
 				frontmatter.siteId = site.id;
 			} else {
 				delete frontmatter.siteId;
+			}
+
+			// Map API work product types into local site tags where present.
+			const workTags = getSiteTagsFromWork(site.work);
+			if (workTags.length > 0) {
+				frontmatter.tags = workTags;
+			} else if (!Array.isArray(frontmatter.tags)) {
+				frontmatter.tags = [];
 			}
 
 			// Write the file
