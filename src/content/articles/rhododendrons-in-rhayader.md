@@ -2,8 +2,8 @@
 title: 'Rescuing Ancient Woodlands from Rhododendron'
 description: "It interests us how many things we do are connected. Often it's one landowner recommending us to a neighbour, but this story links several services we offer."
 pubDate: 2025-10-29T09:56:13.000Z
-categories: ['conservation-biodiversity']
-author: 'kathy@protect.earth'
+categories: ['woodland-management', 'invasive-species']
+author: 'Kathy Sturgeon'
 thumbnail: ../../assets/articles/rhododendrons-in-rhayader.jpg
 ---
 
@@ -37,7 +37,7 @@ One of our team said ‘We had a wonderful day. We got so much done, they were t
 
 All of this cost the landowner nothing, other than the cost of the food and drink to keep everyone going. This is what she had to say after the event.
 
-    “The people who represent Protect Earth are incredible - their energy was inspiring! We had some wonderful discussions and Phil shared some great ideas for the future of the wood. He’s certainly inspired me to forge ahead with the plans I have for our woods.
+> The people who represent Protect Earth are incredible - their energy was inspiring! We had some wonderful discussions and Phil shared some great ideas for the future of the wood. He’s certainly inspired me to forge ahead with the plans I have for our woods.
 
 The volunteers were an absolute force and the breaktime provisions were the least we could do. A huge thank you to them and I hope we meet them again. The whole process has been so lovely and welcoming.
 
@@ -45,4 +45,4 @@ I sincerely hope we can work with Protect Earth in the future and you can come b
 
 We love stories like this. From a conversation at a tree planting event to a hedge laying course to the removal of invasive rhododendrons in a beautiful wood, all in Powys, these are three ways Protect Earth are doing their bit to improve the environment and reduce climate change.
 
-Unfortunately nobody is funding Protect Earth for any of the ancient woodland work that we do across England and Wales. There are some new government grants around, but they are invitation only and so far have been going out to massive landowners and mega trusts that already have far deeper pockets than us Please [sponsor a square of ancient woodland](https://shop.protect.earth/products/ancient-woodland-restoration) in our impact store, to help fund the tools, transport, and snacks, to keep our team and volunteers going, If you’d like to come along, please keep an eye out for [events in your area](https://event)!
+Unfortunately nobody is funding Protect Earth for any of the ancient woodland work that we do across England and Wales. There are some new government grants around, but they are invitation only and so far have been going out to massive landowners and mega trusts that already have far deeper pockets than us Please [sponsor ancient woodland](https://shop.protect.earth/products/ancient-woodland-restoration) in our impact store, to help fund the tools, transport, and snacks, to keep our team and volunteers going, If you’d like to come along, please keep an eye out for [events in your area](https://protect.earth/events)!

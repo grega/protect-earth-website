@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - woodland creation
 images:
   - >-
     ../../assets/sites/wadswick-green/698a17ecbbd8cd07eed526ee1ade6bd23ed17e7a3619c7a512296ddf0468174b.jpg
