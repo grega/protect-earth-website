@@ -14,5 +14,8 @@ photos:
   - "../../assets/site-updates/highchurch-restocking-4-2026-070c063e/88d18bbcfe103d98468445b306b9f854be370c124fc308179c3ed77ec978c068.jpg"
 ---
 
-What a perfect day! Morale was buzzing during this restocking day. Restocking 600 trees, pulling grass out of guards, and replacing broken stakes were made light work by this energetic group of volunteers. During a week of inclement weather, we were worried this day was going to be a washout, but the clouds parted to give us perfect planting weather!
-Special thanks to the landowner and the local newspaper photographer for their support on the day.
+What a wonderful day! Morale was buzzing during this restocking event. During a week of inclement weather, we were worried this day was going to be a washout, but the clouds parted to give us perfect planting weather!
+
+We had help from 12 volunteers from Mulberry, who are based about 20 minutes from the farm, plus 5 local volunteers and a larger than usual team of four from Protect Earth. Restocking 600 trees, pulling grass out of guards, and replacing broken stakes were made light work by this energetic group of volunteers.
+
+Mark Adler, Co-Editor of the Mendip Times joined us mid-morning to find out more about Protect Earth and our work at Highchurch Farm. He took some photos and wrote a very complimentary and supportive article for his local paper.

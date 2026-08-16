@@ -14,4 +14,10 @@ photos:
   - "../../assets/site-updates/hitchin-ickleford-initial-planting-3768b37b/7bf9617566259149297873ee2379b7cfa3ef841a5982a45c1c049d0e5072876f.jpg"
 ---
 
-The sites for the forests are on a thin strip of greenbelt between the village of Ickleford and Hitchin’s industrial area. The landowner has opened the space up to the public and is improving facilities for more access, with changes including allotments, orchards, cycle paths, dog walking routes, and plans for a pet cemetery. We teamed up with Dream For Trees to plant thousands of trees near a chalk stream that runs through the land, with Ecologi providing the funding for the trees, us handling species selection and logistics, Dream for Trees finding local volunteers, and Phil from Protect Earth running the planting day, showing over 100 people how to plant all these trees.
+With 5700 trees to plant, we teamed up with Dream For Trees to plant them. Protect Earth handling species selection and logistics, running the planting day and demonstrating how to plant all these trees, and Dream for Trees finding local volunteers to help us.
+
+We used canes and spiral guards to protect the young saplings from gnawing mammals such as rabbits and shrews. With a hundred volunteers, many of whom had never planted a tree before, working so closely together it could have been chaos. Instead, people broke into family and friendship groups, spread out along the length of the planting site, and somehow it worked.  The most difficult part was remembering not to step backwards and trip over the canes and saplings already planted.
+
+Nearly everyone was local and many walked their dogs or cycled through the area, and they were all very excited about watching their new mini forest grow. So are we, and we look forward to a return visit to see how the trees are doing.
+
+.

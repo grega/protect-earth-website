@@ -15,18 +15,4 @@ When we heard on the national news that a council contractor had accidentally mo
 
 Working in partnership with Havering Borough Council, Protect Earth was able to come in and assist in the planting of 950 new trees and shrubs.
 
-50 x Alder
-100 x Aspen
-50 x Blackthorn
-50 x Hawthorn
-50 x Hazel
-50 x Oak
-125 x Rowan
-50 x Wild Cherry
-50 x Goat willow
-100 x Hornbeam
-125 x Silver Birch
-100 x Small leaved Lime
-50 x Wild Service Tree
-
 They were planted without stakes and guards, just like the ones they lost, but now the ride-on lawnmower drivers are well aware that the young saplings are there.

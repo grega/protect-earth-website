@@ -10,4 +10,6 @@ photos:
   - "../../assets/site-updates/tiverton-hemyock-planting-bea54513/1e2f99a29111cf68afb5b396314f66a62ea5f4359b68fe319b507766c06b0be2.jpg"
 ---
 
-Hemyock was a smaller plot of land than we are used to planting at Protect Earth, but we are firm believers that, to borrow a phrase from a popular supermarket, Every Little Helps. By planting these trees on this land, we are helping to encourage wildlife back to the area. Not only that, as the trees mature and grow, they’ll help stabilise the ground beneath them, suck up all that nasty CO2 in the air, and generally do great things. What more could you possibly ask for!
+The owners had contacted us about planting some trees to add to those already growing there. We offered them 210 mixed native saplings to extend their small woodland and they were  happy to do the planting themselves. They planted the trees on the sloping field with uneven spacing to create a more natural look, with stakes and guards as protection against deer and rabbits.
+
+ By planting more trees on this land, we are helping to encourage wildlife into the area. Not only that, as the trees mature and grow, they’ll help stabilise the ground beneath them, absorb carbon dioxide from the air, and generally improve the local environment.

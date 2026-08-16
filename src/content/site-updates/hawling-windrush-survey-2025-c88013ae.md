@@ -13,8 +13,8 @@ photos:
   - "../../assets/site-updates/hawling-windrush-survey-2025-c88013ae/b411aa3980c91efebbc27629b462e3a060c95b9297c2387c1b4f72e0ee7eb63a.jpg"
 ---
 
-This is a wonderful area for wildlife with corn buntings and skylarks still occurring on the farmland round about, with lots of exciting chalkland butterfly and plant species in the meadows.
+This is a wonderful area for wildlife with corn buntings and skylarks in evidence and lots of exciting chalkland butterfly and plant species in the meadows.
 
-However, the survival rate of our saplings is much lower that the other farm in this area because unfortunately sheep got into the young woodland due to insufficient fencing which has lost us a fair few saplings.  Michael estimated a survival rate of 60%.
+However, the survival rate of our saplings is much lower that the other farm in this area because unfortunately sheep got into the young woodland due to insufficient fencing, which has lost us a fair few saplings.  We calculated a survival rate of only 60%.
 
 The landowners have agreed to get some proper fencing up, so we’ll be back to restock these saplings and straighten and weed those that are still with us as soon as possible.

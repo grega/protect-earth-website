@@ -14,6 +14,6 @@ photos:
 
 We returned to Eastcourt Farm in March 2026, to carry out a restock of trees. This time, we were accompanied by a corporate group from Sandhata, and some volunteers from the local nature club. Sandhata’s clients came from as far afield as London and Gloucester to work with us, and the effort was very appreciated by our team.
 
-It was an overcast but dry day, and all our volunteers had a good time planting trees and pulling weeds and long grass. The restock went really well; we planted 400 new trees sourced from Crowders Nurseries, all with stakes and tree shelters to give them the best possible chance to grow strong. As always, we will follow up this restock with a scheduled survey to check how everything is doing.
+It was an overcast but dry day, and all our volunteers had a good time planting trees and pulling weeds and long grass. The restock went really well; we planted 400 new trees, all with stakes and tree shelters, to give them the best possible chance to grow strong. As always, we will follow up this restock with a scheduled survey to check how everything is doing.
 
 Feedback from our volunteers was very positive. “We had a great time yesterday. Thanks to Phil for explaining and guiding us. It was a great outing and everyone enjoyed the time out there.”

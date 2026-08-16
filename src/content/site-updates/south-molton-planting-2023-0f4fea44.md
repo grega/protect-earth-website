@@ -17,9 +17,6 @@ The first day dawn clear and bright and 9 very motivated local volunteers turned
 
 There were 700 plants in total comprising 550 trees and 150 shrubs, making a 80% / 20% tree to shrub ratio. The plan was to plant trees in clusters of 8 to 10. and then plant shrubs around the periphery of the trees in species clusters of 3 to 4. Trees were planted with a 2.5 metre spacing but avoided rows and lines and uniformity were possible.  Some  small areas of open space were left amongst the planting.
 
-The tree mix included: Alder, Aspen, Downy Birch, Field Maple, Hornbeam, Crab Apple, Common Oak, Rowan, Small-leaved Lime, Wild Cherry, Goat Willow.
-Shrubs included: Blackthorn, Hawthorn, Hazel, Spindle.
-
 The landowners kept us fortified with hot drinks and sausage and bacon baps and everyone worked with a will, planting around 550 of the saplings on the first day!
 
 On the following day, only 5 of our volunteers turned up, but it didn’t matter because these were hard workers and we were finished by 11:30. It’s not often we get the opportunity to go home early, and the landowners were delighted too.

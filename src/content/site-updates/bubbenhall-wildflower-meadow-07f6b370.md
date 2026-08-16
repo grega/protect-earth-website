@@ -10,4 +10,4 @@ photos:
   - "../../assets/site-updates/bubbenhall-wildflower-meadow-07f6b370/743690fd97d8782cb4f3b864ec19e555bbcdad06656760cffa00ce8ab5a35b47.jpg"
 ---
 
-We planted a one-acre wildflower meadow here in May 2022. Before we could sow the seed the ground was prepared using a chain harrow to turn the soil and make planting easier. We used 4kg of nectar pollen mix to attract pollinators to the area. To ensure even distribution the seed was measured out before Phil, our chair, and Steve, our ecologist, sowed the seed using the broadcast method.
+We planted a one-acre wildflower meadow here in May 2022. Before we could sow the seed the ground was prepared using a chain harrow to turn the soil and make planting easier. We used 4kg of nectar pollen mix to attract pollinators to the area. To ensure even distribution the seed was measured out before our team sowed the seed using the broadcast method.

@@ -21,12 +21,10 @@ photos:
 
 This farm has many separate planting areas and the survival rates in each area vary considerably, unlike the neighbouring farm which has experienced a much better survival rate.
 
-The first section surveyed was very poor, with approximately 95% dead. Most of the growth coming over the top of guards was grasses or brambles, with areas trampled by cows. Strong groups of Himalayan balsam were regularly present.
-
-However, Eoghan was pleased to see that some areas had a 100% survival rate.
+The first section surveyed was very poor, with approximately 95% dead. Most of the growth coming over the top of guards was grasses or brambles, with areas trampled by cows. Strong groups of Himalayan balsam were regularly present. However, Protect Earth was pleased to see that some areas had a 100% survival rate.
 
 The horse enclosure had a 75% survival rate, as it had been fenced off from cattle. The pheasant enclosure had a 50% survival rate, with many tall grasses present. Other areas had around 70% losses due to cattle getting in.
 
 Some areas had a great survival rate, whereas other areas had extensive bracken growth leading to high losses. It was also difficult to find tree guards in areas where there were many competing grasses, although there was still a high survival rate in some patches.
 
-Some sections had up to 90% losses, with chest-height grasses and reeds and little sapling life visible from what could be seen.
+Some sections had up to 90% losses, with chest-high grasses and reeds and little sapling life visible from what could be seen.

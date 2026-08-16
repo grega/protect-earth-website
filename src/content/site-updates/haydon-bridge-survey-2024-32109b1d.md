@@ -15,10 +15,8 @@ photos:
   - "../../assets/site-updates/haydon-bridge-survey-2024-32109b1d/b9cfb1d34ebbb9a8a730d25993c2d2068037eb3adb476b46ce7d9fa4ec2e82f4.jpg"
 ---
 
-Phil took the excuse to cycle out from Newcastle along the River Tyne, a ride he would have done regularly when living up in Gateshead. The weather was beautiful and the river was stunning, if not quite overrun with Himalayan Balsam.
+Our surveyor took the excuse to cycle out from Newcastle along the River Tyne, a ride he would have done regularly when living in Gateshead. The weather was beautiful and the river was stunning, although quite overrun with Himalayan Balsam.
 
-Our planting site in Haydon Bridge was right at the top of the hill, where Phil got to work counting and recording notes on how our saplings were doing.
+Our planting site in Haydon Bridge was right at the top of the hill, where we got to work counting and recording notes on how our saplings were doing. The oaks, usually taking a few years to come out of their guards, were already poking out the top. One of them was already taller than our surveyor, which is a much faster rate of growth than normal for oak saplings!
 
-The oaks, usually taking a few years to come out of their guards, were already poking out the top. One of them was taller than Phil by a long shot, not a high bar to meet but absolutely unheard of for oak saplings!
-
-Only losing 24% of them despite the long thick grass and sunny hilltop was a big win, because the goal is 80% and 76% is a great first effort. We’ll come back with more trees and get some weeding done to give things an even better shot in 2025.
+Only losing 24% of them despite the long thick grass and sunny hilltop was a big win, because our survival goal is 80%, so 76% is a great first effort. We’ll come back with more trees and get some weeding done to give our trees a good chance of survival in 2025.

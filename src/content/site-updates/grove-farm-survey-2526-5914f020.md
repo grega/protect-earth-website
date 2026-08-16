@@ -20,6 +20,6 @@ photos:
   - "../../assets/site-updates/grove-farm-survey-2526-5914f020/6dee1df1b86504673cb6b874cf71475588a077d72fbcfa91dadfdd7707e6a7d5.jpg"
 ---
 
-Michael visited Grove Farm to carry out this survey on a very wet day in September, just before a yellow weather warning came into force, so he wasn’t able to appreciate the beautiful views from this site.
+Our surveyor visited Grove Farm to carry out this survey on a very wet day in September, just before a yellow weather warning came into force, so he wasn’t able to appreciate the beautiful views from this site.
 
-The species are predominantly Beech and Field Maple, with small-leaved Lime and Cherry, Hornbeam, and Crab Apple. All trees seem to be doing really well. They were surrounded by grasses and some thistle, but with no other shrub encroachment. Overall, the trees on this site had a 70% survival rate.
+All trees seem to be doing really well. They were surrounded by grasses and some thistle, but with no other shrub encroachment. Overall, the trees on this site had a 70% survival rate.

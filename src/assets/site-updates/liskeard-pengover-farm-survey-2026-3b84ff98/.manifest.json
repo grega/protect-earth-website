@@ -22,5 +22,11 @@
     "checksum": "46f443863a08434e1c0187a67985a3b202e9cae169c6dd42d0d0b261724e3512",
     "sourceChecksum": null,
     "fileName": "image4.jpeg"
+  },
+  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/f1560a1e-1421-4883-9120-b040a9db08ef/cropped_image2.jpeg": {
+    "localName": "f3a03e8f3c5fa2020bd1066cf10288dc485fe217b158cef79478cab65d04e1d6.jpg",
+    "checksum": "f3a03e8f3c5fa2020bd1066cf10288dc485fe217b158cef79478cab65d04e1d6",
+    "sourceChecksum": null,
+    "fileName": "cropped image2.jpeg"
   }
 }

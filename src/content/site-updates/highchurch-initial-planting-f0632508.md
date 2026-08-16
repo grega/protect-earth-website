@@ -16,6 +16,8 @@ photos:
   - "../../assets/site-updates/highchurch-initial-planting-f0632508/8360959891a766898f9a9b85c193e03071ad4a986f6055781fcb2fe4844f472b.jpg"
 ---
 
-Easily Protect Earth’s biggest project so far, Highchurch Farm was an amazing effort. We hired in some students and locals out of work, and had our usual amazing turnout of volunteers. Here’s a look at day one of planting, where we were joined by 17 heroic volunteers with the task of planting 4,000 trees. The species breakdown is: oak, hornbeam, wild cherry, goat willow, common alder, rowan, wild service, silver birch, small-leaved lime, aspen, hazel and field maple.
+Easily Protect Earth’s biggest project so far, Highchurch Farm was an amazing effort. We hired in some students and locals out of work, and had our usual amazing turnout of volunteers. On day one of planting we were joined by 17 heroic volunteers with the task of planting the first of 4,000 trees.
 
 When families get involved with our volunteer days, as we saw at this one, it is an amazing opportunity to spend time together, focused, away from screens, working with purpose. It is inspiring to facilitate this engagement with climate action at an early age, in addition to all the opportunities for hands-on learning and work experience; their energy and enthusiasm can be fully expressed here.
+
+The actual planting wasn’t easy as some areas are quite steep, with heavy clay soil making things even harder. The ground was wet underfoot on the more level ground after the recent rain, but this ensures that the saplings will have plenty to drink to get them started. Despite the challenges, the volunteers had fun and did a great job over the three days.

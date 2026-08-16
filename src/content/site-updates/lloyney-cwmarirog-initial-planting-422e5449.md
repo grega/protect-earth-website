@@ -17,6 +17,4 @@ Together with the Radnorshire Wildlife Trust we helped the landowner design and 
 
 This shelterbelt comprises over 500 plants and will provide food and breeding habitat for a wide range of butterfly and bird species. In time the new trees will offer protection to the lake, making it more favourable to a wider variety of emergent plants, damselfly and dragonfly species.
 
-The shelterbelt – essentially a thick species-rich hedge – is over three metres wide and structured in three staggered rows to break up and disperse the strong prevailing winds. The rows consist of major broadleaf tree species, minor broadleaf tree species, and hedge plants. They are all hardy species that will thrive in the uplands as well as providing berries, nuts, fruits and sources of nectar to encourage wildlife.
-
-The species mix includes Sessile Oak, Rowan, Bird Cherry, Crab Apple, Blackthorn, Hazel, Holly, and Dog Rose all sourced from tree seeds of local provenance.
+The shelterbelt – essentially a thick species-rich hedge – is over three metres wide and structured in three staggered rows to break up and disperse the strong prevailing winds. The rows consist of major broadleaf tree species, minor broadleaf tree species, and hedge plants all sourced from tree seeds of local provenance. They are all hardy species that will thrive in the uplands as well as providing berries, nuts, fruits and sources of nectar to encourage wildlife.

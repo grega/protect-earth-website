@@ -13,8 +13,8 @@ photos:
   - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/793b459aaf45f314079eb82a1e8445f9c19808942eb08873e8406d1f0ac8af57.jpg"
 ---
 
-We recently returned to the site to plant 200 small-leaved lime trees that were missing from the original planting, and to replace around 2,000 saplings that did not survive the exceptionally intense summer heatwave and subsequent drought.
+We  returned to this farm to replace around 2,000 saplings that did not survive the exceptionally intense summer heatwave and subsequent drought this summer plus 200 small-leaved limes which were unobtainable last winter. The drought had a severe impact on the heavy clay soil, leaving it deeply cracked, with saplings dangling in the gaps. The ones that did survive was probably thanks for us returning to the farm in August with a water bowser to give them as much water as we could.
 
-The drought had a severe impact on the heavy clay soil, leaving it deeply cracked, with saplings dangling in the gaps.
+This time, to give the new saplings the best possible start, we also used mycorrhizal root dips to promote stronger root growth and help the trees access water more effectively, helping to increase their resilience to future heatwaves.
 
-To give the new saplings the best possible start, we also used mycorrhizal root dips to promote stronger root growth and help the trees access water more effectively, helping to increase their resilience to future heatwaves.
+The friendly landowner provided lunch for volunteers on all three days, as well as copious amounts of tea, coffee and biscuits. He also put out hay bundles in the barn so volunteers had shelter and somewhere to sit on their break which was very welcome.

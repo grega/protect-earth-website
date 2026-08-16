@@ -15,6 +15,6 @@ Protect Earth was contacted by another landowner nearby and asked to help with t
 
 Brynwichell Farm lies on the edge of the Cors Caranod Site of Special Scientific Interest. The landowner wanted to plant trees on many areas of the farm, primarily to do something proactive to contribute to tackling the climate crisis.
 
-With the aid of more willing volunteers Protect Earth helped the landowner plant native trees in scattered blocks that will extend existing areas of woodland and belts of trees. Then along the road we went to plan a further 150 trees on  the neighbour’s land!
+With the aid of more willing volunteers, Protect Earth helped the landowner plant native trees in scattered blocks that will extend existing areas of woodland and belts of trees. Then along the road we went to plan a further 150 trees on  the neighbour’s land!
 
-The site is already wonderfully rich in wildlife with sightings of Barn Owl and Otter reported! This additional tree planting will help to provide habitat for the declining Tree Pipit, Spotted Flycatcher and Willow Tit – which have also been recorded on the farm.
+The site is already wonderfully rich in wildlife with sightings of barn owls and otters reported! This additional tree planting will help to provide habitat for the declining tree pipit, spotted flycatcher and willow tit, all of which have also been recorded on the farm.

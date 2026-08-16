@@ -12,10 +12,11 @@ photos:
   - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/458fc71860cdd8dcc07cf85d512d19eab07c5fc66279f1673b18f108652beb8e.jpg"
   - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/bbea665aefecc4337d3dcd60e0b227283e2f7cd56f6f79ad1f10ef99d253bad2.jpg"
   - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/d67916c8af1cc742f812cd4831cf1dd08a562fd3291d8b3cb57f2810cda139eb.jpg"
+  - "../../assets/site-updates/hutton-rudby-survey-2025-d1bb6874/bcc77363ec34869f3a8b93cf98630739504998c9112498f204980bbc209e5713.jpg"
 ---
 
 The landowner was happy to carry out his own survey this year and was very pleased with the result. He estimates that at least 85% have survived, perhaps because of the damp conditions here.
 
-He is also able to carry out his own maintenance, straightening wonky stakes with a mallet after high winds. About a year ago he mowed the whole area so that the trees did not face undue competition.
+He is also able to carry out his own maintenance, straightening wonky stakes with a mallet after high winds. About a year ago he had the whole area mown so that the trees did not face undue competition.
 
-This year the trees are surrounded by thistles and nettles - being so close to the river the ground is very fertile - but with some of the trees out the top of the tubes he decided not to worry about it this year.  He has said that the number of butterflies now in evidence is amazing so biodiversity is on the rise here.
+This year the trees are surrounded by thistles and nettles - being so close to the river the ground is very fertile - but with some of the trees out the top of the tubes he decided not to worry about it for the time being as they seem to be doing well.  He has said that the number of butterflies now in evidence is amazing, so biodiversity is on the rise here.

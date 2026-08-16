@@ -16,8 +16,6 @@ photos:
 
 Protect Earth were delighted to contribute to the natural environment at this wonderful site, Warwickshire Lavender Farm, near Coventry.  Many thanks to our forestry consultants for this project, Lockhart Garratt, who provided the expert advice on surveying, tree species choice and woodland design.
 
-With a solid plan and amazing support from the landowner who helped us to move the trees and other equipment across the site, thirty volunteers worked over three days to make it happen.
-
-We  began by planting a species-rich native broadleaf woodland on 1.87 acres, consisting of oak, chestnut, hornbeam, small-leaved lime, wild cherry, whitebeam, wild service tree, holly, hazel, and field maple, before going on to plant the hedgerow.
+With a solid plan and amazing support from the landowner who helped us to move the trees and other equipment across the site, thirty volunteers worked over three days to make it happen. We  began by planting a species-rich native broadleaf woodland on 1.87 acres, consisting of oak, chestnut, hornbeam, small-leaved lime, wild cherry, whitebeam, wild service tree, holly, hazel, and field maple, before going on to plant the hedgerow.
 
 Everyone had fun despite the weather, and the landowners kept up our spirits with hot drinks and biscuits.

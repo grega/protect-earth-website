@@ -20,10 +20,8 @@ photos:
   - "../../assets/site-updates/haydon-bridge-survey-2025-83ca1bc7/21b885f97eff5628fbd2789cb41ffc1504226b40c1e1563f6e38f9146c0a023c.jpg"
 ---
 
-To keep mileage down, we sent local friend of the charity Oli Wood over to check out the state of things. Despite the long hot summer, we only lost 10% of the saplings this year. That’s 45 out of 470 in the top field and 25 from 250 in lower field.
+To keep mileage down, we sent a local friend of the charity to check out how our trees are getting on. Despite the long hot summer, we only lost 10% of the saplings this year. That’s 45 out of 470 in the top field and 25 from 250 in lower field.
 
-Both areas have been fenced off from the sheep with a wide margin to let natural regeneration take place and the landowners have also replaced dead trees with small saplings e.g. oaks, hawthorn and holly that they find growing in other parts of the field, and replant before the sheep get them.
+Both areas have been fenced off from the sheep with a wide margin to let natural regeneration take place and the landowners have also replaced dead trees with small saplings e.g. oaks, hawthorn and holly that they find growing in other parts of the field, and replant before the sheep get them. The alder like the damper area of the top field and the the landowners replanted a few willow in that section last autumn to fill any gaps.
 
-The alder like the damper area of the top field and the the landowners  replanted a few willow in that section last Autumn to fill any gaps.
-
-The landowners told us they have named the surprisingly tall and healthy oak sapling “Phil” in his honour, and it is now nearly 8ft tall!
+The landowners told us they have named the surprisingly tall and healthy oak sapling “Phil” in honour of our chairman, and it is now nearly 8ft tall!

@@ -3,6 +3,7 @@ title: "Low Fell Update and Survey 2026"
 notionId: "3bae7dc6-657c-804f-bf99-c789e2599c63"
 type: "Update"
 date: "2026-07-30T00:00:00.000Z"
+siteNotionId: "791633ca-a930-4a2b-9a71-56eaef0ac564"
 photos:
   - "../../assets/site-updates/low-fell-update-and-survey-2026-e2599c63/5a879f50b2d99ed798e051777cd3e10230bd7ddfe95197b6d77946108c220010.jpg"
   - "../../assets/site-updates/low-fell-update-and-survey-2026-e2599c63/5973cb25feb30d171d81a584f60da1341fec8e5a7ff92acc59638c1014dbd02c.jpg"

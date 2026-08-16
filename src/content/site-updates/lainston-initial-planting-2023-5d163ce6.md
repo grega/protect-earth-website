@@ -13,7 +13,6 @@ photos:
   - "../../assets/site-updates/lainston-initial-planting-2023-5d163ce6/0f46fd1e4526379e2225cc4271a6e1b2d6507335bc34249a4a1b9895435a2aa2.jpg"
   - "../../assets/site-updates/lainston-initial-planting-2023-5d163ce6/2663a082f05dfe7544abbd29ab803096ebbc110b5ef8b554507c190b2415f3f8.jpg"
   - "../../assets/site-updates/lainston-initial-planting-2023-5d163ce6/753ecc19b8822927fd7904e7113c8c02834f181c225b3a60e89e34c6f3404bf5.jpg"
-  - "../../assets/site-updates/lainston-initial-planting-2023-5d163ce6/7c1ae74338450dc8cdd73994b87ee3c1a77ae00158724454dd1f884f32c2a39a.jpg"
 ---
 
 In November 2023 we visited the Lainston House Hotel to create a woodland in their grounds. Joining us were a small group of corporate volunteers from Open GI Ltd., one of whom had got married at the hotel, and most of the hotel staff also helped, working in shifts, along with the tireless grounds staff who worked all day. The hotel provided an excellent lunch, much to the appreciation of everyone!

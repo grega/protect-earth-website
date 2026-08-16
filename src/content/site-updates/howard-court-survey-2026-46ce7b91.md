@@ -20,7 +20,7 @@ photos:
   - "../../assets/site-updates/howard-court-survey-2026-46ce7b91/7d94c92b26168b949c076556263a381a2ac13807f3dae6981d75dbf3975f0414.jpg"
 ---
 
-When our surveyor visited this site she was pleased to see the shelterbelt really taking shape, clearly revealing our planting plan. Interestingly, the leaning shelterbelt trees (see photos) clearly reflect the force and direction of the prevailing winds, echoing the more mature trees here. The trees have established very well with the silver birch doing particularly well.  The restock in 2024 has helped to boost survival rates, but a further restock would be beneficial to fill the gaps and support the overall planting plan, particularly in the woodland area where survival rates were only 77%,
+When our surveyor visited this site she was pleased to see the shelterbelt really taking shape, clearly revealing our planting plan. Interestingly, the leaning shelterbelt trees (see photos) clearly reflect the force and direction of the prevailing winds, echoing the more mature trees here. The trees have established very well with the silver birch doing particularly well. The restock in 2024 has helped to boost survival rates, but a further restock would be beneficial to fill the gaps and support the overall planting plan, particularly in the woodland area where survival rates were only 77%.
 
 The site beautifully integrates tree planting with passive rewilding, supporting a rich mix of native wildflowers and grasses alongside the trees. Wildflowers/native plants we spotted included yarrow, ragwort, willowherb, creeping thistle and dock. To mitigate vegetation encroachment and boost sapling establishment, mulching is recommended for the younger planting, especially if we restock this planting season.
 
