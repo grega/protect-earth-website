@@ -11,11 +11,10 @@ photos:
   - "../../assets/site-updates/saddleworth-springmere-planting-2022-44ae505e/58e6adfb76b02b1d585b4c72da616a7b5c7bc8e3eae946e215dd1e707bff365f.jpg"
 ---
 
-In February 2022 we spent a few days on one side of this valley planting at Springmere to create large shelterbelts as the site is very exposed and very wet in places. Tree species included Alder, Black Cherry, Oak, Crab Apple, Willow, Rowan and Downy Birch, for a total of 1050 trees. Additionally, we planted 950 shrubs, with species Blackthorn, Crab Apple, Hawthorn and Hazel.
-
+In February 2022 we spent a few days on one side of this valley planting at Springmere to create large shelterbelts as the site is very exposed and very wet in places.  We planted 1,050 trees and 950 shrubs, all sourced from seeds of local provenance.
 
 The trees were planted in groups of 5-10 at an average 2.5m spacing within staggered waving lines. Some were closer together and some further apart, with tight groups thinning to scattered shrub towards the edge of the woodland (the intention being to give the woodland a ‘natural’ look).
 
 Overhead powerlines cross the planting area so we were careful not to plant beneath them, and left a 3m buffer either side, to avoid problems in the future.
 
-All 2000 of the new shrubs were supported with spirals, canes, while the trees had guards and stakes. These protections will give everything the best chance of thriving.
+All of the shrubs were supported with spirals, canes, while the trees had guards and stakes to protect them.

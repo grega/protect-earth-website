@@ -6,6 +6,4 @@ siteNotionId: "ad96896e-eb8f-4357-8e37-9f55fba0267b"
 treesPlanted: 1195
 ---
 
-This farmer was very keen to increase biodiversity on his rather exposed farm near Bibury, Gloucestershire and already had several recently planting areas created with the help of others.
-
-Working in collaboration with our friends at The Farming and Wildlife Advisory Group, (FWAG South West)  we planted 1138 trees and shrubs to form a shelterbelt on this rather exposed property. In addition to providing a much needed windbreak, the shelterbelt will provide vital wildlife habitat and movement corridors through the landscape.
+Working in collaboration with our friends at The Farming and Wildlife Advisory Group, (FWAG South West)  who provide most of the volunteers we planted 1138 trees and shrubs to form a shelterbelt on this rather exposed property. In addition to providing a much needed windbreak, the shelterbelt will provide vital wildlife habitat and movement corridors through the landscape.

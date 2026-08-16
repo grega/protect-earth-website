@@ -13,6 +13,4 @@ photos:
 
 In February 2024 we helped the Farming and Wildlife Advisory Group (FWAG) plant new shelterbelts on this site, using equal numbers of 12 species of native trees.
 
-Species were as follows - 6 tall trees; Common Alder, Grey Alder, Aspen, Black Poplar, Hornbeam, Scots Pine, and 6 intermediate size trees; Bird Cherry, Rowan, Silver Birch, Field Maple, Crab Apple, Goat Willow.
-
 FWAG like to use a continuous membrane to suppress weeds rather than mulch mats or wood chippings. It is quick and easy to lay, and is very effective. The trees were planted by Phil with local volunteers found by FWAG and ourselves. As always, they were brilliant and worked really hard.

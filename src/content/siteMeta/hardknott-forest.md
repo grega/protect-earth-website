@@ -20,4 +20,3 @@ images:
   - >-
     ../../assets/sites/hardknott-forest/edb9110b61a519ac4a51c2409fa45fcfe968d38fce456daeec4a80c6cf8d8343.jpg
 ---
-

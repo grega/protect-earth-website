@@ -14,7 +14,7 @@ photos:
 
 In March 2024 Steve and Phil took a small group of volunteers to South Barrow, and planted 300 trees. The planting was funded by Ecologi, and the volunteers were made up of friends of Protect Earth and some of the Vegan Runners who came after finishing a parkrun! One family had missed out volunteering with us the previous week at Stawley, near Wellington, as we had finished a day early so they were thrilled when we invited them to come and help here instead. The landowner filmed some of the day using a drone.
 
-Tree species included Aspen, Hazel, Hornbeam, Oak, Rowan, Small Leaf Lime, Wild Cherry and Spindle. This site is very wet and it is hoped that the trees will help with that. All the saplings were protected with guards and stakes to give them the best possible chance of survival.
+This site is very wet and it is hoped that the trees will help with that. All the saplings were protected with guards and stakes to give them the best possible chance of survival.
 
 The volunteers were very enthusiastic about the project. Feedback after the event:
 

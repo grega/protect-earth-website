@@ -12,7 +12,7 @@ photos:
   - "../../assets/site-updates/coxbury-farm-8fb85dcb/ec357805273d4252645da84ea1b63fe4b65ff8c7087956eef244509753598e05.jpg"
 ---
 
-Working in partnership with the Farming and Wildlife Advisory Group (FWAG) Phil, John and Bryan led a group of volunteers to plant a shelterbelt on this farm. The weather was wet, but spirits were high, and everyone set to with a will.
+Working in partnership with the Farming and Wildlife Advisory Group (FWAG) our team led a group of volunteers to plant a shelterbelt on this farm. The weather was wet, but spirits were high, and everyone set to with a will.
 
 Shelterbelts are normally several rows of trees and shrubs forming a barrier to provide protection from the weather for crops and livestock which in turn increases productivity. It was decided that only trees were necessary for this particular shelterbelt. FWAG like to use a continuous membrane to suppress weeds rather than mulch mats or wood chippings. It is quick and easy to lay, and is very effective.
 

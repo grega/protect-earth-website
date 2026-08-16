@@ -13,6 +13,6 @@ photos:
 
 In November 2023, we planted a new wildlife corridor on land next to High Wood. The landowners are keen supporters of Protect Earth and even accept deliveries for us from time to time, so of course we were pleased to do a favour for them in return.
 
-Working alongside local volunteers and a brilliant group of students from Oakwood Specialist College in Torpoint  we planted 450 saplings, a mix of Hawthorn, Blackthorn, Hazel, Spindle and Crab Apple. This wildlife corridor is designed to provide food and shelter for birds, animals and other wildlife moving between High Wood and the surrounding land.
+Working alongside local volunteers and a brilliant group of students from Oakwood Specialist College in Torpoint  we planted 450 saplings. This wildlife corridor is designed to provide food and shelter for birds, animals and other wildlife moving between High Wood and the surrounding land.
 
 The students from Oakwood College have volunteered with us before at High Wood and were delighted to be involved again. A tutor from the college was really pleased that his students were able to help. “Thank you ever so much for yesterday, the staff and students that attended said that it was a brilliant day and they would certainly join again if the opportunity arose.” We. in turn, were pleased to give them the opportunity, as they are always so enthusiastic and keen to join in.

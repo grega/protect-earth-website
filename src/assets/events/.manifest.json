@@ -1,13 +1,32 @@
 {
-  "1992690510960": {
-    "slug": "guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960",
-    "markdown": "src/content/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960.md",
-    "thumbnail": "../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/9152b446f870.jpg",
+  "1998125398856": {
+    "slug": "scything-help-needed-beginners-welcome-bath-somerset-1998125398856",
+    "markdown": "src/content/events/scything-help-needed-beginners-welcome-bath-somerset-1998125398856.md",
+    "thumbnail": "../../assets/events/scything-help-needed-beginners-welcome-bath-somerset-1998125398856/5f5177470ffa.jpg",
     "mediaIds": [],
     "galleryImages": [
-      "../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/9152b446f870.jpg",
-      "../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/3ca071ea0bf8.jpg",
-      "../../assets/events/guided-nature-tour-at-warleigh-nature-reserve-near-bath-1992690510960/af051a55d369.jpg"
+      "../../assets/events/scything-help-needed-beginners-welcome-bath-somerset-1998125398856/5f5177470ffa.jpg",
+      "../../assets/events/scything-help-needed-beginners-welcome-bath-somerset-1998125398856/462d57189b86.jpg"
+    ]
+  },
+  "1998125399859": {
+    "slug": "scything-help-needed-beginners-welcome-bath-somerset-1998125399859",
+    "markdown": "src/content/events/scything-help-needed-beginners-welcome-bath-somerset-1998125399859.md",
+    "thumbnail": "../../assets/events/scything-help-needed-beginners-welcome-bath-somerset-1998125399859/5f5177470ffa.jpg",
+    "mediaIds": [],
+    "galleryImages": [
+      "../../assets/events/scything-help-needed-beginners-welcome-bath-somerset-1998125399859/5f5177470ffa.jpg",
+      "../../assets/events/scything-help-needed-beginners-welcome-bath-somerset-1998125399859/462d57189b86.jpg"
+    ]
+  },
+  "1997822057554": {
+    "slug": "beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554",
+    "markdown": "src/content/events/beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554.md",
+    "thumbnail": "../../assets/events/beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554/0c83965ab425.jpg",
+    "mediaIds": [],
+    "galleryImages": [
+      "../../assets/events/beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554/0c83965ab425.jpg",
+      "../../assets/events/beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554/2603d8384a7c.jpg"
     ]
   }
 }

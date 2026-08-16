@@ -11,7 +11,7 @@ photos:
   - "../../assets/site-updates/hutton-rudby-woodland-da9af067/3fc9ebc61998911a726d5e61b83b4eb251a90d983c36ae751ad9c88ecae40b94.jpg"
 ---
 
-We recently planted 1000 trees nearby at Great Ayton, so we hoped this could be the start of a landscape recovery joining up the dots between sites. We aimed for a high level of tree species diversity to maximise the area’s usefulness for wildlife.
+Protect Earth had recently planted 1000 trees nearby at Great Ayton, so we hoped this could be the start of a landscape recovery by joining up the dots between sites. We aimed for a high level of tree species diversity to maximise the area’s usefulness for wildlife.
 
 In total we planted 700 trees and shrubs here with the help of some very enthusiastic volunteers, including ten corporate volunteers from Reuseabox and one of their children, and also some local volunteers. We had expected to take two days but the volunteers worked exceptionally well together and we completed the job in one day!
 

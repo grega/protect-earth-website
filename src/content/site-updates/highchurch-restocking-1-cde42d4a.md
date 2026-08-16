@@ -11,7 +11,6 @@ photos:
   - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/70cdf7ef90a64696c4ff1bc6671e7ecae598aea0a888493946813816bfc783d8.jpg"
   - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/1db143cc5d2314cbae00161310c9ccd8d44625f589d913e04b56133a9371f330.jpg"
   - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/793b459aaf45f314079eb82a1e8445f9c19808942eb08873e8406d1f0ac8af57.jpg"
-  - "../../assets/site-updates/highchurch-restocking-1-cde42d4a/9ad38573e8578dbec9b4228ae0f152dbfac33eea9623d161a0e35c3babb47819.jpg"
 ---
 
 We recently returned to the site to plant 200 small-leaved lime trees that were missing from the original planting, and to replace around 2,000 saplings that did not survive the exceptionally intense summer heatwave and subsequent drought.

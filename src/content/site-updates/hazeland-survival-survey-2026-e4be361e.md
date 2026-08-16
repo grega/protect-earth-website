@@ -11,4 +11,6 @@ photos:
   - "../../assets/site-updates/hazeland-survival-survey-2026-e4be361e/9fa77c76d550db979cf8f3fc0f3971270d0f631a9b0a146f6e18eae46a13958d.jpg"
 ---
 
-Establishing trees here is tough due to dry, sandy soil. However, regular maintenance—including mulching, weeding, and restocking by Hazeland’s volunteer team—has delivered a fantastic 85% survival rate, showing exactly why consistent care matters. Photos provided by Tara.
+The soil here is particularly dry and sandy, making establishing trees here particularly difficult during an exceptionally hot and dry summer. However, regular maintenance including mulching, weeding, and restocking by Hazeland’s excellent volunteer team has delivered a fantastic 85% survival rate, showing exactly why consistent care matters.
+
+ Photos provided by Tara.

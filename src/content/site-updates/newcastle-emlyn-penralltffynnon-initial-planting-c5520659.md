@@ -13,6 +13,6 @@ photos:
 
 We went to this beautiful part of West Wales on a bright and sunny January day to plant 450 saplings. Although a relatively small planting for us, it remains important for biodiversity as the trees we plant here will link up with trees already existing here.
 
-We chose a mix of native trees with a Welsh seed provenance to ensure they had the best chance of survival . The species chosen were Alder, Aspen, Blackthorn,	 Crab Apple,	Downy Birch, Hazel, Sessile Oak, Rowan and Small-leaved Lime and we protected them with stakes and guards.
+We chose a mix of native trees with a Welsh seed provenance to ensure they had the best chance of survival and we protected them with stakes and guards.
 
 It wasn’t an easy day as there was a lot of bracken underfoot which made planting tricky, and compounded by the steep slope in one area moving around the site was treacherous at times, but we managed, and thanks to our amazing volunteers we completed the planting in one day.

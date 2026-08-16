@@ -7,7 +7,6 @@ siteNotionId: "8d4cfee7-7452-469c-ae76-d89d158628fc"
 treesPlanted: 5700
 photos:
   - "../../assets/site-updates/hitchin-ickleford-initial-planting-3768b37b/2056abba0a87f1bc578f6cd00e6ad7dc031855637431976ea0c72b13f9b26ff9.jpg"
-  - "../../assets/site-updates/hitchin-ickleford-initial-planting-3768b37b/e28e3b125b1d542f4175133254590cf31abdfc722b34419aacac32b6db274961.jpg"
   - "../../assets/site-updates/hitchin-ickleford-initial-planting-3768b37b/fefd58e90310cb9722de297ac30672c015963d405f54866ae778f88b626e1219.jpg"
   - "../../assets/site-updates/hitchin-ickleford-initial-planting-3768b37b/5ddb15be543554b5c207478c7463a3b8f88bb7b7bceaa5e3546e764a7497ce62.jpg"
   - "../../assets/site-updates/hitchin-ickleford-initial-planting-3768b37b/330447696d5fc12e8a78109ec70c7d7874065933b5d955b3e6ae9eff1be5368c.jpg"

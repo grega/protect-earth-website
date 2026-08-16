@@ -10,4 +10,6 @@ photos:
   - "../../assets/site-updates/hazeland-woodland-2-be1226fd/6f601e58fcb2da3e63a763698ae1aa0ac3285c06ccc6d56a4eb8d75319294924.jpg"
 ---
 
-Having planted trees here last year, we returned to help Avon Need Trees plant a further 900 saplings, this time in the upper paddock. We were lucky to have a dry day which was unseasonably warm, and some very hardworking volunteers, to get the job done.
+Having planted trees here last year, we returned to help Avon Need Trees plant a further 900 saplings, this time in the upper paddock. We were lucky to have a dry day, and some very hardworking volunteers, to get the job done.
+
+Native broadleaved trees and shrubs were planted with stakes and guards at irregular intervals to create this second woodland. To supress the grass and weeds, mulch was spread around the base of each sapling.

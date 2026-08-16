@@ -12,6 +12,6 @@ photos:
   - "../../assets/site-updates/haydon-bridge-woodland-d5354c3e/4363c5117218ccfd3cd6b7f80338f98e2b41a510494b1251b06849bb997ee59a.jpg"
 ---
 
-We had planned this as a a two-day event but we managed to complete the job in one day as we had a good turnout of volunteers.  We planted the trees and shrubs in three areas of varying size across the site. There were some small areas of semi-natural ancient woodland nearby so this planting helped to link some of them. Perhaps this volunteer describes the day best; the flapjack handmade by the landowners certainly made an impression!
+We had planned this as a two-day event but we managed to complete the job in one day as we had a good turnout of volunteers.  We planted the trees and shrubs in three areas of varying size across the site. There were some small areas of semi-natural ancient woodland nearby so this planting helped to link some of them. Perhaps this volunteer describes the day best; the flapjack handmade by the landowners certainly made an impression!
 
  “Everything went well.  Info email allowed me to find the event and there was a flag outside to inform me that I was at the right place. Those running the event were very welcoming and explained the tasks clearly for a complete novice.  The weather stayed good, all the volunteers worked well, there was coffee and FLAPJACK so we got all the tasks done within a day.”

@@ -11,4 +11,4 @@ photos:
   - "../../assets/site-updates/south-molton-hedgerow-planting-2026-take-2-3107d0db/804fbf450139c62940e6d74dd9b10f62f2034b1fabd3f8127f61a736f0aabfe4.jpg"
 ---
 
-We returned to South Molton to finish planting the hedgerow, wondering how many volunteers would turn up this time. We needn’t have worried. Kathy had put out an urgent appeal on local Facebook pages and the local people rallied round, including a local nature group and the amazing team from North Devon Recycling Centres run by SUEZ.
+We returned to South Molton to finish planting the hedgerow, wondering how many volunteers would turn up this time. We needn’t have worried. We put out an urgent appeal on local Facebook pages and the local people rallied round, including a local nature group and the amazing team from North Devon Recycling Centres run by SUEZ.

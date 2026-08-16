@@ -14,7 +14,7 @@ photos:
   - "../../assets/site-updates/hawling-christian-initial-planting-5f02a5be/771c9b00d7bb9dc893e833261763c36ebfbbc4bd3666212f71b09645816ce2d7.jpg"
 ---
 
-This farmer was very keen to plant trees on an unused field, but we had to be careful because there was an an archaeological site, and some underground electric cables running across the field. Once we were satisfied that we knew exactly where everything was were able to mark out where the trees had to go.
+This farmer was very keen to plant trees on an unused field, but we had to be careful because there was an an archaeological site, and some underground electric cables running across the field. Once we were satisfied that we knew exactly where everything was we were able to mark out where the trees had to go.
 
 This was our first planting of the season and we were raring to go. Fortunately, our volunteers were enthusiastic too, especially our younger volunteers, who had a wonderful time. Involving children in planting trees hopefully teaches them about about the importance of caring for our planet in a practical way. Their parents were already leading them in the right direction, of course, as most of our volunteers are very environmentally friendly.
 

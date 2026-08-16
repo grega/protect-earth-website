@@ -6,15 +6,17 @@ date: "2026-07-19T00:00:00.000Z"
 siteNotionId: "daa5b909-c272-461a-a934-38dadd33afe2"
 survivalRate: 0.866
 photos:
-  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/3f5969611e250a2060534dc797d81acddc2a0b22a73871c7af1922a33f206349.jpg"
-  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/feae44ad25f11b97375024c22fa0918e3e78bdad257d74caa217c8e3b8b0c583.jpg"
-  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/1d321099b57d4285a78bf77832ca752b4e294fe7bf82c34324def8f5045e853b.jpg"
-  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/6c405db30d12ee2a4d5d964ba1956f569d38a1ddff68803a5146f7b448d39962.jpg"
-  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/80429189b0bbc2eb0b54e8ecc559964d45ac919c9095c9452b2fce673d400e54.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/254a44526d25f0177813cd5ee7e5464a2905e083ac28d32493f2adb80c8166fd.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/6db314af2a9c985cf256a15fcf6f52dbb98cf407c535260f05310a28a265d1b2.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/6d1f0ab614dee6c2e5af24f571f7d02ef2f6db67002fe9bb6b5c7d081b8602da.jpg"
   - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/256f542c955d3fd8c4d1c084e7c65788963332dad4476c23704a4c504f64d07c.jpg"
-  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/a611826fce36d0dd8673707223493193f332e0142452ebd5ee74b4a3a1ef8bf1.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/87aa011e9453531db4e24d7dc6149ef759e577224d0667eda3c7d426b68065e7.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/899b17ac9a43e365294dcd1dd1e948992536bef8e9fc11cfab056765ef7cfeda.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/fb865ae95c65f72b26f7f9eb8bd51c3b77ef8ab287ba2558446a12cdcf5b5285.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/abb56a807be2f1268d74be597ca90b0f19581b383bd5a9df63522bf774b54a99.jpg"
+  - "../../assets/site-updates/hawling-christian-survival-survey-2026-a067b8ca/3516d33b5844a1b98ae0aaf05eb09ac2fa28d4b6db7527268e2bb3f557341401.jpg"
 ---
 
-We returned to Hawling in July 2026 to carry out a survival survey, and found around 89% of trees had survived.  All were very healthy looking trees, with no sign of livestock entering the field. We noted an additional amazing natural regeneration of blackthorn.
+We returned to Hawling in July 2026 to carry out a survival survey, and found around 86.6% of trees had survived.  All  the saplings were very healthy looking trees, and the rowan had plenty of berries. We also noted an additional amazing suckering of blackthorn spreading from a nearby thicket to join the party. Long grass and field bindweed are in evidence, but do not seem to be causing too much of a problem at the moment.
 
- Hawling is very flat so rainwater doesn’t run off the land, a big help in the Cotswolds because of the soil type. Most of the region sits on a "brashy" soil. This is a thin, alkaline soil full of limestone fragments. It drains very quickly and can be difficult to dig. Because it is shallow, it warms up fast in the Spring but can dry out rapidly during a hot Summer. Their survival rate after this excessively hot, dry Summer would suggest that these four-year-old saplings have managed to develop a good root system already.
+Their survival rate after this excessively hot, dry summer would suggest that these four-year-old saplings have managed to develop a good root system already.

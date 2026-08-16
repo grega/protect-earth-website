@@ -16,7 +16,7 @@ photos:
   - "../../assets/site-updates/eastcourt-shelterbelt-initial-planting-79cab227/8054c25988239424bf3400f72ac28dfa22b64034f2260735b1bf5d4bb67e3e0a.jpg"
 ---
 
-Steve and Phil led the day together, with Steve demonstrating the way we prefer to plant our saplings and running through a safety briefing. We had two groups of volunteers on Saturday, a corporate group from Uddenholm, Birmingham and a group of Vegan Runners based in Bristol who even went for a run first! Daisy Brasington came along to take lots of photos of the day for us and Kathy, who usually works behind the scenes, came to lend a hand too.
+Our team led the day, first by demonstrating the way we prefer to plant our saplings and then running through a safety briefing. We had two groups of volunteers on Saturday, a corporate group from Uddenholm, Birmingham and a group of Vegan Runners based in Bristol who even went for a run first! Daisy Brasington came along to take lots of photos of the day for us and Kathy, who usually works behind the scenes, came to lend a hand too.
 
 The weather, although chilly, was sunny and bright so the volunteers enjoyed a picnic in the field at lunchtime. There was a certain amount of friendly rivalry between the two groups which was good fun, and the longer shelterbelt in the first field was completed on the first day.
 

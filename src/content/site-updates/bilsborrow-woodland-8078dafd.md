@@ -13,6 +13,6 @@ photos:
 
 The Woodland Trust delivered forty 60cm whips in advance of the planting along with tree shelters: 1925 trees and shrubs were planted in PVC spiral shelters secured with canes, with 50 Scots Pine in staked 0.75m mesh guards, and 25 Holly in staked 0.75m tubex shrub shelters.
 
-Led by Phil, an everchanging army of volunteers spent four rather noisy days planting 2000 trees to create a shelterbelt to screen this farm from the M6. Shelterbelt planting design incorporates planting in rows, with shrub species planted on the outside, planting the larger species in weaving rows towards the centre of the belt, providing shelter and shade to wildlife using it as a corridor.
+Led by our team an everchanging army of volunteers spent four rather noisy days planting 2000 trees to create a shelterbelt to screen this farm from the M6. Shelterbelt planting design incorporates planting in rows, with shrub species planted on the outside, planting the larger species in weaving rows towards the centre of the belt, providing shelter and shade to wildlife using it as a corridor.
 
 The trees are spaced at random with tight groups thinning to scattered shrub towards the edge of the woodland, with the intention being to give the woodland a 'natural' look.
