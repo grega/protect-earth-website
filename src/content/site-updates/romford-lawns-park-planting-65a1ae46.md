@@ -13,6 +13,6 @@ photos:
 
 Havering Borough Council enjoyed our support on their previous site so asked us for our help again. They wanted to plant a massive 14,000 trees to create a few miniforests in a nearby park that was otherwise devoid of shade and wildlife.
 
-This time, we left the council employees and local people to spend a week in March planting all of these mixed broadleaved saplings.
+This time, we ordered their trees and arranged delivery, then left the council employees and local people to spend a week in March planting all of these mixed broadleaved saplings.
 
 These miniforests will encourage quick growth from all the saplings as they jostle for light, creating a dense thicket of habitat for birds, mammals and invertebrates, greatly improving biodiversity in a rather barren area. As the trees grow they will cool the air passing through it which will benefit the nearby homes in the more regular intense summers we are now experiencing.

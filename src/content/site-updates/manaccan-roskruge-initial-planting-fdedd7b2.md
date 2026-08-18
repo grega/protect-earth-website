@@ -16,7 +16,7 @@ photos:
 
 The landowner here was incredibly welcoming, even going to far as to offer free overnight accommodation for volunteers for up to three nights so that people could volunteer on one day and also have a short holiday. Free meals were also provided to those volunteering on that day.
 
-We planted 90% trees and 10% shrubs over a 1.38 hectare site in groups of 8-10 species clusters with some small clearings to allow for regeneration. Alder and Aspen were planted in the wetter areas with Goat Willow on the periphery, and Sweet Chestnut and Small-leaved Lime throughout the drier areas with Rowan and Wych Elm on the edges. Oaks were planted throughout the site.
+We planted 90% trees and 10% shrubs over a 1.38 hectare site in groups of 8-10 species clusters with some small clearings to allow for regeneration. Alder and aspen were planted in the wetter areas with goat willow on the periphery, and the other species were planted in the drier areas and on the edges. Oaks were planted throughout the site.
 
 Disappointingly, not all our volunteers turned up, but with the landowner’s friends and family, and our volunteers who did turn up, we were still able to finish in good time on the second day.
 

@@ -4,11 +4,13 @@ notionId: "327e7dc6-657c-80de-a158-f746d3153540"
 type: "Hedge Planting"
 date: "2026-03-07T00:00:00.000Z"
 siteNotionId: "332d699e-85cb-4d5f-816b-7d08d4180544"
-treesRestocked: 800
+treesRestocked: 400
 photos:
   - "../../assets/site-updates/south-molton-hedgerow-2-take-1-d3153540/ea0fdbeb42a246fa1348913b40fa14b1e3d0650d36c63ef204f16baea2cf196a.jpg"
   - "../../assets/site-updates/south-molton-hedgerow-2-take-1-d3153540/9b556ccee7dd1b758f018230d10ed4e4cb396a3524a0f908d8c64dc30426fe02.jpg"
   - "../../assets/site-updates/south-molton-hedgerow-2-take-1-d3153540/87e532d3adfdff4e7a324030620158f4bd2eea6d55b5d0b5cc40fec7a90e8f6e.jpg"
+  - "../../assets/site-updates/south-molton-hedgerow-2-take-1-d3153540/078f2025c0b42d7c6453ddb7aa2d8c84a5f659f216ad29b3c1e53ecbd35c961f.jpg"
+  - "../../assets/site-updates/south-molton-hedgerow-2-take-1-d3153540/804fbf450139c62940e6d74dd9b10f62f2034b1fabd3f8127f61a736f0aabfe4.jpg"
 ---
 
 Friday 6th and Saturday 7th of March 2026, we set about planting this hedgerow, with 11 volunteers signed up for Friday and 27 signed up for Saturday. For entirely unknown reasons we had the worst turnout of volunteers we've ever had, with only 7 of 11 on Friday (reasonable) and 4 of 27 on Saturday, two of which were children.

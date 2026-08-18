@@ -11,6 +11,8 @@ photos:
   - "../../assets/site-updates/tiverton-shillingford-initial-planting-4d5764da/59bfb0f18c2f360b372c1cf7fa8a69fcdf5c1e1eef939b6493dee6658c9252d4.jpg"
 ---
 
-On this farm we planned for a small woodland and hedgerow. The woodland consisted of 379 trees in a 0.25 hectare so trees needed to be planted a little closer than we normally would. With the help of local volunteers we planted belts of the same species with random spacing for a more natural look, then planted some shrubs in tight groups of the same species.
+For this farm we planned a small woodland and hedgerow. The woodland consisted of 379 trees in a 0.25 hectare so trees needed to be planted a little closer than we normally would. With the help of local volunteers we planted belts of the same species with random spacing for a more natural look, then planted some shrubs in tight groups of the same species.
 
-We were lucky to get dry weather for this planting, but the ground was very wet underfoot. The tree roots with help to suck up some of this excess moisture which will improve the soil for farming.
+We were lucky to get dry weather for this planting, but the ground was very wet underfoot. The tree roots will help to suck up some of this excess moisture which will improve the soil for farming.
+
+The volunteers enjoyed their day. When asked what they had liked about volunteering with Protect Earth they said they enjoyed being trusted with tasks, that they were not just asked to do menial things and that they felt part of the team.

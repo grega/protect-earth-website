@@ -13,3 +13,6 @@ photos:
   - "../../assets/site-updates/liskeard-pengover-farm-survey-2026-3b84ff98/f3a03e8f3c5fa2020bd1066cf10288dc485fe217b158cef79478cab65d04e1d6.jpg"
 ---
 
+Our site managers at nearby High Wood, carried out our scheduled survival survey here at this local farm. Overall they found a 66% survival rate, which is a 4% drop from last year and rather disappointing. The site had had plenty of rain, including on the day of the survey.  Those trees which have survived are growing strongly and are much taller than their guards now.
+
+We will need to plan a restock here in due course.

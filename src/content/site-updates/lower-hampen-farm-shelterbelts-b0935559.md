@@ -10,3 +10,4 @@ photos:
   - "../../assets/site-updates/lower-hampen-farm-shelterbelts-b0935559/0686923a6dd7814ee200fbbdaab1a88542d9b8344565f440d4a87d724f1722c2.jpg"
 ---
 
+Together with our friends from FWAG South West and some hardy volunteers we visited Lower Hampden Farm in February 2021 to plant 1300 trees, creating shelterbelts for the site. Watched by some curious sheep, we planted a  variety of trees, creating native habitat and wildlife corridors that will develop in the years to come. The weather was overcast, and it was very wet and muddy underfoot, but everyone was committed and we got all the trees planted in good order. These were protected with stakes and guards, to give them the best possible chance to thrive.

@@ -17,4 +17,4 @@ The trees were planted in groups of 5-10 at an average 2.5m spacing within stagg
 
 Overhead powerlines cross the planting area so we were careful not to plant beneath them, and left a 3m buffer either side, to avoid problems in the future.
 
-All of the shrubs were supported with spirals, canes, while the trees had guards and stakes to protect them.
+All of the shrubs were supported with spirals and canes, while the trees had guards and stakes to protect them.

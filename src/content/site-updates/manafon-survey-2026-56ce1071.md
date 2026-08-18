@@ -18,7 +18,7 @@ photos:
   - "../../assets/site-updates/manafon-survey-2026-56ce1071/0d922bdba5f0f82ff7a056e2c5fc55f3ab07cc21958855ae4c2a412aed96d191.jpg"
 ---
 
-This site in mid-Wales was greener than most of our sites in England, thanks to some occasional rainfall. This probably contributed to the 76.7% survival rate.
+This site in mid-Wales was greener than most of our sites in England, thanks to some occasional rainfall this summer. This probably contributed to the 76.7% survival rate.
 
 When our surveyor inspected the lower field he found that survival rates for these younger saplings ranged from 62.5% in one area to 100% in another, with the trees in the wire guards being less successful than those in the recyclable guards. The trees planted the year previously in the upper field had a more consistent survival rate with a lot of trees in the flat area of the upper field growing well and over-topping their guards.
 

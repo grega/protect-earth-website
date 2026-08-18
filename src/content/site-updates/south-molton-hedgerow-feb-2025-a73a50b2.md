@@ -12,11 +12,12 @@ photos:
   - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/a2f4fca0b0a14f5181919592113eb12d7e1dea46fa6971218121d222c2b43a20.jpg"
   - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/0e9ccb967a631903188f65dc75b4707a811d1b6a492aa0e0fbe0d7e5e791fdb3.jpg"
   - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/0437c7cc4d456845c3dc07959cd0f52b12acf9dba307a3f465b6e58d266d2b39.jpg"
-  - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/718984b9622bad36027abe667683dd7e6a59964d39f62fba303cfad45a2e84aa.jpg"
-  - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/d8b2c942e7191826bc9d619798c10ceaed22deaa00ed0baf7bddf7be9361d6ae.jpg"
+  - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/788d6da2366daf8c35fa0069d335dfa00ab6721d95d32d3d608923aad81a4111.jpg"
+  - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/d623ab622e52a06627ddb66e8558276f57e0fd8014f368f524960355d790ea5b.jpg"
+  - "../../assets/site-updates/south-molton-hedgerow-feb-2025-a73a50b2/c84d3e46cfbb3fd7217ece7600a64efc70cff4736c4ddaa54eda89565eec9079.jpg"
 ---
 
-In February 2025 we made a return visit to the South Molton site to put in some hedgerow. Hedgerows will be very useful to keep horses and sheep in place when they are bigger, as well as providing shade for them. They are also wonderful for wildlife, providing food and shelter, and a safe corridor in which to move around.
+In February 2025 we made a return visit to the South Molton site to put in some hedgerow. Hedgerows will be very useful to keep horses and sheep in place when they are bigger, as well as providing shade for them. We planted hedge species typically found in this part of Devon, which now connect up areas of existing woodland which we enhanced with more oak, rowan and hornbeam. All the species planted will provide food and nesting habitat for a wide range of wildlife found in this wooded valley on the edge of Exmoor.
 
 For this project we were joined by a group of corporate volunteers from CVS Vets. Rather than all coming at once, around twelve of the staff came on each day, some with their children, as someone had to be available if any local animals became ill.  In total, we planted 2,375 trees, creating much needed habitat on the site.
 

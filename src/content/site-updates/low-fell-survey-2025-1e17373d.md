@@ -17,8 +17,8 @@ photos:
   - "../../assets/site-updates/low-fell-survey-2025-1e17373d/9a47b584d0fae2aae94050844093bc872aba9c8f66e7aedd7d898aa893d5dade.jpg"
 ---
 
-The landowners checked the saplings after the earlier drought, and most of the trees were fine. There was some drought shock, but a lot of them have been re-growing from the roots in previous years and there’s reason to believe these few that were struggling will do the same. Most of them seemed to be doing well but with the bracken so high in summer checks will need to be done in early Spring.
+The landowners checked the saplings after the earlier drought, and most of the trees were fine. There was some drought shock, but a lot of them have been re-growing from the roots in previous years and there’s reason to believe these few that were struggling will do the same. Most of them seemed to be doing well but with the bracken so high in summer checks will need to be done in early spring.
 
-When we went to check them  in July we found the vegetation extremely thick. We fought our way through the wet bracken but it was impossible to find anything in this huge valley, and getting around it was even harder. As it was so wet and difficult to access we decided to come back and search another day.
+When we went to check them in July we found the vegetation extremely thick. We fought our way through the wet bracken but it was impossible to find anything in this huge valley, and getting around it was even harder. As it was so wet and difficult to access we decided to come back and search another day.
 
 The team returned in September and found only five dead cell-grown aspen that had been planted in the grass, which had evidently dried out more than the bracken area. These were the only dead trees we saw. Other trees growing amongst the bracken that had been drought stressed and dropped their leaves still had live stems, and a number had sprouted new growth from the base.

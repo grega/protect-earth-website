@@ -28,4 +28,4 @@ Early maintenance issues were identified, including cardboard guards that had co
 
 Despite the establishment challenges, the site is already showing encouraging ecological activity. Observations included butterflies, bees, ladybirds, European hornets and a range of aquatic insects, indicating developing habitat value.
 
-The planting area sits adjacent to ancient woodland, so open space has been retained along the boundary to support natural regeneration. Significant numbers of Blackthorn were also included in the scheme as a key food-plant for the rare Brown Hairstreak Butterfly, which is known to occur in the wider area.
+The planting area sits adjacent to ancient woodland, so open space has been retained along the boundary to support natural regeneration.

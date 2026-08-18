@@ -15,10 +15,10 @@ photos:
   - "../../assets/site-updates/south-lodge-planting-2023-fe033da7/86bc531942118c2da10df4e958e08cd6f3ce2d2bc762d32b410199e6e519ba08.jpg"
 ---
 
-In March 2023 we visited South Lodge Hotel with a large group of volunteers  who were clients of Ecologi,  who  funded this project, as well as staff from  the hotel itself. Some stayed overnight at the hotel and helped us on both days. In total we planted 1510 new trees. The work party was well fitted with equipment, the hotel provided an excellent lunch, and we had the pleasure of Caroline Lucas, leader of the Green Party, coming to see our work and give a speech.
+In March 2023 we visited South Lodge Hotel with a large group of volunteers, mainly clients of Ecologi who funded this project, as well as staff from the hotel itself. Some stayed overnight at the hotel and helped us on both days. In total we planted 1510 new trees. The hotel provided an excellent lunch, and we had the pleasure of Caroline Lucas, leader of the Green Party, coming to see our work and give a speech.
 
-In order to link up some pre-existing woodland in the area, we planted Alder, Aspen and Willow in wetter areas, with Oak and Beech planted throughout. We also planted shrubs around the edges of the planting and around glade edges and clearings. The site is in a priority area for Brown Hairstreak so we made sure to include Blackthorn in the planting mix– the caterpillar’s food-plant – in an attempt to attract this rare species.
+In order to link up some pre-existing woodland in the area, we planted alder, aspen and willow in wetter areas, with oak and beech planted throughout. We also planted shrubs around the edges of the planting and around glade edges and clearings. We made sure to include blackthorn in the planting mix– the brown hairstreak caterpillar’s food-plant – in an attempt to attract this rare species.
 
 Trees were planted as bare rooted 40-60cm whips  in clusters of the same species, randomly spaced. and were protected with 1.2m stakes, and cardboard guards. Shrubs were protected with 75cm shrub guards and stakes. Random gaps were left to provide open areas in the woodland.
 
-A big thank you to everyone who came out over the weekend, we had around 70 volunteers in all and some great work was carried out by all. We even managed to finish early!
+A big thank you to everyone who came out over the weekend. We had around 70 volunteers in all and some great work was carried out by all. Everyone had a lot of fun, and we even managed to finish early!

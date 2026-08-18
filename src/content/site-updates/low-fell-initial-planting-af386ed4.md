@@ -6,9 +6,9 @@ date: "2024-11-30T00:00:00.000Z"
 siteNotionId: "791633ca-a930-4a2b-9a71-56eaef0ac564"
 treesPlanted: 10000
 photos:
-  - "../../assets/site-updates/low-fell-initial-planting-af386ed4/470f78be8b7c800dcf409a7c821f1913254f7f61d116a678ac38819a2edd7270.jpg"
   - "../../assets/site-updates/low-fell-initial-planting-af386ed4/9baed999afde16a05370aa7856fd4fcf8617b9806d26e5aebb22d90d7dba3888.jpg"
-  - "../../assets/site-updates/low-fell-initial-planting-af386ed4/014dd98b92268ec4023c5213f5c8da7295b914e19ef780fce952ea00dda1a940.jpg"
+  - "../../assets/site-updates/low-fell-initial-planting-af386ed4/bf9e3ba967f8241a378d96178c32f197020b13c7f694592de23164f1d4ccc82f.jpg"
+  - "../../assets/site-updates/low-fell-initial-planting-af386ed4/a6ef4f941e7282ef4cafdf22e691851aad24e3ffe6585a95f75dc0f24a12ce06.jpg"
 ---
 
 Low Fell is a huge and fascinating woodland creation project in the spectacular Lake District of northwest England. Large swathes of these northern hills were once wooded before intense grazing pressures altered the natural woodland cycle of this area. The current state of the land is very poor for agriculture; overgrazed, upland hill country, that should be covered in a variety of hardy native broadleaf trees and shrubs but has been over grazed. It's currently an ecologically degraded and botanically poor ecosystem dominated by a limited number of grass and rush species and bracken.

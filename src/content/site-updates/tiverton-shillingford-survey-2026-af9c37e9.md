@@ -18,8 +18,8 @@ photos:
   - "../../assets/site-updates/tiverton-shillingford-survey-2026-af9c37e9/7bd51b64570a6dc7e7a29cd7afdca125aaf73cadd062eed4f39370d07d98e5ee.jpg"
 ---
 
-This site was looking really good when we went to visit, with only four dead saplings in the hedgerow and a 95% survival rate across the whole site despite Devon having had the driest July since 1871. They did at least get more rain in June than most of the south-west.
+This site was looking really good when we went to visit, with only four dead saplings in the hedgerow and a 95% survival rate across the whole site despite Devon having had the driest July since 1871.
 
 A majority of the original trees have now grown well above the tops of the guards and even the new saplings planted last winter seem healthy. The landowners are really please with how well this project is going, and are happy to carry out basic maintenance when needed, especially straightening stakes and guards, and they asked us for further guidance.
 
-We did find mice nests inside four of the guards. It is important to make sure guards go right down to the ground, but it’s hard to prevent mice getting inside entirely. We also saw indications of foxes, hedgehops and birds of prey visiting the site.
+We did find mice nests inside four of the guards. It is important to make sure guards go right down to the ground, but it’s hard to prevent mice getting inside entirely. We also saw indications of foxes, hedgehogs and birds of prey visiting the site.

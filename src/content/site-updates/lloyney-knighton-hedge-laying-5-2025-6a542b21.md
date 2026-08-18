@@ -13,7 +13,7 @@ photos:
   - "../../assets/site-updates/lloyney-knighton-hedge-laying-5-2025-6a542b21/624dc24d7c16ddbf6254dffa93c37801594bae210e71a479546d68215066c068.jpg"
 ---
 
-We held a  hedge laying training day at our Goytre site this December, one of a series this Winter and last, and were lucky enough to enjoy another crisp winter’s day with sunshine, light winds, and only a brief rain shower as we were packing up. The group quickly settled into the work after lunch, and by then, spirits were high, and everyone had grasped the fundamentals.
+We held a  hedge laying training day at our Goytre site this December, one of a series this winter and last, and were lucky enough to enjoy another crisp winter’s day with sunshine, light winds, and only a brief rain shower as we were packing up. The group quickly settled into the work after lunch, and by then, spirits were high, and everyone had grasped the fundamentals.
 
 Our course lead, John, began by explaining the purpose and principles of hedge laying, creating a dense, rejuvenated barrier that improves biodiversity, stock-proofing, and long-term hedge health.
 

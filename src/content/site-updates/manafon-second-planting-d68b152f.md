@@ -11,10 +11,10 @@ photos:
   - "../../assets/site-updates/manafon-second-planting-d68b152f/f5c5b4177ecb2d16bd9afdadc8efba924c2df70ac402ec7fda5440abf52b6e55.jpg"
 ---
 
-We returned to this site to plant the more difficult sloping field with a wide variety of tree species. The trees arrived several days in advance which was a relief, and was delivered directly to the site this time. Not all suppliers will deliver to a What3Words address which is understandable.
+We returned to this site to plant the more difficult sloping field with a wide variety of tree species. The trees arrived several days in advance which was a relief, and was delivered directly to the site this time. Not all suppliers will deliver to a What3Words address, which is understandable.
 
-We had a much better turnout of volunteers this time, and most of the team came too. Kathy, our events coordinator came to ferry the volunteers from the car park to the planting site and back. The loose sheep in the road soon learnt to ignore her as she edged passed them on the narrow road multiple times in her car.
+We had a much better turnout of volunteers this time, and most of the team came too. Our events coordinator came to ferry the volunteers from the car park to the planting site and back. The loose sheep in the road soon learnt to ignore her as she edged passed them on the narrow road multiple times in her car. The weather stayed dry and all the trees were planted by mid afternoon, so everyone was able to go home early.
 
-The weather stayed dry and all the trees were planted by mid afternoon, so everyone was able to go home early.
+It was good to see a variety of birds with species such as great-spotted woodpecker, buzzard, greenfinch and goldfinch noted during planting.
 
 The landowners were very pleased with everything. “The deliveries went very well - it was such a relief to have them go straight to site.  This made things much easier for us. We were grateful for your team providing the refreshments and toilet facilities.  And of course for finding the volunteers - we spoke with most of them and they were all very nice and had made a big effort to come and help - which was quite amazing.  And also a big thank you to your team for all of your hard work over the weekend and the preparations leading up to the planting.”

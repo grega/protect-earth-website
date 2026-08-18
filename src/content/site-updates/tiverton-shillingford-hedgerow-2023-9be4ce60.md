@@ -14,6 +14,6 @@ photos:
   - "../../assets/site-updates/tiverton-shillingford-hedgerow-2023-9be4ce60/5ee0eb5b0d1118562b4383444961134a06eb5d3a330c8673c38ba663bf7e3947.jpg"
 ---
 
-This farm already has sections of ancient woodland thriving, so our goal was to link these up and expand the habitat.
+This farm already has sections of ancient woodland thriving, so our goal was to link these up and expand the habitat for wildlife,
 
-Accompanied by local volunteers we visited Shillingford on a sunny but cold weekend in January and and met some very friendly pigs!  The previous day we had planted a small woodland so today we planted 600 trees and shrubs, 5 plants per metre, planted in a staggered double row, to form a hedgerow roughly 150m long which will grow into a fantastic wildlife corridor in years to come.
+On our second sunny, but cold, day of the weekend we planted 600 trees and shrubs with the help of some local volunteers.  We planted five saplings per metre, placed in a staggered double row, to form a hedgerow roughly 150m long, watched closely by some curious pigs. This hedgerow will grow into a fantastic wildlife corridor in years to come, and the pigs will appreciate the shelter it provides too.

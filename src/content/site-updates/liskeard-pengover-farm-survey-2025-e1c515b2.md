@@ -6,6 +6,7 @@ date: "2025-08-18T00:00:00.000Z"
 siteNotionId: "adc6f527-3a12-4b08-b1d3-fa90d8568443"
 survivalRate: 0.7
 photos:
+  - "../../assets/site-updates/liskeard-pengover-farm-survey-2025-e1c515b2/d5418b6629d58d9ac7f0da0a7cea29d941fe64183ebe97400845cb9fadcacb18.jpg"
   - "../../assets/site-updates/liskeard-pengover-farm-survey-2025-e1c515b2/6263be867c791f642c29a022c331bfd9559f79fb65b9286b9191caf7c4ff0484.jpg"
   - "../../assets/site-updates/liskeard-pengover-farm-survey-2025-e1c515b2/d70fdeff86d9adc9040bd908355533c25b53d08e67dee5e49da4c289789d7221.jpg"
   - "../../assets/site-updates/liskeard-pengover-farm-survey-2025-e1c515b2/137ce7a744cd505df2f41d64d70255cd6b1e630cead13c17656b2df56d341ba2.jpg"

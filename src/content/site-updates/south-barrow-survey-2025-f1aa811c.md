@@ -7,11 +7,13 @@ siteNotionId: "375e28cc-19ee-4f89-8ad1-a6afc614a3fe"
 survivalRate: 0.5
 photos:
   - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/f9935c6c8982d436a988cfe0d8a270098bcbccc16683af16a2d0391556784d08.jpg"
-  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/a9b3d347e9c0924e41f985378c6cadc23315e61d4fb6e9d69c9d2930b6a331e2.jpg"
-  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/90ac567384560956590328da629f827d2c8ce0d18d3a7b60b6fad74fd6e053f1.jpg"
-  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/3e68f7cd12226091a146b0bf5c64d1322368222ef8d6a25774bdc9e3373a7d54.jpg"
-  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/3b76b2453f2299dc5a27ef17f9a4285e655cd7d76bf10a59a8671d54b5319341.jpg"
-  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/594a681d9c2dae2a9650ef3f62fae08d03b53008c39b4e25c81609b0922cb9ea.jpg"
-  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/f74b81dba8ca9546a6573f8bc0f203f9eb8ffd8bf24cedaf5c93e40a56def888.jpg"
+  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/4a6364c8aa113bca4be7be213cdb47b961657a4b318b831f595aaf8d773a9acc.jpg"
+  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/3b5203f93dee79e94de351badf79ab012a00bbf811e13922cef672447cc16833.jpg"
+  - "../../assets/site-updates/south-barrow-survey-2025-f1aa811c/4ff1854222b249a177a6713499a17998a8173c0e8caac1af4abbb2c5fb1fad26.jpg"
 ---
 
+The landowner’s son carried out this survey on our behalf and estimated a survival rate of only 50% which was very disappointing for everyone. Oak trees seemed to have been hardest hit. Other trees, although small, are looking healthy, and some are even growing up out of their guards.
+
+We asked him to leave the stakes and guards in place and to mark them with paint if the sapling was dead, as this makes it easier for us to check survival rates ourselves, and will assist us when we come to restock.
+
+The long grass here has not helped, so when we replant we will add mulch around each tree to keep the grass down.

@@ -15,6 +15,6 @@ photos:
 
 This was one of our more challenging tree planting events due to the steep sloping nature of the site. When working somewhere like this we have to take extra precautions to ensure the safety of the volunteers. However, the view was definitely worth it!
 
-As usual, we planted an assortment of native broadleaved species, 1550 of them in this instance. Because they are small, bareroot whips they are relatively easy to plant. Steve showed the volunteers how to make a T-shape in the ground, drop in the sapling so that the roots are covered, then firm the soil back around it with their foot. After this a stake and guard were added to protect the young tree from the strong winds and nibbling wildlife.
+As usual, we planted an assortment of native broadleaved species, 1550 of them in this instance. Because they are small, bareroot whips they are relatively easy to plant. We showed the volunteers how to make a T-shape in the ground, drop in the sapling so that the roots are covered, then firm the soil back around it with their foot. After this a stake and guard were added to protect the young tree from the strong winds and nibbling wildlife.
 
-After a beautiful clear first day, the second was overcast but we were lucky to escape the rain. Overall we had an excellent couple of days, with enough wonderful local volunteers to get the job done.
+After a beautiful clear first day, the second was overcast but luckily we escaped the rain. Overall we had an excellent couple of days, with enough wonderful local volunteers to get the job done.

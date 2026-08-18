@@ -11,7 +11,7 @@ photos:
   - "../../assets/site-updates/manafon-initial-planting-4d44f31d/20f60de4a25a6cf338a39a0788a78f8f333c5182c1f59b98c93261abad14474a.jpg"
 ---
 
-The objective here was to improve the site for biodiversity by planting a mix of native tree and shrub species. The new planting incorporated gaps, glades and include shrub species to give the woodland a diverse and natural structure.
+The objective here was to improve the site for biodiversity by planting a mix of native tree and shrub species. The new planting incorporated gaps, glades and include shrub species to give the woodland a diverse and natural structure. Farmland and woodland bird species typical of this part of Shropshire already use the site and the planting - which consists of a high diversity of tree species, many with good fruit, berry and nectar sources - should only lead to future increases.
 
 This site is in the middle of the Welsh countryside and is accessed by a narrow single track road with little parking in the planting field, so the landowner offered to pick up volunteers from a car park in the nearby village.
 

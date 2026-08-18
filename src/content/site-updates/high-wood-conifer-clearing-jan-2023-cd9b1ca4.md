@@ -17,4 +17,4 @@ We were pleased to discover some tiny oak saplings hidden in the dark under the 
 
 Over the three days we were able to clear approximately four acres of conifers. It was a big task but it’s surprising how much can get done when everyone works together.
 
-Feedback from volunteers said that it was hard work but an enjoyable day out with plenty of. people to explain the reasons why we were doing the work.
+Feedback from volunteers said that it was hard work but an enjoyable day out with plenty of people to explain the reasons why we were doing the work.

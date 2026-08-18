@@ -13,7 +13,7 @@ photos:
   - "../../assets/site-updates/llangattock-forest-school-shelterbelt-2024-a545ca39/e0287aa6ca737a17c14266ef2333f5a66303a94767cea7aa651bb6f26acd5970.jpg"
 ---
 
-This small forest school asked for help as their playground was very cold and windswept, especially in Winter and they needed some protection from the weather. They also needed some extra forestry areas for the children to learn about the environment.
+This small forest school asked for help as their playground was very cold and windswept, especially in winter and they needed some protection from the weather. They also needed some extra forestry areas for the children to learn about the environment.
 
 On a cold windy February day, together with the team from The Tree Shop, we created another “Optimal Shelterbelt” around the perimeter of the degraded hedge. Before planting the ~2,000 trees, we pinned biodegradable weed control matting, and were blessed with the help of some supportive local volunteers and from the school itself.
 

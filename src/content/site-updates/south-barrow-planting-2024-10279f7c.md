@@ -12,7 +12,7 @@ photos:
   - "../../assets/site-updates/south-barrow-planting-2024-10279f7c/7fe8ac8fdb1a8c91d99da3c8b736d3961ab07e352f5ba11fd1ddde9d0449a716.jpg"
 ---
 
-In March 2024 Steve and Phil took a small group of volunteers to South Barrow, and planted 300 trees. The planting was funded by Ecologi, and the volunteers were made up of friends of Protect Earth and some of the Vegan Runners who came after finishing a parkrun! One family had missed out volunteering with us the previous week at Stawley, near Wellington, as we had finished a day early so they were thrilled when we invited them to come and help here instead. The landowner filmed some of the day using a drone.
+In March 2024 the team took a small group of volunteers to South Barrow to plant 300 trees. Volunteers were a mix of friends, family, some local volunteers  and a group of Vegan Runners who came after finishing a Parkrun! One family had missed out volunteering with us the previous week at Stawley, near Wellington, as we had finished a day early so they were thrilled when we invited them to come and help here instead. The landowner filmed some of the day using a drone.
 
 This site is very wet and it is hoped that the trees will help with that. All the saplings were protected with guards and stakes to give them the best possible chance of survival.
 

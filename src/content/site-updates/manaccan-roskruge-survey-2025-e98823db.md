@@ -9,4 +9,6 @@ photos:
   - "../../assets/site-updates/manaccan-roskruge-survey-2025-e98823db/bbf056070379b7bb191017223ce21c87188e48cbb53e8a1c10953d6f03ea36a8.jpg"
 ---
 
-Julia the landowner got in touch to report in an amazing 81% survival rate. We’re eager to get down there and take a look ourselves, but with such positive results we’ll be focusing our energy on other sites for now.
+Protect Earth contacted the landowner to find out how our newly planted trees had coped with the hot, dry summer this year. We were very pleased to hear that the landowner was able to report a very satisfactory 81% survival rate, and that many of the trees were growing well out of their guards.
+
+We’re eager to get down there and take a look ourselves, but with such positive results we’ll be focusing our energy on other sites for now. We will carry out a priority survey next year to ensure that the trees continue to do well.

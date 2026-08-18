@@ -17,7 +17,7 @@ photos:
   - "../../assets/site-updates/low-fell-update-and-survey-2026-e2599c63/13391d6a1f3258eb28172ed5fec9ac871fa09069d7a15b936e5400218863d0b1.jpg"
 ---
 
-It was a good 10-minute walk from the nearest layby, through narrow paths and ascending into the bracken before we reached the first area of planted land. Standing and looking over the ascending fell, an area where 150,000 trees were planted (10,000 of which were Protect Earth),the enormity of the project became clear.
+It was a good 10-minute walk from the nearest layby, through narrow paths and ascending into the bracken before we reached the first area of planted land. Standing and looking over the ascending fell, an area where 150,000 trees were planted (10,000 of which were Protect Earth), the enormity of the project became clear.
 
 As we were ascending, you could already see the impact of removing the grazing sheep from this land; a spate of self-seeded cherry trees were thriving above the bracken canopy. Many trees have already surpassed the canopy height, especially the silver birches, rowan, and some oak. Sally and Darren, members of the CIC pointed out that they are doing particularly well when clustered together due to their mycorrhizal networks supporting each other’s growth.
 

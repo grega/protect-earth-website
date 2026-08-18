@@ -12,6 +12,6 @@ photos:
   - "../../assets/site-updates/high-wood-tree-maintenance-2024-5f245d55/e69b952abb55b4d5d16f9afafc042a29d2cef2c6d3cbf04fc93cdd3462922714.jpg"
 ---
 
-On a dry, although not particularly warm day in April 2024 our enthusiastic work party members turned out in good numbers to help carry our some maintenance on our young saplings. On previous visits we had noticed that the cardboard guards we were trialling were not faring well, thanks to the weather and over-interested deer. We made the decision to replace them when carrying out the rest of the maintenance.
+On a dry, although not particularly warm day in April 2024, our enthusiastic work party members turned out in good numbers to help carry our some maintenance on our young saplings. On previous visits we had noticed that the cardboard guards we were trialling were not faring well, thanks to the weather and over-interested deer. We made the decision to replace them when carrying out the rest of the maintenance.
 
 Our team worked well, straightening stakes, replacing guards and cutting back grass and brambles around the trees. We had lost a few trees, but in general most seemed to be doing well.

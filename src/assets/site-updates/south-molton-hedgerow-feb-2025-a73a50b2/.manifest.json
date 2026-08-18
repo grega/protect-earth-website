@@ -35,16 +35,22 @@
     "sourceChecksum": null,
     "fileName": "IMG_3724.jpeg"
   },
-  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/d6800117-c646-4725-843e-bfd1a5b9c8f9/IMG-20250322-WA0000.jpg": {
-    "localName": "718984b9622bad36027abe667683dd7e6a59964d39f62fba303cfad45a2e84aa.jpg",
-    "checksum": "718984b9622bad36027abe667683dd7e6a59964d39f62fba303cfad45a2e84aa",
+  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/c1853076-2fdc-4bde-959b-a1aecf3aee3a/cropped_IMG-20250322-WA0000.jpg": {
+    "localName": "788d6da2366daf8c35fa0069d335dfa00ab6721d95d32d3d608923aad81a4111.jpg",
+    "checksum": "788d6da2366daf8c35fa0069d335dfa00ab6721d95d32d3d608923aad81a4111",
     "sourceChecksum": null,
-    "fileName": "IMG-20250322-WA0000.jpg"
+    "fileName": "cropped IMG-20250322-WA0000.jpg"
   },
-  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/f69c2524-7964-41ea-ad2f-b0f50e76b64a/IMG-20250322-WA0003.jpg": {
-    "localName": "d8b2c942e7191826bc9d619798c10ceaed22deaa00ed0baf7bddf7be9361d6ae.jpg",
-    "checksum": "d8b2c942e7191826bc9d619798c10ceaed22deaa00ed0baf7bddf7be9361d6ae",
+  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/84167e5d-49e5-4cd5-9763-2d03d3de7ae5/cropped_IMG-20250322-WA0002.jpg": {
+    "localName": "d623ab622e52a06627ddb66e8558276f57e0fd8014f368f524960355d790ea5b.jpg",
+    "checksum": "d623ab622e52a06627ddb66e8558276f57e0fd8014f368f524960355d790ea5b",
     "sourceChecksum": null,
-    "fileName": "IMG-20250322-WA0003.jpg"
+    "fileName": "cropped IMG-20250322-WA0002.jpg"
+  },
+  "notion:https://prod-files-secure.s3.us-west-2.amazonaws.com/23f4fbcc-f25d-41ea-9319-244037d95b1d/6aedd478-8c4c-4ce7-8950-7818e90fcb21/cropped_IMG-20250322-WA0003.jpg": {
+    "localName": "c84d3e46cfbb3fd7217ece7600a64efc70cff4736c4ddaa54eda89565eec9079.jpg",
+    "checksum": "c84d3e46cfbb3fd7217ece7600a64efc70cff4736c4ddaa54eda89565eec9079",
+    "sourceChecksum": null,
+    "fileName": "cropped IMG-20250322-WA0003.jpg"
   }
 }

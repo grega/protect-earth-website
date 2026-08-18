@@ -16,6 +16,6 @@ In order to return High Wood to an ancient temperate rainforest, a lot of these 
 
 In areas that have recently been clear felled (everything cut down) and restocked (a bunch of young conifers have been replanted), we have a lot of “Christmas trees” sized conifers which are easy to handle.
 
-With a group of volunteers Steve, and Ian our Site Manager, got started on the first compartment. For every three of four small conifers  removed, a native oak, willow, birch, rowan, or beech tree was hiding, struggling for light and clearly happy to have been rescued before it perished. These will grow on to maturity now that the competition has been removed.
+With a group of volunteers our team got started on the first compartment. For every three of four small conifers  removed, a native oak, willow, birch, rowan, or beech tree was hiding, struggling for light and clearly happy to have been rescued before it perished. These will grow on to maturity now that the competition has been removed.
 
 Volunteers were excited to be involved and this was feedback from one of them. “Ian and Steve were very welcoming and encouraging. They made sure I knew exactly what to do and enabled me to participate within the scope of my abilities. It was really good to be able to contribute to the development of the wood.”

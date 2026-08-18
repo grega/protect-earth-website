@@ -12,14 +12,8 @@ photos:
   - "../../assets/site-updates/manafon-survey-2025-e8a91033/cf7341d1e58c057d3049ea8df8a6e1b798486a52f1a0bc548161e1bda08f30b7.jpg"
 ---
 
-Overall impression - very good. Trees are doing well, all shelters vertical - site looks well looked after. 92% survival rate.
+Our surveyor was pleased to see the trees doing well, all shelters vertical and the site looking well cared for. We calculated a 92% survival rate here with almost all of the newer trees surviving, despite this summer’s dry weather.  Hawthorne and oak were doing particularly well, and alder are doing very well in the wetter areas with some over a metre tall.  We spotted a  lot of trees, especially oak,  popping up naturally and doing very well without any assistance from humans.
 
-The Landowner said We have seen hares, lots of mice and also a big deer, possibly roe - certainly bigger than muntjac, and we have found antlers! The newer trees are virtually 100% fine, so far.
+This survival rate shows the importance of regular maintenance.  Despite not living locally, the landowners were able to visit during May and June, straightening posts that were leaning over, removing grass and weeds from tubes, and so on.
 
-The older ones have suffered, though, with roughly 15% dead to date. There are lots of trees popping up naturally and doing very well without any assistance from humans.
-
-Alder is doing very well in the wetter areas (some over a metre tall), and there are some small oak saplings dotted about. Hawthorn is spreading like mad - no need to plant any more of those!
-
-In May and June, we have done a little maintenance, straightening posts that were leaning over, removing grass/weeds from tubes, etc.
-
-Farmland and woodland bird species typical of this part of Shropshire already use the site and the planting - which consists of a high diversity of tree species, many with good fruit, berry and nectar sources - should only lead to future increases. Species such as Great-spotted Woodpecker, Buzzard, Greenfinch and Goldfinch were noted during planting.
+The Landowner said: “We have seen hares, lots of mice and also a big deer, possibly roe - certainly bigger than muntjac, and we have found antlers! ”

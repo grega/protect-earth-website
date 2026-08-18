@@ -15,4 +15,4 @@ photos:
   - "../../assets/site-updates/newtown-survey-2025-876003e4/d9e649523a21e170f6158865bc3f88441e5682acc929e4350a9b931a943df816.jpg"
 ---
 
-The landowner very kindly took photos and carried out the survey on our behalf. Overall. the trees were doing quite well, with an estimated 80% survival rate. Some stakes and guards need attention.
+The landowner very kindly took photos and carried out the survey on our behalf. Overall, the trees were doing quite well, with lots of trees poking out of the top of their guards.  She estimated a survival rate of 80% which is just within our promised survival rate. Some stakes and guards need attention, and grass needs to be removed from some of the guards.

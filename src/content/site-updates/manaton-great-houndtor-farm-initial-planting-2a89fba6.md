@@ -11,6 +11,6 @@ This was our first attempt at planting field trees in a field to be regularly us
 
 Instead of the usual bare root whips we normally plant, we bought larger trees in pots from a local nursery to give them a good start.
 
-Phil and Steve didn’t need volunteers as it was only a few trees to plant, but the guards would take a lot more time to ensure they were fixed securely. They arrived in the wake of a terrific storm, but although very muddy underfoot, the weather was dry, which was a big help.
+We didn’t need volunteers as it was only a few trees to plant, but the guards would take a lot more time to ensure they were fixed securely. They arrived in the wake of a terrific storm, but although very muddy underfoot, the weather was dry, which was a big help.
 
-Once the trees and cactus guards were done Phil and Steve added stakes and guards to a few other rewilded saplings which looked promising, in the hope of saving them too.
+Once the trees and cactus guards were done our team added stakes and guards to a few other rewilded saplings which looked promising, in the hope of saving them too.
