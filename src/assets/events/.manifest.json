@@ -28,5 +28,41 @@
       "../../assets/events/beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554/0c83965ab425.jpg",
       "../../assets/events/beginners-scything-workshop-at-warleigh-nature-reserve-bath-1997822057554/2603d8384a7c.jpg"
     ]
+  },
+  "1998414151523": {
+    "slug": "hedge-laying-course-near-newtown-powys-1998414151523",
+    "markdown": "src/content/events/hedge-laying-course-near-newtown-powys-1998414151523.md",
+    "thumbnail": "../../assets/events/hedge-laying-course-near-newtown-powys-1998414151523/274a88a7a4b3.jpg",
+    "mediaIds": [],
+    "galleryImages": [
+      "../../assets/events/hedge-laying-course-near-newtown-powys-1998414151523/274a88a7a4b3.jpg",
+      "../../assets/events/hedge-laying-course-near-newtown-powys-1998414151523/6a76c4555f38.jpg",
+      "../../assets/events/hedge-laying-course-near-newtown-powys-1998414151523/5ae313dd678a.jpg",
+      "../../assets/events/hedge-laying-course-near-newtown-powys-1998414151523/20cc99924e9d.jpg",
+      "../../assets/events/hedge-laying-course-near-newtown-powys-1998414151523/c3d52be2c143.jpg"
+    ]
+  },
+  "1998415237772": {
+    "slug": "free-hedge-laying-course-for-farmers-near-newtown-powys-1998415237772",
+    "markdown": "src/content/events/free-hedge-laying-course-for-farmers-near-newtown-powys-1998415237772.md",
+    "thumbnail": "../../assets/events/free-hedge-laying-course-for-farmers-near-newtown-powys-1998415237772/db6dc91cca99.jpg",
+    "mediaIds": [],
+    "galleryImages": [
+      "../../assets/events/free-hedge-laying-course-for-farmers-near-newtown-powys-1998415237772/db6dc91cca99.jpg",
+      "../../assets/events/free-hedge-laying-course-for-farmers-near-newtown-powys-1998415237772/b8a342d19b93.jpg",
+      "../../assets/events/free-hedge-laying-course-for-farmers-near-newtown-powys-1998415237772/1783eb003dce.jpg"
+    ]
+  },
+  "1998416716194": {
+    "slug": "free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194",
+    "markdown": "src/content/events/free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194.md",
+    "thumbnail": "../../assets/events/free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194/6a76c4555f38.jpg",
+    "mediaIds": [],
+    "galleryImages": [
+      "../../assets/events/free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194/6a76c4555f38.jpg",
+      "../../assets/events/free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194/79df29834a4c.jpg",
+      "../../assets/events/free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194/274a88a7a4b3.jpg",
+      "../../assets/events/free-hedge-laying-course-for-farm-workers-near-newtown-powys-1998416716194/c3d52be2c143.jpg"
+    ]
   }
 }
