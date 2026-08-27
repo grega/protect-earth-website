@@ -1,4 +1,6 @@
 ---
+fundingPartners:
+  - 9trees
 tags:
   - woodland creation
 images:
@@ -11,5 +13,5 @@ images:
 siteId: 019fa7fa-ec20-729e-9d10-2c28b6c26251
 notionIds:
   - 1b5e7dc6-657c-80a6-a41e-c949e3fca9b7
+flagShowArea: true
 ---
-
